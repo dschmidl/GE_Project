@@ -1,0 +1,145 @@
+﻿[2015.10.20-16.47.40:629][  0]Log file open, 10/20/15 18:47:40
+[2015.10.20-16.47.40:629][  0]LogInit:Display: Running engine for game: TheBeginning
+[2015.10.20-16.47.40:629][  0]LogInit:Display: RandInit(-1058678825) SRandInit(-1058678824).
+[2015.10.20-16.47.40:629][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.20-16.47.40:629][  0]LogStats: Stats thread started at 0.267323
+[2015.10.20-16.47.40:629][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.20-16.47.40:629][  0]LogInit: API Version: 2672455
+[2015.10.20-16.47.40:629][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.20-16.47.40:629][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.20-16.47.40:629][  0]LogInit: Build Configuration: Development
+[2015.10.20-16.47.40:629][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.20-16.47.40:629][  0]LogInit: Command line: 
+[2015.10.20-16.47.40:629][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.20-16.47.40:629][  0]LogInit: Rocket: 1
+[2015.10.20-16.47.40:668][  0]LogInit: Using libcurl 7.41.0
+[2015.10.20-16.47.40:668][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.20-16.47.40:668][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.20-16.47.40:668][  0]LogInit:  - other features:
+[2015.10.20-16.47.40:668][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.20-16.47.40:668][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.20-16.47.40:668][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.20-16.47.40:668][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.20-16.47.40:668][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.20-16.47.40:668][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.20-16.47.40:668][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.20-16.47.40:668][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.20-16.47.40:668][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.20-16.47.40:668][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.20-16.47.40:702][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.20-16.47.40:732][  0]LogInit: Object subsystem initialized
+[2015.10.20-16.47.40:738][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.20-16.47.40:738][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.20-16.47.40:777][  0]LogInit: Computer: CPT
+[2015.10.20-16.47.40:777][  0]LogInit: User: Martin
+[2015.10.20-16.47.40:777][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.20-16.47.40:777][  0]LogInit: High frequency timer resolution =2.240905 MHz
+[2015.10.20-16.47.40:777][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.20-16.47.40:778][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.20-16.47.40:778][  0]LogMemory: Process Physical Memory: 52.05 MB used, 52.05 MB peak
+[2015.10.20-16.47.40:778][  0]LogMemory: Process Virtual Memory: 57.07 MB used, 57.07 MB peak
+[2015.10.20-16.47.40:778][  0]LogMemory: Physical Memory: 3747.36 MB used, 4002.88 MB total
+[2015.10.20-16.47.40:778][  0]LogMemory: Virtual Memory: 347.58 MB used, 134217728.00 MB total
+[2015.10.20-16.47.41:014][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.20-16.47.43:761][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.10.20-16.47.43:761][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.10.20-16.47.43:767][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.20-16.47.43:767][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.20-16.47.43:768][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.20-16.47.43:783][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.20-16.47.43:784][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.10.20-16.47.43:807][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.20-16.47.43:825][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Martin/Documents/Unreal Projects/TheBeginning/Intermediate/Shaders/WorkingDirectory/6240/).
+[2015.10.20-16.47.43:826][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Martin/Documents/Unreal Projects/TheBeginning/Intermediate/Shaders/tmp/B670CC094B114DD9209877A656A08D50/'.
+[2015.10.20-16.47.43:827][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.20-16.47.50:359][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.20-16.47.50:382][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.20-16.47.50:405][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.20-16.47.50:427][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.20-16.47.50:448][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.20-16.47.50:465][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.20-16.47.50:483][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.20-16.47.50:500][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.20-16.47.50:516][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.20-16.47.50:532][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.20-16.47.50:549][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.20-16.47.50:567][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.20-16.47.50:572][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.20-16.47.50:615][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.20-16.47.50:641][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.20-16.47.50:664][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.20-16.47.50:686][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.20-16.47.50:686][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.20-16.47.51:176][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.20-16.47.51:557][  0]LogDerivedDataCache: Loaded boot cache 0.38s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.20-16.47.51:557][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.20-16.47.51:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Martin/Documents/Unreal Projects/TheBeginning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.20-16.47.51:558][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.20-16.47.51:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Martin/Documents/Unreal Projects/TheBeginning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.20-16.47.51:558][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.20-16.47.52:180][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.20-16.47.52:197][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.20-16.47.53:735][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.20-16.47.53:748][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.20-16.47.54:550][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.20-16.47.54:550][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.20-16.47.56:469][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.20-16.48.02:316][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.20-16.48.02:695][  0]LogAssetRegistry: FAssetRegistry took 0.0148 seconds to start up
+[2015.10.20-16.48.03:801][  0]SourceControl: Info Source control is disabled
+[2015.10.20-16.48.03:859][  0]SourceControl: Info Source control is disabled
+[2015.10.20-16.48.03:945][  0]SourceControl: Info Source control is disabled
+[2015.10.20-16.48.04:025][  0]SourceControl: Info Source control is disabled
+[2015.10.20-16.48.05:714][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.20-16.48.06:198][  0]LogObj: 28371 objects as part of root set at end of initial load.
+[2015.10.20-16.48.06:198][  0]LogUObjectAllocator: 6049536 out of 0 bytes used by permanent object pool.
+[2015.10.20-16.48.06:459][  0]LogEngine: Initializing Engine...
+[2015.10.20-16.48.06:515][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.20-16.48.06:521][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.20-16.48.07:137][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.20-16.48.07:197][  0]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.20-16.48.07:232][  0]LogInit: FAudioDevice initialized.
+[2015.10.20-16.48.07:374][  0]LogDerivedDataCache: Saved boot cache 0.14s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.20-16.48.07:409][  0]LogInit: Texture streaming: Enabled
+[2015.10.20-16.48.07:454][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.20-16.48.07:454][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.20-16.48.07:455][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 367b6b074558a321ab68ca91f2a3f4db|81f01d6b67df48cfa9231b1643757103|3d0c64b6-e6bd-4413-84d0-216f80d00fa1
+[2015.10.20-16.48.07:456][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.20-16.48.07:525][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.20-16.48.07:526][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.20-16.48.07:636][  0]LogInit: Transaction tracking system initialized
+[2015.10.20-16.48.07:858][  0]BlueprintLog: New page: Editor Load
+[2015.10.20-16.48.08:625][  0]LocalizationService: Info Localization service is disabled
+[2015.10.20-16.48.11:378][  0]LogConsoleResponse:Display: 
+[2015.10.20-16.48.12:159][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.20-16.48.12:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Documents/Unreal Projects/TheBeginning/Content/' took 0.04s
+[2015.10.20-16.48.12:685][  0]SourceControl: Info Source control is disabled
+[2015.10.20-16.48.12:687][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Martin/Documents/Unreal Projects/TheBeginning/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.20-16.48.12:690][  0]LightingResults: New page: Lighting Build
+[2015.10.20-16.48.12:725][  0]MapCheck: New page: Map Check
+[2015.10.20-16.48.12:725][  0]LightingResults: New page: Lighting Build
+[2015.10.20-16.48.12:841][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042E8E5DE40
+[2015.10.20-16.48.15:534][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.20-16.48.15:786][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2015.10.20-16.48.15:790][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.20-16.48.16:326][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 535.971ms to complete.
+[2015.10.20-16.48.16:328][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.641
+[2015.10.20-16.48.16:757][  0]LogCollectionManager: Loaded 0 collections in 0.014011 seconds
+[2015.10.20-16.48.16:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Documents/Unreal Projects/TheBeginning/Saved/Collections/' took 0.01s
+[2015.10.20-16.48.16:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Documents/Unreal Projects/TheBeginning/Content/Developers/Martin/Collections/' took 0.01s
+[2015.10.20-16.48.16:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Documents/Unreal Projects/TheBeginning/Content/Collections/' took 0.01s
+[2015.10.20-16.48.16:871][  0]LogContentBrowser: Native class hierarchy populated in 0.0569 seconds. Added 1869 classes and 335 folders.
+[2015.10.20-16.48.16:904][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000012 seconds
+[2015.10.20-16.48.16:962][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0112 seconds. Added 0 classes and 0 folders.
+[2015.10.20-16.48.17:495][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0111 seconds. Added 0 classes and 0 folders.
+[2015.10.20-16.48.17:527][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0074 seconds. Added 1 classes and 2 folders.
+[2015.10.20-16.48.17:698][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.20-16.48.17:914][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.20-16.48.17:951][  0]LogLoad: Full Startup: 42.05 seconds (BP compile: 0.35 seconds)
+[2015.10.20-16.48.18:172][  0]LogD3D11RHI:Error: Direct3DDevice->CreateTexture2D(TextureDesc,SubResourceData,OutTexture2D) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:432 
+ with error DXGI_ERROR_DEVICE_REMOVED, 
+ Size=1024x1024x1 Format=DXGI_FORMAT_R32G32B32A32_FLOAT(0x00000002), NumMips=1, Flags=D3D11_BIND_RENDER_TARGET D3D11_BIND_SHADER_RESOURCE 
+[2015.10.20-16.48.18:173][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.20-16.48.19:885][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.20-16.48.19:885][  0]Log file closed, 10/20/15 18:48:19

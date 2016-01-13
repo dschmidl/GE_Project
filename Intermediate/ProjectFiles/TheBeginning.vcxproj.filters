@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TheBeginning.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D1FA6090-A9BA-489A-A86E-7B2492EBE7E0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TheBeginning.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TheBeginningEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8C17BE80-99DD-47D5-BA3B-9AB9C65258E1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{4D8EE4D4-DF62-4510-9F95-090C10F90351}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Kinect">
+			<UniqueIdentifier>{C5EF73F7-6A55-4715-A2A2-6C244FD6B78E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Kinect\Source">
+			<UniqueIdentifier>{19777398-5109-4979-99E3-83847213DAF5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Kinect\Source\Kinect">
+			<UniqueIdentifier>{FDE29F88-EFA8-43BD-8A13-3E8F6F93B120}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\Kinect\Source\Kinect\Kinect.Build.cs">
+			<Filter>Plugins\Kinect\Source\Kinect</Filter>
+		</None >
+		<Filter Include="Plugins\Kinect\Source\Kinect\Private">
+			<UniqueIdentifier>{A6608751-B28B-4150-9FBB-4A8436FBF736}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\Kinect\Source\Kinect\Private\Kinect.cpp">
+			<Filter>Plugins\Kinect\Source\Kinect\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\Kinect\Source\Kinect\Private\KinectPrivatePCH.h">
+			<Filter>Plugins\Kinect\Source\Kinect\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\Kinect\Source\Kinect\Public">
+			<UniqueIdentifier>{106D98FC-112B-4DA5-BFD4-665DF837CA87}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\Kinect\Source\Kinect\Public\Kinect.h">
+			<Filter>Plugins\Kinect\Source\Kinect\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\Kinect\Kinect.uplugin">
+			<Filter>Plugins\Kinect</Filter>
+		</None >
+		<Filter Include="Plugins\Kinect\Resources">
+			<UniqueIdentifier>{8C6BB480-831A-42CB-A3C4-2EBA598A1374}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\Kinect\Resources\Icon128.png">
+			<Filter>Plugins\Kinect\Resources</Filter>
+		</None >
+		<Filter Include="Source\TheBeginning">
+			<UniqueIdentifier>{81AE657D-AA36-4F35-9C76-7EC7071FEF8F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TheBeginning\Avatar.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\Avatar.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\MeleeWeapon.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\MeleeWeapon.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\Monster.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\Monster.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\MyHUD.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\MyHUD.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\NPC.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\NPC.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\PickUpItem.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\PickUpItem.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\TheBeginning\TheBeginning.Build.cs">
+			<Filter>Source\TheBeginning</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TheBeginning\TheBeginning.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\TheBeginning.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\TheBeginningGameMode.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\TheBeginningGameMode.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
