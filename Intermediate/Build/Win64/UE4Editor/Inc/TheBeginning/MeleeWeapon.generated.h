@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define THEBEGINNING_MeleeWeapon_generated_h
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS \
 	virtual void Prox_Implementation(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult); \
  \
 	DECLARE_FUNCTION(execProx) \
@@ -31,7 +31,7 @@ struct FHitResult;
 	}
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void Prox_Implementation(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult); \
  \
 	DECLARE_FUNCTION(execProx) \
@@ -46,7 +46,7 @@ struct FHitResult;
 	}
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_EVENT_PARMS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_EVENT_PARMS \
 	struct MeleeWeapon_eventProx_Parms \
 	{ \
 		AActor* OtherActor; \
@@ -58,8 +58,8 @@ struct FHitResult;
 
 
 extern THEBEGINNING_API  FName THEBEGINNING_Prox;
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_INCLASS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAMeleeWeapon(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon(); \
@@ -70,7 +70,7 @@ extern THEBEGINNING_API  FName THEBEGINNING_Prox;
 	virtual UObject* _getUObject() const override { return const_cast<AMeleeWeapon*>(this); }
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_INCLASS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesAMeleeWeapon(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon(); \
@@ -81,7 +81,7 @@ extern THEBEGINNING_API  FName THEBEGINNING_Prox;
 	virtual UObject* _getUObject() const override { return const_cast<AMeleeWeapon*>(this); }
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_STANDARD_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMeleeWeapon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMeleeWeapon) \
@@ -93,7 +93,7 @@ private: \
 public:
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_ENHANCED_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMeleeWeapon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -105,34 +105,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMeleeWeapon); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMeleeWeapon)
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_8_PROLOG \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_EVENT_PARMS
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_8_PROLOG \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_EVENT_PARMS
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_GENERATED_BODY_LEGACY \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_INCLASS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_STANDARD_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_INCLASS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_GENERATED_BODY \
+#define GE_Project_Source_TheBeginning_MeleeWeapon_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_INCLASS_NO_PURE_DECLS \
-	TheBeginning_Source_TheBeginning_MeleeWeapon_h_11_ENHANCED_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_CALLBACK_WRAPPERS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_INCLASS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_MeleeWeapon_h_11_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class MeleeWeapon."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TheBeginning_Source_TheBeginning_MeleeWeapon_h
+#define CURRENT_FILE_ID GE_Project_Source_TheBeginning_MeleeWeapon_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
