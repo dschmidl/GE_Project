@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-Time of this report: 12/17/2015, 12:56:09
+Time of this report: 1/21/2016, 10:58:32
        Machine name: CPT
-   Operating System: Windows 8.1 Pro 64-bit (6.3, Build 9600) (9600.winblue_ltsb.151121-0600)
+   Operating System: Windows 8.1 Pro 64-bit (6.3, Build 9600) (9600.winblue_ltsb.151230-0600)
            Language: German (Regional Setting: German)
 System Manufacturer: Sony Corporation
        System Model: SVP1321M9EB
@@ -11,7 +11,7 @@ System Manufacturer: Sony Corporation
           Processor: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz (4 CPUs), ~2.3GHz
              Memory: 4096MB RAM
 Available OS Memory: 4002MB RAM
-          Page File: 2960MB used, 2898MB available
+          Page File: 3254MB used, 2600MB available
         Windows Dir: C:\WINDOWS
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -528,7 +528,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 4.0 GB
+ Free Space: 3.8 GB
 Total Space: 106.0 GB
 File System: NTFS
       Model: TOSHIBA THNSNH128G8NT
@@ -806,46 +806,46 @@ DirectShow Filters
 ------------------
 
 DirectShow Filters:
-WMAudio Decoder DMO,0x00800800,1,1,WMADMOD.DLL,6.03.9600.17415
-WMAPro over S/PDIF DMO,0x00600800,1,1,WMADMOD.DLL,6.03.9600.17415
-WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,6.03.9600.17415
-MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,6.03.9600.17415
-Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,6.03.9600.17415
-WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,6.03.9600.17415
-WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,6.03.9600.17415
-Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,6.03.9600.17415
+WMAudio Decoder DMO,0x00800800,1,1,WMADMOD.DLL,6.03.9600.18154
+WMAPro over S/PDIF DMO,0x00600800,1,1,WMADMOD.DLL,6.03.9600.18154
+WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,6.03.9600.18154
+MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,6.03.9600.18154
+Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,6.03.9600.18154
+WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,6.03.9600.18154
+WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,6.03.9600.18154
+Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,6.03.9600.18154
 MS ATC Screen Decoder 1,0x00600800,1,1,scdec.dll,15.00.4703.1000
-Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,6.03.9600.17415
+Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,6.03.9600.18154
 WD Secure Source Filter,0x00200000,0,1,WDSecureSourceFilter.dll,4.01.0014.0000
 DV Muxer,0x00400000,0,0,qdv.dll,6.06.9600.17415
-Color Space Converter,0x00400001,1,1,quartz.dll,6.06.9600.17415
+Color Space Converter,0x00400001,1,1,quartz.dll,6.06.9600.18154
 WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.9600.17415
-AVI Splitter,0x00600000,1,1,quartz.dll,6.06.9600.17415
-VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,6.06.9600.17415
+AVI Splitter,0x00600000,1,1,quartz.dll,6.06.9600.18154
+VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,6.06.9600.18154
 SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,6.06.9600.17415
 Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,12.00.9600.17374
 DS Video Buffer Filter,0x00200000,1,1,DSBuffer_Video.ax,4.01.0014.0000
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,6.06.9600.17415
 StreamBufferSink,0x00200000,0,0,sbe.dll,6.06.9600.17415
-MJPEG Decompressor,0x00600000,1,1,quartz.dll,6.06.9600.17415
-MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,6.06.9600.17415
-SAMI (CC) Parser,0x00400000,1,1,quartz.dll,6.06.9600.17415
+MJPEG Decompressor,0x00600000,1,1,quartz.dll,6.06.9600.18154
+MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,6.06.9600.18154
+SAMI (CC) Parser,0x00400000,1,1,quartz.dll,6.06.9600.18154
 VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.9600.17415
 MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,6.06.9600.17415
 Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,6.06.9600.17415
 SBE2FileScan,0x00200000,0,0,sbe.dll,6.06.9600.17415
 Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,12.00.9600.17415
-Internal Script Command Renderer,0x00800001,1,0,quartz.dll,6.06.9600.17415
-MPEG Audio Decoder,0x03680001,1,1,quartz.dll,6.06.9600.17415
+Internal Script Command Renderer,0x00800001,1,0,quartz.dll,6.06.9600.18154
+MPEG Audio Decoder,0x03680001,1,1,quartz.dll,6.06.9600.18154
 DV Splitter,0x00600000,1,2,qdv.dll,6.06.9600.17415
-Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,6.06.9600.17415
+Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,6.06.9600.18154
 Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,12.00.9600.17415
-ACM Wrapper,0x00600000,1,1,quartz.dll,6.06.9600.17415
-Video Renderer,0x00800001,1,0,quartz.dll,6.06.9600.17415
+ACM Wrapper,0x00600000,1,1,quartz.dll,6.06.9600.18154
+Video Renderer,0x00800001,1,0,quartz.dll,6.06.9600.18154
 MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,6.06.9600.17415
 Line 21 Decoder,0x00600000,1,1,,
-Video Port Manager,0x00600000,2,1,quartz.dll,6.06.9600.17415
-Video Renderer,0x00400000,1,0,quartz.dll,6.06.9600.17415
+Video Port Manager,0x00600000,2,1,quartz.dll,6.06.9600.18154
+Video Renderer,0x00400000,1,0,quartz.dll,6.06.9600.18154
 VPS Decoder,0x00200000,0,0,WSTPager.ax,6.06.9600.17415
 Intel® AAC encoder,0x00200000,1,1,intelaac.dll,
 WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.9600.17415
@@ -853,63 +853,63 @@ VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,6.03.9600.17415
 File writer,0x00200000,1,0,qcap.dll,6.06.9600.16384
 Bayer To RGB,0x00600000,1,1,Lutf.ax,
 Intel® Mux Renderer,0x00200000,2,0,intelmux.dll,4.01.0014.0000
-DVD Navigator,0x00200000,0,3,qdvd.dll,6.06.9600.17415
+DVD Navigator,0x00200000,0,3,qdvd.dll,6.06.9600.18154
 Overlay Mixer2,0x00200000,1,1,,
 Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,12.00.9600.17415
 WST Pager,0x00200000,1,1,WSTPager.ax,6.06.9600.17415
 MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,6.06.9600.17415
 DV Video Decoder,0x00800000,1,1,qdv.dll,6.06.9600.17415
-SampleGrabber,0x00200000,1,1,qedit.dll,6.06.9600.17415
-Null Renderer,0x00200000,1,0,qedit.dll,6.06.9600.17415
+SampleGrabber,0x00200000,1,1,qedit.dll,6.06.9600.18152
+Null Renderer,0x00200000,1,0,qedit.dll,6.06.9600.18152
 MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,6.06.9600.17415
 Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,6.03.9600.17415
 StreamBufferSource,0x00200000,0,0,sbe.dll,6.06.9600.17415
 Smart Tee,0x00200000,1,2,qcap.dll,6.06.9600.16384
 Overlay Mixer,0x00200000,0,0,,
-AVI Decompressor,0x00600000,1,1,quartz.dll,6.06.9600.17415
+AVI Decompressor,0x00600000,1,1,quartz.dll,6.06.9600.18154
 WD Audio Filter,0x00200000,0,1,WDAudioFilter.dll,4.01.0014.0000
-AVI/WAV File Source,0x00400000,0,2,quartz.dll,6.06.9600.17415
-Wave Parser,0x00400000,1,1,quartz.dll,6.06.9600.17415
-MIDI Parser,0x00400000,1,1,quartz.dll,6.06.9600.17415
-Multi-file Parser,0x00400000,1,1,quartz.dll,6.06.9600.17415
-File stream renderer,0x00400000,1,1,quartz.dll,6.06.9600.17415
-Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,12.00.9477.0000
+AVI/WAV File Source,0x00400000,0,2,quartz.dll,6.06.9600.18154
+Wave Parser,0x00400000,1,1,quartz.dll,6.06.9600.18154
+MIDI Parser,0x00400000,1,1,quartz.dll,6.06.9600.18154
+Multi-file Parser,0x00400000,1,1,quartz.dll,6.06.9600.18154
+File stream renderer,0x00400000,1,1,quartz.dll,6.06.9600.18154
+Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,12.00.9600.18145
 StreamBufferSink2,0x00200000,0,0,sbe.dll,6.06.9600.17415
 AVI Mux,0x00200000,1,0,qcap.dll,6.06.9600.16384
-Line 21 Decoder 2,0x00600002,1,1,quartz.dll,6.06.9600.17415
-File Source (Async.),0x00400000,0,1,quartz.dll,6.06.9600.17415
-File Source (URL),0x00400000,0,1,quartz.dll,6.06.9600.17415
+Line 21 Decoder 2,0x00600002,1,1,quartz.dll,6.06.9600.18154
+File Source (Async.),0x00400000,0,1,quartz.dll,6.06.9600.18154
+File Source (URL),0x00400000,0,1,quartz.dll,6.06.9600.18154
 WDSource Filter,0x00200000,0,1,WDSourceFilter.dll,4.01.0014.0000
 AudioRecorder WAV Dest,0x00200000,0,0,WavDest.dll,
 AudioRecorder Wave Form,0x00200000,0,0,WavDest.dll,
 SoundRecorder Null Renderer,0x00200000,0,0,WavDest.dll,
 WD Silence Filter,0x00200000,0,1,WDSilenceFilter.dll,
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,6.06.9600.16384
-Enhanced Video Renderer,0x00200000,1,0,evr.dll,6.03.9600.17415
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,6.03.9600.18154
 Intel®WiDi H264 encoder,0x00200000,1,1,h264HWEnc.dll,
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,6.06.9600.17415
-MPEG Video Decoder,0x40000001,1,1,quartz.dll,6.06.9600.17415
+MPEG Video Decoder,0x40000001,1,1,quartz.dll,6.06.9600.18154
 
 WDM Streaming Tee/Splitter Devices:
-Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
+Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.03.9600.18154
 
 Video Compressors:
-WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,6.03.9600.17415
-WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,6.03.9600.17415
-MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,6.03.9600.17415
+WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,6.03.9600.18154
+WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,6.03.9600.18154
+MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,6.03.9600.18154
 DV Video Encoder,0x00200000,0,0,qdv.dll,6.06.9600.17415
-MJPEG Compressor,0x00200000,0,0,quartz.dll,6.06.9600.17415
+MJPEG Compressor,0x00200000,0,0,quartz.dll,6.06.9600.18154
 
 Audio Compressors:
-WM Speech Encoder DMO,0x00600800,1,1,WMSPDMOE.DLL,6.03.9600.17415
-WMAudio Encoder DMO,0x00600800,1,1,WMADMOE.DLL,6.03.9600.17415
-IMA ADPCM,0x00200000,1,1,quartz.dll,6.06.9600.17415
-PCM,0x00200000,1,1,quartz.dll,6.06.9600.17415
-Microsoft ADPCM,0x00200000,1,1,quartz.dll,6.06.9600.17415
-GSM 6.10,0x00200000,1,1,quartz.dll,6.06.9600.17415
-CCITT A-Law,0x00200000,1,1,quartz.dll,6.06.9600.17415
-CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.9600.17415
-MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.9600.17415
+WM Speech Encoder DMO,0x00600800,1,1,WMSPDMOE.DLL,6.03.9600.18154
+WMAudio Encoder DMO,0x00600800,1,1,WMADMOE.DLL,6.03.9600.18154
+IMA ADPCM,0x00200000,1,1,quartz.dll,6.06.9600.18154
+PCM,0x00200000,1,1,quartz.dll,6.06.9600.18154
+Microsoft ADPCM,0x00200000,1,1,quartz.dll,6.06.9600.18154
+GSM 6.10,0x00200000,1,1,quartz.dll,6.06.9600.18154
+CCITT A-Law,0x00200000,1,1,quartz.dll,6.06.9600.18154
+CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.9600.18154
+MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.9600.18154
 
 Audio Capture Sources:
 Line 1 (Virtual Audio Cable),0x00200000,0,0,qcap.dll,6.06.9600.16384
@@ -921,17 +921,17 @@ PBDA ETFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.17415
 PBDA PTFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.17415
 
 Midi Renderers:
-Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.9600.17415
-Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.9600.17415
+Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.9600.18154
+Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.9600.18154
 
 WDM Streaming Capture Devices:
-USB Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.17415
-Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
-Virtual Cable 1,0x00200000,2,2,ksproxy.ax,6.03.9600.17415
+USB Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.18154
+Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.03.9600.18154
+Virtual Cable 1,0x00200000,2,2,ksproxy.ax,6.03.9600.18154
 
 WDM Streaming Rendering Devices:
-Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
-Virtual Cable 1,0x00200000,2,2,ksproxy.ax,6.03.9600.17415
+Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.03.9600.18154
+Virtual Cable 1,0x00200000,2,2,ksproxy.ax,6.03.9600.18154
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.9600.17415
@@ -941,7 +941,7 @@ Microsoft DVBT Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.9600.17415
 Microsoft Network Provider,0x00200000,0,1,MSNP.ax,6.06.9600.17415
 
 Video Capture Sources:
-USB Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.17415
+USB Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.18154
 
 Multi-Instance Capable VBI Codecs:
 VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.9600.17415
@@ -957,15 +957,15 @@ PTFilter,0x00200000,0,0,EncDec.dll,6.06.9600.17415
 XDS Codec,0x00200000,0,0,EncDec.dll,6.06.9600.17415
 
 WDM Streaming Communication Transforms:
-Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
+Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.03.9600.18154
 
 Audio Renderers:
-Lautsprecher/Kopfhörer (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
-Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.9600.17415
-Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.9600.17415
-DirectSound: Lautsprecher/Kopfhörer (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
-DirectSound: Line 1 (Virtual Audio Cable),0x00200000,1,0,quartz.dll,6.06.9600.17415
-Line 1 (Virtual Audio Cable),0x00200000,1,0,quartz.dll,6.06.9600.17415
+Lautsprecher/Kopfhörer (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.18154
+Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.9600.18154
+Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.9600.18154
+DirectSound: Lautsprecher/Kopfhörer (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.18154
+DirectSound: Line 1 (Virtual Audio Cable),0x00200000,1,0,quartz.dll,6.06.9600.18154
+Line 1 (Virtual Audio Cable),0x00200000,1,0,quartz.dll,6.06.9600.18154
 
 
 ----------------------------
@@ -1041,51 +1041,51 @@ Video Decoders:
   Intel® Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 4.13.0009.0019
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 12.00.9600.17374
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 6.03.9600.17415
-  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 6.03.9600.17415
+  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 6.03.9600.18154
   Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 12.00.9600.17374
-  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 6.03.9600.17415
-  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 6.03.9600.17415
+  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 6.03.9600.18154
+  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 6.03.9600.18154
   MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 6.03.9600.17415
-  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 6.03.9600.17415
+  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 6.03.9600.18154
   MS ATC Screen Decoder 1, {F1931D8E-51D3-496F-BE8A-3D08AEE9C9DB}, 0x1, scdec.dll, 15.00.4703.1000
-  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 6.03.9600.17415
+  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 6.03.9600.18154
 Video Encoders:
   Intel® Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 4.13.0009.0019
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 6.03.9600.17415
-  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 6.03.9600.17415
-  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 6.03.9600.17415
+  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 6.03.9600.18154
+  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 6.03.9600.18154
   Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 12.00.9600.17415
 Video Effects:
-  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 6.03.9600.17415
-  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 6.03.9600.17415
+  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 6.03.9600.18154
+  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 6.03.9600.18154
   VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 6.03.9600.17415
-  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 6.03.9600.17415
-  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 6.03.9600.17415
+  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 6.03.9600.18154
+  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 6.03.9600.18154
 Video Processor:
   Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 12.00.9600.17415
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, MSAudDecMFT.dll, 6.03.9600.17415
-  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 6.03.9600.17415
+  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 6.03.9600.18154
   Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 6.03.9600.17415
-  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 12.00.9600.17415
-  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 12.00.9600.17415
-  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 6.03.9600.17415
+  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 12.00.9600.18154
+  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 12.00.9600.18154
+  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 6.03.9600.18154
   Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 6.03.9600.17415
-  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 6.03.9600.17415
-  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 12.00.9600.17415
-  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 12.00.9600.17415
-  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 6.03.9600.17415
-  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 12.00.9600.17415
+  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 6.03.9600.18154
+  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 12.00.9600.18154
+  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 12.00.9600.18154
+  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 6.03.9600.18154
+  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 12.00.9600.18154
 Audio Encoders:
-  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 12.00.9600.17415
-  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 6.03.9600.17415
+  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 12.00.9600.18154
+  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 6.03.9600.18154
   Microsoft MPEG-2 Audio Encoder MFT, {46A4DD5C-73F8-4304-94DF-308F760974F4}, 0x1, msmpeg2enc.dll, 12.00.9600.17415
-  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 6.03.9600.17415
+  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 6.03.9600.18154
   Microsoft AAC Audio Encoder MFT, {93AF0C51-2275-45D2-A35B-F2BA21CAED00}, 0x1, mfAACEnc.dll, 6.03.9600.17415
   Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 6.03.9600.17415
 Audio Effects:
-  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 6.03.9600.17415
-  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 6.03.9600.17415
+  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 6.03.9600.18154
+  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 6.03.9600.18154
 Multiplexers:
   Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 12.00.9600.17415
 Others:
@@ -1301,7 +1301,7 @@ Disabled Media Sources
 ---------------
 EVR Power Information
 ---------------
-Current Setting: {651288E5-A7ED-4076-A96B-6CC62D848FE1} (Balanced)
+Current Setting: {16260968-C914-4AA1-8736-B7A6F3C5AE9B} (Power)
   Quality Flags: 2576
     Enabled:
     Force throttling
@@ -1329,35 +1329,34 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket 128993858017, Typ 5
+Ereignisname: RADAR_PRE_LEAK_64
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
-P2: 8024000e
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 0
-P7: 0
-P8: AutomaticUpdates
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: POWERPNT.EXE
+P2: 15.0.4787.1000
+P3: 6.3.9600.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 Angefügte Dateien:
-C:\Windows\WindowsUpdate.log
-C:\Windows\SoftwareDistribution\ReportingEvents.log
+C:\Users\Martin\AppData\Local\Temp\RDR4E85.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
 
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: bd3be966-a447-11e5-bf94-5c514f0fbd19
-Berichtstatus: 262144
-Bucket mit Hash: 
+Berichts-ID: 5a556a70-bfbd-11e5-bf99-5c514f0fbd19
+Berichtstatus: 0
+Bucket mit Hash: 26da8080bb4c051ae8bf0a3f00b057bb
 +++ WER1 +++:
 Fehlerbucket , Typ 0
 Ereignisname: WindowsUpdateFailure3
@@ -1385,69 +1384,68 @@ Diese Dateien befinden sich möglicherweise hier:
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 7d1fbb6e-a381-11e5-bf94-5c514f0fbd19
+Berichts-ID: 41879a45-bfb1-11e5-bf99-5c514f0fbd19
 Berichtstatus: 262144
 Bucket mit Hash: 
 +++ WER2 +++:
-Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket 120285794604, Typ 4
+Ereignisname: APPCRASH
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
-P2: 8024000e
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 0
-P7: 0
-P8: AutomaticUpdates
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: DllHost.exe
+P2: 6.3.9600.17415
+P3: 54504134
+P4: netcfgx.dll
+P5: 6.3.9600.17931
+P6: 55a002b9
+P7: c000041d
+P8: 0000000000034bb1
+P9: 
+P10: 
 
 Angefügte Dateien:
-C:\Windows\WindowsUpdate.log
-C:\Windows\SoftwareDistribution\ReportingEvents.log
+C:\Users\Martin\AppData\Local\Temp\WERE944.tmp.WERInternalMetadata.xml
+C:\Users\Martin\AppData\Local\Temp\WERF115.tmp.appcompat.txt
 
 Diese Dateien befinden sich möglicherweise hier:
-
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DllHost.exe_78d4bcf64ae2f9cf6e657552147c2eb946326c3_30a79b3d_1b99f191
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 68cf445c-a2be-11e5-bf94-5c514f0fbd19
-Berichtstatus: 262144
-Bucket mit Hash: 
+Berichts-ID: d937ddb4-bd49-11e5-bf99-5c514f0fbd19
+Berichtstatus: 1
+Bucket mit Hash: 92c1045fcc92b7eb6b6cfc966465acf7
 +++ WER3 +++:
-Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket 120285794593, Typ 4
+Ereignisname: APPCRASH
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
-P2: 8024000e
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 0
-P7: 0
-P8: AutomaticUpdates
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: DllHost.exe
+P2: 6.3.9600.17415
+P3: 54504134
+P4: netcfgx.dll
+P5: 6.3.9600.17931
+P6: 55a002b9
+P7: c0000005
+P8: 0000000000034bb1
+P9: 
+P10: 
 
 Angefügte Dateien:
-C:\Windows\WindowsUpdate.log
-C:\Windows\SoftwareDistribution\ReportingEvents.log
+C:\Users\Martin\AppData\Local\Temp\WERDCFF.tmp.WERInternalMetadata.xml
 
 Diese Dateien befinden sich möglicherweise hier:
-
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DllHost.exe_42734bbc3f7e95ebeff6a085197e4f3146b88ae3_30a79b3d_1825e3c6
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: f109491c-a1df-11e5-bf94-5c514f0fbd19
-Berichtstatus: 262144
-Bucket mit Hash: 
+Berichts-ID: d76601a8-bd49-11e5-bf99-5c514f0fbd19
+Berichtstatus: 1
+Bucket mit Hash: a929c1080ab8fa72ed2618aef1faef5f
 +++ WER4 +++:
 Fehlerbucket , Typ 0
 Ereignisname: WindowsUpdateFailure3
@@ -1471,12 +1469,12 @@ C:\Windows\WindowsUpdate.log
 C:\Windows\SoftwareDistribution\ReportingEvents.log
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_7.9.9600.18145_1436e792828b9eaee9a7f618ee59ce59ee0a0_00000000_1ad41500
+
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 74ad4f89-9f66-11e5-bf93-5c514f0fbd19
-Berichtstatus: 8192
+Berichts-ID: 5cdec034-bd06-11e5-bf99-5c514f0fbd19
+Berichtstatus: 262144
 Bucket mit Hash: 
 +++ WER5 +++:
 Fehlerbucket , Typ 0
@@ -1501,124 +1499,129 @@ C:\Windows\WindowsUpdate.log
 C:\Windows\SoftwareDistribution\ReportingEvents.log
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_7.9.9600.18145_1436e792828b9eaee9a7f618ee59ce59ee0a0_00000000_cab_152811d3
+
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 74ad4f89-9f66-11e5-bf93-5c514f0fbd19
-Berichtstatus: 4
+Berichts-ID: 052c4efb-bc2f-11e5-bf99-5c514f0fbd19
+Berichtstatus: 262144
 Bucket mit Hash: 
 +++ WER6 +++:
 Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Ereignisname: APPCRASH
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
-P2: 8024000e
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 0
-P7: 0
-P8: AutomaticUpdates
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: UE4-TheBeginning
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-TheBeginning-1501.dll
+P5: 4.9.2
+P6: 56982366
+P7: c0000005
+P8: 000000000000DFA2
+P9: !"C:\Users\Martin\Desktop\Uni\GE_Project\TheBeginning.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
 Angefügte Dateien:
-C:\Windows\WindowsUpdate.log
-C:\Windows\SoftwareDistribution\ReportingEvents.log
+../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/UE4CC-Windows-A145F4F249F74DF4819AE1BC9197E9D6/CrashContext.runtime-xml
+../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/UE4CC-Windows-A145F4F249F74DF4819AE1BC9197E9D6/UE4Minidump.dmp
+../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/TheBeginning.log
+C:\Users\Martin\AppData\Local\Temp\WERF7F5.tmp.WERInternalMetadata.xml
 
 Diese Dateien befinden sich möglicherweise hier:
-
+C:\Users\Martin\AppData\Local\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TheBeginning_74a96e8e121fcec814c1147c8530fa1285c69b_00000000_cab_1414f814
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 74ad4f89-9f66-11e5-bf93-5c514f0fbd19
-Berichtstatus: 262144
+Berichts-ID: 39e4c635-bb79-11e5-bf99-5c514f0fbd19
+Berichtstatus: 4
 Bucket mit Hash: 
 +++ WER7 +++:
-Fehlerbucket 125236801395, Typ 5
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket 94618531383, Typ 5
+Ereignisname: RADAR_PRE_LEAK_64
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18094
-P2: 8007045b
-P3: D7BA99CD-8E8C-4B10-A7BF-7B936F395414
-P4: Install
-P5: 200
-P6: 0
-P7: 8007045b
-P8: AutomaticUpdates
-P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
-P10: 0
+P1: kinectservice.exe
+P2: 2.0.1410.18000
+P3: 6.3.9600.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 Angefügte Dateien:
+C:\Users\Martin\AppData\Local\Temp\RDR1466.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_7.9.9600.18094_33ed14b3156727ff6682ef89815ab91a082c3b6_00000000_0102f1d8
+
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: ad73987b-9edc-11e5-bf91-5c514f0fbd19
+Berichts-ID: 31372353-bb6d-11e5-bf99-5c514f0fbd19
 Berichtstatus: 0
-Bucket mit Hash: 130486a16a0313ee8a73c8939e7f05ba
+Bucket mit Hash: 76d7b54e42dbeefbe71dccc70bcc72d6
 +++ WER8 +++:
-Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket -203911995, Typ 5
+Ereignisname: RADAR_PRE_LEAK_WOW64
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18094
-P2: 8007045b
-P3: D7BA99CD-8E8C-4B10-A7BF-7B936F395414
-P4: Install
-P5: 200
-P6: 0
-P7: 8007045b
-P8: AutomaticUpdates
-P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
-P10: 0
+P1: git.exe
+P2: 1.8.5.0
+P3: 6.3.9600.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 Angefügte Dateien:
+C:\Users\Martin\AppData\Local\Temp\RDR5A68.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_7.9.9600.18094_33ed14b3156727ff6682ef89815ab91a082c3b6_00000000_0a92ec79
+
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: ad73987b-9edc-11e5-bf91-5c514f0fbd19
-Berichtstatus: 2097156
-Bucket mit Hash: 
+Berichts-ID: e2051eec-bb0b-11e5-bf99-5c514f0fbd19
+Berichtstatus: 0
+Bucket mit Hash: b8d18bb94c95ae116ea05bd4d5449875
 +++ WER9 +++:
-Fehlerbucket , Typ 0
-Ereignisname: WindowsUpdateFailure3
+Fehlerbucket 128977907324, Typ 5
+Ereignisname: RADAR_PRE_LEAK_WOW64
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18094
-P2: 8007045b
-P3: D7BA99CD-8E8C-4B10-A7BF-7B936F395414
-P4: Install
-P5: 200
-P6: 0
-P7: 8007045b
-P8: AutomaticUpdates
-P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
-P10: 0
+P1: GitHub.exe
+P2: 3.0.11.0
+P3: 6.3.9600.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 Angefügte Dateien:
+C:\Users\Martin\AppData\Local\Temp\RDR9F25.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
 
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: ad73987b-9edc-11e5-bf91-5c514f0fbd19
-Berichtstatus: 262144
-Bucket mit Hash: 
+Berichts-ID: c9a3898c-bb09-11e5-bf99-5c514f0fbd19
+Berichtstatus: 0
+Bucket mit Hash: 79249ad267d8d8b22778b28953579646
