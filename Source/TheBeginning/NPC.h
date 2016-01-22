@@ -22,6 +22,7 @@ class THEBEGINNING_API ANPC : public ACharacter
 	public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
 	FString NpcMessage;
+	int hitCounter;
 	// Sets default values for this character's properties
 	//ANPC();
 	

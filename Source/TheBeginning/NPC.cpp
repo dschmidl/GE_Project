@@ -8,7 +8,8 @@
 // Sets default values
 ANPC::ANPC(const class FObjectInitializer& PCIP) :
 Super(PCIP)
-{
+{ 
+
 	ProxSphere = PCIP.CreateDefaultSubobject<USphereComponent>(this,
 		TEXT("Proximity Sphere"));
 	ProxSphere->AttachTo(RootComponent);
@@ -37,5 +38,9 @@ if( PController )
 {
 AMyHUD * hud = Cast<AMyHUD>( PController->GetHUD() );
 hud->addMessage( Message( NpcMessage, 5.f, FColor::White ) );
+hitCounter++;
+if (hitCounter >= 10){
+	Destroy();
+}
 }
 }
