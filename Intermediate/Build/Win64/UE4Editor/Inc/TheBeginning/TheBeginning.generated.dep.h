@@ -8,6 +8,9 @@
 #ifndef THEBEGINNING_Avatar_generated_h
 	#include "Avatar.h"
 #endif
+#ifndef THEBEGINNING_FirstPersonProjectile_generated_h
+	#include "FirstPersonProjectile.h"
+#endif
 #ifndef THEBEGINNING_MeleeWeapon_generated_h
 	#include "MeleeWeapon.h"
 #endif

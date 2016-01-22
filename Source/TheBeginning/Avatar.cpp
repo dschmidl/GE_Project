@@ -1,9 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#pragma once
 #include "TheBeginning.h"
 #include "Avatar.h"
 #include "MyHUD.h"
 #include "PickUpItem.h"
+#include "FirstPersonProjectile.h"
+
 
 
 // Sets default values
@@ -45,11 +47,48 @@ void AAvatar::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	GetCharacterMovement()->GetNavAgentPropertiesRef().bCanCrouch = true;
 	InputComponent->BindAction("Crouch", IE_Pressed, this, &AAvatar::StartCrouch);
 	InputComponent->BindAction("Crouch", IE_Released, this, &AAvatar::StopCrouch);
+	InputComponent->BindAction("Fire", IE_Pressed, this, &AAvatar::OnFire);
 	
 	
 	
 
 }
+void AAvatar::OnFire()
+{
+	// try and fire a projectile
+	if (ProjectileClass != NULL)
+	{
+		const FRotator SpawnRotation = GetControlRotation();
+		// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+		const FVector SpawnLocation = GetActorLocation() + SpawnRotation.RotateVector(GunOffset);
+
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+			// spawn the projectile at the muzzle
+			World->SpawnActor<AFirstPersonProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+		}
+	}
+
+	// try and play the sound if specified
+	if (FireSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	// try and play a firing animation if specified
+	/*if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}
+	*/
+}
+
 
 void AAvatar::StartCrouch(){
 	Crouch();

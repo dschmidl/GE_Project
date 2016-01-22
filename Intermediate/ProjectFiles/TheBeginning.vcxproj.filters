@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TheBeginning.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{D1FA6090-A9BA-489A-A86E-7B2492EBE7E0}</UniqueIdentifier>
+			<UniqueIdentifier>{93084D2E-0764-4843-B23F-4ED5E6A56AAF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TheBeginning.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8C17BE80-99DD-47D5-BA3B-9AB9C65258E1}</UniqueIdentifier>
+			<UniqueIdentifier>{C6B8F7D1-535D-4EA9-89A8-22C86AC92CAE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,51 +28,246 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{4D8EE4D4-DF62-4510-9F95-090C10F90351}</UniqueIdentifier>
+			<UniqueIdentifier>{F922A29E-D7F9-4B6E-BED3-895F3812C6F6}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="Plugins\Kinect">
-			<UniqueIdentifier>{C5EF73F7-6A55-4715-A2A2-6C244FD6B78E}</UniqueIdentifier>
+		<Filter Include="Plugins\LeapMotion">
+			<UniqueIdentifier>{5B258243-3AC7-4E84-AD4D-041FEE796D6D}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="Plugins\Kinect\Source">
-			<UniqueIdentifier>{19777398-5109-4979-99E3-83847213DAF5}</UniqueIdentifier>
+		<Filter Include="Plugins\LeapMotion\Source">
+			<UniqueIdentifier>{9EAF73CC-DD8E-45ED-B403-55A8BD432260}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="Plugins\Kinect\Source\Kinect">
-			<UniqueIdentifier>{FDE29F88-EFA8-43BD-8A13-3E8F6F93B120}</UniqueIdentifier>
+		<Filter Include="Plugins\LeapMotion\Source\LeapMotion">
+			<UniqueIdentifier>{B7B7C2DD-DA9D-4A60-B842-E67EDBF26829}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\Plugins\Kinect\Source\Kinect\Kinect.Build.cs">
-			<Filter>Plugins\Kinect\Source\Kinect</Filter>
+		<None Include="..\..\Plugins\LeapMotion\Source\LeapMotion\LeapMotion.Build.cs">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion</Filter>
 		</None >
-		<Filter Include="Plugins\Kinect\Source\Kinect\Private">
-			<UniqueIdentifier>{A6608751-B28B-4150-9FBB-4A8436FBF736}</UniqueIdentifier>
+		<Filter Include="Plugins\LeapMotion\Source\LeapMotion\Private">
+			<UniqueIdentifier>{02F7AB8B-7ED0-43D3-B2AB-C3BFDDDAFE4F}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Plugins\Kinect\Source\Kinect\Private\Kinect.cpp">
-			<Filter>Plugins\Kinect\Source\Kinect\Private</Filter>
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\FLeapMotion.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\Plugins\Kinect\Source\Kinect\Private\KinectPrivatePCH.h">
-			<Filter>Plugins\Kinect\Source\Kinect\Private</Filter>
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\FLeapMotion.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
 		</ClInclude >
-		<Filter Include="Plugins\Kinect\Source\Kinect\Public">
-			<UniqueIdentifier>{106D98FC-112B-4DA5-BFD4-665DF837CA87}</UniqueIdentifier>
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapArm.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapBaseObject.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapBone.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapCircleGesture.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapController.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapEventInterface.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapFinger.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapFingerList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapFrame.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapGesture.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapGestureList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapHand.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapHandList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapImage.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapImageList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapInteractionBox.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapInterfaceUtility.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapInterfaceUtility.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapKeyTapGesture.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapMotionPrivatePCH.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapPointable.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapPointableList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapScreenTapGesture.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapSwipeGesture.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapTool.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\LeapToolList.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody">
+			<UniqueIdentifier>{F735561E-0EB9-4928-91E5-87E5EE166BFD}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\Plugins\Kinect\Source\Kinect\Public\Kinect.h">
-			<Filter>Plugins\Kinect\Source\Kinect\Public</Filter>
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody\AnimBody.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody\AnimBone.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody\AnimFinger.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody\AnimHand.cpp">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Private\AnimBody</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\LeapMotion\Source\LeapMotion\Public">
+			<UniqueIdentifier>{B5F4F329-533E-494F-ABB2-BB07BBDA8B65}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\ILeapMotion.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
 		</ClInclude >
-		<None Include="..\..\Plugins\Kinect\Kinect.uplugin">
-			<Filter>Plugins\Kinect</Filter>
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapArm.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapBaseObject.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapBone.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapCircleGesture.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapController.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapEnums.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapEventInterface.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapFinger.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapFingerList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapForwardDeclaration.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapFrame.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapGesture.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapGestureList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapHand.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapHandList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapImage.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapImageList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapInteractionBox.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapKeyTapGesture.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapMotionPublicPCH.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapPointable.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapPointableList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapScreenTapGesture.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapSwipeGesture.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapTool.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\LeapToolList.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\Leap_NoPI.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody">
+			<UniqueIdentifier>{2E8DDC4D-E0BC-4902-8C19-EB10D5F11FF4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody\AnimBody.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody\AnimBone.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody\AnimFinger.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody\AnimHand.h">
+			<Filter>Plugins\LeapMotion\Source\LeapMotion\Public\AnimBody</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\LeapMotion\LeapMotion.uplugin">
+			<Filter>Plugins\LeapMotion</Filter>
 		</None >
-		<Filter Include="Plugins\Kinect\Resources">
-			<UniqueIdentifier>{8C6BB480-831A-42CB-A3C4-2EBA598A1374}</UniqueIdentifier>
+		<Filter Include="Plugins\LeapMotion\Resources">
+			<UniqueIdentifier>{578A3A01-A3E6-4534-9FB5-AF988DA2877E}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\Plugins\Kinect\Resources\Icon128.png">
-			<Filter>Plugins\Kinect\Resources</Filter>
+		<None Include="..\..\Plugins\LeapMotion\Resources\Icon128.png">
+			<Filter>Plugins\LeapMotion\Resources</Filter>
 		</None >
 		<Filter Include="Source\TheBeginning">
-			<UniqueIdentifier>{81AE657D-AA36-4F35-9C76-7EC7071FEF8F}</UniqueIdentifier>
+			<UniqueIdentifier>{A80781BB-75C5-4AEE-8DD4-C30EEF516613}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TheBeginning\Avatar.cpp">
 			<Filter>Source\TheBeginning</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TheBeginning\Avatar.h">
+			<Filter>Source\TheBeginning</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TheBeginning\FirstPersonProjectile.cpp">
+			<Filter>Source\TheBeginning</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheBeginning\FirstPersonProjectile.h">
 			<Filter>Source\TheBeginning</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\TheBeginning\MeleeWeapon.cpp">

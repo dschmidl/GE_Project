@@ -16,6 +16,18 @@ class THEBEGINNING_API AAvatar : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AAvatar();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	FVector GunOffset;
+	
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AFirstPersonProjectile> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class USoundBase* FireSound;
+
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UAnimMontage* FireAnimation;*/
+
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -36,6 +48,7 @@ public:
 	void MoveRight(float amount);
 	float Hp;
 	float MaxHp;
+	void OnFire();
 	// A map for the player's backpack
 	TMap<FString, int> Backpack;
 	// The icons for the items in the backpack, lookup by string

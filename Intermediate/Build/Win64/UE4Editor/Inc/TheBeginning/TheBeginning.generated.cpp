@@ -12,7 +12,12 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	void AAvatar::StaticRegisterNativesAAvatar()
 	{
 	}
-	IMPLEMENT_CLASS(AAvatar, 1145454108);
+	IMPLEMENT_CLASS(AAvatar, 1321898445);
+	void AFirstPersonProjectile::StaticRegisterNativesAFirstPersonProjectile()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AFirstPersonProjectile::StaticClass(),"OnHit",(Native)&AFirstPersonProjectile::execOnHit);
+	}
+	IMPLEMENT_CLASS(AFirstPersonProjectile, 3216498624);
 	void AMeleeWeapon::Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 	{
 		MeleeWeapon_eventProx_Parms Parms;
@@ -74,13 +79,16 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API class UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
+	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	COREUOBJECT_API class UClass* Z_Construct_UClass_UObject_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AHUD();
 	ENGINE_API class UClass* Z_Construct_UClass_UFont_NoRegister();
@@ -89,6 +97,9 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar();
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AFirstPersonProjectile_OnHit();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile();
 	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AMeleeWeapon_Prox();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon();
@@ -123,6 +134,11 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 				OuterClass->ClassFlags |= 0x20900080;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AAvatar), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
+				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AAvatar), 0x0004000000010001, Z_Construct_UClass_AFirstPersonProjectile_NoRegister());
+				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(GunOffset, AAvatar), 0x0000000000000005, Z_Construct_UScriptStruct_FVector());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -130,6 +146,12 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ToolTip"), TEXT("forward declare the APickupItem class,\nsince it will be \"mentioned\" in a member function"));
+				MetaData->SetValue(NewProp_FireSound, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_FireSound, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+				MetaData->SetValue(NewProp_GunOffset, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_GunOffset, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 #endif
 			}
 		}
@@ -138,6 +160,82 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAvatar(Z_Construct_UClass_AAvatar, TEXT("AAvatar"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAvatar);
+	UFunction* Z_Construct_UFunction_AFirstPersonProjectile_OnHit()
+	{
+		struct FirstPersonProjectile_eventOnHit_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+		UObject* Outer=Z_Construct_UClass_AFirstPersonProjectile();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnHit"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00C20401, 65535, sizeof(FirstPersonProjectile_eventOnHit_Parms));
+			UProperty* NewProp_Hit = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Hit"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(Hit, FirstPersonProjectile_eventOnHit_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			UProperty* NewProp_NormalImpulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NormalImpulse"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(NormalImpulse, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("called when projectile hits something"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AFirstPersonProjectile_NoRegister()
+	{
+		return AFirstPersonProjectile::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AFirstPersonProjectile()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = AFirstPersonProjectile::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20800080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AFirstPersonProjectile_OnHit());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ProjectileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovement"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovement, AFirstPersonProjectile), 0x00000000000a001d, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, AFirstPersonProjectile), 0x00000000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AFirstPersonProjectile_OnHit()); // 1716904778
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("AllowPrivateAccess"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("Category"), TEXT("Movement"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ToolTip"), TEXT("Projectile movement component"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("ToolTip"), TEXT("Sphere collision component"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AFirstPersonProjectile(Z_Construct_UClass_AFirstPersonProjectile, TEXT("AFirstPersonProjectile"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AFirstPersonProjectile);
 	UFunction* Z_Construct_UFunction_AMeleeWeapon_Prox()
 	{
 		UObject* Outer=Z_Construct_UClass_AMeleeWeapon();
@@ -515,8 +613,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/TheBeginning")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xFFCFDC36;
-			Guid.B = 0xAEF1E8C4;
+			Guid.A = 0x49EEC994;
+			Guid.B = 0x3D041E4B;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

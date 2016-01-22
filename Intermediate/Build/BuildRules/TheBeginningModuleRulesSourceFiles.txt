@@ -460,6 +460,7 @@ C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptGeneratorPlugin\Source\Scri
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
+C:\Users\Martin\Desktop\Uni\GE_Project\Plugins\LeapMotion\Source\LeapMotion\LeapMotion.Build.cs
 C:\Users\Martin\Desktop\Uni\GE_Project\Source\TheBeginning\TheBeginning.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Editor.Target.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Game.Target.cs
