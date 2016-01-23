@@ -1,853 +1,572 @@
-﻿[2016.01.22-11.39.05:683][  0]Log file open, 01/22/16 12:39:05
-[2016.01.22-11.39.05:683][  0]LogInit:Display: Running engine for game: TheBeginning
-[2016.01.22-11.39.05:683][  0]LogInit:Display: RandInit(-1386777361) SRandInit(-1386777360).
-[2016.01.22-11.39.05:683][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2016.01.22-11.39.05:683][  0]LogStats: Stats thread started at 0.174252
-[2016.01.22-11.39.05:683][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.22-11.39.05:683][  0]LogInit: API Version: 2672455
-[2016.01.22-11.39.05:683][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.01.22-11.39.05:683][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.01.22-11.39.05:683][  0]LogInit: Build Configuration: Development
-[2016.01.22-11.39.05:683][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.01.22-11.39.05:683][  0]LogInit: Command line:  
-[2016.01.22-11.39.05:683][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.01.22-11.39.05:683][  0]LogInit: Rocket: 1
-[2016.01.22-11.39.05:728][  0]LogInit: Using libcurl 7.41.0
-[2016.01.22-11.39.05:728][  0]LogInit:  - built for x86_64-pc-win32
-[2016.01.22-11.39.05:728][  0]LogInit:  - supports SSL with WinSSL
-[2016.01.22-11.39.05:728][  0]LogInit:  - other features:
-[2016.01.22-11.39.05:728][  0]LogInit:      CURL_VERSION_SSL
-[2016.01.22-11.39.05:728][  0]LogInit:      CURL_VERSION_IPV6
-[2016.01.22-11.39.05:728][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.01.22-11.39.05:728][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.01.22-11.39.05:728][  0]LogInit:      CURL_VERSION_IDN
-[2016.01.22-11.39.05:728][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.01.22-11.39.05:728][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.01.22-11.39.05:728][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.01.22-11.39.05:728][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.01.22-11.39.05:728][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.01.22-11.39.05:756][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.01.22-11.39.05:780][  0]LogInit: Object subsystem initialized
-[2016.01.22-11.39.05:786][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.22-11.39.05:786][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.01.22-11.39.05:820][  0]LogInit: Computer: CPT
-[2016.01.22-11.39.05:820][  0]LogInit: User: Martin
-[2016.01.22-11.39.05:820][  0]LogInit: CPU Page size=4096, Cores=2
-[2016.01.22-11.39.05:820][  0]LogInit: High frequency timer resolution =2.240904 MHz
-[2016.01.22-11.39.05:820][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2016.01.22-11.39.05:820][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.22-11.39.05:820][  0]LogMemory: Process Physical Memory: 52.53 MB used, 52.53 MB peak
-[2016.01.22-11.39.05:820][  0]LogMemory: Process Virtual Memory: 57.02 MB used, 57.02 MB peak
-[2016.01.22-11.39.05:820][  0]LogMemory: Physical Memory: 2220.70 MB used, 4002.88 MB total
-[2016.01.22-11.39.05:820][  0]LogMemory: Virtual Memory: 347.57 MB used, 134217728.00 MB total
-[2016.01.22-11.39.05:999][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2016.01.22-11.39.08:844][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
-[2016.01.22-11.39.08:844][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
-[2016.01.22-11.39.08:849][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.01.22-11.39.08:849][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2016.01.22-11.39.08:849][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.01.22-11.39.08:862][  0]LogD3D11RHI: !Direct3DDevice
-[2016.01.22-11.39.08:863][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
-[2016.01.22-11.39.08:881][  0]LogD3D11RHI: Async texture creation enabled
-[2016.01.22-11.39.08:938][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Martin/Desktop/Uni/GE_Project/Intermediate/Shaders/WorkingDirectory/1440/).
-[2016.01.22-11.39.08:938][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Intermediate/Shaders/tmp/C1F0443C45C81759B97B16B5E214BF77/'.
-[2016.01.22-11.39.08:940][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.01.22-11.39.13:737][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.01.22-11.39.13:761][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.01.22-11.39.13:785][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.01.22-11.39.13:809][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.01.22-11.39.13:833][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.01.22-11.39.13:854][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.01.22-11.39.13:872][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.01.22-11.39.13:890][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.01.22-11.39.13:908][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.01.22-11.39.13:926][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.01.22-11.39.13:943][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.01.22-11.39.13:961][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.01.22-11.39.13:969][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.01.22-11.39.14:019][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.01.22-11.39.14:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.01.22-11.39.14:050][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.01.22-11.39.14:070][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.01.22-11.39.14:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.22-11.39.14:569][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.01.22-11.39.14:824][  0]LogDerivedDataCache: Loaded boot cache 0.25s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.22-11.39.14:824][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.01.22-11.39.14:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Martin/Desktop/Uni/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.22-11.39.14:824][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.01.22-11.39.14:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Martin/Desktop/Uni/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.01.22-11.39.14:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.01.22-11.39.15:363][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.01.22-11.39.15:379][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.01.22-11.39.17:067][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.22-11.39.17:090][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.01.22-11.39.17:741][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.01.22-11.39.17:741][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.01.22-11.39.19:160][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.01.22-11.39.24:691][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.01.22-11.39.25:103][  0]LogAssetRegistry: FAssetRegistry took 0.0141 seconds to start up
-[2016.01.22-11.39.26:043][  0]SourceControl: Info Source control is disabled
-[2016.01.22-11.39.26:086][  0]SourceControl: Info Source control is disabled
-[2016.01.22-11.39.26:164][  0]SourceControl: Info Source control is disabled
-[2016.01.22-11.39.26:245][  0]SourceControl: Info Source control is disabled
-[2016.01.22-11.39.27:251][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.22-11.39.27:838][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
-[2016.01.22-11.39.27:854][  0]LogObj: 29066 objects as part of root set at end of initial load.
-[2016.01.22-11.39.27:854][  0]LogUObjectAllocator: 6193320 out of 0 bytes used by permanent object pool.
-[2016.01.22-11.39.28:115][  0]LogEngine: Initializing Engine...
-[2016.01.22-11.39.28:155][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2016.01.22-11.39.28:162][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.01.22-11.39.28:722][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.01.22-11.39.28:763][  0]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-11.39.29:029][  0]LogInit: FAudioDevice initialized.
-[2016.01.22-11.39.29:098][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.22-11.39.29:109][  0]LogInit: Texture streaming: Enabled
-[2016.01.22-11.39.29:135][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.01.22-11.39.29:136][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.22-11.39.29:136][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 367b6b074558a321ab68ca91f2a3f4db|81f01d6b67df48cfa9231b1643757103|3d0c64b6-e6bd-4413-84d0-216f80d00fa1
-[2016.01.22-11.39.29:136][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.01.22-11.39.29:275][  0]LogInit: Transaction tracking system initialized
-[2016.01.22-11.39.29:733][  0]BlueprintLog: New page: Editor Load
-[2016.01.22-11.39.30:334][  0]LocalizationService: Info Localization service is disabled
-[2016.01.22-11.39.31:460][  0]LogConsoleResponse:Display: 
-[2016.01.22-11.39.32:152][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.01.22-11.39.32:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/' took 0.03s
-[2016.01.22-11.39.32:712][  0]SourceControl: Info Source control is disabled
-[2016.01.22-11.39.32:715][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.22-11.39.32:719][  0]LightingResults: New page: Lighting Build
-[2016.01.22-11.39.32:739][  0]MapCheck: New page: Map Check
-[2016.01.22-11.39.32:739][  0]LightingResults: New page: Lighting Build
-[2016.01.22-11.39.32:825][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFD8637420
-[2016.01.22-11.39.34:276][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2016.01.22-11.39.34:397][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.22-11.39.34:401][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.22-11.39.34:641][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 240.008ms to complete.
-[2016.01.22-11.39.34:642][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.928
-[2016.01.22-11.39.34:912][  0]LogCollectionManager: Loaded 0 collections in 0.007418 seconds
-[2016.01.22-11.39.35:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Saved/Collections/' took 0.01s
-[2016.01.22-11.39.35:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/Developers/Martin/Collections/' took 0.01s
-[2016.01.22-11.39.35:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/Collections/' took 0.01s
-[2016.01.22-11.39.35:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0447 seconds. Added 1901 classes and 339 folders.
-[2016.01.22-11.39.35:048][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
-[2016.01.22-11.39.35:101][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0094 seconds. Added 0 classes and 0 folders.
-[2016.01.22-11.39.35:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0115 seconds. Added 0 classes and 0 folders.
-[2016.01.22-11.39.35:551][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0093 seconds. Added 1 classes and 2 folders.
-[2016.01.22-11.39.35:711][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.01.22-11.39.35:735][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.01.22-11.39.35:769][  0]LogLoad: Full Startup: 34.51 seconds (BP compile: 0.24 seconds)
-[2016.01.22-11.39.36:794][  0]LogContentStreaming: Texture pool size now 200 MB
-[2016.01.22-11.39.37:234][  0]LogRenderer: Reallocating scene render targets to support 1212x568 (Frame:2).
-[2016.01.22-11.39.41:983][ 11]LogAssetRegistry: Asset discovery search completed in 16.8920 seconds
-[2016.01.22-11.39.41:984][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2016.01.22-11.39.41:985][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001149 seconds (updated 0 objects)
-[2016.01.22-11.39.49:268][218]Cmd: MAP LOAD FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.22-11.39.49:307][218]LightingResults: New page: Lighting Build
-[2016.01.22-11.39.49:391][218]LoadErrors: New page: Loading map: MyFirstLevel.umap
-[2016.01.22-11.39.49:402][218]MapCheck: New page: Map Check
-[2016.01.22-11.39.49:402][218]LightingResults: New page: Lighting Build
-[2016.01.22-11.39.49:480][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC77CF2E0
-[2016.01.22-11.39.49:959][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2016.01.22-11.39.49:959][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2016.01.22-11.39.49:960][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2016.01.22-11.39.49:961][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2016.01.22-11.39.49:973][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0048.71] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 42 ms]
-[2016.01.22-11.39.49:973][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0048.71] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
-[2016.01.22-11.39.49:973][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0048.71] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
-[2016.01.22-11.39.50:313][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2016.01.22-11.39.50:314][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2016.01.22-11.39.50:315][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2016.01.22-11.39.50:316][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2016.01.22-11.39.50:327][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0049.06] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 37 ms]
-[2016.01.22-11.39.50:327][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0049.06] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
-[2016.01.22-11.39.50:329][218]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0049.07] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 2 ms]
-[2016.01.22-11.39.51:428][218]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-11.39.51:873][218]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.22-11.39.52:061][218]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.22-11.39.52:411][218]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 349.331ms to complete.
-[2016.01.22-11.39.52:411][218]LogFileHelpers: Loading map 'MyFirstLevel' took 3.148
-[2016.01.22-11.39.52:555][219]Cmd: UpdateLandscapeEditorData -warnings
-[2016.01.22-11.39.54:694][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-11.39.54:697][300]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 1:39:54 PM)
-[2016.01.22-11.39.54:698][300]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-11.39.54:733][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034652s)
-[2016.01.22-11.39.54:734][300]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-11.39.54:734][300]LogPlayLevel: PIE: World Init took: (0.001586s)
-[2016.01.22-11.39.54:735][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.037206s)
-[2016.01.22-11.39.54:736][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-11.39.54:835][300]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-11.39.54:845][300]LogInit: FAudioDevice initialized.
-[2016.01.22-11.39.55:240][300]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-11.39.55:371][300]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-12.39.55
-[2016.01.22-11.39.55:372][300]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-11.39.55:373][300]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-11.39.55:401][300]LogWorld: Bringing up level for play took: 0.147252
-[2016.01.22-11.39.55:434][300]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.155
-[2016.01.22-11.40.36:284][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-11.40.36:284][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-11.40.36:362][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFE087E0C0
-[2016.01.22-11.41.48:866][486]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2016.01.22-11.41.48:867][486]Can't find target actor or component.
-[2016.01.22-11.41.49:552][526]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2016.01.22-11.41.49:552][526]Can't find target actor or component.
-[2016.01.22-11.46.39:198][185]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.22-11.46.42:677][185]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0142 seconds. Added 107 classes and 0 folders.
-[2016.01.22-11.47.01:403][347]LogRenderer: Reallocating scene render targets to support 1212x892 (Frame:2743).
-[2016.01.22-11.56.15:844][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-11.56.15:846][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-11.56.15:846][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.01.22-11.56.16:089][660]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_NPC_Owen', cached variable property's owner is '/Game/BP_NPC_Owen.SKEL_BP_NPC_Owen_C'
-[2016.01.22-11.56.23:335][835]LogEditorTransaction: Undo Add Variable
-[2016.01.22-11.56.23:423][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.01.22-11.57.01:137][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2016.01.22-11.57.01:138][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
-[2016.01.22-11.57.01:138][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2016.01.22-11.57.01:339][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC5B1C400
-[2016.01.22-11.57.01:345][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFF2EF7880
-[2016.01.22-11.57.01:424][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.01.22-11.57.02:202][250]LogSavePackage: Save=648.132629ms
-[2016.01.22-11.57.02:203][250]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/MyFirstLevel_Auto1DE9159FA4E5D66B4018D9A949ACCE5DD.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap'
-[2016.01.22-11.57.02:213][250]LogSavePackage: Total save time: 778.173003ms
-[2016.01.22-11.57.02:213][250]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap
-[2016.01.22-11.57.02:220][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 1.083
-[2016.01.22-11.57.02:220][250]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.083
-[2016.01.22-11.57.02:240][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_NPC_Owen] ([1] browsable assets)...
-[2016.01.22-11.57.02:307][250]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_NPC_Owen.BP_NPC_Owen]
-[2016.01.22-11.57.02:307][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_NPC_Owen]
-[2016.01.22-11.57.02:307][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.01.22-11.57.02:692][250]LogSavePackage: Save=288.507233ms
-[2016.01.22-11.57.02:692][250]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen_Auto1DF7D7E494F604C594D4B82B137A927DA.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset'
-[2016.01.22-11.57.02:705][250]LogSavePackage: Total save time: 390.234031ms
-[2016.01.22-11.57.02:705][250]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset
-[2016.01.22-11.57.02:705][250]LogFileHelpers: Auto-saving content packages took 0.483
-[2016.01.22-12.07.24:793][130]Recompiling TheBeginning...
-[2016.01.22-12.07.24:796][130]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 4604 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.07.24:811][130]Warning: Starting HotReload took  0.1s.
-[2016.01.22-12.10.13:445][622]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:10:13 PM
-[2016.01.22-12.10.13:452][622]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info Parsing headers for TheBeginningEditor
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" "C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info Reflection code generated for TheBeginningEditor in 70,6284075 seconds
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info Performing 4 actions (2 in parallel)
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info FirstPersonProjectile.cpp
-[2016.01.22-12.10.13:453][622]CompilerResultsLog:Error: Error C:\Users\Martin\Desktop\Uni\GE_Project\Source\TheBeginning\NPC.cpp(42)  : error C2039: 'toggleVisibility' : is not a member of 'ANPC'
-[2016.01.22-12.10.13:453][622]CompilerResultsLog: Info          c:\users\martin\desktop\uni\ge_project\source\thebeginning\NPC.h(9)  : see declaration of 'ANPC'
-[2016.01.22-12.10.13:454][622]CompilerResultsLog:Error: Error C:\Users\Martin\Desktop\Uni\GE_Project\Source\TheBeginning\NPC.cpp(43)  : error C2039: 'setActorHiddenInTheGame' : is not a member of 'AActor'
-[2016.01.22-12.10.13:454][622]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(58)  : see declaration of 'AActor'
-[2016.01.22-12.10.13:454][622]CompilerResultsLog: Info TheBeginning.generated.cpp
-[2016.01.22-12.10.13:454][622]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.10.13:454][622]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Martin\Desktop\Uni\GE_Project\Binaries\Win64\UE4Editor-TheBeginning-4604.dll
-[2016.01.22-12.10.13:454][622]CompilerResultsLog: Info Total build time: 167,61 seconds
-[2016.01.22-12.10.13:455][622]LogMainFrame: MainFrame: Module compiling took 168.676 seconds
-[2016.01.22-12.10.13:457][622]Warning: HotReload failed, recompile failed
-[2016.01.22-12.12.24:001][ 37]Recompiling TheBeginning...
-[2016.01.22-12.12.24:006][ 37]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 8191 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.12.24:020][ 37]Warning: Starting HotReload took  0.1s.
-[2016.01.22-12.14.34:124][222]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:14:34 PM
-[2016.01.22-12.14.34:125][222]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.14.34:125][222]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
-[2016.01.22-12.14.34:125][222]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.14.34:125][222]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-8191.dll
-[2016.01.22-12.14.34:125][222]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-8191.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-8191.exp
-[2016.01.22-12.14.34:126][222]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.14.34:126][222]CompilerResultsLog: Info Total build time: 128,04 seconds
-[2016.01.22-12.14.34:126][222]LogMainFrame: MainFrame: Module compiling took 130.156 seconds
-[2016.01.22-12.14.34:130][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.14.34:131][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.14.34:132][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2016.01.22-12.14.34:634][222]LogClass: Could not find existing class NPC in package /Script/TheBeginning for HotReload, assuming new class
-[2016.01.22-12.14.34:635][222]LogClass: Function Prox is new.
-[2016.01.22-12.14.34:635][222]LogClass: Function ToggleHidden is new.
-[2016.01.22-12.14.34:696][222]LogHotReload: Re-instancing NPC after hot-reload.
-[2016.01.22-12.14.35:902][222]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0144 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.14.35:915][222]Warning: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.14.38:623][222]LogContentBrowser: Native class hierarchy populated in 0.0529 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.14.46:199][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.14.46:200][518]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:14:46 PM)
-[2016.01.22-12.14.46:201][518]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.14.46:260][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057851s)
-[2016.01.22-12.14.46:271][518]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.14.46:274][518]LogPlayLevel: PIE: World Init took: (0.013541s)
-[2016.01.22-12.14.46:275][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.073332s)
-[2016.01.22-12.14.46:275][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.14.46:615][518]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.14.46:626][518]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.14.46:626][518]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.14.46:710][518]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.14.46:852][518]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.14.46
-[2016.01.22-12.14.46:852][518]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.14.46:855][518]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.14.46:865][518]LogWorld: Bringing up level for play took: 0.141521
-[2016.01.22-12.14.46:889][518]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.301
-[2016.01.22-12.14.47:191][519]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056489 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_11'
-[2016.01.22-12.15.04:274][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF8027A020
-[2016.01.22-12.15.21:317][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.15.21:317][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.15.21:317][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2016.01.22-12.15.21:549][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.232
-[2016.01.22-12.15.21:577][  5]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_NPC_Owen] ([1] browsable assets)...
-[2016.01.22-12.15.21:647][  5]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_NPC_Owen.BP_NPC_Owen]
-[2016.01.22-12.15.21:648][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_NPC_Owen]
-[2016.01.22-12.15.21:648][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2016.01.22-12.15.21:941][  5]LogSavePackage: Save=169.345047ms
-[2016.01.22-12.15.21:941][  5]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen_Auto2E0F8AE2D45902C44789D7299076F49D4.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset'
-[2016.01.22-12.15.21:951][  5]LogSavePackage: Total save time: 294.021521ms
-[2016.01.22-12.15.21:951][  5]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset
-[2016.01.22-12.15.21:951][  5]LogFileHelpers: Auto-saving content packages took 0.399
-[2016.01.22-12.18.33:514][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.18.33:514][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.18.33:514][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2016.01.22-12.18.38:286][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.18.38:287][ 90]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:18:38 PM)
-[2016.01.22-12.18.38:287][ 90]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.18.38:337][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049444s)
-[2016.01.22-12.18.38:340][ 90]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.18.38:340][ 90]LogPlayLevel: PIE: World Init took: (0.003129s)
-[2016.01.22-12.18.38:341][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.053515s)
-[2016.01.22-12.18.38:341][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2016.01.22-12.18.38:633][ 90]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.18.38:642][ 90]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.18.38:642][ 90]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.18.38:732][ 90]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.18.38:906][ 90]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.18.38
-[2016.01.22-12.18.38:906][ 90]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.18.38:907][ 90]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.18.38:915][ 90]LogWorld: Bringing up level for play took: 0.180489
-[2016.01.22-12.18.38:932][ 90]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.344
-[2016.01.22-12.18.39:108][ 91]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064756 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_12'
-[2016.01.22-12.18.40:995][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFECDD9580
-[2016.01.22-12.18.48:161][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.18.48:161][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.18.48:161][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2016.01.22-12.19.25:370][531]Recompiling TheBeginning...
-[2016.01.22-12.19.25:374][531]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 2670 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.19.25:388][531]Warning: Starting HotReload took  0.1s.
-[2016.01.22-12.21.29:259][758]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:21:29 PM
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info Parsing headers for TheBeginningEditor
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" "C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info Reflection code generated for TheBeginningEditor in 67,4345308 seconds
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info TheBeginning.generated.cpp
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info [3/3] Link UE4Editor-TheBeginning-2670.dll
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-2670.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-2670.exp
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.21.29:266][758]CompilerResultsLog: Info Total build time: 122,56 seconds
-[2016.01.22-12.21.29:268][758]LogMainFrame: MainFrame: Module compiling took 123.930 seconds
-[2016.01.22-12.21.29:274][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2016.01.22-12.21.29:278][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2016.01.22-12.21.29:278][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2016.01.22-12.21.29:992][758]LogClass: Could not find existing class NPC in package /Script/TheBeginning for HotReload, assuming new class
-[2016.01.22-12.21.29:994][758]LogClass: Function Prox is new.
-[2016.01.22-12.21.29:994][758]LogClass: Function ToggleHidden is new.
-[2016.01.22-12.21.30:069][758]LogHotReload: Re-instancing NPC after hot-reload.
-[2016.01.22-12.21.31:644][758]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0152 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.21.31:661][758]Warning: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.21.34:505][758]LogContentBrowser: Native class hierarchy populated in 0.0408 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.21.37:908][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.21.37:910][768]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:21:37 PM)
-[2016.01.22-12.21.37:911][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.21.37:967][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056016s)
-[2016.01.22-12.21.37:996][768]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.21.37:996][768]LogPlayLevel: PIE: World Init took: (0.028560s)
-[2016.01.22-12.21.37:998][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.086810s)
-[2016.01.22-12.21.37:998][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.21.37:998][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.21.37:998][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2016.01.22-12.21.38:379][768]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.21.38:388][768]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.21.38:388][768]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.21.38:472][768]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.21.38:628][768]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.21.38
-[2016.01.22-12.21.38:628][768]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.21.38:631][768]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.21.38:639][768]LogWorld: Bringing up level for play took: 0.159003
-[2016.01.22-12.21.38:659][768]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.071
-[2016.01.22-12.21.47:576][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFF65482C0
-[2016.01.22-12.25.35:268][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.25.35:268][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.25.35:268][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2016.01.22-12.25.35:767][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.01.22-12.25.37:404][723]LogSavePackage: Save=1441.349976ms
-[2016.01.22-12.25.37:404][723]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/MyFirstLevel_Auto35EB4258549923275002EEF9463AD36E4.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto3.umap'
-[2016.01.22-12.25.37:504][723]LogSavePackage: Total save time: 1713.885114ms
-[2016.01.22-12.25.37:504][723]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto3.umap
-[2016.01.22-12.25.37:565][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 2.299
-[2016.01.22-12.25.37:565][723]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.299
-[2016.01.22-12.25.37:635][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_NPC_Owen] ([1] browsable assets)...
-[2016.01.22-12.25.37:769][723]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_NPC_Owen.BP_NPC_Owen]
-[2016.01.22-12.25.37:770][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_NPC_Owen]
-[2016.01.22-12.25.37:775][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2016.01.22-12.25.38:277][723]LogSavePackage: Save=253.091156ms
-[2016.01.22-12.25.38:277][723]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen_Auto363FB93C34B9612A33320E6811E4EC69D.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto3.uasset'
-[2016.01.22-12.25.38:289][723]LogSavePackage: Total save time: 496.637963ms
-[2016.01.22-12.25.38:289][723]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto3.uasset
-[2016.01.22-12.25.38:290][723]LogFileHelpers: Auto-saving content packages took 0.719
-[2016.01.22-12.26.40:395][960]Recompiling TheBeginning...
-[2016.01.22-12.26.40:397][960]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 972 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.26.40:411][960]Warning: Starting HotReload took  0.1s.
-[2016.01.22-12.27.27:652][789]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:27:27 PM
-[2016.01.22-12.27.27:653][789]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.27.27:653][789]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
-[2016.01.22-12.27.27:653][789]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.27.27:654][789]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-972.dll
-[2016.01.22-12.27.27:654][789]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-972.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-972.exp
-[2016.01.22-12.27.27:654][789]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.27.27:654][789]CompilerResultsLog: Info Total build time: 46,71 seconds
-[2016.01.22-12.27.27:654][789]LogMainFrame: MainFrame: Module compiling took 47.270 seconds
-[2016.01.22-12.27.27:654][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.27.27:655][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.27.27:655][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2016.01.22-12.27.28:107][789]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0082 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.27.28:120][789]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.27.30:744][789]LogContentBrowser: Native class hierarchy populated in 0.0507 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.27.41:755][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.27.41:755][216]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:27:41 PM)
-[2016.01.22-12.27.41:755][216]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.27.41:773][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017482s)
-[2016.01.22-12.27.41:776][216]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.27.41:777][216]LogPlayLevel: PIE: World Init took: (0.004122s)
-[2016.01.22-12.27.41:778][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.022260s)
-[2016.01.22-12.27.42:183][216]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.27.42:191][216]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.27.42:191][216]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.27.42:267][216]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.27.42:425][216]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.27.42
-[2016.01.22-12.27.42:425][216]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.27.42:426][216]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.27.42:432][216]LogWorld: Bringing up level for play took: 0.162193
-[2016.01.22-12.27.42:446][216]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.858
-[2016.01.22-12.27.46:815][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF88B599E0
-[2016.01.22-12.28.44:106][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.28.44:107][616]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:28:44 PM)
-[2016.01.22-12.28.44:107][616]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.28.44:156][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048801s)
-[2016.01.22-12.28.44:159][616]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.28.44:160][616]LogPlayLevel: PIE: World Init took: (0.003237s)
-[2016.01.22-12.28.44:160][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.052997s)
-[2016.01.22-12.28.44:161][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.28.44:161][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.28.44:161][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2016.01.22-12.28.44:433][616]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.28.44:439][616]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.28.44:439][616]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.28.44:512][616]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.28.44:663][616]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.28.44
-[2016.01.22-12.28.44:663][616]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.28.44:664][616]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.28.44:670][616]LogWorld: Bringing up level for play took: 0.155381
-[2016.01.22-12.28.44:685][616]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.096
-[2016.01.22-12.28.46:918][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFE36677E0
-[2016.01.22-12.28.57:458][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.28.57:458][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.28.57:458][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2016.01.22-12.28.58:223][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.01.22-12.28.59:039][896]LogSavePackage: Save=644.065491ms
-[2016.01.22-12.28.59:039][896]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/MyFirstLevel68685E6446751058E193DC9427F52373.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
-[2016.01.22-12.28.59:058][896]LogSavePackage: Total save time: 740.031704ms
-[2016.01.22-12.28.59:059][896]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
-[2016.01.22-12.28.59:276][896]LogFileHelpers: Saving map 'MyFirstLevel' took 1.596
-[2016.01.22-12.28.59:320][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
-[2016.01.22-12.28.59:581][896]LogSavePackage: Save=142.467056ms
-[2016.01.22-12.28.59:581][896]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen15672C4C405AFF3DFAC6FFAC2E8E42DC.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
-[2016.01.22-12.28.59:602][896]LogSavePackage: Total save time: 275.643669ms
-[2016.01.22-12.28.59:602][896]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
-[2016.01.22-12.29.02:856][ 10]Recompiling TheBeginning...
-[2016.01.22-12.29.02:857][ 10]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 9779 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.29.02:861][ 10]Warning: Starting HotReload took  0.0s.
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:29:56 PM
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-9779.dll
-[2016.01.22-12.29.56:022][852]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-9779.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-9779.exp
-[2016.01.22-12.29.56:023][852]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.29.56:023][852]CompilerResultsLog: Info Total build time: 52,60 seconds
-[2016.01.22-12.29.56:023][852]LogMainFrame: MainFrame: Module compiling took 53.169 seconds
-[2016.01.22-12.29.56:484][852]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0099 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.29.56:497][852]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.29.58:948][852]LogContentBrowser: Native class hierarchy populated in 0.0468 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.30.06:256][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.30.06:256][992]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:30:06 PM)
-[2016.01.22-12.30.06:257][992]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.30.06:305][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047971s)
-[2016.01.22-12.30.06:309][992]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.30.06:309][992]LogPlayLevel: PIE: World Init took: (0.004530s)
-[2016.01.22-12.30.06:310][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.053180s)
-[2016.01.22-12.30.06:310][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.30.06:310][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.30.06:310][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2016.01.22-12.30.06:711][992]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.30.06:719][992]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.30.06:720][992]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.30.06:797][992]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.30.06:959][992]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.30.06
-[2016.01.22-12.30.06:959][992]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.30.06:960][992]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.30.06:967][992]LogWorld: Bringing up level for play took: 0.167211
-[2016.01.22-12.30.06:980][992]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.393
-[2016.01.22-12.30.07:131][993]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.053372 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_32'
-[2016.01.22-12.30.19:176][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFFC575DA0
-[2016.01.22-12.30.26:077][533]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen2)
-[2016.01.22-12.30.27:408][603]Cmd: DELETE
-[2016.01.22-12.30.27:408][603]Cmd: ACTOR DELETE
-[2016.01.22-12.30.27:425][603]LogEditorActor: Deleted Actor: BP_NPC_Owen_C
-[2016.01.22-12.30.27:633][603]LogEditorActor: Deleted 1 Actors (0.211 secs)
-[2016.01.22-12.31.29:275][966]Recompiling TheBeginning...
-[2016.01.22-12.31.29:276][966]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 9047 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.31.29:288][966]Warning: Starting HotReload took  0.0s.
-[2016.01.22-12.33.25:214][803]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:33:25 PM
-[2016.01.22-12.33.25:214][803]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.33.25:214][803]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
-[2016.01.22-12.33.25:214][803]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.33.25:215][803]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-9047.dll
-[2016.01.22-12.33.25:215][803]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-9047.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-9047.exp
-[2016.01.22-12.33.25:215][803]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.33.25:215][803]CompilerResultsLog: Info Total build time: 114,62 seconds
-[2016.01.22-12.33.25:215][803]LogMainFrame: MainFrame: Module compiling took 115.950 seconds
-[2016.01.22-12.33.25:215][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.33.25:216][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.33.25:216][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2016.01.22-12.33.25:733][803]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0117 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.33.25:753][803]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.33.28:368][803]LogContentBrowser: Native class hierarchy populated in 0.0498 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.33.31:022][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.33.31:022][877]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:33:31 PM)
-[2016.01.22-12.33.31:022][877]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.33.31:073][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051030s)
-[2016.01.22-12.33.31:077][877]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.33.31:078][877]LogPlayLevel: PIE: World Init took: (0.004334s)
-[2016.01.22-12.33.31:078][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.056146s)
-[2016.01.22-12.33.31:495][877]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.33.31:504][877]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.33.31:504][877]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.33.31:580][877]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.33.31:733][877]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.33.31
-[2016.01.22-12.33.31:733][877]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.33.31:734][877]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.33.31:739][877]LogWorld: Bringing up level for play took: 0.155006
-[2016.01.22-12.33.31:753][877]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.165
-[2016.01.22-12.33.31:921][878]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054247 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_39'
-[2016.01.22-12.33.39:360][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF885E5800
-[2016.01.22-12.33.42:441][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.33.42:441][150]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:33:42 PM)
-[2016.01.22-12.33.42:442][150]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.33.42:494][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050921s)
-[2016.01.22-12.33.42:496][150]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.33.42:496][150]LogPlayLevel: PIE: World Init took: (0.002477s)
-[2016.01.22-12.33.42:497][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.054201s)
-[2016.01.22-12.33.42:753][150]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.33.42:760][150]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.33.42:760][150]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.33.42:827][150]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.33.42:970][150]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.33.42
-[2016.01.22-12.33.42:971][150]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.33.42:972][150]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.33.42:977][150]LogWorld: Bringing up level for play took: 0.147959
-[2016.01.22-12.33.42:991][150]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.403
-[2016.01.22-12.33.43:132][151]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074115 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_40'
-[2016.01.22-12.33.46:030][185]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFFC574F40
-[2016.01.22-12.35.29:726][543]Recompiling TheBeginning...
-[2016.01.22-12.35.29:728][543]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 7301 Win64 Development -editorrecompile -canskiplink "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
-[2016.01.22-12.35.29:740][543]Warning: Starting HotReload took  0.0s.
-[2016.01.22-12.39.16:429][491]CompilerResultsLog: New page: Compilation - Jan 22, 2016, 2:39:16 PM
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info Parsing headers for TheBeginningEditor
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Martin/Desktop/Uni/GE_Project/TheBeginning.uproject" "C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info Reflection code generated for TheBeginningEditor in 99,5003569 seconds
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info NPC.cpp
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info TheBeginning.generated.cpp
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info [3/3] Link UE4Editor-TheBeginning-7301.dll
-[2016.01.22-12.39.16:430][491]CompilerResultsLog: Info    Creating library C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-7301.lib and object C:\Users\Martin\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-7301.exp
-[2016.01.22-12.39.16:431][491]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.22-12.39.16:431][491]CompilerResultsLog: Info Total build time: 225,75 seconds
-[2016.01.22-12.39.16:431][491]LogMainFrame: MainFrame: Module compiling took 226.711 seconds
-[2016.01.22-12.39.16:432][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.39.16:432][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.01.22-12.39.16:432][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
-[2016.01.22-12.39.16:843][491]LogClass: Could not find existing class NPC in package /Script/TheBeginning for HotReload, assuming new class
-[2016.01.22-12.39.16:843][491]LogClass: Function Prox is new.
-[2016.01.22-12.39.16:893][491]LogHotReload: Re-instancing NPC after hot-reload.
-[2016.01.22-12.39.17:996][491]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0098 seconds. Added 8 classes and 2 folders.
-[2016.01.22-12.39.18:010][491]Warning: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2016.01.22-12.39.20:679][491]LogContentBrowser: Native class hierarchy populated in 0.0411 seconds. Added 1902 classes and 341 folders.
-[2016.01.22-12.39.25:679][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.39.25:679][672]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:39:25 PM)
-[2016.01.22-12.39.25:680][672]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.39.25:721][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041304s)
-[2016.01.22-12.39.25:723][672]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.39.25:724][672]LogPlayLevel: PIE: World Init took: (0.002327s)
-[2016.01.22-12.39.25:724][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.044405s)
-[2016.01.22-12.39.25:724][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.22-12.39.26:136][672]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.39.26:143][672]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.39.26:143][672]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.39.26:212][672]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.39.26:368][672]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.39.26
-[2016.01.22-12.39.26:368][672]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.39.26:369][672]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.39.26:376][672]LogWorld: Bringing up level for play took: 0.161402
-[2016.01.22-12.39.26:390][672]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.802
-[2016.01.22-12.39.26:463][673]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.080513 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_46'
-[2016.01.22-12.39.36:108][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF86FDB420
-[2016.01.22-12.39.46:231][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.39.46:231][189]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:39:46 PM)
-[2016.01.22-12.39.46:231][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.39.46:282][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050263s)
-[2016.01.22-12.39.46:284][189]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.39.46:285][189]LogPlayLevel: PIE: World Init took: (0.003380s)
-[2016.01.22-12.39.46:286][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.054413s)
-[2016.01.22-12.39.46:545][189]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.39.46:551][189]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.39.46:551][189]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.39.46:623][189]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.39.46:781][189]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.39.46
-[2016.01.22-12.39.46:781][189]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.39.46:782][189]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.39.46:788][189]LogWorld: Bringing up level for play took: 0.162431
-[2016.01.22-12.39.46:805][189]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.218
-[2016.01.22-12.40.12:994][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFF2268AE0
-[2016.01.22-12.40.26:738][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.01.22-12.40.26:738][639]PIE: New page: PIE session: MyFirstLevel (Jan 22, 2016, 2:40:26 PM)
-[2016.01.22-12.40.26:739][639]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
-[2016.01.22-12.40.26:790][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051115s)
-[2016.01.22-12.40.26:793][639]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.22-12.40.26:794][639]LogPlayLevel: PIE: World Init took: (0.003972s)
-[2016.01.22-12.40.26:795][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.055845s)
-[2016.01.22-12.40.27:055][639]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.22-12.40.27:063][639]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
-[2016.01.22-12.40.27:063][639]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.22-12.40.27:142][639]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
-[2016.01.22-12.40.27:295][639]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.22-13.40.27
-[2016.01.22-12.40.27:295][639]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.40.27:297][639]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.22-12.40.27:303][639]LogWorld: Bringing up level for play took: 0.158233
-[2016.01.22-12.40.27:321][639]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.267
-[2016.01.22-12.40.37:281][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC79AC720
-[2016.01.22-12.40.45:722][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.01.22-12.40.46:810][365]LogSavePackage: Save=762.353943ms
-[2016.01.22-12.40.46:810][365]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/MyFirstLevel4244B64E43F67B9D419033BDA1548A30.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
-[2016.01.22-12.40.46:827][365]LogSavePackage: Total save time: 889.900684ms
-[2016.01.22-12.40.46:827][365]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
-[2016.01.22-12.40.47:011][365]LogFileHelpers: Saving map 'MyFirstLevel' took 1.836
-[2016.01.22-12.40.54:954][734]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.22-12.40.54:955][734]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.22-12.40.55:935][735]Cmd: QUIT_EDITOR
-[2016.01.22-12.40.58:361][735]LogExit: Preparing to exit.
-[2016.01.22-12.40.59:148][735]LogExit: Editor shut down
-[2016.01.22-12.40.59:150][735]LogExit: Transaction tracking system shut down
-[2016.01.22-12.40.59:163][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFE01B1080
-[2016.01.22-12.40.59:165][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFDFDC11C0
-[2016.01.22-12.40.59:185][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFEC1AC860
-[2016.01.22-12.40.59:186][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFECDDBB00
-[2016.01.22-12.40.59:189][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFECDD87C0
-[2016.01.22-12.40.59:193][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFF486EC00
-[2016.01.22-12.40.59:207][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC564EF20
-[2016.01.22-12.40.59:379][735]LeapPluginLog: LeapController::CleanupEventData Delete Called
-[2016.01.22-12.41.00:923][735]LogExit: Object subsystem successfully closed.
-[2016.01.22-12.41.01:144][735]LogD3D11RHI: Shutdown
-[2016.01.22-12.41.01:144][735]LogD3D11RHI: CleanupD3DDevice
-[2016.01.22-12.41.01:920][735]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.01.22-12.41.02:308][735]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
-[2016.01.22-12.41.02:308][735]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
-[2016.01.22-12.41.02:309][735]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
-[2016.01.22-12.41.02:309][735]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
-[2016.01.22-12.41.02:310][735]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
-[2016.01.22-12.41.02:311][735]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
-[2016.01.22-12.41.02:335][735]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
-[2016.01.22-12.41.02:335][735]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
-[2016.01.22-12.41.02:338][735]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
-[2016.01.22-12.41.02:341][735]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
-[2016.01.22-12.41.02:342][735]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
-[2016.01.22-12.41.02:350][735]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
-[2016.01.22-12.41.02:350][735]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
-[2016.01.22-12.41.02:350][735]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
-[2016.01.22-12.41.02:351][735]LogModuleManager: Shutting down and abandoning module BspMode (186)
-[2016.01.22-12.41.02:351][735]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
-[2016.01.22-12.41.02:351][735]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
-[2016.01.22-12.41.02:353][735]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
-[2016.01.22-12.41.02:353][735]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
-[2016.01.22-12.41.02:354][735]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
-[2016.01.22-12.41.02:354][735]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
-[2016.01.22-12.41.02:361][735]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
-[2016.01.22-12.41.02:362][735]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
-[2016.01.22-12.41.02:366][735]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
-[2016.01.22-12.41.02:367][735]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
-[2016.01.22-12.41.02:367][735]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
-[2016.01.22-12.41.02:367][735]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
-[2016.01.22-12.41.02:694][735]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
-[2016.01.22-12.41.02:694][735]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
-[2016.01.22-12.41.02:694][735]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
-[2016.01.22-12.41.02:694][735]LogModuleManager: Shutting down and abandoning module MergeActors (170)
-[2016.01.22-12.41.02:695][735]LogModuleManager: Shutting down and abandoning module SizeMap (169)
-[2016.01.22-12.41.02:696][735]LogModuleManager: Shutting down and abandoning module TreeMap (168)
-[2016.01.22-12.41.02:697][735]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
-[2016.01.22-12.41.02:697][735]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
-[2016.01.22-12.41.02:698][735]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
-[2016.01.22-12.41.02:700][735]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
-[2016.01.22-12.41.02:700][735]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
-[2016.01.22-12.41.02:701][735]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
-[2016.01.22-12.41.02:702][735]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
-[2016.01.22-12.41.02:703][735]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
-[2016.01.22-12.41.02:703][735]LogModuleManager: Shutting down and abandoning module XmlParser (159)
-[2016.01.22-12.41.02:703][735]LogModuleManager: Shutting down and abandoning module Blutility (158)
-[2016.01.22-12.41.02:703][735]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
-[2016.01.22-12.41.02:705][735]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
-[2016.01.22-12.41.02:705][735]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
-[2016.01.22-12.41.02:709][735]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
-[2016.01.22-12.41.02:709][735]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
-[2016.01.22-12.41.02:711][735]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
-[2016.01.22-12.41.02:712][735]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
-[2016.01.22-12.41.02:713][735]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
-[2016.01.22-12.41.02:713][735]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
-[2016.01.22-12.41.02:714][735]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
-[2016.01.22-12.41.02:717][735]LogModuleManager: Shutting down and abandoning module AutomationController (147)
-[2016.01.22-12.41.02:719][735]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
-[2016.01.22-12.41.02:720][735]LogModuleManager: Shutting down and abandoning module Layers (145)
-[2016.01.22-12.41.02:724][735]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
-[2016.01.22-12.41.02:724][735]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
-[2016.01.22-12.41.02:725][735]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
-[2016.01.22-12.41.02:725][735]LogModuleManager: Shutting down and abandoning module Persona (141)
-[2016.01.22-12.41.02:728][735]LogModuleManager: Shutting down and abandoning module Kismet (140)
-[2016.01.22-12.41.02:731][735]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
-[2016.01.22-12.41.02:731][735]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
-[2016.01.22-12.41.02:732][735]LogModuleManager: Shutting down and abandoning module Toolbox (137)
-[2016.01.22-12.41.02:732][735]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
-[2016.01.22-12.41.02:733][735]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
-[2016.01.22-12.41.02:736][735]LogModuleManager: Shutting down and abandoning module OutputLog (134)
-[2016.01.22-12.41.02:736][735]LogModuleManager: Shutting down and abandoning module GammaUI (133)
-[2016.01.22-12.41.02:737][735]LogModuleManager: Shutting down and abandoning module Documentation (132)
-[2016.01.22-12.41.02:737][735]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
-[2016.01.22-12.41.02:738][735]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
-[2016.01.22-12.41.02:739][735]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
-[2016.01.22-12.41.02:739][735]LogModuleManager: Shutting down and abandoning module Analytics (128)
-[2016.01.22-12.41.02:739][735]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
-[2016.01.22-12.41.02:740][735]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
-[2016.01.22-12.41.02:740][735]LogModuleManager: Shutting down and abandoning module AIModule (125)
-[2016.01.22-12.41.02:740][735]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
-[2016.01.22-12.41.02:790][735]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
-[2016.01.22-12.41.02:792][735]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
-[2016.01.22-12.41.02:830][735]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.01.22-12.41.02:831][735]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.01.22-12.41.02:831][735]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.01.22-12.41.02:831][735]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.01.22-12.41.02:831][735]LogModuleManager: Shutting down and abandoning module OculusRift (117)
-[2016.01.22-12.41.02:832][735]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
-[2016.01.22-12.41.02:832][735]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.01.22-12.41.02:872][735]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.01.22-12.41.02:872][735]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.01.22-12.41.02:872][735]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.01.22-12.41.02:872][735]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.01.22-12.41.02:875][735]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.01.22-12.41.02:877][735]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.01.22-12.41.02:877][735]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.01.22-12.41.02:877][735]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.01.22-12.41.02:879][735]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.01.22-12.41.02:881][735]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.01.22-12.41.02:882][735]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.01.22-12.41.02:883][735]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.01.22-12.41.02:883][735]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.01.22-12.41.02:885][735]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.01.22-12.41.02:888][735]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.01.22-12.41.02:890][735]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.01.22-12.41.02:892][735]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.01.22-12.41.02:892][735]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.01.22-12.41.02:893][735]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.01.22-12.41.02:893][735]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.01.22-12.41.02:894][735]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.01.22-12.41.02:895][735]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.01.22-12.41.02:896][735]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.01.22-12.41.02:896][735]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.01.22-12.41.02:904][735]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.01.22-12.41.02:914][735]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
-[2016.01.22-12.41.03:174][735]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
-[2016.01.22-12.41.03:176][735]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
-[2016.01.22-12.41.03:178][735]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
-[2016.01.22-12.41.03:178][735]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2016.01.22-12.41.03:279][735]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.01.22-12.41.03:279][735]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.01.22-12.41.03:280][735]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.01.22-12.41.03:292][735]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.01.22-12.41.03:293][735]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.01.22-12.41.03:295][735]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.01.22-12.41.03:295][735]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.01.22-12.41.03:295][735]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.01.22-12.41.03:298][735]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.01.22-12.41.03:299][735]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.01.22-12.41.03:300][735]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.01.22-12.41.03:302][735]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.01.22-12.41.03:305][735]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.01.22-12.41.03:305][735]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.01.22-12.41.03:307][735]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.01.22-12.41.03:310][735]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.01.22-12.41.03:312][735]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.01.22-12.41.03:313][735]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.01.22-12.41.03:313][735]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.01.22-12.41.03:332][735]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.01.22-12.41.03:333][735]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.01.22-12.41.03:334][735]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.01.22-12.41.03:343][735]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.01.22-12.41.03:364][735]LogDerivedDataCache: Shutdown
-[2016.01.22-12.41.03:364][735]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.01.22-12.41.03:365][735]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.01.22-12.41.03:366][735]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.01.22-12.41.03:367][735]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.01.22-12.41.03:367][735]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.01.22-12.41.03:368][735]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.01.22-12.41.03:368][735]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.01.22-12.41.03:368][735]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.01.22-12.41.03:368][735]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.01.22-12.41.03:368][735]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.01.22-12.41.03:369][735]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.01.22-12.41.03:369][735]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.01.22-12.41.03:370][735]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.01.22-12.41.03:371][735]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.01.22-12.41.03:372][735]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.01.22-12.41.03:373][735]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.01.22-12.41.03:373][735]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.01.22-12.41.03:373][735]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.01.22-12.41.03:374][735]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.01.22-12.41.03:375][735]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.01.22-12.41.03:375][735]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.01.22-12.41.03:376][735]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.01.22-12.41.03:376][735]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.01.22-12.41.03:377][735]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.01.22-12.41.03:377][735]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.01.22-12.41.03:378][735]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.01.22-12.41.03:378][735]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.01.22-12.41.03:380][735]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.01.22-12.41.03:380][735]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.01.22-12.41.03:381][735]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.01.22-12.41.03:382][735]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.01.22-12.41.03:382][735]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.01.22-12.41.03:383][735]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.01.22-12.41.03:383][735]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.01.22-12.41.03:384][735]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.01.22-12.41.03:384][735]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.01.22-12.41.04:389][735]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.01.22-12.41.04:391][735]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.01.22-12.41.04:392][735]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.01.22-12.41.04:394][735]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.01.22-12.41.04:394][735]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.01.22-12.41.04:394][735]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.01.22-12.41.04:420][735]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.01.22-12.41.04:421][735]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.01.22-12.41.04:422][735]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.01.22-12.41.04:423][735]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.01.22-12.41.04:423][735]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.01.22-12.41.04:429][735]LogExit: Exiting.
-[2016.01.22-12.41.04:461][735]Log file closed, 01/22/16 13:41:04
+﻿[2016.01.23-12.09.08:023][  0]Log file open, 01/23/16 13:09:08
+[2016.01.23-12.09.08:023][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.01.23-12.09.08:023][  0]LogInit:Display: RandInit(-1290436811) SRandInit(-1290436811).
+[2016.01.23-12.09.08:023][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.23-12.09.08:023][  0]LogStats: Stats thread started at 0.078097
+[2016.01.23-12.09.08:023][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.23-12.09.08:023][  0]LogInit: API Version: 2672455
+[2016.01.23-12.09.08:023][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.23-12.09.08:023][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.23-12.09.08:023][  0]LogInit: Build Configuration: Development
+[2016.01.23-12.09.08:023][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.23-12.09.08:023][  0]LogInit: Command line:  
+[2016.01.23-12.09.08:023][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.23-12.09.08:023][  0]LogInit: Rocket: 1
+[2016.01.23-12.09.08:041][  0]LogInit: Using libcurl 7.41.0
+[2016.01.23-12.09.08:041][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.23-12.09.08:041][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.23-12.09.08:041][  0]LogInit:  - other features:
+[2016.01.23-12.09.08:041][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.23-12.09.08:041][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.23-12.09.08:041][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.23-12.09.08:041][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.23-12.09.08:041][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.23-12.09.08:041][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.23-12.09.08:041][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.23-12.09.08:041][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.23-12.09.08:041][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.23-12.09.08:041][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.23-12.09.08:050][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.23-12.09.08:057][  0]LogInit: Object subsystem initialized
+[2016.01.23-12.09.08:059][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-12.09.08:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.23-12.09.08:071][  0]LogInit: Computer: CPT
+[2016.01.23-12.09.08:071][  0]LogInit: User: Martin
+[2016.01.23-12.09.08:071][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.23-12.09.08:071][  0]LogInit: High frequency timer resolution =2.240904 MHz
+[2016.01.23-12.09.08:071][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.01.23-12.09.08:071][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.23-12.09.08:071][  0]LogMemory: Process Physical Memory: 52.38 MB used, 52.38 MB peak
+[2016.01.23-12.09.08:071][  0]LogMemory: Process Virtual Memory: 56.96 MB used, 56.96 MB peak
+[2016.01.23-12.09.08:071][  0]LogMemory: Physical Memory: 1712.46 MB used, 4002.88 MB total
+[2016.01.23-12.09.08:071][  0]LogMemory: Virtual Memory: 347.57 MB used, 134217728.00 MB total
+[2016.01.23-12.09.08:134][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.23-12.09.09:142][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.01.23-12.09.09:142][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2016.01.23-12.09.09:144][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.23-12.09.09:144][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.23-12.09.09:144][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.23-12.09.09:151][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.23-12.09.09:151][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2016.01.23-12.09.09:160][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.23-12.09.09:205][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Martin/Desktop/Uni/GE_Project/Intermediate/Shaders/WorkingDirectory/5220/).
+[2016.01.23-12.09.09:205][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Intermediate/Shaders/tmp/031C37464D326170CE5869B2D3A5305B/'.
+[2016.01.23-12.09.09:207][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.23-12.09.11:111][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.23-12.09.11:120][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.23-12.09.11:129][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.23-12.09.11:139][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.23-12.09.11:149][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.23-12.09.11:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.23-12.09.11:165][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.23-12.09.11:173][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.23-12.09.11:180][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.23-12.09.11:188][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.23-12.09.11:195][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.23-12.09.11:203][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.23-12.09.11:206][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.23-12.09.11:239][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.23-12.09.11:247][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.23-12.09.11:253][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.23-12.09.11:260][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.23-12.09.11:260][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.23-12.09.11:478][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.23-12.09.11:659][  0]LogDerivedDataCache: Loaded boot cache 0.18s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.23-12.09.11:659][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.23-12.09.11:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Martin/Desktop/Uni/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.23-12.09.11:660][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.23-12.09.11:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Martin/Desktop/Uni/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.23-12.09.11:660][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.23-12.09.11:836][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.23-12.09.11:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.23-12.09.12:992][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-12.09.13:011][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.23-12.09.13:320][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.23-12.09.13:320][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.23-12.09.13:979][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.23-12.09.17:187][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.23-12.09.17:434][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2016.01.23-12.09.17:881][  0]SourceControl: Info Source control is disabled
+[2016.01.23-12.09.17:906][  0]SourceControl: Info Source control is disabled
+[2016.01.23-12.09.17:939][  0]SourceControl: Info Source control is disabled
+[2016.01.23-12.09.17:975][  0]SourceControl: Info Source control is disabled
+[2016.01.23-12.09.18:398][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.23-12.09.18:642][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.01.23-12.09.18:648][  0]LogObj: 29066 objects as part of root set at end of initial load.
+[2016.01.23-12.09.18:648][  0]LogUObjectAllocator: 6193320 out of 0 bytes used by permanent object pool.
+[2016.01.23-12.09.18:791][  0]LogEngine: Initializing Engine...
+[2016.01.23-12.09.18:808][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.23-12.09.18:812][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.23-12.09.19:058][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.23-12.09.19:085][  0]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.09.19:318][  0]LogInit: FAudioDevice initialized.
+[2016.01.23-12.09.19:351][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Martin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.23-12.09.19:354][  0]LogInit: Texture streaming: Enabled
+[2016.01.23-12.09.19:366][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.23-12.09.19:366][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.23-12.09.19:367][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 367b6b074558a321ab68ca91f2a3f4db|81f01d6b67df48cfa9231b1643757103|3d0c64b6-e6bd-4413-84d0-216f80d00fa1
+[2016.01.23-12.09.19:367][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.23-12.09.19:384][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.23-12.09.19:384][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.23-12.09.19:430][  0]LogInit: Transaction tracking system initialized
+[2016.01.23-12.09.19:641][  0]BlueprintLog: New page: Editor Load
+[2016.01.23-12.09.19:995][  0]LocalizationService: Info Localization service is disabled
+[2016.01.23-12.09.20:402][  0]LogConsoleResponse:Display: 
+[2016.01.23-12.09.20:769][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.23-12.09.20:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/' took 0.02s
+[2016.01.23-12.09.20:967][  0]SourceControl: Info Source control is disabled
+[2016.01.23-12.09.20:970][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.23-12.09.20:972][  0]LightingResults: New page: Lighting Build
+[2016.01.23-12.09.20:984][  0]MapCheck: New page: Map Check
+[2016.01.23-12.09.20:984][  0]LightingResults: New page: Lighting Build
+[2016.01.23-12.09.21:031][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DD353B420
+[2016.01.23-12.09.21:684][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.23-12.09.21:726][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.23-12.09.21:732][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.23-12.09.21:849][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.174ms to complete.
+[2016.01.23-12.09.21:849][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.882
+[2016.01.23-12.09.22:053][  0]LogCollectionManager: Loaded 0 collections in 0.004735 seconds
+[2016.01.23-12.09.22:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Saved/Collections/' took 0.01s
+[2016.01.23-12.09.22:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/Developers/Martin/Collections/' took 0.01s
+[2016.01.23-12.09.22:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martin/Desktop/Uni/GE_Project/Content/Collections/' took 0.01s
+[2016.01.23-12.09.22:111][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 1901 classes and 339 folders.
+[2016.01.23-12.09.22:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.23-12.09.22:149][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2016.01.23-12.09.22:332][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2016.01.23-12.09.22:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2016.01.23-12.09.22:434][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.23-12.09.22:447][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.23-12.09.22:474][  0]LogLoad: Full Startup: 15.84 seconds (BP compile: 0.13 seconds)
+[2016.01.23-12.09.22:589][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.23-12.09.22:763][  0]LogRenderer: Reallocating scene render targets to support 1212x568 (Frame:2).
+[2016.01.23-12.09.24:875][  5]LogAssetRegistry: Asset discovery search completed in 7.4532 seconds
+[2016.01.23-12.09.24:875][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.23-12.09.24:875][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.01.23-12.09.34:054][375]Cmd: MAP LOAD FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.23-12.09.34:117][375]LightingResults: New page: Lighting Build
+[2016.01.23-12.09.34:295][375]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.01.23-12.09.34:311][375]MapCheck: New page: Map Check
+[2016.01.23-12.09.34:311][375]LightingResults: New page: Lighting Build
+[2016.01.23-12.09.34:428][375]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DC3B67740
+[2016.01.23-12.09.35:162][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.23-12.09.35:164][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.23-12.09.35:166][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.23-12.09.35:168][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.23-12.09.35:199][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0028.56] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 110 ms]
+[2016.01.23-12.09.35:199][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0028.57] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.23-12.09.35:199][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0028.57] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.23-12.09.35:803][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.23-12.09.35:805][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.23-12.09.35:806][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.23-12.09.35:807][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.23-12.09.35:826][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0029.19] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 78 ms]
+[2016.01.23-12.09.35:827][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0029.19] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.23-12.09.35:830][375]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0029.20] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 2 ms]
+[2016.01.23-12.09.37:113][375]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.09.37:537][375]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.23-12.09.37:769][375]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.23-12.09.38:231][375]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 462.27ms to complete.
+[2016.01.23-12.09.38:231][375]LogFileHelpers: Loading map 'MyFirstLevel' took 4.185
+[2016.01.23-12.09.38:502][376]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.23-12.09.53:280][556]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen)
+[2016.01.23-12.10.32:708][ 71]LogActorFactory: Actor Factory created SM_Rock
+[2016.01.23-12.10.36:016][186]LogActorFactory: Actor Factory created SM_Rock
+[2016.01.23-12.10.40:536][406]Cmd: EDIT COPY
+[2016.01.23-12.10.43:591][547]Cmd: EDIT PASTE
+[2016.01.23-12.11.06:626][450]Cmd: EDIT COPY
+[2016.01.23-12.11.07:176][475]Cmd: EDIT PASTE
+[2016.01.23-12.11.20:231][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2016.01.23-12.11.22:707][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock6)
+[2016.01.23-12.11.25:788][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.11.25:793][178]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:11:25 PM)
+[2016.01.23-12.11.25:794][178]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.11.25:844][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049547s)
+[2016.01.23-12.11.25:847][178]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.11.25:848][178]LogPlayLevel: PIE: World Init took: (0.003755s)
+[2016.01.23-12.11.25:848][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.054049s)
+[2016.01.23-12.11.25:849][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.23-12.11.25:980][178]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.11.25:992][178]LogInit: FAudioDevice initialized.
+[2016.01.23-12.11.26:413][178]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.11.26:563][178]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.11.26
+[2016.01.23-12.11.26:563][178]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.11.26:564][178]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.11.26:588][178]LogWorld: Bringing up level for play took: 0.160347
+[2016.01.23-12.11.26:622][178]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.388
+[2016.01.23-12.11.37:710][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DE8B6E340
+[2016.01.23-12.11.44:728][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock8)
+[2016.01.23-12.11.58:525][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock6)
+[2016.01.23-12.12.01:902][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2016.01.23-12.12.15:470][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.12.15:470][999]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:12:15 PM)
+[2016.01.23-12.12.15:471][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.12.15:518][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046999s)
+[2016.01.23-12.12.15:520][999]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.12.15:520][999]LogPlayLevel: PIE: World Init took: (0.002703s)
+[2016.01.23-12.12.15:521][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.050413s)
+[2016.01.23-12.12.15:641][999]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.12.15:651][999]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.01.23-12.12.15:651][999]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.23-12.12.15:715][999]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.12.15:850][999]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.12.15
+[2016.01.23-12.12.15:851][999]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.12.15:852][999]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.12.15:856][999]LogWorld: Bringing up level for play took: 0.139470
+[2016.01.23-12.12.15:871][999]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.638
+[2016.01.23-12.12.16:015][  0]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062175 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_1'
+[2016.01.23-12.12.26:868][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DC7E319E0
+[2016.01.23-12.12.30:718][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock8)
+[2016.01.23-12.12.31:747][641]Cmd: EDIT COPY
+[2016.01.23-12.12.32:447][678]Cmd: EDIT PASTE
+[2016.01.23-12.13.02:230][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.13.02:230][733]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:13:02 PM)
+[2016.01.23-12.13.02:230][733]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.13.02:279][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048766s)
+[2016.01.23-12.13.02:281][733]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.13.02:282][733]LogPlayLevel: PIE: World Init took: (0.002780s)
+[2016.01.23-12.13.02:283][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.052289s)
+[2016.01.23-12.13.02:385][733]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.13.02:391][733]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.01.23-12.13.02:391][733]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.23-12.13.02:456][733]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.13.02:605][733]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.13.02
+[2016.01.23-12.13.02:605][733]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.13.02:607][733]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.13.02:611][733]LogWorld: Bringing up level for play took: 0.151856
+[2016.01.23-12.13.02:623][733]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.39
+[2016.01.23-12.13.12:754][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DC7E7CA40
+[2016.01.23-12.13.19:364][389]Cmd: EDIT COPY
+[2016.01.23-12.13.19:910][419]Cmd: EDIT PASTE
+[2016.01.23-12.13.32:395][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock8)
+[2016.01.23-12.13.33:506][920]Cmd: EDIT COPY
+[2016.01.23-12.13.34:191][951]Cmd: EDIT PASTE
+[2016.01.23-12.13.44:546][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.13.44:546][302]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:13:44 PM)
+[2016.01.23-12.13.44:546][302]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.13.44:588][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041798s)
+[2016.01.23-12.13.44:590][302]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.13.44:591][302]LogPlayLevel: PIE: World Init took: (0.002755s)
+[2016.01.23-12.13.44:591][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.045235s)
+[2016.01.23-12.13.44:704][302]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.13.44:711][302]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.01.23-12.13.44:711][302]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.23-12.13.44:780][302]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.13.44:917][302]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.13.44
+[2016.01.23-12.13.44:918][302]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.13.44:919][302]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.13.44:925][302]LogWorld: Bringing up level for play took: 0.142611
+[2016.01.23-12.13.44:941][302]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.293
+[2016.01.23-12.14.04:035][ 62]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:059][ 63]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:082][ 64]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:108][ 65]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:131][ 66]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:155][ 67]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:182][ 68]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.04:206][ 69]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.01.23-12.14.17:446][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DE8B6F560
+[2016.01.23-12.14.39:874][379]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.43:179][467]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.46:435][570]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.49:797][690]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.51:047][719]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.52:347][757]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.53:245][775]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.54:947][825]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.57:786][906]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.14.59:823][971]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.01:125][  1]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.03:094][ 70]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.03:953][ 86]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.05:696][145]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.06:526][161]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.08:316][217]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.09:321][240]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.10:709][279]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.14:239][403]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.16:060][460]LogActorFactory: Actor Factory created SM_Bush
+[2016.01.23-12.15.19:310][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.15.19:310][566]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:15:19 PM)
+[2016.01.23-12.15.19:310][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.15.19:356][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046026s)
+[2016.01.23-12.15.19:359][566]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.15.19:360][566]LogPlayLevel: PIE: World Init took: (0.003074s)
+[2016.01.23-12.15.19:360][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.049873s)
+[2016.01.23-12.15.19:360][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.23-12.15.19:477][566]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.15.19:484][566]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.01.23-12.15.19:484][566]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.23-12.15.19:564][566]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.15.19:736][566]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.15.19
+[2016.01.23-12.15.19:737][566]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.15.19:738][566]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.15.19:743][566]LogWorld: Bringing up level for play took: 0.175572
+[2016.01.23-12.15.19:757][566]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.523
+[2016.01.23-12.15.50:234][693]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:267][694]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:293][695]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:319][696]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:348][697]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:370][698]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:394][699]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:423][700]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:446][701]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:476][702]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:501][703]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:531][704]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:556][705]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:581][706]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:606][707]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:631][708]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:654][709]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:679][710]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:706][711]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.50:730][712]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.52:391][776]LogCharacterMovement: BP_Avatar_C_4 is stuck and failed to move!
+[2016.01.23-12.15.57:214][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DC7E7EDE0
+[2016.01.23-12.15.58:781][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2016.01.23-12.16.08:575][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock6)
+[2016.01.23-12.16.16:212][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-12.16.16:213][685]PIE: New page: PIE session: MyFirstLevel (Jan 23, 2016, 2:16:16 PM)
+[2016.01.23-12.16.16:213][685]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.23-12.16.16:257][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044374s)
+[2016.01.23-12.16.16:259][685]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.23-12.16.16:260][685]LogPlayLevel: PIE: World Init took: (0.002399s)
+[2016.01.23-12.16.16:260][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.047504s)
+[2016.01.23-12.16.16:373][685]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-12.16.16:379][685]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.01.23-12.16.16:379][685]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.23-12.16.16:449][685]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.23-12.16.16:598][685]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.01.23-13.16.16
+[2016.01.23-12.16.16:598][685]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.16.16:599][685]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-12.16.16:604][685]LogWorld: Bringing up level for play took: 0.153028
+[2016.01.23-12.16.16:617][685]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.383
+[2016.01.23-12.16.16:740][686]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_5'
+[2016.01.23-12.16.38:156][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DE8AD6840
+[2016.01.23-12.16.43:818][696]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen)
+[2016.01.23-12.17.24:562][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2016.01.23-12.17.25:839][372]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.01.23-12.17.55:579][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.23-12.17.56:405][769]LogSavePackage: Save=658.005432ms
+[2016.01.23-12.17.56:405][769]LogSavePackage: Moving '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/MyFirstLevel374FC02344A353CCA941CF9574D6A998.tmp' to '../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.01.23-12.17.56:425][769]LogSavePackage: Total save time: 771.975953ms
+[2016.01.23-12.17.56:425][769]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Martin/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.01.23-12.17.56:616][769]LogFileHelpers: Saving map 'MyFirstLevel' took 1.492
+[2016.01.23-12.18.00:281][915]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.23-12.18.00:282][915]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.23-12.18.01:087][916]Cmd: QUIT_EDITOR
+[2016.01.23-12.18.02:417][916]LogExit: Preparing to exit.
+[2016.01.23-12.18.02:764][916]LogExit: Editor shut down
+[2016.01.23-12.18.02:765][916]LogExit: Transaction tracking system shut down
+[2016.01.23-12.18.02:768][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DDAFA4400
+[2016.01.23-12.18.02:769][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DDAD9C400
+[2016.01.23-12.18.02:783][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DE6D64A40
+[2016.01.23-12.18.02:784][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DE7558F40
+[2016.01.23-12.18.02:887][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DDEF76160
+[2016.01.23-12.18.02:887][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DD9ACF1A0
+[2016.01.23-12.18.02:887][916]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.23-12.18.03:349][916]LogExit: Object subsystem successfully closed.
+[2016.01.23-12.18.03:397][916]LogD3D11RHI: Shutdown
+[2016.01.23-12.18.03:397][916]LogD3D11RHI: CleanupD3DDevice
+[2016.01.23-12.18.03:599][916]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.23-12.18.03:764][916]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.01.23-12.18.03:764][916]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.01.23-12.18.03:764][916]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.01.23-12.18.03:764][916]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.01.23-12.18.03:764][916]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.01.23-12.18.03:776][916]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.01.23-12.18.03:776][916]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.01.23-12.18.03:777][916]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.01.23-12.18.03:779][916]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.01.23-12.18.03:779][916]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.01.23-12.18.03:780][916]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.01.23-12.18.03:781][916]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.01.23-12.18.03:781][916]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.01.23-12.18.03:781][916]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.01.23-12.18.03:781][916]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.01.23-12.18.03:784][916]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.01.23-12.18.03:785][916]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.01.23-12.18.03:787][916]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.01.23-12.18.03:787][916]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.01.23-12.18.03:788][916]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.01.23-12.18.03:788][916]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.01.23-12.18.04:475][916]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.01.23-12.18.04:475][916]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.01.23-12.18.04:475][916]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.01.23-12.18.04:475][916]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.01.23-12.18.04:477][916]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.01.23-12.18.04:477][916]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.01.23-12.18.04:477][916]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.01.23-12.18.04:477][916]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.01.23-12.18.04:478][916]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.01.23-12.18.04:479][916]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.01.23-12.18.04:479][916]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.01.23-12.18.04:479][916]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.01.23-12.18.04:480][916]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.01.23-12.18.04:480][916]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.01.23-12.18.04:480][916]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.01.23-12.18.04:481][916]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.01.23-12.18.04:481][916]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.01.23-12.18.04:481][916]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.01.23-12.18.04:481][916]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.01.23-12.18.04:482][916]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.01.23-12.18.04:482][916]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.01.23-12.18.04:485][916]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.01.23-12.18.04:486][916]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.01.23-12.18.04:486][916]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.01.23-12.18.04:487][916]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.01.23-12.18.04:488][916]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.01.23-12.18.04:488][916]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.01.23-12.18.04:490][916]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.01.23-12.18.04:491][916]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.01.23-12.18.04:494][916]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.01.23-12.18.04:494][916]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.01.23-12.18.04:494][916]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.01.23-12.18.04:495][916]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.01.23-12.18.04:497][916]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.01.23-12.18.04:498][916]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.01.23-12.18.04:500][916]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.01.23-12.18.04:502][916]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.01.23-12.18.04:502][916]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.01.23-12.18.04:502][916]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.01.23-12.18.04:502][916]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.01.23-12.18.04:503][916]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.01.23-12.18.04:504][916]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.01.23-12.18.04:505][916]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.01.23-12.18.04:505][916]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.01.23-12.18.04:505][916]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.01.23-12.18.04:690][916]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.01.23-12.18.04:692][916]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2016.01.23-12.18.04:741][916]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.23-12.18.04:742][916]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.23-12.18.04:774][916]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.23-12.18.04:775][916]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.23-12.18.04:775][916]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.23-12.18.04:775][916]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.23-12.18.04:777][916]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.23-12.18.04:778][916]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.23-12.18.04:778][916]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.23-12.18.04:778][916]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.23-12.18.04:779][916]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.23-12.18.04:779][916]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.23-12.18.04:780][916]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.23-12.18.04:780][916]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.23-12.18.04:780][916]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.23-12.18.04:781][916]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.23-12.18.04:783][916]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.23-12.18.04:783][916]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.23-12.18.04:784][916]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.23-12.18.04:784][916]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.23-12.18.04:784][916]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.23-12.18.04:785][916]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.23-12.18.04:785][916]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.23-12.18.04:786][916]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.23-12.18.04:787][916]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.23-12.18.04:787][916]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.23-12.18.04:790][916]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.23-12.18.04:803][916]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.23-12.18.05:075][916]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.23-12.18.05:078][916]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.23-12.18.05:080][916]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
+[2016.01.23-12.18.05:080][916]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.23-12.18.05:182][916]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.23-12.18.05:182][916]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.23-12.18.05:183][916]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.23-12.18.05:193][916]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.23-12.18.05:193][916]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.23-12.18.05:194][916]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.23-12.18.05:194][916]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.23-12.18.05:194][916]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.23-12.18.05:194][916]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.23-12.18.05:197][916]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.23-12.18.05:197][916]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.23-12.18.05:198][916]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.23-12.18.05:198][916]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.23-12.18.05:198][916]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.23-12.18.05:200][916]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.23-12.18.05:203][916]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.23-12.18.05:206][916]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.23-12.18.05:206][916]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.23-12.18.05:206][916]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.23-12.18.05:217][916]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.23-12.18.05:218][916]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.23-12.18.05:221][916]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.23-12.18.05:276][916]LogDerivedDataCache: Shutdown
+[2016.01.23-12.18.05:276][916]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.23-12.18.05:277][916]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.23-12.18.05:277][916]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.23-12.18.05:278][916]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.23-12.18.05:279][916]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.23-12.18.05:279][916]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.23-12.18.05:279][916]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.23-12.18.05:279][916]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.23-12.18.05:280][916]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.23-12.18.05:282][916]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.23-12.18.05:283][916]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.23-12.18.05:283][916]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.23-12.18.05:284][916]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.23-12.18.05:284][916]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.23-12.18.05:285][916]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.23-12.18.05:285][916]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.23-12.18.05:286][916]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.23-12.18.06:288][916]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.23-12.18.06:290][916]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.23-12.18.06:290][916]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.23-12.18.06:291][916]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.23-12.18.06:291][916]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.23-12.18.06:291][916]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.23-12.18.06:300][916]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.23-12.18.06:301][916]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.23-12.18.06:302][916]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.23-12.18.06:302][916]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.23-12.18.06:302][916]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.23-12.18.06:304][916]LogExit: Exiting.
+[2016.01.23-12.18.06:308][916]Log file closed, 01/23/16 13:18:06
