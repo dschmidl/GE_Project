@@ -1,420 +1,1368 @@
-﻿[2016.01.28-14.34.08:680][  0]Log file open, 01/28/16 15:34:08
-[2016.01.28-14.34.08:680][  0]LogInit:Display: Running engine for game: TheBeginning
-[2016.01.28-14.34.08:680][  0]LogInit:Display: RandInit(-893316494) SRandInit(-893316494).
-[2016.01.28-14.34.08:680][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.01.28-14.34.08:680][  0]LogStats: Stats thread started at 0.067531
-[2016.01.28-14.34.08:680][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.28-14.34.08:680][  0]LogInit: API Version: 2672455
-[2016.01.28-14.34.08:680][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.01.28-14.34.08:680][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.01.28-14.34.08:680][  0]LogInit: Build Configuration: Development
-[2016.01.28-14.34.08:680][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.01.28-14.34.08:680][  0]LogInit: Command line:  
-[2016.01.28-14.34.08:680][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.01.28-14.34.08:680][  0]LogInit: Rocket: 1
-[2016.01.28-14.34.08:685][  0]LogInit: Using libcurl 7.41.0
-[2016.01.28-14.34.08:685][  0]LogInit:  - built for x86_64-pc-win32
-[2016.01.28-14.34.08:685][  0]LogInit:  - supports SSL with WinSSL
-[2016.01.28-14.34.08:685][  0]LogInit:  - other features:
-[2016.01.28-14.34.08:685][  0]LogInit:      CURL_VERSION_SSL
-[2016.01.28-14.34.08:685][  0]LogInit:      CURL_VERSION_IPV6
-[2016.01.28-14.34.08:685][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.01.28-14.34.08:685][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.01.28-14.34.08:685][  0]LogInit:      CURL_VERSION_IDN
-[2016.01.28-14.34.08:685][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.01.28-14.34.08:685][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.01.28-14.34.08:685][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.01.28-14.34.08:685][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.01.28-14.34.08:685][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.01.28-14.34.08:689][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.01.28-14.34.08:694][  0]LogInit: Object subsystem initialized
-[2016.01.28-14.34.08:696][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.28-14.34.08:696][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.01.28-14.34.08:703][  0]LogInit: Computer: PC1021500895
-[2016.01.28-14.34.08:703][  0]LogInit: User: VR
-[2016.01.28-14.34.08:703][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.01.28-14.34.08:703][  0]LogInit: High frequency timer resolution =3.507500 MHz
-[2016.01.28-14.34.08:703][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.01.28-14.34.08:703][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.28-14.34.08:703][  0]LogMemory: Process Physical Memory: 52.60 MB used, 52.60 MB peak
-[2016.01.28-14.34.08:703][  0]LogMemory: Process Virtual Memory: 55.18 MB used, 55.18 MB peak
-[2016.01.28-14.34.08:703][  0]LogMemory: Physical Memory: 5106.50 MB used, 16261.17 MB total
-[2016.01.28-14.34.08:704][  0]LogMemory: Virtual Memory: 349.54 MB used, 134217728.00 MB total
-[2016.01.28-14.34.08:734][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2016.01.28-14.34.09:299][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2016.01.28-14.34.09:299][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
-[2016.01.28-14.34.09:300][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.01.28-14.34.09:300][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2016.01.28-14.34.09:300][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.01.28-14.34.09:303][  0]LogD3D11RHI: !Direct3DDevice
-[2016.01.28-14.34.09:303][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.01.28-14.34.09:313][  0]LogD3D11RHI: Async texture creation enabled
-[2016.01.28-14.34.09:328][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/5512/).
-[2016.01.28-14.34.09:328][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/5B27D8534ECA2D867D6AE5B25D8EC527/'.
-[2016.01.28-14.34.09:328][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.01.28-14.34.10:143][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.01.28-14.34.10:147][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.01.28-14.34.10:151][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.01.28-14.34.10:154][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.01.28-14.34.10:158][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.01.28-14.34.10:160][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.01.28-14.34.10:163][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.01.28-14.34.10:165][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.01.28-14.34.10:168][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.01.28-14.34.10:170][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.01.28-14.34.10:173][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.01.28-14.34.10:176][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.01.28-14.34.10:177][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.01.28-14.34.10:192][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.01.28-14.34.10:194][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.01.28-14.34.10:197][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.01.28-14.34.10:200][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.01.28-14.34.10:200][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.28-14.34.10:253][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.01.28-14.34.10:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.01.28-14.34.10:411][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.01.28-14.34.10:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.01.28-14.34.10:561][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.28-14.34.10:563][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.01.28-14.34.10:655][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.01.28-14.34.10:655][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.01.28-14.34.10:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.01.28-14.34.11:382][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.01.28-14.34.11:492][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2016.01.28-14.34.11:609][  0]SourceControl: Info Source control is disabled
-[2016.01.28-14.34.11:616][  0]SourceControl: Info Source control is disabled
-[2016.01.28-14.34.11:621][  0]SourceControl: Info Source control is disabled
-[2016.01.28-14.34.11:626][  0]SourceControl: Info Source control is disabled
-[2016.01.28-14.34.11:710][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.28-14.34.11:762][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
-[2016.01.28-14.34.11:767][  0]LogObj: 29039 objects as part of root set at end of initial load.
-[2016.01.28-14.34.11:767][  0]LogUObjectAllocator: 6182880 out of 0 bytes used by permanent object pool.
-[2016.01.28-14.34.11:816][  0]LogEngine: Initializing Engine...
-[2016.01.28-14.34.11:817][  0]OCULUS: Info: 01/28/16 14:34:11: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
-
-[2016.01.28-14.34.11:818][  0]LogHMD: Oculus plugin initialized. Version: 4.9.2-2707645+++depot+UE4-Releases+4.9, LibOVR: 0.7.0.0, built Sep 28 2015, 10:27:52
-[2016.01.28-14.34.11:920][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.01.28-14.34.11:923][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.28-14.34.11:927][  0]LogInit: FAudioDevice initialized.
-[2016.01.28-14.34.11:949][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.28-14.34.11:953][  0]LogInit: Texture streaming: Enabled
-[2016.01.28-14.34.11:956][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.01.28-14.34.11:956][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.28-14.34.11:956][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|15a5252fe37a4825a673547b0b937ab6|c39e7128-8a93-45bc-b94e-b28d0faf1958
-[2016.01.28-14.34.11:956][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.01.28-14.34.11:967][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.28-14.34.11:977][  0]LogInit: Transaction tracking system initialized
-[2016.01.28-14.34.11:992][  0]BlueprintLog: New page: Editor Load
-[2016.01.28-14.34.12:041][  0]LocalizationService: Info Localization service is disabled
-[2016.01.28-14.34.12:082][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.01.28-14.34.12:082][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.01.28-14.34.12:082][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2016.01.28-14.34.12:090][  0]LogConsoleResponse:Display: 
-[2016.01.28-14.34.12:188][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.01.28-14.34.12:227][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
-[2016.01.28-14.34.12:227][  0]SourceControl: Info Source control is disabled
-[2016.01.28-14.34.12:227][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.28-14.34.12:228][  0]LightingResults: New page: Lighting Build
-[2016.01.28-14.34.12:229][  0]MapCheck: New page: Map Check
-[2016.01.28-14.34.12:229][  0]LightingResults: New page: Lighting Build
-[2016.01.28-14.34.12:238][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E97138400
-[2016.01.28-14.34.12:563][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2016.01.28-14.34.12:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.28-14.34.12:568][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.28-14.34.12:605][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.447ms to complete.
-[2016.01.28-14.34.12:605][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.378
-[2016.01.28-14.34.12:710][  0]LogCollectionManager: Loaded 0 collections in 0.001011 seconds
-[2016.01.28-14.34.12:750][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
-[2016.01.28-14.34.12:750][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
-[2016.01.28-14.34.12:750][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
-[2016.01.28-14.34.12:750][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1899 classes and 339 folders.
-[2016.01.28-14.34.12:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.01.28-14.34.12:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.01.28-14.34.12:797][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.01.28-14.34.12:800][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.01.28-14.34.12:847][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.01.28-14.34.12:852][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.01.28-14.34.12:874][  0]LogLoad: Full Startup: 4.81 seconds (BP compile: 0.04 seconds)
-[2016.01.28-14.34.12:913][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.01.28-14.34.13:018][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
-[2016.01.28-14.34.21:011][680]LogAssetRegistry: Asset discovery search completed in 9.5308 seconds
-[2016.01.28-14.34.21:011][680]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.01.28-14.34.21:011][680]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2016.01.28-14.34.22:814][886]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.28-14.34.22:828][886]LightingResults: New page: Lighting Build
-[2016.01.28-14.34.22:841][886]LoadErrors: New page: Loading map: MyFirstLevel.umap
-[2016.01.28-14.34.22:841][886]MapCheck: New page: Map Check
-[2016.01.28-14.34.22:841][886]LightingResults: New page: Lighting Build
-[2016.01.28-14.34.22:852][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E88876F20
-[2016.01.28-14.34.22:922][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2016.01.28-14.34.22:922][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2016.01.28-14.34.22:922][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2016.01.28-14.34.22:922][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2016.01.28-14.34.22:924][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.86] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
-[2016.01.28-14.34.22:925][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.86] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
-[2016.01.28-14.34.22:925][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.86] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
-[2016.01.28-14.34.22:981][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2016.01.28-14.34.22:981][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2016.01.28-14.34.22:981][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2016.01.28-14.34.22:982][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2016.01.28-14.34.22:984][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.92] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
-[2016.01.28-14.34.22:984][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.92] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
-[2016.01.28-14.34.22:984][886]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.92] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
-[2016.01.28-14.34.23:179][886]LogAIModule: Creating AISystem for world MyFirstLevel
-[2016.01.28-14.34.23:246][886]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.28-14.34.23:288][886]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.28-14.34.23:330][886]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.139ms to complete.
-[2016.01.28-14.34.23:330][886]LogFileHelpers: Loading map 'MyFirstLevel' took 0.517
-[2016.01.28-14.34.23:357][887]Cmd: UpdateLandscapeEditorData -warnings
-[2016.01.28-14.34.35:149][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:149][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:149][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:149][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:150][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:150][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:150][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:150][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:150][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:153][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:158][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:159][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:159][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:159][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:159][287]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:202][287]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.28-14.34.35:633][287]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'StaticMesh': BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ProjectileComp': BP_FirstPersonProjectile_C /Game/BP_FirstPersonProjectile.Default__BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:SimpleConstructionScript_0
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:SimpleConstructionScript_0
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SphereComp': BP_FirstPersonProjectile_C /Game/BP_FirstPersonProjectile.Default__BP_FirstPersonProjectile_C
-[2016.01.28-14.34.35:976][287]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'StaticMesh_GEN_VARIABLE': BlueprintGeneratedClass /Game/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C
-[2016.01.28-14.35.01:062][898]Cmd: CLOSE_SLATE_MAINFRAME
-[2016.01.28-14.35.01:063][898]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.01.28-14.35.01:063][898]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.01.28-14.35.01:268][898]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.28-14.35.01:549][899]Cmd: QUIT_EDITOR
-[2016.01.28-14.35.01:667][899]LogHMD: Oculus shutdown.
-[2016.01.28-14.35.01:773][899]LogExit: Preparing to exit.
-[2016.01.28-14.35.02:512][899]LogExit: Editor shut down
-[2016.01.28-14.35.02:513][899]LogExit: Transaction tracking system shut down
-[2016.01.28-14.35.02:514][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002EA95C0220
-[2016.01.28-14.35.02:515][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002EA39E9D00
-[2016.01.28-14.35.02:515][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E933A6DE0
-[2016.01.28-14.35.02:515][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E933A68E0
-[2016.01.28-14.35.02:515][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002E933A67A0
-[2016.01.28-14.35.02:515][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002EA93E4C20
-[2016.01.28-14.35.02:531][899]LeapPluginLog: LeapController::CleanupEventData Delete Called
-[2016.01.28-14.35.02:685][899]LogExit: Object subsystem successfully closed.
-[2016.01.28-14.35.02:704][899]LogD3D11RHI: Shutdown
-[2016.01.28-14.35.02:704][899]LogD3D11RHI: CleanupD3DDevice
-[2016.01.28-14.35.02:751][899]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
-[2016.01.28-14.35.02:762][899]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module BspMode (186)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
-[2016.01.28-14.35.02:763][899]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
-[2016.01.28-14.35.02:764][899]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
-[2016.01.28-14.35.02:764][899]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
-[2016.01.28-14.35.02:764][899]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module MergeActors (170)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module SizeMap (169)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module TreeMap (168)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module XmlParser (159)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module Blutility (158)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module AutomationController (147)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module Layers (145)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module Persona (141)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module Kismet (140)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
-[2016.01.28-14.35.03:098][899]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module Toolbox (137)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module OutputLog (134)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module GammaUI (133)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module Documentation (132)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module Analytics (128)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module AIModule (125)
-[2016.01.28-14.35.03:099][899]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
-[2016.01.28-14.35.03:309][899]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
-[2016.01.28-14.35.03:309][899]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module OculusRift (117)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
-[2016.01.28-14.35.03:320][899]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.01.28-14.35.03:334][899]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.01.28-14.35.03:335][899]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.01.28-14.35.03:335][899]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
-[2016.01.28-14.35.03:400][899]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
-[2016.01.28-14.35.03:401][899]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
-[2016.01.28-14.35.03:401][899]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
-[2016.01.28-14.35.03:401][899]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2016.01.28-14.35.03:502][899]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.01.28-14.35.03:502][899]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.01.28-14.35.03:502][899]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.01.28-14.35.03:504][899]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.01.28-14.35.03:504][899]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.01.28-14.35.03:504][899]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.01.28-14.35.03:504][899]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.01.28-14.35.03:505][899]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.01.28-14.35.03:506][899]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.01.28-14.35.03:507][899]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.01.28-14.35.03:952][899]LogDerivedDataCache: Shutdown
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.01.28-14.35.03:952][899]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.01.28-14.35.05:956][899]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.01.28-14.35.05:957][899]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.01.28-14.35.05:957][899]LogExit: Exiting.
-[2016.01.28-14.35.05:982][899]Log file closed, 01/28/16 15:35:05
+﻿[2016.01.29-12.46.59:558][  0]Log file open, 01/29/16 13:46:59
+[2016.01.29-12.46.59:558][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.01.29-12.46.59:558][  0]LogInit:Display: RandInit(149377516) SRandInit(149377516).
+[2016.01.29-12.46.59:558][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.29-12.46.59:558][  0]LogStats: Stats thread started at 0.141840
+[2016.01.29-12.46.59:558][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.29-12.46.59:558][  0]LogInit: API Version: 2672455
+[2016.01.29-12.46.59:558][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.29-12.46.59:558][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.29-12.46.59:558][  0]LogInit: Build Configuration: Development
+[2016.01.29-12.46.59:558][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.29-12.46.59:558][  0]LogInit: Command line:  
+[2016.01.29-12.46.59:558][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.29-12.46.59:558][  0]LogInit: Rocket: 1
+[2016.01.29-12.46.59:596][  0]LogInit: Using libcurl 7.41.0
+[2016.01.29-12.46.59:596][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.29-12.46.59:596][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.29-12.46.59:596][  0]LogInit:  - other features:
+[2016.01.29-12.46.59:596][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.29-12.46.59:596][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.29-12.46.59:596][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.29-12.46.59:596][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.29-12.46.59:596][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.29-12.46.59:596][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.29-12.46.59:596][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.29-12.46.59:596][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.29-12.46.59:596][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.29-12.46.59:596][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.29-12.46.59:655][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.29-12.46.59:660][  0]LogInit: Object subsystem initialized
+[2016.01.29-12.46.59:661][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.29-12.46.59:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.29-12.46.59:675][  0]LogInit: Computer: PC1021500895
+[2016.01.29-12.46.59:675][  0]LogInit: User: VR
+[2016.01.29-12.46.59:675][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.29-12.46.59:675][  0]LogInit: High frequency timer resolution =3.507499 MHz
+[2016.01.29-12.46.59:675][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.29-12.46.59:675][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.29-12.46.59:675][  0]LogMemory: Process Physical Memory: 52.75 MB used, 52.75 MB peak
+[2016.01.29-12.46.59:675][  0]LogMemory: Process Virtual Memory: 55.12 MB used, 55.12 MB peak
+[2016.01.29-12.46.59:675][  0]LogMemory: Physical Memory: 2631.00 MB used, 16261.17 MB total
+[2016.01.29-12.46.59:675][  0]LogMemory: Virtual Memory: 349.54 MB used, 134217728.00 MB total
+[2016.01.29-12.46.59:991][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.29-12.47.00:727][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.29-12.47.00:727][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.01.29-12.47.00:729][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.29-12.47.00:729][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.29-12.47.00:729][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.29-12.47.00:733][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.29-12.47.00:733][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.29-12.47.00:743][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.29-12.47.00:758][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/7524/).
+[2016.01.29-12.47.00:758][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/9AA0CD664261362B0710C1B1725BD937/'.
+[2016.01.29-12.47.00:758][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.29-12.47.03:122][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.29-12.47.03:126][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.29-12.47.03:131][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.29-12.47.03:135][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.29-12.47.03:139][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.29-12.47.03:155][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.29-12.47.03:158][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.29-12.47.03:160][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.29-12.47.03:163][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.29-12.47.03:165][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.29-12.47.03:168][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.29-12.47.03:171][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.29-12.47.03:172][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.29-12.47.03:254][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.29-12.47.03:257][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.29-12.47.03:260][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.29-12.47.03:265][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.29-12.47.03:265][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.29-12.47.03:811][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache: Loaded boot cache 0.21s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.29-12.47.04:023][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.29-12.47.04:220][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.29-12.47.04:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.29-12.47.11:097][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.29-12.47.11:156][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.29-12.47.12:041][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.29-12.47.12:041][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.29-12.47.14:183][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.29-12.47.22:686][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.29-12.47.23:041][  0]LogAssetRegistry: FAssetRegistry took 0.0138 seconds to start up
+[2016.01.29-12.47.24:754][  0]SourceControl: Info Source control is disabled
+[2016.01.29-12.47.24:798][  0]SourceControl: Info Source control is disabled
+[2016.01.29-12.47.24:869][  0]SourceControl: Info Source control is disabled
+[2016.01.29-12.47.24:925][  0]SourceControl: Info Source control is disabled
+[2016.01.29-12.47.25:480][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.29-12.47.25:683][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.01.29-12.47.25:689][  0]LogObj: 29249 objects as part of root set at end of initial load.
+[2016.01.29-12.47.25:689][  0]LogUObjectAllocator: 6234272 out of 0 bytes used by permanent object pool.
+[2016.01.29-12.47.26:243][  0]LogEngine: Initializing Engine...
+[2016.01.29-12.47.26:272][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.29-12.47.27:199][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 207KGV03FJGR
+[2016.01.29-12.47.27:781][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.29-12.47.27:902][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.47.27:918][  0]LogInit: FAudioDevice initialized.
+[2016.01.29-12.47.27:936][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.29-12.47.27:940][  0]LogInit: Texture streaming: Enabled
+[2016.01.29-12.47.27:969][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.29-12.47.27:984][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.29-12.47.27:984][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|15a5252fe37a4825a673547b0b937ab6|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.01.29-12.47.27:984][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.29-12.47.28:222][  0]LogInit: Transaction tracking system initialized
+[2016.01.29-12.47.28:560][  0]BlueprintLog: New page: Editor Load
+[2016.01.29-12.47.30:027][  0]LocalizationService: Info Localization service is disabled
+[2016.01.29-12.47.30:605][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.29-12.47.30:606][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.29-12.47.30:612][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.01.29-12.47.30:922][  0]LogConsoleResponse:Display: 
+[2016.01.29-12.47.33:137][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.01.29-12.47.33:137][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.29-12.47.34:082][  0]SourceControl: Info Source control is disabled
+[2016.01.29-12.47.34:163][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.29-12.47.34:217][  0]LightingResults: New page: Lighting Build
+[2016.01.29-12.47.34:477][  0]MapCheck: New page: Map Check
+[2016.01.29-12.47.34:477][  0]LightingResults: New page: Lighting Build
+[2016.01.29-12.47.35:028][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004E94F4BCE0
+[2016.01.29-12.47.39:376][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.29-12.47.39:968][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.29-12.47.40:024][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.29-12.47.40:085][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.171ms to complete.
+[2016.01.29-12.47.40:092][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.967
+[2016.01.29-12.47.41:873][  0]LogCollectionManager: Loaded 0 collections in 0.001077 seconds
+[2016.01.29-12.47.42:041][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.01.29-12.47.42:041][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.01.29-12.47.42:041][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.01.29-12.47.42:041][  0]LogContentBrowser: Native class hierarchy populated in 0.0769 seconds. Added 1918 classes and 347 folders.
+[2016.01.29-12.47.42:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.29-12.47.42:240][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.01.29-12.47.43:988][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.01.29-12.47.44:014][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.01.29-12.47.44:574][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.29-12.47.44:640][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.29-12.47.44:688][  0]LogLoad: Full Startup: 47.06 seconds (BP compile: 0.39 seconds)
+[2016.01.29-12.47.45:535][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.29-12.47.46:259][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.01.29-12.47.48:131][  5]LogAssetRegistry: Asset discovery search completed in 25.1014 seconds
+[2016.01.29-12.47.48:131][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.29-12.47.48:140][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.01.29-12.47.53:367][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.29-12.47.53:368][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.29-12.47.53:368][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.29-12.47.53:368][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.29-12.47.53:370][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.75] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.01.29-12.47.53:370][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.75] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.29-12.47.53:370][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.75] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.29-12.47.53:482][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.29-12.47.53:482][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.29-12.47.53:482][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.29-12.47.53:483][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.29-12.47.53:485][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.86] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.01.29-12.47.53:485][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.86] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.29-12.47.53:485][479]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0055.86] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.29-12.47.54:646][479]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.47.54:747][479]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.29-12.47.54:747][479]LightingResults: New page: Lighting Build
+[2016.01.29-12.47.54:762][479]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.01.29-12.47.54:782][479]MapCheck: New page: Map Check
+[2016.01.29-12.47.54:782][479]LightingResults: New page: Lighting Build
+[2016.01.29-12.47.54:818][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD32EC00
+[2016.01.29-12.47.55:177][479]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.29-12.47.55:216][479]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.29-12.47.55:259][479]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.423ms to complete.
+[2016.01.29-12.47.55:259][479]LogFileHelpers: Loading map 'MyFirstLevel' took 0.513
+[2016.01.29-12.47.55:335][480]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.29-12.47.55:371][480]Cmd: UpdateLandscapeEditorData
+[2016.01.29-12.48.00:853][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-12.48.00:863][119]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:48:00 PM)
+[2016.01.29-12.48.00:863][119]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.48.00:871][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008019s)
+[2016.01.29-12.48.00:872][119]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.48.00:872][119]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2016.01.29-12.48.00:872][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.008722s)
+[2016.01.29-12.48.00:872][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.48.00:884][119]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.48.00:887][119]LogInit: FAudioDevice initialized.
+[2016.01.29-12.48.01:134][119]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.48.01:186][119]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.48.01
+[2016.01.29-12.48.01:186][119]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.48.01:186][119]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.48.01:257][119]LogWorld: Bringing up level for play took: 0.083572
+[2016.01.29-12.48.01:399][119]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.265
+[2016.01.29-12.48.01:474][120]LogRenderer: Reallocating scene render targets to support 2600x1464 (Frame:26).
+[2016.01.29-12.48.01:499][121]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 430/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.48.09:970][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.48.09:970][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-12.48.09:986][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EA103BBA0
+[2016.01.29-12.52.35:327][671]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.35:452][683]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.35:848][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:092][753]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:173][759]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:481][796]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:595][809]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:638][813]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:665][816]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:721][822]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:763][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.36:817][833]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:060][861]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:292][886]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:451][905]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:694][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:830][949]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.37:896][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.38:133][983]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.38:256][997]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.38:673][ 46]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.38:700][ 49]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.38:874][ 68]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.49:882][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-12.52.49:882][386]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:52:49 PM)
+[2016.01.29-12.52.49:882][386]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.52.49:891][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008474s)
+[2016.01.29-12.52.49:892][386]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.52.49:892][386]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2016.01.29-12.52.49:892][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.009602s)
+[2016.01.29-12.52.49:892][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.52.49:892][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.29-12.52.49:892][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-12.52.49:905][386]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.52.49:907][386]LogInit: FAudioDevice initialized.
+[2016.01.29-12.52.49:996][386]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.52.50:011][386]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.52.50
+[2016.01.29-12.52.50:012][386]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.52.50:012][386]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.52.50:012][386]LogWorld: Bringing up level for play took: 0.015849
+[2016.01.29-12.52.50:086][386]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.953
+[2016.01.29-12.52.50:101][388]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 454/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.52.54:074][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD565800
+[2016.01.29-12.53.16:970][717]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.53.27:238][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-12.53.27:238][785]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:53:27 PM)
+[2016.01.29-12.53.27:238][785]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.53.27:249][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010444s)
+[2016.01.29-12.53.27:249][785]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.53.27:250][785]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2016.01.29-12.53.27:250][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.011275s)
+[2016.01.29-12.53.27:250][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.53.27:250][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.29-12.53.27:250][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-12.53.27:265][785]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.53.27:267][785]LogInit: FAudioDevice initialized.
+[2016.01.29-12.53.27:364][785]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.53.27:381][785]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.53.27
+[2016.01.29-12.53.27:381][785]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.53.27:381][785]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.53.27:382][785]LogWorld: Bringing up level for play took: 0.017298
+[2016.01.29-12.53.27:419][785]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.286
+[2016.01.29-12.53.27:451][786]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.54.01:752][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004E9F0F6200
+[2016.01.29-12.54.04:394][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-12.54.04:394][973]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:54:04 PM)
+[2016.01.29-12.54.04:394][973]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.54.04:403][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008993s)
+[2016.01.29-12.54.04:404][973]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.54.04:404][973]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2016.01.29-12.54.04:404][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.009887s)
+[2016.01.29-12.54.04:420][973]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.54.04:423][973]LogInit: FAudioDevice initialized.
+[2016.01.29-12.54.04:510][973]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.54.04:526][973]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.54.04
+[2016.01.29-12.54.04:526][973]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.54.04:526][973]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.54.04:527][973]LogWorld: Bringing up level for play took: 0.016121
+[2016.01.29-12.54.04:543][973]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.59
+[2016.01.29-12.54.04:618][974]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 606/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.54.11:914][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD79D4E0
+[2016.01.29-12.54.14:222][ 65]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.29-12.54.14:976][ 65]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 107 classes and 0 folders.
+[2016.01.29-12.55.02:188][812]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.29-12.55.02:189][812]LogPlayLevel: [PlayLevel] Compiling BP_Avatar before play...
+[2016.01.29-12.55.02:247][812]LogPlayLevel: PlayLevel: Blueprint regeneration took 58 ms (1 blueprints)
+[2016.01.29-12.55.02:247][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.55.02:247][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.29-12.55.02:247][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-12.55.02:278][812]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD5A02C0
+[2016.01.29-12.55.02:285][812]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:55:02 PM)
+[2016.01.29-12.55.02:285][812]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.55.02:294][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009909s)
+[2016.01.29-12.55.02:295][812]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.55.02:295][812]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2016.01.29-12.55.02:295][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.010695s)
+[2016.01.29-12.55.02:326][812]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.55.02:328][812]LogInit: FAudioDevice initialized.
+[2016.01.29-12.55.02:428][812]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.55.02:444][812]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.55.02
+[2016.01.29-12.55.02:444][812]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.55.02:444][812]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.55.02:445][812]LogWorld: Bringing up level for play took: 0.015861
+[2016.01.29-12.55.02:479][812]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.656
+[2016.01.29-12.55.02:510][814]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 454/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.55.05:561][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD5660C0
+[2016.01.29-12.59.19:095][466]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-12.59.21:198][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-12.59.21:198][713]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 2:59:21 PM)
+[2016.01.29-12.59.21:198][713]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-12.59.21:207][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008779s)
+[2016.01.29-12.59.21:208][713]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-12.59.21:208][713]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2016.01.29-12.59.21:208][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.009724s)
+[2016.01.29-12.59.21:208][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-12.59.21:208][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.29-12.59.21:208][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-12.59.21:233][713]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-12.59.21:237][713]LogInit: FAudioDevice initialized.
+[2016.01.29-12.59.21:334][713]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-12.59.21:348][713]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-13.59.21
+[2016.01.29-12.59.21:348][713]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.59.21:348][713]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-12.59.21:349][713]LogWorld: Bringing up level for play took: 0.014001
+[2016.01.29-12.59.21:388][713]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.253
+[2016.01.29-12.59.21:403][715]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.00.35:241][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EE026D8A0
+[2016.01.29-13.00.51:516][906]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.01.29-13.01.12:124][934]BlueprintLog: New page: Compile BP_Avatar
+[2016.01.29-13.01.12:174][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.01.12:175][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.01.29-13.01.12:175][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.01.12:229][934]BlueprintEditorCompileResults: Info [0854.61] Compile of BP_Avatar successful! [in 104 ms]
+[2016.01.29-13.01.12:703][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.01.29-13.01.12:802][974]LogSavePackage: Save=45.457176ms
+[2016.01.29-13.01.12:802][974]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar0D740E6040BCBDAA4127D68CFAE36165.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.01.29-13.01.12:806][974]LogSavePackage: Total save time: 100.519486ms
+[2016.01.29-13.01.12:806][974]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.01.29-13.01.18:060][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-13.01.18:060][574]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 3:01:18 PM)
+[2016.01.29-13.01.18:060][574]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-13.01.18:067][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006988s)
+[2016.01.29-13.01.18:067][574]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-13.01.18:067][574]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2016.01.29-13.01.18:068][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.007866s)
+[2016.01.29-13.01.18:068][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.01.18:068][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.01.18:095][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004E9F0F5B20
+[2016.01.29-13.01.18:099][574]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-13.01.18:102][574]LogInit: FAudioDevice initialized.
+[2016.01.29-13.01.18:198][574]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-13.01.18:214][574]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-14.01.18
+[2016.01.29-13.01.18:214][574]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.01.18:214][574]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.01.18:215][574]LogWorld: Bringing up level for play took: 0.015885
+[2016.01.29-13.01.18:248][574]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.114
+[2016.01.29-13.01.18:286][576]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.01.25:858][923]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.25:884][924]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.25:911][925]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:005][929]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:018][930]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:044][931]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:057][932]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:084][933]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:110][934]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:124][935]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:138][936]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:164][937]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:177][938]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:190][939]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:217][940]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:244][941]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:273][942]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:298][943]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:312][944]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:338][945]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:365][946]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:392][947]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:418][948]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:444][949]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:458][950]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:485][951]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:512][952]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:539][953]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:564][954]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.26:578][955]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:685][  4]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:711][  5]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:725][  6]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:751][  7]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:765][  8]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:792][  9]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:818][ 10]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:844][ 11]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:925][ 15]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:951][ 16]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:978][ 17]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.27:991][ 18]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:018][ 19]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:045][ 20]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:072][ 21]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:098][ 22]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:111][ 23]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:192][ 27]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:217][ 28]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:244][ 29]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:591][ 46]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:605][ 47]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:618][ 48]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:644][ 49]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:924][ 63]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:938][ 64]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:951][ 65]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.28:977][ 66]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:057][ 70]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:071][ 71]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:086][ 72]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:111][ 73]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:124][ 74]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:151][ 75]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:178][ 76]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:191][ 77]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:218][ 78]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:231][ 79]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:259][ 80]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:325][ 83]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:351][ 84]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:365][ 85]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:391][ 86]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:417][ 87]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:444][ 88]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:458][ 89]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:484][ 90]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:511][ 91]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:539][ 92]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:564][ 93]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:591][ 94]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:791][103]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:818][104]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:844][105]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:858][106]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:884][107]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.29:910][108]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:057][115]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:085][116]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:110][117]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:124][118]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:139][119]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:164][120]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:177][121]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:191][122]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:217][123]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:231][124]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:257][125]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:324][128]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:350][129]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:377][130]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:390][131]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:405][132]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:430][133]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:458][134]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:525][137]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:551][138]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:578][139]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:592][140]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:618][141]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:644][142]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:659][143]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:685][144]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:711][145]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:858][152]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:884][153]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.30:911][154]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:018][159]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:045][160]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:073][161]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:097][162]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:112][163]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:205][167]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:218][168]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:244][169]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:258][170]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:284][171]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:311][172]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:325][173]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:351][174]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:377][175]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:391][176]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:418][177]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:444][178]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:458][179]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:484][180]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:511][181]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:524][182]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:551][183]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:577][184]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:592][185]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:617][186]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:644][187]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:672][188]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:697][189]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:711][190]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:724][191]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:740][192]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:764][193]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:777][194]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:925][201]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:952][202]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.31:978][203]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:139][210]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:152][211]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:179][212]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:191][213]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:219][214]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:245][215]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:260][216]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:284][217]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:311][218]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:325][219]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:351][220]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:364][221]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:379][222]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:405][223]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:431][224]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:445][225]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:524][229]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:551][230]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:564][231]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:591][232]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:658][235]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:684][236]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:711][237]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:739][238]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:764][239]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:779][240]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:805][241]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:831][242]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.32:845][243]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:285][263]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:313][264]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:339][265]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:365][266]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:379][267]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:458][271]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:485][272]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:512][273]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:539][274]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:564][275]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:592][276]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:618][277]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:645][278]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:658][279]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:685][280]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:712][281]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:739][282]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:752][283]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:778][284]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:858][288]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:885][289]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:912][290]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.33:991][294]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:018][295]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:031][296]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:058][297]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:272][306]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:298][307]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:313][308]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:339][309]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:365][310]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:391][311]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:538][317]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:564][318]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:577][319]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:658][323]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:685][324]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:711][325]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:739][326]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:752][327]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:778][328]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:872][332]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:898][333]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:911][334]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:925][335]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:940][336]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:964][337]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.34:992][338]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:018][339]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:045][340]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:058][341]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:084][342]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:111][343]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:125][344]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:151][345]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:178][346]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:258][350]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:284][351]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:311][352]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:325][353]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:351][354]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:378][355]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:524][363]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:551][364]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:578][365]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:591][366]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:617][367]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:631][368]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:658][369]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:684][370]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:711][371]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:724][372]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:751][373]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:777][374]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:791][375]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:817][376]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:844][377]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:858][378]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:884][379]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:911][380]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:924][381]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:938][382]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:951][383]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:977][384]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.35:991][385]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:017][386]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:031][387]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:057][388]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:084][389]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:111][390]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:139][391]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:152][392]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:178][393]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:192][394]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:218][395]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:232][396]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:258][397]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:284][398]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:311][399]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:325][400]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:353][401]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:378][402]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:391][403]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:418][404]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:445][405]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:458][406]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:485][407]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:512][408]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:540][409]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:564][410]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:578][411]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:606][412]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:631][413]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:645][414]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:658][415]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:685][416]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:712][417]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:725][418]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:751][419]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:778][420]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:792][421]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:817][422]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:844][423]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:858][424]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:885][425]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:912][426]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:939][427]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:951][428]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:978][429]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.36:992][430]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:017][431]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:044][432]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:072][433]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:097][434]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:112][435]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:138][436]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:164][437]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:178][438]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:205][439]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:231][440]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:259][441]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:284][442]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:311][443]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:325][444]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:351][445]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:377][446]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:391][447]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:418][448]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:444][449]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:457][450]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:484][451]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:512][452]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:539][453]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:565][454]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:579][455]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:607][456]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:632][457]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:645][458]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:673][459]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:698][460]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:712][461]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:739][462]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:752][463]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:778][464]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:792][465]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:818][466]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:845][467]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:859][468]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:885][469]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:911][470]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:925][471]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:952][472]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:978][473]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.37:992][474]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:018][475]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:045][476]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:072][477]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:098][478]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:125][479]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:151][480]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:179][481]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:205][482]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:231][483]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:245][484]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:272][485]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:285][486]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:311][487]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:339][488]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:364][489]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:391][490]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:417][491]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:444][492]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:458][493]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:484][494]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:510][495]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:539][496]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:564][497]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.38:578][498]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.01.42:803][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EB9EC8900
+[2016.01.29-13.02.18:801][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.02.18:801][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.01.29-13.02.18:802][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.02.18:830][861]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.029
+[2016.01.29-13.02.18:834][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Avatar] ([1] browsable assets)...
+[2016.01.29-13.02.18:834][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Avatar]
+[2016.01.29-13.02.18:834][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/BP_Avatar_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.29-13.02.18:876][861]LogSavePackage: Save=32.711056ms
+[2016.01.29-13.02.18:876][861]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar_Auto12DAE139E4375A96C20FB81AD0112281D.tmp' to '../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/BP_Avatar_Auto1.uasset'
+[2016.01.29-13.02.18:887][861]LogSavePackage: Total save time: 49.925033ms
+[2016.01.29-13.02.18:887][861]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/BP_Avatar_Auto1.uasset
+[2016.01.29-13.02.18:887][861]LogFileHelpers: Auto-saving content packages took 0.056
+[2016.01.29-13.04.47:141][913]BlueprintLog: New page: Compile BP_Avatar
+[2016.01.29-13.04.47:186][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.04.47:186][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.04.47:216][913]BlueprintEditorCompileResults: Info [1069.59] Compile of BP_Avatar successful! [in 74 ms]
+[2016.01.29-13.04.47:770][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.01.29-13.04.47:814][962]LogSavePackage: Save=36.271713ms
+[2016.01.29-13.04.47:814][962]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar6642F4284E95AD9AB3D04CBD9C2CEEBD.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.01.29-13.04.47:816][962]LogSavePackage: Total save time: 43.132730ms
+[2016.01.29-13.04.47:816][962]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.01.29-13.04.50:473][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-13.04.50:473][250]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 3:04:50 PM)
+[2016.01.29-13.04.50:473][250]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-13.04.50:480][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006967s)
+[2016.01.29-13.04.50:481][250]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-13.04.50:481][250]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2016.01.29-13.04.50:481][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.007767s)
+[2016.01.29-13.04.50:481][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.04.50:481][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.04.50:512][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EFD5A1080
+[2016.01.29-13.04.50:516][250]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-13.04.50:518][250]LogInit: FAudioDevice initialized.
+[2016.01.29-13.04.50:615][250]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-13.04.50:628][250]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-14.04.50
+[2016.01.29-13.04.50:628][250]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.04.50:628][250]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.04.50:629][250]LogWorld: Bringing up level for play took: 0.012957
+[2016.01.29-13.04.50:661][250]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.473
+[2016.01.29-13.04.50:688][252]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.04.56:461][568]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.56:484][569]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.56:487][570]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.56:513][571]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:526][736]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:540][737]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:553][738]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:568][739]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:594][740]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:608][741]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:620][742]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:636][743]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:660][744]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:674][745]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:687][746]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.04.59:702][747]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:860][813]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:873][814]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:886][815]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:913][816]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:940][817]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:953][818]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:969][819]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.00:994][820]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:021][821]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:047][822]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:927][873]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:940][874]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:953][875]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.01:980][876]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:060][940]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:074][941]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:087][942]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:102][943]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:260][952]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:275][953]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:287][954]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:313][955]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:327][956]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:340][957]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:353][958]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.03:369][959]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.05.08:247][202]Set new viewmode: Wireframe
+[2016.01.29-13.05.08:801][234]Set new viewmode: Wireframe
+[2016.01.29-13.05.09:152][255]Set new viewmode: Unlit
+[2016.01.29-13.05.09:634][284]Set new viewmode: Lit
+[2016.01.29-13.05.09:677][286]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 512/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.05.13:007][461]Set new viewmode: Wireframe
+[2016.01.29-13.05.13:807][509]Set new viewmode: Wireframe
+[2016.01.29-13.05.14:651][560]Set new viewmode: Lit
+[2016.01.29-13.05.14:688][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 512/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.05.15:674][613]Set new viewmode: Lit
+[2016.01.29-13.05.16:322][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EDE9196C0
+[2016.01.29-13.05.33:933][922]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.01.29-13.05.34:095][923]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.05.41:387][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-13.05.41:388][573]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 3:05:41 PM)
+[2016.01.29-13.05.41:388][573]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-13.05.41:395][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007306s)
+[2016.01.29-13.05.41:395][573]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-13.05.41:395][573]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2016.01.29-13.05.41:395][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.007940s)
+[2016.01.29-13.05.41:396][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.05.41:396][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.01.29-13.05.41:396][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.05.41:423][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004E9F0F4AE0
+[2016.01.29-13.05.41:428][573]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-13.05.41:430][573]LogInit: FAudioDevice initialized.
+[2016.01.29-13.05.41:533][573]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-13.05.41:551][573]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-14.05.41
+[2016.01.29-13.05.41:551][573]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.05.41:551][573]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.05.41:553][573]LogWorld: Bringing up level for play took: 0.019006
+[2016.01.29-13.05.41:586][573]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.452
+[2016.01.29-13.05.41:598][575]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.05.42:075][593]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:088][594]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:114][595]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:128][596]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:155][597]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:180][598]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:209][599]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:234][600]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:249][601]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:275][602]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:301][603]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:328][604]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:354][605]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:381][606]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:408][607]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:421][608]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:448][609]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:475][610]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:487][611]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:514][612]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:542][613]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:554][614]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:581][615]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:609][616]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:634][617]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:649][618]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:674][619]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:687][620]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:703][621]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:728][622]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:755][623]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:781][624]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:795][625]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:822][626]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:848][627]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:875][628]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:900][629]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:916][630]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:943][631]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:967][632]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.42:981][633]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:008][634]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:021][635]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:047][636]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:074][637]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:089][638]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:115][639]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:128][640]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:142][641]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:156][642]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:181][643]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:195][644]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:209][645]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:221][646]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:237][647]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:262][648]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:288][649]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:315][650]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:329][651]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:354][652]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:371][653]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:394][654]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:408][655]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:421][656]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:436][657]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:462][658]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:488][659]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:514][660]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:543][661]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:568][662]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:583][663]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:609][664]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:635][665]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:650][666]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:675][667]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:688][668]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:704][669]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:728][670]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:742][671]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:755][672]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:781][673]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:809][674]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:821][675]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:847][676]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:875][677]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:889][678]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:915][679]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:943][680]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:968][681]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.43:981][682]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:009][683]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:034][684]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:050][685]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:076][686]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:101][687]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:116][688]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:142][689]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:154][690]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:181][691]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:194][692]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:208][693]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:221][694]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:247][695]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:261][696]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:288][697]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:314][698]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:341][699]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:354][700]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:370][701]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:394][702]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:408][703]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:420][704]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:447][705]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:460][706]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:473][707]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:487][708]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:515][709]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:529][710]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:556][711]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:581][712]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:610][713]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:635][714]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:650][715]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:675][716]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:687][717]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:703][718]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:728][719]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:742][720]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:754][721]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:770][722]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:795][723]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:822][724]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:848][725]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:876][726]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:888][727]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:915][728]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:942][729]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:968][730]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.44:983][731]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:008][732]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:021][733]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:047][734]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:076][735]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:101][736]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:117][737]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:142][738]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:167][739]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:182][740]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:209][741]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:220][742]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:236][743]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:261][744]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:275][745]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:289][746]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:314][747]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:342][748]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:355][749]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:371][750]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:394][751]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:407][752]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:421][753]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:448][754]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:474][755]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:487][756]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:503][757]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:528][758]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:542][759]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:568][760]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:583][761]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:609][762]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:621][763]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:647][764]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:675][765]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:700][766]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:715][767]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:741][768]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:753][769]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:769][770]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:794][771]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:821][772]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:848][773]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:875][774]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:887][775]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:905][776]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:929][777]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:942][778]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:955][779]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:970][780]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.45:995][781]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:009][782]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:021][783]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:048][784]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:077][785]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:101][786]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:117][787]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:141][788]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:155][789]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:181][790]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:195][791]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:222][792]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:248][793]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:275][794]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:302][795]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:329][796]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:355][797]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:381][798]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:409][799]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:421][800]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:448][801]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:476][802]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:501][803]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:515][804]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:542][805]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:554][806]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:581][807]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:609][808]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:635][809]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:648][810]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:676][811]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:701][812]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:716][813]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:742][814]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:754][815]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:770][816]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:794][817]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:808][818]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:821][819]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:847][820]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:875][821]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:888][822]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:914][823]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:928][824]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:941][825]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:954][826]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:970][827]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.46:994][828]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:008][829]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:020][830]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:047][831]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:075][832]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:101][833]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:116][834]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:142][835]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:167][836]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:182][837]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:208][838]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:220][839]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:247][840]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:275][841]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:288][842]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:315][843]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:328][844]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:355][845]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:381][846]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:408][847]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:422][848]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:449][849]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:461][850]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:476][851]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:487][852]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:504][853]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:527][854]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:543][855]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:568][856]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:583][857]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:609][858]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:635][859]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:649][860]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:676][861]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:701][862]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:715][863]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:729][864]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:754][865]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:781][866]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:809][867]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:834][868]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:862][869]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:888][870]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:905][871]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:928][872]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:942][873]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:954][874]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:970][875]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.47:996][876]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:021][877]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:047][878]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:075][879]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:088][880]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:103][881]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:127][882]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:141][883]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:155][884]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:170][885]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:194][886]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:209][887]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:220][888]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:236][889]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:261][890]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:274][891]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:288][892]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:314][893]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:327][894]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:342][895]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:355][896]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:370][897]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:394][898]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:408][899]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:421][900]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:448][901]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:476][902]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:501][903]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:527][904]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:554][905]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:580][906]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:609][907]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:634][908]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:649][909]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:675][910]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:687][911]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:714][912]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:729][913]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:754][914]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:782][915]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:795][916]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:809][917]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:822][918]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:848][919]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:876][920]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:889][921]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:915][922]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:943][923]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:968][924]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.48:982][925]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:008][926]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:021][927]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:037][928]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:062][929]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:076][930]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:088][931]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:115][932]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:128][933]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:143][934]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:167][935]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:183][936]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:209][937]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:221][938]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:248][939]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:275][940]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:302][941]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:328][942]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:342][943]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:368][944]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:394][945]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:421][946]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:448][947]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:476][948]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:501][949]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:514][950]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:542][951]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:568][952]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:595][953]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:621][954]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:648][955]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:676][956]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:701][957]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:716][958]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:742][959]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:754][960]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:781][961]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:808][962]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:821][963]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:847][964]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:875][965]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:901][966]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:915][967]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:942][968]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:954][969]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:969][970]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.49:994][971]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:021][972]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:047][973]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:075][974]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:087][975]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:115][976]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:142][977]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:155][978]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:171][979]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:195][980]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:209][981]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:222][982]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:248][983]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:276][984]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:302][985]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:316][986]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:343][987]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:368][988]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:395][989]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:421][990]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:448][991]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:475][992]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:488][993]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:514][994]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:528][995]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:555][996]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:581][997]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:609][998]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:635][999]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:650][  0]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:676][  1]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:688][  2]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:714][  3]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:728][  4]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:742][  5]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.50:768][  6]LogBlueprintUserMessages: [BP_Avatar_C_10] Hello
+[2016.01.29-13.05.51:440][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004F04B83F60
+[2016.01.29-13.05.59:315][738]BlueprintLog: New page: Compile BP_Avatar
+[2016.01.29-13.05.59:416][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.05.59:416][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.01.29-13.05.59:416][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.05.59:451][738]BlueprintEditorCompileResults: Info [1141.83] Compile of BP_Avatar successful! [in 136 ms]
+[2016.01.29-13.05.59:803][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.01.29-13.05.59:850][758]LogSavePackage: Save=37.858028ms
+[2016.01.29-13.05.59:850][758]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar5727BD214BA3CC34E34C6D8598C59835.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.01.29-13.05.59:852][758]LogSavePackage: Total save time: 46.211559ms
+[2016.01.29-13.05.59:852][758]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.01.29-13.06.01:272][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.29-13.06.01:272][896]PIE: New page: PIE session: MyFirstLevel (Jan 29, 2016, 3:06:01 PM)
+[2016.01.29-13.06.01:272][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.29-13.06.01:279][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007422s)
+[2016.01.29-13.06.01:280][896]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.29-13.06.01:280][896]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2016.01.29-13.06.01:280][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.008057s)
+[2016.01.29-13.06.01:280][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.29-13.06.01:280][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.29-13.06.01:311][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EA0DCA840
+[2016.01.29-13.06.01:316][896]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.29-13.06.01:319][896]LogInit: FAudioDevice initialized.
+[2016.01.29-13.06.01:412][896]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.29-13.06.01:429][896]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.29-14.06.01
+[2016.01.29-13.06.01:429][896]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.06.01:429][896]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.29-13.06.01:430][896]LogWorld: Bringing up level for play took: 0.017446
+[2016.01.29-13.06.01:465][896]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.331
+[2016.01.29-13.06.01:492][898]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.29-13.06.02:342][936]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:355][937]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:381][938]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:409][939]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:421][940]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:436][941]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:461][942]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:474][943]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:487][944]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:514][945]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:542][946]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:567][947]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:582][948]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:608][949]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:621][950]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:636][951]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:661][952]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:674][953]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:687][954]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:714][955]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:727][956]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:744][957]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:768][958]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:782][959]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:810][960]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:835][961]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:850][962]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:876][963]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:888][964]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:915][965]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:928][966]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:942][967]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:955][968]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:970][969]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.02:995][970]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:008][971]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:022][972]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:048][973]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:076][974]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:101][975]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:116][976]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:142][977]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:155][978]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:181][979]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:195][980]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:209][981]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:221][982]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:236][983]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:261][984]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:275][985]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:288][986]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:315][987]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:328][988]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:342][989]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:355][990]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:370][991]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:394][992]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:409][993]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:421][994]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:448][995]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:475][996]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:487][997]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:503][998]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:528][999]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:543][  0]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:568][  1]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:595][  2]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:621][  3]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:648][  4]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:676][  5]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:701][  6]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:716][  7]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:742][  8]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:755][  9]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:781][ 10]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:808][ 11]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01.29-13.06.03:821][ 12]LogBlueprintUserMessages: [BP_Avatar_C_8] Hello
+[2016.01
