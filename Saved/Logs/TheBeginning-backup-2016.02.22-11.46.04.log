@@ -1,0 +1,369 @@
+﻿[2016.02.22-10.45.13:326][  0]Log file open, 02/22/16 11:45:13
+[2016.02.22-10.45.13:326][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.02.22-10.45.13:326][  0]LogInit:Display: RandInit(-1124184894) SRandInit(-1124184893).
+[2016.02.22-10.45.13:326][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.22-10.45.13:326][  0]LogStats: Stats thread started at 0.068478
+[2016.02.22-10.45.13:326][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.22-10.45.13:326][  0]LogInit: API Version: 2672455
+[2016.02.22-10.45.13:326][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.02.22-10.45.13:326][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.22-10.45.13:326][  0]LogInit: Build Configuration: Development
+[2016.02.22-10.45.13:326][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.02.22-10.45.13:326][  0]LogInit: Command line:  
+[2016.02.22-10.45.13:326][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.02.22-10.45.13:326][  0]LogInit: Rocket: 1
+[2016.02.22-10.45.13:331][  0]LogInit: Using libcurl 7.41.0
+[2016.02.22-10.45.13:331][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.22-10.45.13:331][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.22-10.45.13:331][  0]LogInit:  - other features:
+[2016.02.22-10.45.13:331][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.22-10.45.13:331][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.22-10.45.13:331][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.22-10.45.13:331][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.22-10.45.13:331][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.22-10.45.13:331][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.22-10.45.13:331][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.22-10.45.13:331][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.22-10.45.13:331][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.22-10.45.13:331][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.22-10.45.13:335][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.22-10.45.13:341][  0]LogInit: Object subsystem initialized
+[2016.02.22-10.45.13:342][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.22-10.45.13:342][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.22-10.45.13:349][  0]LogInit: Computer: PC1021500895
+[2016.02.22-10.45.13:349][  0]LogInit: User: VR
+[2016.02.22-10.45.13:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.22-10.45.13:349][  0]LogInit: High frequency timer resolution =3.507503 MHz
+[2016.02.22-10.45.13:349][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.22-10.45.13:349][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.22-10.45.13:349][  0]LogMemory: Process Physical Memory: 52.70 MB used, 52.70 MB peak
+[2016.02.22-10.45.13:349][  0]LogMemory: Process Virtual Memory: 55.18 MB used, 55.18 MB peak
+[2016.02.22-10.45.13:349][  0]LogMemory: Physical Memory: 4095.63 MB used, 16261.17 MB total
+[2016.02.22-10.45.13:349][  0]LogMemory: Virtual Memory: 346.75 MB used, 134217728.00 MB total
+[2016.02.22-10.45.13:379][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.22-10.45.14:051][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.02.22-10.45.14:051][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.02.22-10.45.14:052][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.22-10.45.14:052][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.22-10.45.14:052][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.22-10.45.14:057][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.22-10.45.14:057][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.22-10.45.14:065][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.22-10.45.14:081][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/9544/).
+[2016.02.22-10.45.14:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/D35B72A645F9028419D0A28786CCD881/'.
+[2016.02.22-10.45.14:081][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.22-10.45.14:919][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.22-10.45.14:923][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.22-10.45.14:927][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.22-10.45.14:931][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.22-10.45.14:934][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.22-10.45.14:937][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.22-10.45.14:939][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.22-10.45.14:942][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.22-10.45.14:945][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.22-10.45.14:947][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.22-10.45.14:949][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.22-10.45.14:953][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.22-10.45.14:953][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.22-10.45.14:970][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.22-10.45.14:972][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.22-10.45.14:975][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.22-10.45.14:978][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.22-10.45.14:978][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.22-10.45.15:031][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.22-10.45.15:069][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.22-10.45.15:069][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.02.22-10.45.15:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.22-10.45.15:070][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.22-10.45.15:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.22-10.45.15:070][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.22-10.45.15:189][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.22-10.45.15:201][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.22-10.45.15:343][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.22-10.45.15:345][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.22-10.45.15:439][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.22-10.45.15:439][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.22-10.45.15:633][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.22-10.45.16:178][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.22-10.45.16:299][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.02.22-10.45.16:436][  0]SourceControl: Info Source control is disabled
+[2016.02.22-10.45.16:443][  0]SourceControl: Info Source control is disabled
+[2016.02.22-10.45.16:449][  0]SourceControl: Info Source control is disabled
+[2016.02.22-10.45.16:456][  0]SourceControl: Info Source control is disabled
+[2016.02.22-10.45.16:545][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.22-10.45.16:597][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.02.22-10.45.16:602][  0]LogObj: 29249 objects as part of root set at end of initial load.
+[2016.02.22-10.45.16:602][  0]LogUObjectAllocator: 6234272 out of 0 bytes used by permanent object pool.
+[2016.02.22-10.45.16:651][  0]LogEngine: Initializing Engine...
+[2016.02.22-10.45.16:653][  0]OCULUS: Info: 02/22/16 10:45:16: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
+
+[2016.02.22-10.45.17:154][  0]OCULUS: Error: 02/22/16 10:45:17: [CAPI] ovr_Create failed to complete within the timeout period.
+[2016.02.22-10.45.18:291][  0]LogHMD: SteamVR failed to initialize.  Err: 1000
+[2016.02.22-10.45.18:398][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.22-10.45.18:410][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.22-10.45.18:417][  0]LogInit: FAudioDevice initialized.
+[2016.02.22-10.45.18:442][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.22-10.45.18:446][  0]LogInit: Texture streaming: Enabled
+[2016.02.22-10.45.18:449][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.22-10.45.18:449][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.22-10.45.18:449][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.02.22-10.45.18:449][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.22-10.45.18:461][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.22-10.45.18:471][  0]LogInit: Transaction tracking system initialized
+[2016.02.22-10.45.18:487][  0]BlueprintLog: New page: Editor Load
+[2016.02.22-10.45.18:537][  0]LocalizationService: Info Localization service is disabled
+[2016.02.22-10.45.18:579][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.02.22-10.45.18:579][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.02.22-10.45.18:579][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.02.22-10.45.18:589][  0]LogConsoleResponse:Display: 
+[2016.02.22-10.45.18:688][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.22-10.45.18:730][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.02.22-10.45.18:730][  0]SourceControl: Info Source control is disabled
+[2016.02.22-10.45.18:730][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.22-10.45.18:730][  0]LightingResults: New page: Lighting Build
+[2016.02.22-10.45.18:732][  0]MapCheck: New page: Map Check
+[2016.02.22-10.45.18:732][  0]LightingResults: New page: Lighting Build
+[2016.02.22-10.45.18:743][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044CCAA3CE0
+[2016.02.22-10.45.19:070][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.22-10.45.19:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.22-10.45.19:076][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.22-10.45.19:111][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.971ms to complete.
+[2016.02.22-10.45.19:111][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.382
+[2016.02.22-10.45.19:204][  0]LogCollectionManager: Loaded 0 collections in 0.001120 seconds
+[2016.02.22-10.45.19:249][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.02.22-10.45.19:249][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.02.22-10.45.19:249][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.02.22-10.45.19:249][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 1918 classes and 347 folders.
+[2016.02.22-10.45.19:253][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.02.22-10.45.19:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.22-10.45.19:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.02.22-10.45.19:297][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.02.22-10.45.19:350][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.22-10.45.19:363][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.22-10.45.19:385][  0]LogLoad: Full Startup: 6.67 seconds (BP compile: 0.03 seconds)
+[2016.02.22-10.45.19:435][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.22-10.45.19:537][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.02.22-10.45.20:412][  3]LogAssetRegistry: Asset discovery search completed in 4.1244 seconds
+[2016.02.22-10.45.20:412][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.22-10.45.20:412][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.02.22-10.45.28:032][785]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.22-10.45.28:057][785]LightingResults: New page: Lighting Build
+[2016.02.22-10.45.28:071][785]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.02.22-10.45.28:072][785]MapCheck: New page: Map Check
+[2016.02.22-10.45.28:072][785]LightingResults: New page: Lighting Build
+[2016.02.22-10.45.28:082][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B54F3EC0
+[2016.02.22-10.45.28:153][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.02.22-10.45.28:153][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.02.22-10.45.28:154][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.22-10.45.28:154][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.02.22-10.45.28:156][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.44] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.02.22-10.45.28:156][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.44] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.22-10.45.28:156][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.44] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.22-10.45.28:212][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.02.22-10.45.28:212][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.02.22-10.45.28:212][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.22-10.45.28:212][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.02.22-10.45.28:214][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.50] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.02.22-10.45.28:214][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.50] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.22-10.45.28:215][785]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0015.50] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.22-10.45.28:414][785]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.02.22-10.45.28:486][785]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.22-10.45.28:532][785]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.22-10.45.28:576][785]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.134ms to complete.
+[2016.02.22-10.45.28:576][785]LogFileHelpers: Loading map 'MyFirstLevel' took 0.544
+[2016.02.22-10.45.28:596][786]Cmd: UpdateLandscapeEditorData -warnings
+[2016.02.22-10.45.39:461][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.02.22-10.45.39:461][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.22-10.45.39:461][ 57]PIE: New page: PIE session: MyFirstLevel (Feb 22, 2016, 12:45:39 PM)
+[2016.02.22-10.45.39:461][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.02.22-10.45.39:469][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008298s)
+[2016.02.22-10.45.39:470][ 57]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.02.22-10.45.39:470][ 57]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2016.02.22-10.45.39:470][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.009058s)
+[2016.02.22-10.45.39:500][ 57]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.22-10.45.39:506][ 57]LogInit: FAudioDevice initialized.
+[2016.02.22-10.45.39:585][ 57]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE'. Unknown structure.
+[2016.02.22-10.45.39:585][ 57]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C'. Unknown structure.
+[2016.02.22-10.45.39:586][ 57]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A'. Unknown structure.
+[2016.02.22-10.45.39:587][ 57]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2016.02.22-10.45.42:363][ 57]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: bValidRootIndex [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\Animation\AnimBlueprintGeneratedClass.cpp] [Line: 234]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Engine.dll!UAnimBlueprintGeneratedClass::Link() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\animation\animblueprintgeneratedclass.cpp:234]
+UE4Editor-CoreUObject.dll!UClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\class.cpp:3393]
+UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\blueprintgeneratedclass.cpp:757]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3143]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!ResolveName() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:680]
+UE4Editor-CoreUObject.dll!StaticLoadObjectInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:767]
+UE4Editor-CoreUObject.dll!StaticLoadObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:831]
+UE4Editor-CoreUObject.dll!StaticLoadClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:856]
+UE4Editor-Engine.dll!UWorld::SetGameMode() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\world.cpp:2857]
+UE4Editor-Engine.dll!UGameInstance::StartPIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\gameinstance.cpp:234]
+UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\playlevel.cpp:3137]
+UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\playlevel.cpp:2385]
+UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\playlevel.cpp:1066]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\editorengine.cpp:1244]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\unrealedengine.cpp:366]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launchengineloop.cpp:2428]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__tmainCRTStartup() [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.02.22-10.45.42:545][ 57]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2016.02.22-10.45.42:759][ 57]LogAnimation:Warning: Invalid animation root node index 54 on '/Engine/Transient.REINST_BasicCharacter_AnimBlueprint_C_2' (only 52 nodes)
+[2016.02.22-10.45.42:843][ 57]LogClass:Warning: Property AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.02.22-10.45.42:843][ 57]LogClass:Warning: Property AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.02.22-10.45.42:844][ 57]LogClass:Warning: Property AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2016.02.22-10.45.43:129][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.02.22-10.45.43:129][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.02.22-10.45.43:130][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.02.22-10.45.43:130][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.02.22-10.45.43:130][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.22-10.45.43:130][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.02.22-10.45.43:133][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.42] Compile of LeapBasicRiggedCharacter successful, but with 6 Warning(s) [in 7 ms]
+[2016.02.22-10.45.43:133][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.42] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 0 ms]
+[2016.02.22-10.45.43:133][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.42] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2016.02.22-10.45.43:140][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.02.22-10.45.43:140][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.02.22-10.45.43:141][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.02.22-10.45.43:141][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.02.22-10.45.43:141][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.22-10.45.43:141][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.02.22-10.45.43:144][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.43] Compile of LeapBasicRiggedCharacter successful, but with 6 Warning(s) [in 8 ms]
+[2016.02.22-10.45.43:144][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.43] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 0 ms]
+[2016.02.22-10.45.43:144][ 57]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0030.43] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2016.02.22-10.45.43:344][ 57]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.02.22-10.45.43:358][ 57]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.02.22-11.45.43
+[2016.02.22-10.45.43:359][ 57]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.22-10.45.43:359][ 57]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.22-10.45.43:360][ 57]LogWorld: Bringing up level for play took: 0.014218
+[2016.02.22-10.45.43:363][ 57]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.02.22-10.45.43:437][ 57]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 4.223
+[2016.02.22-10.45.43:437][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.02.22-10.45.52:394][122]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:403][123]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:411][124]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:420][125]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:429][126]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:437][127]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:445][128]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:454][129]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:462][130]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:470][131]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:478][132]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:487][133]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:495][134]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:503][135]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:512][136]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:520][137]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:528][138]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:537][139]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:545][140]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:554][141]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:562][142]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:570][143]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:578][144]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:587][145]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:595][146]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:603][147]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:612][148]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:620][149]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:628][150]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:637][151]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:645][152]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:654][153]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:662][154]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:670][155]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:678][156]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:687][157]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:696][158]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:704][159]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:713][160]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.52:723][161]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:532][258]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:540][259]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:548][260]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:557][261]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:565][262]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:573][263]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:582][264]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:590][265]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:598][266]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:607][267]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:615][268]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:624][269]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:632][270]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:640][271]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:648][272]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:657][273]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:665][274]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:674][275]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:682][276]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:691][277]LogBlueprintUserMessages: [LeapCollisionCharacter_C_0] Hello
+[2016.02.22-10.45.53:884][277]LogCrashTracker: 
+
+
+[2016.02.22-10.45.53:884][277]LogCrashTracker: 
+
+
+[2016.02.22-10.45.53:884][277]LogWindows: === Critical error: ===
+
+
+[2016.02.22-10.45.53:988][277]LogExit: Executing StaticShutdownAfterError
+[2016.02.22-10.45.53:991][277]LogOutputDevice:Warning: 
+
+Script Stack:
+PickUpItem.Prox
+
+[2016.02.22-10.45.53:993][277]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.22-10.45.53:994][277]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.22-10.45.53:994][277]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.22-10.45.53:994][277]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.02.22-10.45.53:994][277]Log file closed, 02/22/16 11:45:53
