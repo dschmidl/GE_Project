@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-Time of this report: 1/21/2016, 10:58:32
+Time of this report: 2/24/2016, 15:21:47
        Machine name: CPT
-   Operating System: Windows 8.1 Pro 64-bit (6.3, Build 9600) (9600.winblue_ltsb.151230-0600)
+   Operating System: Windows 8.1 Pro 64-bit (6.3, Build 9600) (9600.winblue_ltsb.160119-0600)
            Language: German (Regional Setting: German)
 System Manufacturer: Sony Corporation
        System Model: SVP1321M9EB
@@ -11,7 +11,7 @@ System Manufacturer: Sony Corporation
           Processor: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz (4 CPUs), ~2.3GHz
              Memory: 4096MB RAM
 Available OS Memory: 4002MB RAM
-          Page File: 3254MB used, 2600MB available
+          Page File: 3007MB used, 5091MB available
         Windows Dir: C:\WINDOWS
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -528,10 +528,16 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 3.8 GB
+ Free Space: 0.7 GB
 Total Space: 106.0 GB
 File System: NTFS
       Model: TOSHIBA THNSNH128G8NT
+
+      Drive: D:
+ Free Space: 916.6 GB
+Total Space: 953.6 GB
+File System: FAT32
+      Model: Intenso External USB HDD USB Device
 
 --------------
 System Devices
@@ -916,9 +922,9 @@ Line 1 (Virtual Audio Cable),0x00200000,0,0,qcap.dll,6.06.9600.16384
 Mikrofon (Realtek High Definition Audio),0x00200000,0,0,qcap.dll,6.06.9600.16384
 
 PBDA CP Filters:
-PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.9600.17415
-PBDA ETFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.17415
-PBDA PTFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.17415
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.9600.18192
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.18192
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.18192
 
 Midi Renderers:
 Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.9600.18154
@@ -951,10 +957,10 @@ BDA MPEG2 Transport Information Filter,0x00600000,2,0,psisrndr.ax,6.06.9600.1741
 MPEG-2 Sections and Tables,0x00600000,1,0,Mpeg2Data.ax,6.06.9600.17415
 
 BDA CP/CA Filters:
-Decrypt/Tag,0x00600000,1,1,EncDec.dll,6.06.9600.17415
-Encrypt/Tag,0x00200000,0,0,EncDec.dll,6.06.9600.17415
-PTFilter,0x00200000,0,0,EncDec.dll,6.06.9600.17415
-XDS Codec,0x00200000,0,0,EncDec.dll,6.06.9600.17415
+Decrypt/Tag,0x00600000,1,1,EncDec.dll,6.06.9600.18192
+Encrypt/Tag,0x00200000,0,0,EncDec.dll,6.06.9600.18192
+PTFilter,0x00200000,0,0,EncDec.dll,6.06.9600.18192
+XDS Codec,0x00200000,0,0,EncDec.dll,6.06.9600.18192
 
 WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.03.9600.18154
@@ -1301,7 +1307,7 @@ Disabled Media Sources
 ---------------
 EVR Power Information
 ---------------
-Current Setting: {16260968-C914-4AA1-8736-B7A6F3C5AE9B} (Power)
+Current Setting: {651288E5-A7ED-4076-A96B-6CC62D848FE1} (Balanced)
   Quality Flags: 2576
     Enabled:
     Force throttling
@@ -1329,42 +1335,13 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fehlerbucket 128993858017, Typ 5
-Ereignisname: RADAR_PRE_LEAK_64
-Antwort: Nicht verfügbar
-CAB-Datei-ID: 0
-
-Problemsignatur:
-P1: POWERPNT.EXE
-P2: 15.0.4787.1000
-P3: 6.3.9600.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\RDR4E85.tmp\empty.txt
-
-Diese Dateien befinden sich möglicherweise hier:
-
-
-Analysesymbol: 
-Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 5a556a70-bfbd-11e5-bf99-5c514f0fbd19
-Berichtstatus: 0
-Bucket mit Hash: 26da8080bb4c051ae8bf0a3f00b057bb
-+++ WER1 +++:
 Fehlerbucket , Typ 0
 Ereignisname: WindowsUpdateFailure3
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
+P1: 7.9.9600.18192
 P2: 8024000e
 P3: 00000000-0000-0000-0000-000000000000
 P4: Scan
@@ -1384,68 +1361,93 @@ Diese Dateien befinden sich möglicherweise hier:
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 41879a45-bfb1-11e5-bf99-5c514f0fbd19
+Berichts-ID: dc39f1a6-da6c-11e5-bf9d-5c514f0fbd19
 Berichtstatus: 262144
 Bucket mit Hash: 
++++ WER1 +++:
+Fehlerbucket 125558313889, Typ 5
+Ereignisname: WindowsUpdateFailure3
+Antwort: Nicht verfügbar
+CAB-Datei-ID: 0
+
+Problemsignatur:
+P1: 7.9.9600.18192
+P2: 80246013
+P3: 077DB01E-86F1-445A-BEF8-4B5DE97C899E
+P4: Install
+P5: 204
+P6: 0
+P7: 80246013
+P8: AutomaticUpdates
+P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
+P10: 0
+
+Angefügte Dateien:
+
+Diese Dateien befinden sich möglicherweise hier:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_7.9.9600.18192_80f33657d913764c44da51b5d4a6a3bab7fd06e_00000000_07546e3e
+
+Analysesymbol: 
+Es wird erneut nach einer Lösung gesucht: 0
+Berichts-ID: 8dbe664f-d71c-11e5-bf9d-5c514f0fbd19
+Berichtstatus: 0
+Bucket mit Hash: acc0832eb6d236e8ad8adb82d5d953b9
 +++ WER2 +++:
-Fehlerbucket 120285794604, Typ 4
-Ereignisname: APPCRASH
+Fehlerbucket , Typ 0
+Ereignisname: WindowsUpdateFailure3
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: DllHost.exe
-P2: 6.3.9600.17415
-P3: 54504134
-P4: netcfgx.dll
-P5: 6.3.9600.17931
-P6: 55a002b9
-P7: c000041d
-P8: 0000000000034bb1
-P9: 
-P10: 
+P1: 7.9.9600.18192
+P2: 80246013
+P3: 077DB01E-86F1-445A-BEF8-4B5DE97C899E
+P4: Install
+P5: 204
+P6: 0
+P7: 80246013
+P8: AutomaticUpdates
+P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
+P10: 0
 
 Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\WERE944.tmp.WERInternalMetadata.xml
-C:\Users\Martin\AppData\Local\Temp\WERF115.tmp.appcompat.txt
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DllHost.exe_78d4bcf64ae2f9cf6e657552147c2eb946326c3_30a79b3d_1b99f191
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_7.9.9600.18192_80f33657d913764c44da51b5d4a6a3bab7fd06e_00000000_10c06ab3
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: d937ddb4-bd49-11e5-bf99-5c514f0fbd19
-Berichtstatus: 1
-Bucket mit Hash: 92c1045fcc92b7eb6b6cfc966465acf7
+Berichts-ID: 8dbe664f-d71c-11e5-bf9d-5c514f0fbd19
+Berichtstatus: 2097156
+Bucket mit Hash: 
 +++ WER3 +++:
-Fehlerbucket 120285794593, Typ 4
-Ereignisname: APPCRASH
+Fehlerbucket , Typ 0
+Ereignisname: WindowsUpdateFailure3
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: DllHost.exe
-P2: 6.3.9600.17415
-P3: 54504134
-P4: netcfgx.dll
-P5: 6.3.9600.17931
-P6: 55a002b9
-P7: c0000005
-P8: 0000000000034bb1
-P9: 
-P10: 
+P1: 7.9.9600.18192
+P2: 80246013
+P3: 077DB01E-86F1-445A-BEF8-4B5DE97C899E
+P4: Install
+P5: 204
+P6: 0
+P7: 80246013
+P8: AutomaticUpdates
+P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
+P10: 0
 
 Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\WERDCFF.tmp.WERInternalMetadata.xml
 
 Diese Dateien befinden sich möglicherweise hier:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DllHost.exe_42734bbc3f7e95ebeff6a085197e4f3146b88ae3_30a79b3d_1825e3c6
+
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: d76601a8-bd49-11e5-bf99-5c514f0fbd19
-Berichtstatus: 1
-Bucket mit Hash: a929c1080ab8fa72ed2618aef1faef5f
+Berichts-ID: 8dbe664f-d71c-11e5-bf9d-5c514f0fbd19
+Berichtstatus: 262144
+Bucket mit Hash: 
 +++ WER4 +++:
 Fehlerbucket , Typ 0
 Ereignisname: WindowsUpdateFailure3
@@ -1453,7 +1455,7 @@ Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
+P1: 7.9.9600.18192
 P2: 8024000e
 P3: 00000000-0000-0000-0000-000000000000
 P4: Scan
@@ -1473,7 +1475,7 @@ Diese Dateien befinden sich möglicherweise hier:
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 5cdec034-bd06-11e5-bf99-5c514f0fbd19
+Berichts-ID: abd6e6a4-d61a-11e5-bf9d-5c514f0fbd19
 Berichtstatus: 262144
 Bucket mit Hash: 
 +++ WER5 +++:
@@ -1483,7 +1485,7 @@ Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: 7.9.9600.18145
+P1: 7.9.9600.18192
 P2: 8024000e
 P3: 00000000-0000-0000-0000-000000000000
 P4: Scan
@@ -1503,50 +1505,18 @@ Diese Dateien befinden sich möglicherweise hier:
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 052c4efb-bc2f-11e5-bf99-5c514f0fbd19
+Berichts-ID: 7c04f56d-d56b-11e5-bf9d-5c514f0fbd19
 Berichtstatus: 262144
 Bucket mit Hash: 
 +++ WER6 +++:
-Fehlerbucket , Typ 0
-Ereignisname: APPCRASH
-Antwort: Nicht verfügbar
-CAB-Datei-ID: 0
-
-Problemsignatur:
-P1: UE4-TheBeginning
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-TheBeginning-1501.dll
-P5: 4.9.2
-P6: 56982366
-P7: c0000005
-P8: 000000000000DFA2
-P9: !"C:\Users\Martin\Desktop\Uni\GE_Project\TheBeginning.uproject" !AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
-
-Angefügte Dateien:
-../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/UE4CC-Windows-A145F4F249F74DF4819AE1BC9197E9D6/CrashContext.runtime-xml
-../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/UE4CC-Windows-A145F4F249F74DF4819AE1BC9197E9D6/UE4Minidump.dmp
-../../../../../../Users/Martin/Desktop/Uni/GE_Project/Saved/Logs/TheBeginning.log
-C:\Users\Martin\AppData\Local\Temp\WERF7F5.tmp.WERInternalMetadata.xml
-
-Diese Dateien befinden sich möglicherweise hier:
-C:\Users\Martin\AppData\Local\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TheBeginning_74a96e8e121fcec814c1147c8530fa1285c69b_00000000_cab_1414f814
-
-Analysesymbol: 
-Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 39e4c635-bb79-11e5-bf99-5c514f0fbd19
-Berichtstatus: 4
-Bucket mit Hash: 
-+++ WER7 +++:
-Fehlerbucket 94618531383, Typ 5
+Fehlerbucket 94625619470, Typ 5
 Ereignisname: RADAR_PRE_LEAK_64
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: kinectservice.exe
-P2: 2.0.1410.18000
+P1: TiWorker.exe
+P2: 6.3.9600.17477
 P3: 6.3.9600.2.0.0
 P4: 
 P5: 
@@ -1557,71 +1527,99 @@ P9:
 P10: 
 
 Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\RDR1466.tmp\empty.txt
+C:\Users\Martin\AppData\Local\Temp\RDR28F5.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
 
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: 31372353-bb6d-11e5-bf99-5c514f0fbd19
+Berichts-ID: beccbd88-d4e6-11e5-bf9c-5c514f0fbd19
 Berichtstatus: 0
-Bucket mit Hash: 76d7b54e42dbeefbe71dccc70bcc72d6
+Bucket mit Hash: 2238bfdd0a9b19a176a43cae7e35cd2d
++++ WER7 +++:
+Fehlerbucket , Typ 0
+Ereignisname: WindowsUpdateFailure3
+Antwort: Nicht verfügbar
+CAB-Datei-ID: 0
+
+Problemsignatur:
+P1: 7.9.9600.18192
+P2: 8024000e
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: AutomaticUpdates
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
+
+Angefügte Dateien:
+
+Diese Dateien befinden sich möglicherweise hier:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_7.9.9600.18192_12b9ebb1fac84ed4fedab3827add4f0cac27860_00000000_0616c908
+
+Analysesymbol: 
+Es wird erneut nach einer Lösung gesucht: 0
+Berichts-ID: c04d466c-d4a6-11e5-bf9c-5c514f0fbd19
+Berichtstatus: 8192
+Bucket mit Hash: 
 +++ WER8 +++:
-Fehlerbucket -203911995, Typ 5
-Ereignisname: RADAR_PRE_LEAK_WOW64
+Fehlerbucket , Typ 0
+Ereignisname: WindowsUpdateFailure3
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: git.exe
-P2: 1.8.5.0
-P3: 6.3.9600.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 7.9.9600.18192
+P2: 8024000e
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: AutomaticUpdates
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\RDR5A68.tmp\empty.txt
 
 Diese Dateien befinden sich möglicherweise hier:
-
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_7.9.9600.18192_12b9ebb1fac84ed4fedab3827add4f0cac27860_00000000_0c1ac4e2
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: e2051eec-bb0b-11e5-bf99-5c514f0fbd19
-Berichtstatus: 0
-Bucket mit Hash: b8d18bb94c95ae116ea05bd4d5449875
+Berichts-ID: c04d466c-d4a6-11e5-bf9c-5c514f0fbd19
+Berichtstatus: 2097156
+Bucket mit Hash: 
 +++ WER9 +++:
-Fehlerbucket 128977907324, Typ 5
-Ereignisname: RADAR_PRE_LEAK_WOW64
+Fehlerbucket , Typ 0
+Ereignisname: WindowsUpdateFailure3
 Antwort: Nicht verfügbar
 CAB-Datei-ID: 0
 
 Problemsignatur:
-P1: GitHub.exe
-P2: 3.0.11.0
-P3: 6.3.9600.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 7.9.9600.18192
+P2: 8024000e
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: AutomaticUpdates
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 Angefügte Dateien:
-C:\Users\Martin\AppData\Local\Temp\RDR9F25.tmp\empty.txt
+C:\Windows\WindowsUpdate.log
+C:\Windows\SoftwareDistribution\ReportingEvents.log
 
 Diese Dateien befinden sich möglicherweise hier:
 
 
 Analysesymbol: 
 Es wird erneut nach einer Lösung gesucht: 0
-Berichts-ID: c9a3898c-bb09-11e5-bf99-5c514f0fbd19
-Berichtstatus: 0
-Bucket mit Hash: 79249ad267d8d8b22778b28953579646
+Berichts-ID: c04d466c-d4a6-11e5-bf9c-5c514f0fbd19
+Berichtstatus: 262144
+Bucket mit Hash: 
