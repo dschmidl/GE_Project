@@ -1,0 +1,579 @@
+﻿[2016.01.31-15.05.00:464][  0]Log file open, 01/31/16 16:05:00
+[2016.01.31-15.05.00:464][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.01.31-15.05.00:464][  0]LogInit:Display: RandInit(567256540) SRandInit(567256541).
+[2016.01.31-15.05.00:464][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.31-15.05.00:464][  0]LogStats: Stats thread started at 0.064907
+[2016.01.31-15.05.00:464][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.31-15.05.00:464][  0]LogInit: API Version: 2672455
+[2016.01.31-15.05.00:464][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.31-15.05.00:464][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.31-15.05.00:464][  0]LogInit: Build Configuration: Development
+[2016.01.31-15.05.00:464][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.31-15.05.00:464][  0]LogInit: Command line:  
+[2016.01.31-15.05.00:464][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.31-15.05.00:464][  0]LogInit: Rocket: 1
+[2016.01.31-15.05.00:469][  0]LogInit: Using libcurl 7.41.0
+[2016.01.31-15.05.00:469][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.31-15.05.00:469][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.31-15.05.00:469][  0]LogInit:  - other features:
+[2016.01.31-15.05.00:469][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.31-15.05.00:469][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.31-15.05.00:469][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.31-15.05.00:469][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.31-15.05.00:469][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.31-15.05.00:469][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.31-15.05.00:469][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.31-15.05.00:469][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.31-15.05.00:469][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.31-15.05.00:469][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.31-15.05.00:473][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.31-15.05.00:478][  0]LogInit: Object subsystem initialized
+[2016.01.31-15.05.00:479][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-15.05.00:479][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.31-15.05.00:485][  0]LogInit: Computer: PC1021500895
+[2016.01.31-15.05.00:485][  0]LogInit: User: VR
+[2016.01.31-15.05.00:485][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.31-15.05.00:485][  0]LogInit: High frequency timer resolution =3.507499 MHz
+[2016.01.31-15.05.00:486][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.31-15.05.00:486][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.31-15.05.00:486][  0]LogMemory: Process Physical Memory: 52.59 MB used, 52.59 MB peak
+[2016.01.31-15.05.00:486][  0]LogMemory: Process Virtual Memory: 55.17 MB used, 55.17 MB peak
+[2016.01.31-15.05.00:486][  0]LogMemory: Physical Memory: 3882.78 MB used, 16261.17 MB total
+[2016.01.31-15.05.00:486][  0]LogMemory: Virtual Memory: 349.54 MB used, 134217728.00 MB total
+[2016.01.31-15.05.00:512][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.31-15.05.01:134][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.31-15.05.01:134][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.01.31-15.05.01:135][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.31-15.05.01:135][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.31-15.05.01:135][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.31-15.05.01:138][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.31-15.05.01:138][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.31-15.05.01:147][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.31-15.05.01:162][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/892/).
+[2016.01.31-15.05.01:162][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/F74E959A4BB57E9600C05FA4F175645A/'.
+[2016.01.31-15.05.01:162][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.31-15.05.01:920][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.31-15.05.01:923][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.31-15.05.01:927][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.31-15.05.01:930][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.31-15.05.01:933][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.31-15.05.01:935][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.31-15.05.01:937][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.31-15.05.01:939][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.31-15.05.01:941][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.31-15.05.01:944][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.31-15.05.01:946][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.31-15.05.01:948][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.31-15.05.01:949][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.31-15.05.01:964][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.31-15.05.01:966][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.31-15.05.01:969][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.31-15.05.01:972][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.31-15.05.01:972][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.31-15.05.02:021][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.31-15.05.02:060][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.31-15.05.02:173][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.31-15.05.02:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.31-15.05.02:308][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-15.05.02:309][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.31-15.05.02:394][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.31-15.05.02:394][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.31-15.05.02:568][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.31-15.05.03:064][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.31-15.05.03:155][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.01.31-15.05.03:268][  0]SourceControl: Info Source control is disabled
+[2016.01.31-15.05.03:274][  0]SourceControl: Info Source control is disabled
+[2016.01.31-15.05.03:279][  0]SourceControl: Info Source control is disabled
+[2016.01.31-15.05.03:285][  0]SourceControl: Info Source control is disabled
+[2016.01.31-15.05.03:363][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.31-15.05.03:408][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.01.31-15.05.03:412][  0]LogObj: 29066 objects as part of root set at end of initial load.
+[2016.01.31-15.05.03:412][  0]LogUObjectAllocator: 6193312 out of 0 bytes used by permanent object pool.
+[2016.01.31-15.05.03:459][  0]LogEngine: Initializing Engine...
+[2016.01.31-15.05.03:461][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.31-15.05.03:821][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 207KGV03FJGR
+[2016.01.31-15.05.03:919][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.31-15.05.03:922][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.31-15.05.03:931][  0]LogInit: FAudioDevice initialized.
+[2016.01.31-15.05.03:950][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.31-15.05.03:953][  0]LogInit: Texture streaming: Enabled
+[2016.01.31-15.05.03:956][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.31-15.05.03:956][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.31-15.05.03:956][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|15a5252fe37a4825a673547b0b937ab6|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.01.31-15.05.03:956][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.31-15.05.03:963][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.31-15.05.03:973][  0]LogInit: Transaction tracking system initialized
+[2016.01.31-15.05.03:988][  0]BlueprintLog: New page: Editor Load
+[2016.01.31-15.05.04:036][  0]LocalizationService: Info Localization service is disabled
+[2016.01.31-15.05.04:077][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.31-15.05.04:078][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.01.31-15.05.04:078][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.01.31-15.05.04:085][  0]LogConsoleResponse:Display: 
+[2016.01.31-15.05.04:177][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.31-15.05.04:207][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.01.31-15.05.04:207][  0]SourceControl: Info Source control is disabled
+[2016.01.31-15.05.04:207][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-15.05.04:208][  0]LightingResults: New page: Lighting Build
+[2016.01.31-15.05.04:209][  0]MapCheck: New page: Map Check
+[2016.01.31-15.05.04:209][  0]LightingResults: New page: Lighting Build
+[2016.01.31-15.05.04:218][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F26F163E0
+[2016.01.31-15.05.04:521][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.31-15.05.04:527][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-15.05.04:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-15.05.04:568][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.91ms to complete.
+[2016.01.31-15.05.04:568][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.361
+[2016.01.31-15.05.04:663][  0]LogCollectionManager: Loaded 0 collections in 0.001721 seconds
+[2016.01.31-15.05.04:702][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.01.31-15.05.04:702][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.01.31-15.05.04:702][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.01.31-15.05.04:702][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1901 classes and 339 folders.
+[2016.01.31-15.05.04:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.31-15.05.04:710][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.01.31-15.05.04:743][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.01.31-15.05.04:748][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.01.31-15.05.04:791][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.31-15.05.04:794][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.31-15.05.04:817][  0]LogLoad: Full Startup: 4.92 seconds (BP compile: 0.03 seconds)
+[2016.01.31-15.05.04:869][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.31-15.05.04:970][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.01.31-15.05.05:838][  3]LogAssetRegistry: Asset discovery search completed in 2.6933 seconds
+[2016.01.31-15.05.05:838][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.31-15.05.05:838][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.01.31-15.05.11:243][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.31-15.05.11:243][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.31-15.05.11:244][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.31-15.05.11:244][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.31-15.05.11:246][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.35] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.01.31-15.05.11:246][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.35] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.31-15.05.11:246][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.35] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.31-15.05.11:298][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.31-15.05.11:299][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.31-15.05.11:299][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.31-15.05.11:299][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.31-15.05.11:301][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.40] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.01.31-15.05.11:301][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.40] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.31-15.05.11:302][280]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.40] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.31-15.05.11:481][280]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.31-15.05.11:512][280]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-15.05.11:512][280]LightingResults: New page: Lighting Build
+[2016.01.31-15.05.11:526][280]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.01.31-15.05.11:526][280]MapCheck: New page: Map Check
+[2016.01.31-15.05.11:526][280]LightingResults: New page: Lighting Build
+[2016.01.31-15.05.11:535][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F146E7380
+[2016.01.31-15.05.11:591][280]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-15.05.11:625][280]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-15.05.11:668][280]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.531ms to complete.
+[2016.01.31-15.05.11:668][280]LogFileHelpers: Loading map 'MyFirstLevel' took 0.156
+[2016.01.31-15.05.11:695][281]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.31-15.05.11:696][281]Cmd: UpdateLandscapeEditorData
+[2016.01.31-15.05.22:601][562]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.01.31-15.05.23:935][718]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.01.31-15.05.30:136][454]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.01.31-15.05.31:203][579]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2016.01.31-15.05.31:849][653]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.01.31-15.05.34:659][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.34:659][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-15.05.34:660][986]PIE: New page: PIE session: MyFirstLevel (Jan 31, 2016, 5:05:34 PM)
+[2016.01.31-15.05.34:660][986]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.31-15.05.34:668][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008256s)
+[2016.01.31-15.05.34:668][986]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.31-15.05.34:669][986]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2016.01.31-15.05.34:669][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.008893s)
+[2016.01.31-15.05.34:669][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-15.05.34:682][986]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.31-15.05.34:685][986]LogInit: FAudioDevice initialized.
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:808][986]LoadErrors:Error: Error /Game/BP_Avatar : Can't find file for asset. /Script/Kinect4Unreal
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:808][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:809][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:810][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by CallFunc_GetCenteredBody_CenteredBody
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:810][986]LoadErrors:Error: Error /Game/Blueprints/BP_TheBeginningGameMode : Can't find file for asset. /Script/Kinect4Unreal
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:810][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by CallFunc_GetHandStateAsExecution_HandState
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:810][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by CallFunc_GetHandStateAsExecution_HandState2
+[2016.01.31-15.05.34:810][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:811][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:813][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2965
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:813][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_6970
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:813][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_6971
+[2016.01.31-15.05.34:813][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:814][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_6813
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:814][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2682
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:814][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_6989
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:814][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_6990
+[2016.01.31-15.05.34:814][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:815][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_6991
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:815][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_6992
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:815][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_6864
+[2016.01.31-15.05.34:815][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:816][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:816][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2550
+[2016.01.31-15.05.34:816][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:817][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_28126
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:817][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_28127
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:817][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_28128
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:817][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:818][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_28129
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:818][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_28150
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:818][986]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by SCS_Node_1
+[2016.01.31-15.05.34:818][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:821][986]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.01.31-15.05.34:821][986]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.01.31-15.05.34:822][986]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.01.31-15.05.34:824][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.01.31-15.05.34:824][986]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.01.31-15.05.34:825][986]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.01.31-15.05.34:825][986]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.01.31-15.05.34:825][986]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.01.31-15.05.34:825][986]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.01.31-15.05.34:828][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0034.93] Compile of BP_Avatar failed. 8 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2016.01.31-15.05.34:828][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0034.93] Compile of BP_Avatar failed. 8 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.01.31-15.05.34:828][986]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0034.93] Compile of BP_Avatar failed. 8 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.01.31-15.05.34:829][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:829][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:829][986]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.01.31-15.05.34:829][986]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_TheBeginningGameMode.uasset.
+[2016.01.31-15.05.34:863][986]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.31-15.05.34:875][986]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.31-16.05.34
+[2016.01.31-15.05.34:875][986]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-15.05.34:876][986]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-15.05.34:877][986]LogWorld: Bringing up level for play took: 0.012825
+[2016.01.31-15.05.34:892][986]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.244
+[2016.01.31-15.05.34:892][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.34:897][987]LogRenderer: Reallocating scene render targets to support 2600x1464 (Frame:891).
+[2016.01.31-15.05.34:908][988]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 430/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.46:785][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.46:858][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.46:858][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-15.05.46:871][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F11AF6980
+[2016.01.31-15.05.48:453][882]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.48:497][887]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.48:911][936]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.49:293][978]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.49:522][  2]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.05.55:613][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.55:613][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-15.05.57:983][729]PIE: New page: PIE session: MyFirstLevel (Jan 31, 2016, 5:05:57 PM)
+[2016.01.31-15.05.57:983][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.01.31-15.05.57:991][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007709s)
+[2016.01.31-15.05.57:992][729]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.01.31-15.05.57:992][729]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2016.01.31-15.05.57:992][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.008349s)
+[2016.01.31-15.05.57:992][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-15.05.57:992][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.31-15.05.58:003][729]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.31-15.05.58:005][729]LogInit: FAudioDevice initialized.
+[2016.01.31-15.05.58:102][729]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.01.31-15.05.58:114][729]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.01.31-16.05.58
+[2016.01.31-15.05.58:114][729]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-15.05.58:115][729]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-15.05.58:116][729]LogWorld: Bringing up level for play took: 0.012860
+[2016.01.31-15.05.58:131][729]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 2.995
+[2016.01.31-15.05.58:131][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.05.58:157][731]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.32:212][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.06.32:285][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.01.31-15.06.32:297][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F3CAB2CA0
+[2016.01.31-15.06.34:264][986]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:301][989]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:553][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:621][ 24]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:668][ 29]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:926][ 60]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.34:985][ 66]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.35:045][ 73]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.35:437][118]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.35:838][163]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 536/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.31-15.06.48:341][634]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.01.31-15.06.48:342][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-15.06.48:342][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.31-15.06.48:451][634]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.31-15.06.48:693][635]Cmd: QUIT_EDITOR
+[2016.01.31-15.06.51:990][635]LogExit: Preparing to exit.
+[2016.01.31-15.06.52:226][635]LogExit: Editor shut down
+[2016.01.31-15.06.52:226][635]LogExit: Transaction tracking system shut down
+[2016.01.31-15.06.52:227][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F1D9CEB60
+[2016.01.31-15.06.52:227][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F1D9CE840
+[2016.01.31-15.06.52:227][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F32E97880
+[2016.01.31-15.06.52:228][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F214904A0
+[2016.01.31-15.06.52:228][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F13337B00
+[2016.01.31-15.06.52:240][635]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.31-15.06.52:344][635]LogExit: Object subsystem successfully closed.
+[2016.01.31-15.06.52:358][635]LogD3D11RHI: Shutdown
+[2016.01.31-15.06.52:358][635]LogD3D11RHI: CleanupD3DDevice
+[2016.01.31-15.06.52:359][635]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.31-15.06.52:368][635]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.01.31-15.06.52:368][635]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.01.31-15.06.52:368][635]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.01.31-15.06.52:368][635]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.01.31-15.06.52:368][635]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.01.31-15.06.52:369][635]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.01.31-15.06.53:132][635]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.01.31-15.06.53:133][635]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.01.31-15.06.53:246][635]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.01.31-15.06.53:246][635]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.31-15.06.53:255][635]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.31-15.06.53:265][635]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.31-15.06.53:266][635]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.31-15.06.53:266][635]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.31-15.06.53:332][635]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.31-15.06.53:333][635]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.31-15.06.53:333][635]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
+[2016.01.31-15.06.53:333][635]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.31-15.06.53:434][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.31-15.06.53:434][635]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.31-15.06.53:434][635]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.31-15.06.53:437][635]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.31-15.06.53:439][635]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.31-15.06.53:440][635]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.31-15.06.53:758][635]LogDerivedDataCache: Shutdown
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.31-15.06.53:758][635]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.31-15.06.54:760][635]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.31-15.06.54:761][635]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.31-15.06.54:761][635]LogExit: Exiting.
+[2016.01.31-15.06.54:762][635]Log file closed, 01/31/16 16:06:54

@@ -12,11 +12,5 @@
 				"Engine"
 			]
 		}
-	],
-	"Plugins": [
-		{
-			"Name": "Kinect4Unreal",
-			"Enabled": false
-		}
 	]
 }
