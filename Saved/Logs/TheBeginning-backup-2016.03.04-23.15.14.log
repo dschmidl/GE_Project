@@ -1,0 +1,1075 @@
+﻿[2016.03.04-22.06.16:354][  0]Log file open, 03/04/16 23:06:16
+[2016.03.04-22.06.16:354][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.04-22.06.16:354][  0]LogInit:Display: RandInit(378986025) SRandInit(378986025).
+[2016.03.04-22.06.16:354][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.04-22.06.16:354][  0]LogStats: Stats thread started at 0.081723
+[2016.03.04-22.06.16:354][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.04-22.06.16:354][  0]LogInit: API Version: 2672455
+[2016.03.04-22.06.16:354][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.04-22.06.16:354][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.04-22.06.16:354][  0]LogInit: Build Configuration: Development
+[2016.03.04-22.06.16:354][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.04-22.06.16:354][  0]LogInit: Command line: -EpicPortal 
+[2016.03.04-22.06.16:354][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.04-22.06.16:354][  0]LogInit: Rocket: 1
+[2016.03.04-22.06.16:362][  0]LogInit: Using libcurl 7.41.0
+[2016.03.04-22.06.16:362][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.04-22.06.16:362][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.04-22.06.16:362][  0]LogInit:  - other features:
+[2016.03.04-22.06.16:362][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.04-22.06.16:362][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.04-22.06.16:362][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.04-22.06.16:362][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.04-22.06.16:362][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.04-22.06.16:362][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.04-22.06.16:362][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.04-22.06.16:362][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.04-22.06.16:362][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.04-22.06.16:362][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.04-22.06.16:368][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.04-22.06.16:374][  0]LogInit: Object subsystem initialized
+[2016.03.04-22.06.16:375][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.04-22.06.16:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.04-22.06.16:384][  0]LogInit: Computer: DESKTOP-I563IRF
+[2016.03.04-22.06.16:384][  0]LogInit: User: CaptainAmerica
+[2016.03.04-22.06.16:384][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.04-22.06.16:384][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2016.03.04-22.06.16:384][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.03.04-22.06.16:384][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.04-22.06.16:384][  0]LogMemory: Process Physical Memory: 54.05 MB used, 54.05 MB peak
+[2016.03.04-22.06.16:384][  0]LogMemory: Process Virtual Memory: 56.31 MB used, 56.31 MB peak
+[2016.03.04-22.06.16:384][  0]LogMemory: Physical Memory: 3835.33 MB used, 16205.89 MB total
+[2016.03.04-22.06.16:384][  0]LogMemory: Virtual Memory: 370.37 MB used, 134217728.00 MB total
+[2016.03.04-22.06.16:417][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.04-22.06.17:114][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M    (Feature Level 11_0)
+[2016.03.04-22.06.17:114][  0]LogD3D11RHI: Adapter has 2989MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 1 output[s]
+[2016.03.04-22.06.17:120][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.03.04-22.06.17:120][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.04-22.06.17:121][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.04-22.06.17:121][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.04-22.06.17:121][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.04-22.06.17:125][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.04-22.06.17:125][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.04-22.06.17:136][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.04-22.06.17:154][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/WorkingDirectory/5340/).
+[2016.03.04-22.06.17:154][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/tmp/7D7FB05C470C0F1F928188AF5DC47FDF/'.
+[2016.03.04-22.06.17:154][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.04-22.06.18:030][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.04-22.06.18:035][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.04-22.06.18:040][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.04-22.06.18:045][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.04-22.06.18:050][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.04-22.06.18:053][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.04-22.06.18:056][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.04-22.06.18:060][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.04-22.06.18:063][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.04-22.06.18:066][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.04-22.06.18:069][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.04-22.06.18:072][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.04-22.06.18:073][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.04-22.06.18:091][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.04-22.06.18:094][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.04-22.06.18:098][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.04-22.06.18:101][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.04-22.06.18:101][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.04-22.06.18:184][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.04-22.06.18:221][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.04-22.06.18:341][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.04-22.06.18:352][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.04-22.06.18:508][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.04-22.06.18:510][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.04-22.06.18:622][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.04-22.06.18:622][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.04-22.06.18:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.04-22.06.19:448][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.04-22.06.19:557][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.03.04-22.06.19:711][  0]SourceControl: Info Source control is disabled
+[2016.03.04-22.06.19:712][  0]SourceControl: Info Source control is disabled
+[2016.03.04-22.06.19:725][  0]SourceControl: Info Source control is disabled
+[2016.03.04-22.06.19:736][  0]SourceControl: Info Source control is disabled
+[2016.03.04-22.06.19:896][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.04-22.06.19:974][  0]LogObj: 28421 objects as part of root set at end of initial load.
+[2016.03.04-22.06.19:974][  0]LogUObjectAllocator: 6081744 out of 0 bytes used by permanent object pool.
+[2016.03.04-22.06.20:025][  0]LogEngine: Initializing Engine...
+[2016.03.04-22.06.20:027][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.04-22.06.20:027][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.04-22.06.20:137][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.04-22.06.20:140][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.04-22.06.20:159][  0]LogInit: FAudioDevice initialized.
+[2016.03.04-22.06.20:176][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.04-22.06.20:180][  0]LogInit: Texture streaming: Enabled
+[2016.03.04-22.06.20:185][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.04-22.06.20:185][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.04-22.06.20:185][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cf13bd144fda46388eb9608560661132|81f01d6b67df48cfa9231b1643757103|89657b24-a756-40fe-95bd-5a575f0e3948
+[2016.03.04-22.06.20:185][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.04-22.06.20:210][  0]LogInit: Transaction tracking system initialized
+[2016.03.04-22.06.20:238][  0]BlueprintLog: New page: Editor Load
+[2016.03.04-22.06.20:315][  0]LocalizationService: Info Localization service is disabled
+[2016.03.04-22.06.20:386][  0]LogConsoleResponse:Display: 
+[2016.03.04-22.06.20:486][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.04-22.06.20:544][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/' took 0.01s
+[2016.03.04-22.06.20:544][  0]SourceControl: Info Source control is disabled
+[2016.03.04-22.06.20:544][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.04-22.06.20:544][  0]LightingResults: New page: Lighting Build
+[2016.03.04-22.06.20:547][  0]MapCheck: New page: Map Check
+[2016.03.04-22.06.20:547][  0]LightingResults: New page: Lighting Build
+[2016.03.04-22.06.20:555][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015680FA36A0
+[2016.03.04-22.06.20:897][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.04-22.06.20:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.04-22.06.20:902][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.04-22.06.20:939][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.552ms to complete.
+[2016.03.04-22.06.20:939][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.395
+[2016.03.04-22.06.21:032][  0]LogCollectionManager: Loaded 0 collections in 0.002528 seconds
+[2016.03.04-22.06.21:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.04-22.06.21:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Developers/CaptainAmerica/Collections/' took 0.01s
+[2016.03.04-22.06.21:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Collections/' took 0.01s
+[2016.03.04-22.06.21:072][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1873 classes and 335 folders.
+[2016.03.04-22.06.21:076][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.04-22.06.21:084][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.03.04-22.06.21:119][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.03.04-22.06.21:124][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2016.03.04-22.06.21:148][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.04-22.06.21:152][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.04-22.06.21:174][  0]LogLoad: Full Startup: 5.70 seconds (BP compile: 0.04 seconds)
+[2016.03.04-22.06.21:236][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.04-22.06.21:367][  2]LogRenderer: Reallocating scene render targets to support 796x328 (Frame:2).
+[2016.03.04-22.06.21:531][  3]LogAssetRegistry: Asset discovery search completed in 1.9845 seconds
+[2016.03.04-22.06.21:531][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.04-22.06.21:531][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2016.03.04-22.06.25:147][206]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.25:259][206]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.25:266][206]LogMaterial: 0.000244 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.06.25:295][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2016.03.04-22.06.25:301][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.04-22.06.25:306][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.04-22.06.25:311][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.03.04-22.06.25:316][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.04-22.06.25:320][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.04-22.06.25:324][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.04-22.06.26:550][268]MaterialEditorStats: Info Base pass shader with static lighting: 81 instructions
+[2016.03.04-22.06.26:550][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.04-22.06.26:550][268]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.06.26:550][268]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.06.37:033][893]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.37:039][893]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.06.37:062][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2016.03.04-22.06.37:874][942]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.06.37:874][942]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.06.37:874][942]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.06.37:874][942]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.06.38:723][993]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2016.03.04-22.06.39:260][993]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.39:281][993]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.06.39:322][993]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.39:386][993]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.39:425][993]LogMaterial: 0.000434 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.06.45:061][993]LogSavePackage: Save=17.511894ms
+[2016.03.04-22.06.45:061][993]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Landscape_Material0E749FB8420E2E930A142594669B3E0F.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Landscape/Materials/Landscape_Material.uasset'
+[2016.03.04-22.06.45:065][993]LogSavePackage: Total save time: 33.051640ms
+[2016.03.04-22.06.45:065][993]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Landscape/Materials/Landscape_Material.uasset
+[2016.03.04-22.06.45:072][993]MaterialEditorStats: Info Base pass shader with static lighting: 101 instructions
+[2016.03.04-22.06.45:072][993]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2016.03.04-22.06.45:072][993]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.06.45:072][993]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.04-22.06.48:803][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.04-22.06.48:803][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.04-22.06.48:804][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.04-22.06.48:804][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.04-22.06.48:806][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.33] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.04-22.06.48:806][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.33] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.04-22.06.48:806][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.33] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.04-22.06.48:866][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.04-22.06.48:866][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.04-22.06.48:866][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.04-22.06.48:866][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.04-22.06.48:869][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.39] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.04-22.06.48:869][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.39] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.04-22.06.48:869][211]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0033.39] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.04-22.06.49:190][211]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.06.49:259][211]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.04-22.06.49:271][211]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.04-22.06.49:318][211]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.04-22.06.49:318][211]LightingResults: New page: Lighting Build
+[2016.03.04-22.06.49:347][211]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.04-22.06.49:347][211]MapCheck: New page: Map Check
+[2016.03.04-22.06.49:347][211]LightingResults: New page: Lighting Build
+[2016.03.04-22.06.49:363][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156F203F880
+[2016.03.04-22.06.49:536][211]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.04-22.06.49:614][211]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.04-22.06.49:685][211]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.677ms to complete.
+[2016.03.04-22.06.49:685][211]LogFileHelpers: Loading map 'MyFirstLevel' took 0.368
+[2016.03.04-22.06.49:714][212]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.04-22.06.49:722][212]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.07.22:622][166]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.07.22:649][166]LogMaterial: 0.003144 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.07.22:667][166]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.07.22:704][166]LogMaterial: 0.003230 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.07.22:705][166]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.03.04-22.07.37:869][ 57]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.03.04-22.07.37:874][ 57]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.07.37:900][ 57]LogMaterial: 0.002780 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.07.37:901][ 57]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2016.03.04-22.07.37:916][ 57]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.03.04-22.07.37:919][ 57]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2016.03.04-22.07.37:921][ 57]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2016.03.04-22.07.37:923][ 57]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.03.04-22.07.37:925][ 57]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.03.04-22.07.37:927][ 57]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.03.04-22.07.37:928][ 57]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2016.03.04-22.07.37:931][ 57]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2016.03.04-22.07.37:933][ 57]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.03.04-22.07.37:934][ 57]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.03.04-22.07.37:936][ 57]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2016.03.04-22.07.37:938][ 57]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2016.03.04-22.07.37:940][ 57]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2016.03.04-22.07.37:942][ 57]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2016.03.04-22.07.37:944][ 57]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2016.03.04-22.07.37:946][ 57]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2016.03.04-22.07.37:948][ 57]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2016.03.04-22.07.37:949][ 57]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2016.03.04-22.07.37:952][ 57]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2016.03.04-22.07.37:953][ 57]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2016.03.04-22.07.37:955][ 57]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2016.03.04-22.07.37:957][ 57]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2016.03.04-22.07.37:958][ 57]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2016.03.04-22.07.37:960][ 57]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2016.03.04-22.07.37:962][ 57]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2016.03.04-22.07.37:963][ 57]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2016.03.04-22.07.37:965][ 57]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2016.03.04-22.07.37:967][ 57]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2016.03.04-22.07.37:969][ 57]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2016.03.04-22.07.37:971][ 57]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2016.03.04-22.07.37:973][ 57]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2016.03.04-22.07.48:783][693]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2016.03.04-22.07.48:785][693]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2016.03.04-22.07.48:786][693]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2016.03.04-22.07.48:788][693]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2016.03.04-22.07.48:789][693]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2016.03.04-22.07.48:791][693]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2016.03.04-22.07.48:801][693]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2016.03.04-22.07.48:804][693]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2016.03.04-22.07.48:805][693]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2016.03.04-22.07.48:810][693]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2016.03.04-22.07.48:812][693]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2016.03.04-22.07.48:813][693]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2016.03.04-22.07.48:815][693]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2016.03.04-22.07.48:821][693]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2016.03.04-22.07.48:822][693]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2016.03.04-22.07.48:823][693]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2016.03.04-22.07.48:825][693]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2016.03.04-22.07.48:827][693]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2016.03.04-22.07.48:829][693]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2016.03.04-22.07.48:830][693]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2016.03.04-22.07.48:834][693]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2016.03.04-22.08.01:463][450]Cmd: TRANSACTION UNDO
+[2016.03.04-22.08.01:463][450]LogEditorTransaction: Undo Landscape Editing: Paint
+[2016.03.04-22.08.01:492][450]LogTexture:Display: Building textures: Texture2D_282 (BGRA8)
+[2016.03.04-22.08.01:492][450]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2016.03.04-22.08.01:493][450]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2016.03.04-22.08.01:493][450]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2016.03.04-22.08.01:494][450]LogTexture:Display: Building textures: Texture2D_279 (BGRA8)
+[2016.03.04-22.08.01:494][450]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.03.04-22.08.01:495][450]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.03.04-22.08.01:495][450]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2016.03.04-22.08.01:496][450]LogTexture:Display: Building textures: Texture2D_281 (BGRA8)
+[2016.03.04-22.08.01:496][450]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.03.04-22.08.01:497][450]LogTexture:Display: Building textures: Texture2D_283 (BGRA8)
+[2016.03.04-22.08.01:498][450]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.03.04-22.08.01:499][450]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2016.03.04-22.08.01:499][450]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2016.03.04-22.08.01:500][450]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2016.03.04-22.08.01:500][450]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2016.03.04-22.08.01:501][450]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.03.04-22.08.01:502][450]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.03.04-22.08.01:502][450]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2016.03.04-22.08.01:533][450]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_804) Component already registered.
+[2016.03.04-22.08.01:533][450]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_803) Component already registered.
+[2016.03.04-22.08.01:543][450]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.08.01:558][450]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.08.01:564][450]LogMaterial: 0.000252 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.08.01:582][451]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.08.01:988][464]Cmd: TRANSACTION UNDO
+[2016.03.04-22.08.01:988][464]LogEditorTransaction: Undo Landscape Editing: Paint
+[2016.03.04-22.08.02:086][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_883) Component already registered.
+[2016.03.04-22.08.02:086][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_883) Component already registered.
+[2016.03.04-22.08.02:086][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_882) Component already registered.
+[2016.03.04-22.08.02:086][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_882) Component already registered.
+[2016.03.04-22.08.02:087][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_884) Component already registered.
+[2016.03.04-22.08.02:087][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_881) Component already registered.
+[2016.03.04-22.08.02:087][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_881) Component already registered.
+[2016.03.04-22.08.02:087][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_880) Component already registered.
+[2016.03.04-22.08.02:087][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_885) Component already registered.
+[2016.03.04-22.08.02:088][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_887) Component already registered.
+[2016.03.04-22.08.02:088][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_886) Component already registered.
+[2016.03.04-22.08.02:088][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_886) Component already registered.
+[2016.03.04-22.08.02:088][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_885) Component already registered.
+[2016.03.04-22.08.02:088][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_965) Component already registered.
+[2016.03.04-22.08.02:089][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_965) Component already registered.
+[2016.03.04-22.08.02:089][464]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_884) Component already registered.
+[2016.03.04-22.08.02:100][464]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.08.02:103][464]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.08.02:112][464]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.08.02:123][465]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.08.03:001][517]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.08.03:001][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.08.03:001][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.08.03:001][517]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.08.05:900][691]Cmd: TRANSACTION UNDO
+[2016.03.04-22.08.05:900][691]LogEditorTransaction: Undo Edit Brush Size
+[2016.03.04-22.08.05:911][691]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.08.05:914][691]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.08.05:920][691]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.08.06:705][727]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.08.06:705][727]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.08.06:705][727]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.08.06:705][727]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.08.22:927][697]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.08.30:846][168]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.08.36:327][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere2)
+[2016.03.04-22.08.42:308][850]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.10.23:589][848]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2016.03.04-22.10.54:469][848]LogMaterial: 0.002445 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.10.54:534][849]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.10.54:537][849]Cmd: UpdateLandscapeMIC
+[2016.03.04-22.11.46:903][833]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2016.03.04-22.11.46:905][833]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2016.03.04-22.11.46:906][833]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2016.03.04-22.11.46:907][833]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2016.03.04-22.11.46:909][833]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2016.03.04-22.11.46:910][833]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2016.03.04-22.11.46:911][833]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2016.03.04-22.11.46:912][833]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2016.03.04-22.11.46:914][833]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2016.03.04-22.11.46:915][833]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2016.03.04-22.11.46:917][833]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2016.03.04-22.11.46:918][833]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2016.03.04-22.11.46:919][833]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2016.03.04-22.11.46:921][833]LogTexture:Display: Building textures: Texture2D_71 (BGRA8)
+[2016.03.04-22.11.46:922][833]LogTexture:Display: Building textures: Texture2D_72 (BGRA8)
+[2016.03.04-22.11.46:923][833]LogTexture:Display: Building textures: Texture2D_73 (BGRA8)
+[2016.03.04-22.11.46:924][833]LogTexture:Display: Building textures: Texture2D_74 (BGRA8)
+[2016.03.04-22.11.46:925][833]LogTexture:Display: Building textures: Texture2D_75 (BGRA8)
+[2016.03.04-22.11.46:927][833]LogTexture:Display: Building textures: Texture2D_76 (BGRA8)
+[2016.03.04-22.11.46:928][833]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2016.03.04-22.11.46:930][833]LogTexture:Display: Building textures: Texture2D_78 (BGRA8)
+[2016.03.04-22.11.46:932][833]LogTexture:Display: Building textures: Texture2D_79 (BGRA8)
+[2016.03.04-22.11.46:933][833]LogTexture:Display: Building textures: Texture2D_80 (BGRA8)
+[2016.03.04-22.11.46:935][833]LogTexture:Display: Building textures: Texture2D_81 (BGRA8)
+[2016.03.04-22.11.46:937][833]LogTexture:Display: Building textures: Texture2D_82 (BGRA8)
+[2016.03.04-22.11.46:938][833]LogTexture:Display: Building textures: Texture2D_83 (BGRA8)
+[2016.03.04-22.11.46:940][833]LogTexture:Display: Building textures: Texture2D_84 (BGRA8)
+[2016.03.04-22.11.46:941][833]LogTexture:Display: Building textures: Texture2D_85 (BGRA8)
+[2016.03.04-22.12.03:542][734]LogMaterial: 0.001933 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.03:570][734]LogMaterial: 0.004123 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.12.03:622][734]LogMaterial: 0.004507 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.12.03:645][734]LogMaterial: 0.003986 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.04-22.12.03:657][735]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.12.03:664][735]Cmd: UpdateLandscapeMIC
+[2016.03.04-22.12.12:263][726]Cmd: TRANSACTION UNDO
+[2016.03.04-22.12.12:263][726]LogEditorTransaction: Undo Edit Landscape Material
+[2016.03.04-22.12.12:349][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_822) Component already registered.
+[2016.03.04-22.12.12:349][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_913) Component already registered.
+[2016.03.04-22.12.12:349][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_907) Component already registered.
+[2016.03.04-22.12.12:349][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_908) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_909) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_910) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_911) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_912) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_914) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_906) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_915) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_916) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_917) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_918) Component already registered.
+[2016.03.04-22.12.12:350][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_919) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_920) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_905) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_921) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_896) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_890) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_891) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_892) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_893) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_894) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_895) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_897) Component already registered.
+[2016.03.04-22.12.12:351][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_904) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_898) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_899) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_900) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_901) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_902) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_903) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_922) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_946) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_940) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_941) Component already registered.
+[2016.03.04-22.12.12:352][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_942) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_943) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_944) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_945) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_947) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_939) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_948) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_949) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_950) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_951) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_952) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_953) Component already registered.
+[2016.03.04-22.12.12:353][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_938) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_889) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_929) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_923) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_924) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_925) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_926) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_927) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_928) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_930) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_937) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_931) Component already registered.
+[2016.03.04-22.12.12:354][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_932) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_933) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_934) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_935) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_936) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_888) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_954) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_846) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_840) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_841) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_842) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_843) Component already registered.
+[2016.03.04-22.12.12:355][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_844) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_845) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_847) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_839) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_848) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_849) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_850) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_851) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_852) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_853) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_838) Component already registered.
+[2016.03.04-22.12.12:356][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_854) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_829) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_823) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_824) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_825) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_826) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_827) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_828) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_830) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_837) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_831) Component already registered.
+[2016.03.04-22.12.12:357][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_832) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_833) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_834) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_835) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_836) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_855) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_879) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_873) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_874) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_875) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_876) Component already registered.
+[2016.03.04-22.12.12:358][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_877) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_878) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_880) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_872) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_881) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_882) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_883) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_884) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_885) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_886) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_871) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_887) Component already registered.
+[2016.03.04-22.12.12:359][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_862) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_856) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_857) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_858) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_859) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_860) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_861) Component already registered.
+[2016.03.04-22.12.12:360][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_863) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_870) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_864) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_865) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_866) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_867) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_868) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_869) Component already registered.
+[2016.03.04-22.12.12:361][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_955) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_979) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_973) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_974) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_975) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_976) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_977) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_978) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_980) Component already registered.
+[2016.03.04-22.12.12:364][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_972) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_981) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_982) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_983) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_984) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_985) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_986) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_971) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_987) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_962) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_956) Component already registered.
+[2016.03.04-22.12.12:365][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_957) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_958) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_959) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_960) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_961) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_963) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_970) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_964) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_965) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_966) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_967) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_968) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_969) Component already registered.
+[2016.03.04-22.12.12:366][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_988) Component already registered.
+[2016.03.04-22.12.12:367][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_995) Component already registered.
+[2016.03.04-22.12.12:367][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_989) Component already registered.
+[2016.03.04-22.12.12:367][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_990) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_991) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_992) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_993) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_994) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_996) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_997) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_998) Component already registered.
+[2016.03.04-22.12.12:368][726]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_999) Component already registered.
+[2016.03.04-22.12.12:378][726]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.12.12:381][726]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.12.12:386][726]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.12:403][727]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.12.13:660][842]Cmd: TRANSACTION UNDO
+[2016.03.04-22.12.13:660][842]LogEditorTransaction: Undo Landscape Editing: Paint
+[2016.03.04-22.12.13:722][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_820) Component already registered.
+[2016.03.04-22.12.13:722][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_819) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_819) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_1047) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_1048) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_1049) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_1048) Component already registered.
+[2016.03.04-22.12.13:723][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_824) Component already registered.
+[2016.03.04-22.12.13:724][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_822) Component already registered.
+[2016.03.04-22.12.13:724][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_824) Component already registered.
+[2016.03.04-22.12.13:724][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_823) Component already registered.
+[2016.03.04-22.12.13:724][842]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_823) Component already registered.
+[2016.03.04-22.12.13:731][842]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.12.13:734][842]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.12.13:740][842]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.13:758][843]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.12.13:785][843]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.12.13:785][843]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.12.13:785][843]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.12.13:785][843]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.12.14:235][890]Cmd: TRANSACTION UNDO
+[2016.03.04-22.12.14:235][890]LogEditorTransaction: Undo Edit Landscape Material
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_822) Component already registered.
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_913) Component already registered.
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_907) Component already registered.
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_908) Component already registered.
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_909) Component already registered.
+[2016.03.04-22.12.14:355][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_910) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_911) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_912) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_914) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_906) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_915) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_916) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_917) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_918) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_919) Component already registered.
+[2016.03.04-22.12.14:356][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_920) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_905) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_921) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_896) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_890) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_891) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_892) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_893) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_894) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_895) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_897) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_904) Component already registered.
+[2016.03.04-22.12.14:357][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_898) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_899) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_900) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_901) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_902) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_903) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_922) Component already registered.
+[2016.03.04-22.12.14:358][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_946) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_940) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_941) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_942) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_943) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_944) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_945) Component already registered.
+[2016.03.04-22.12.14:359][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_947) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_939) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_948) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_949) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_950) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_951) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_952) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_953) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_938) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_889) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_929) Component already registered.
+[2016.03.04-22.12.14:360][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_923) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_924) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_925) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_926) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_927) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_928) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_930) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_937) Component already registered.
+[2016.03.04-22.12.14:361][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_931) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_932) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_933) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_934) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_935) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_936) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_888) Component already registered.
+[2016.03.04-22.12.14:362][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_954) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_846) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_840) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_841) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_842) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_843) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_844) Component already registered.
+[2016.03.04-22.12.14:363][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_845) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_847) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_839) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_848) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_849) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_850) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_851) Component already registered.
+[2016.03.04-22.12.14:364][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_852) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_853) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_838) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_854) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_829) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_823) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_824) Component already registered.
+[2016.03.04-22.12.14:365][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_825) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_826) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_827) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_828) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_830) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_837) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_831) Component already registered.
+[2016.03.04-22.12.14:366][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_832) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_833) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_834) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_835) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_836) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_855) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_879) Component already registered.
+[2016.03.04-22.12.14:367][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_873) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_874) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_875) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_876) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_877) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_878) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_880) Component already registered.
+[2016.03.04-22.12.14:368][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_872) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_881) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_882) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_883) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_884) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_885) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_886) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_871) Component already registered.
+[2016.03.04-22.12.14:369][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_887) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_862) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_856) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_857) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_858) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_859) Component already registered.
+[2016.03.04-22.12.14:370][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_860) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_861) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_863) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_870) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_864) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_865) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_866) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_867) Component already registered.
+[2016.03.04-22.12.14:371][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_868) Component already registered.
+[2016.03.04-22.12.14:372][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_869) Component already registered.
+[2016.03.04-22.12.14:372][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_955) Component already registered.
+[2016.03.04-22.12.14:375][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_979) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_973) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_974) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_975) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_976) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_977) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_978) Component already registered.
+[2016.03.04-22.12.14:376][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_980) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_972) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_981) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_982) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_983) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_984) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_985) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_986) Component already registered.
+[2016.03.04-22.12.14:377][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_971) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_987) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_962) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_956) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_957) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_958) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_959) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_960) Component already registered.
+[2016.03.04-22.12.14:378][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_961) Component already registered.
+[2016.03.04-22.12.14:379][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_963) Component already registered.
+[2016.03.04-22.12.14:379][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_970) Component already registered.
+[2016.03.04-22.12.14:379][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_964) Component already registered.
+[2016.03.04-22.12.14:379][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_965) Component already registered.
+[2016.03.04-22.12.14:380][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_966) Component already registered.
+[2016.03.04-22.12.14:380][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_967) Component already registered.
+[2016.03.04-22.12.14:380][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_968) Component already registered.
+[2016.03.04-22.12.14:380][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_969) Component already registered.
+[2016.03.04-22.12.14:380][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_988) Component already registered.
+[2016.03.04-22.12.14:381][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_995) Component already registered.
+[2016.03.04-22.12.14:381][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_989) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_990) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_991) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_992) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_993) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_994) Component already registered.
+[2016.03.04-22.12.14:382][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_996) Component already registered.
+[2016.03.04-22.12.14:383][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_997) Component already registered.
+[2016.03.04-22.12.14:383][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_998) Component already registered.
+[2016.03.04-22.12.14:383][890]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_999) Component already registered.
+[2016.03.04-22.12.14:394][890]PIE:Warning: Warning AttachTo: '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.GizmoRendererComponent0' is not static , cannot attach '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.LandscapeGizmoActiveActor_5.RootComponent0' which is static to it. Aborting.
+[2016.03.04-22.12.14:398][890]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.12.14:406][890]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.14:418][891]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.12.14:600][910]Cmd: TRANSACTION UNDO
+[2016.03.04-22.12.14:600][910]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.04-22.12.14:619][910]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.12.14:627][910]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.15:537][ 13]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.12.15:537][ 13]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.12.15:537][ 13]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.12.15:537][ 13]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.12.15:819][ 47]Cmd: TRANSACTION UNDO
+[2016.03.04-22.12.15:819][ 47]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.04-22.12.16:978][ 47]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.12.16:985][ 47]LogMaterial: 0.000243 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.12.17:921][149]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.12.17:921][149]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.12.17:921][149]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.12.17:921][149]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.12.24:006][867]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.12.26:662][162]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.12.29:360][466]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.04-22.12.43:195][ 13]LogTexture:Display: Building textures: Texture2D_86 (BGRA8)
+[2016.03.04-22.12.47:502][525]LogTexture:Display: Building textures: Texture2D_87 (BGRA8)
+[2016.03.04-22.12.57:969][727]LogTexture:Display: Building textures: Texture2D_88 (BGRA8)
+[2016.03.04-22.12.57:970][727]LogTexture:Display: Building textures: Texture2D_89 (BGRA8)
+[2016.03.04-22.13.04:646][495]LogTexture:Display: Building textures: Texture2D_90 (BGRA8)
+[2016.03.04-22.13.04:647][495]LogTexture:Display: Building textures: Texture2D_91 (BGRA8)
+[2016.03.04-22.13.14:432][649]LogTexture:Display: Building textures: Texture2D_92 (BGRA8)
+[2016.03.04-22.13.31:862][666]LogTexture:Display: Building textures: Texture2D_93 (BGRA8)
+[2016.03.04-22.13.31:863][666]LogTexture:Display: Building textures: Texture2D_94 (BGRA8)
+[2016.03.04-22.13.33:235][828]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2016.03.04-22.13.36:804][236]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2016.03.04-22.13.47:325][390]LogTexture:Display: Building textures: Texture2D_96 (BGRA8)
+[2016.03.04-22.13.47:326][390]LogTexture:Display: Building textures: Texture2D_97 (BGRA8)
+[2016.03.04-22.13.53:659][120]LogTexture:Display: Building textures: Texture2D_98 (BGRA8)
+[2016.03.04-22.13.53:660][120]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2016.03.04-22.14.27:932][ 75]LogTexture:Display: Building textures: Texture2D_100 (BGRA8)
+[2016.03.04-22.14.27:933][ 75]LogTexture:Display: Building textures: Texture2D_101 (BGRA8)
+[2016.03.04-22.14.31:146][455]LogTexture:Display: Building textures: Texture2D_102 (BGRA8)
+[2016.03.04-22.14.31:148][455]LogTexture:Display: Building textures: Texture2D_103 (BGRA8)
+[2016.03.04-22.14.31:149][455]LogTexture:Display: Building textures: Texture2D_104 (BGRA8)
+[2016.03.04-22.14.38:390][299]Cmd: TRANSACTION UNDO
+[2016.03.04-22.14.38:390][299]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.03.04-22.14.38:402][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_882) Component already registered.
+[2016.03.04-22.14.38:402][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_881) Component already registered.
+[2016.03.04-22.14.38:402][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_882) Component already registered.
+[2016.03.04-22.14.39:548][299]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.14.39:554][299]LogMaterial: 0.000230 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.14.39:557][299]Cmd: TRANSACTION UNDO
+[2016.03.04-22.14.39:557][299]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.03.04-22.14.39:565][299]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2016.03.04-22.14.41:091][299]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.14.41:098][299]LogMaterial: 0.000211 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.14.41:098][299]Cmd: TRANSACTION UNDO
+[2016.03.04-22.14.41:098][299]LogEditorTransaction: Undo Edit Texture Scale
+[2016.03.04-22.14.42:522][299]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.14.42:529][299]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.14.42:530][299]Cmd: TRANSACTION UNDO
+[2016.03.04-22.14.42:530][299]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.03.04-22.14.42:538][299]LogTexture:Display: Building textures: Texture2D_97 (BGRA8)
+[2016.03.04-22.14.42:540][299]LogTexture:Display: Building textures: Texture2D_279 (BGRA8)
+[2016.03.04-22.14.42:541][299]LogTexture:Display: Building textures: Texture2D_88 (BGRA8)
+[2016.03.04-22.14.42:541][299]LogTexture:Display: Building textures: Texture2D_89 (BGRA8)
+[2016.03.04-22.14.42:550][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_843) Component already registered.
+[2016.03.04-22.14.42:550][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_842) Component already registered.
+[2016.03.04-22.14.42:570][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_842) Component already registered.
+[2016.03.04-22.14.42:570][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_841) Component already registered.
+[2016.03.04-22.14.42:570][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_843) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_844) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_844) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_841) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_824) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_831) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_831) Component already registered.
+[2016.03.04-22.14.42:571][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_832) Component already registered.
+[2016.03.04-22.14.42:572][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_832) Component already registered.
+[2016.03.04-22.14.42:572][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_834) Component already registered.
+[2016.03.04-22.14.42:572][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_833) Component already registered.
+[2016.03.04-22.14.42:572][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_833) Component already registered.
+[2016.03.04-22.14.42:572][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_834) Component already registered.
+[2016.03.04-22.14.43:952][299]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.14.43:959][299]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.14.43:959][299]Cmd: TRANSACTION UNDO
+[2016.03.04-22.14.43:959][299]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.03.04-22.14.43:967][299]LogTexture:Display: Building textures: Texture2D_91 (BGRA8)
+[2016.03.04-22.14.43:968][299]LogTexture:Display: Building textures: Texture2D_93 (BGRA8)
+[2016.03.04-22.14.43:968][299]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2016.03.04-22.14.43:979][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_361) Component already registered.
+[2016.03.04-22.14.43:979][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_791) Component already registered.
+[2016.03.04-22.14.43:980][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_368) Component already registered.
+[2016.03.04-22.14.43:980][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeHeightfieldCollisionComponent_791) Component already registered.
+[2016.03.04-22.14.43:980][299]LogActorComponent: ~FComponentReregisterContext: (/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Landscape_5.LandscapeComponent_368) Component already registered.
+[2016.03.04-22.14.45:377][299]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2016.03.04-22.14.45:383][299]LogMaterial: 0.000196 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.04-22.14.45:420][300]Cmd: UpdateLandscapeEditorData
+[2016.03.04-22.14.45:440][300]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.03.04-22.14.45:440][300]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.04-22.14.45:440][300]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.04-22.14.45:440][300]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.04-22.14.58:369][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.04-22.15.00:214][331]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.04-22.15.00:519][332]Cmd: QUIT_EDITOR
+[2016.03.04-22.15.00:812][332]LogExit: Preparing to exit.
+[2016.03.04-22.15.01:779][332]LogExit: Editor shut down
+[2016.03.04-22.15.01:779][332]LogExit: Transaction tracking system shut down
+[2016.03.04-22.15.01:781][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156B4D22D40
+[2016.03.04-22.15.01:781][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001568DD8DC60
+[2016.03.04-22.15.01:791][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001569055A0C0
+[2016.03.04-22.15.01:791][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156AD7DB100
+[2016.03.04-22.15.01:792][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001568E06D580
+[2016.03.04-22.15.01:905][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001568E06E840
+[2016.03.04-22.15.01:905][332]LogExit: Object subsystem successfully closed.
+[2016.03.04-22.15.01:920][332]LogD3D11RHI: Shutdown
+[2016.03.04-22.15.01:920][332]LogD3D11RHI: CleanupD3DDevice
+[2016.03.04-22.15.02:030][332]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.04-22.15.02:049][332]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.04-22.15.02:051][332]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.04-22.15.02:051][332]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.04-22.15.02:051][332]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.04-22.15.02:051][332]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.04-22.15.02:051][332]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.04-22.15.02:052][332]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.04-22.15.02:508][332]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.04-22.15.02:509][332]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.04-22.15.02:510][332]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.03.04-22.15.02:757][332]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.04-22.15.02:766][332]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.04-22.15.02:767][332]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.04-22.15.02:767][332]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.04-22.15.02:826][332]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.04-22.15.02:826][332]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.04-22.15.02:826][332]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
+[2016.03.04-22.15.02:826][332]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.04-22.15.02:927][332]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.04-22.15.02:927][332]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.04-22.15.02:927][332]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.04-22.15.02:928][332]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.04-22.15.02:930][332]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.04-22.15.02:933][332]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.04-22.15.02:944][332]LogDerivedDataCache: Shutdown
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.04-22.15.02:944][332]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.04-22.15.04:947][332]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.04-22.15.04:949][332]LogExit: Exiting.
+[2016.03.04-22.15.04:974][332]Log file closed, 03/04/16 23:15:04
