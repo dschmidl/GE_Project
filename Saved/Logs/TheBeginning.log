@@ -312,4 +312,29 @@
 [2016.03.06-16.15.59:587][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
 [2016.03.06-16.16.03:200][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
 [2016.03.06-16.16.03:250][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
-[2016.03.06-16.16.03:319][293]LogParticles: Destroying 0 GPU particle simulations for FXSyst
+[2016.03.06-16.16.03:319][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000590D1EAE80
+[2016.03.06-16.16.03:814][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.06-16.16.03:814][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.06-16.16.03:815][349]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.06-16.16.03:815][349]PIE: New page: PIE session: MyFirstLevel (Mar 6, 2016, 6:16:03 PM)
+[2016.03.06-16.16.03:815][349]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.06-16.16.03:843][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028356s)
+[2016.03.06-16.16.03:844][349]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.06-16.16.03:844][349]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2016.03.06-16.16.03:844][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029078s)
+[2016.03.06-16.16.03:877][349]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.06-16.16.03:883][349]LogInit: FAudioDevice initialized.
+[2016.03.06-16.16.03:918][349]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.06-16.16.03:969][349]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.06-17.16.03
+[2016.03.06-16.16.03:969][349]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.06-16.16.03:969][349]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.06-16.16.03:971][349]LogWorld: Bringing up level for play took: 0.051828
+[2016.03.06-16.16.03:984][349]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.15
+[2016.03.06-16.16.03:985][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.06-16.16.08:069][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.06-16.16.08:116][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.06-16.16.08:145][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058FD7D1120
+[2016.03.06-16.20.28:315][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.025
+[2016.03.06-16.20.28:319][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2016.03.06-16.20.28:319][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2016.03.06-16.20.28:319][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../
