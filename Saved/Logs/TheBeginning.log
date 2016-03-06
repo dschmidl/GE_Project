@@ -337,4 +337,35 @@
 [2016.03.06-16.20.28:315][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.025
 [2016.03.06-16.20.28:319][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
 [2016.03.06-16.20.28:319][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
-[2016.03.06-16.20.28:319][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../
+[2016.03.06-16.20.28:319][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.06-16.20.28:359][856]LogSavePackage: Save=25.469116ms
+[2016.03.06-16.20.28:359][856]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MainMenu_Auto2DB7CED454751B46B6FB900A2047A7C3D.tmp' to '../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset'
+[2016.03.06-16.20.28:359][856]LogSavePackage: Total save time: 38.214363ms
+[2016.03.06-16.20.28:359][856]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset
+[2016.03.06-16.20.28:359][856]LogFileHelpers: Auto-saving content packages took 0.044
+[2016.03.06-16.41.23:843][457]BlueprintLog: New page: Compile MainMenu
+[2016.03.06-16.41.24:155][457]BlueprintEditorCompileResults: Info [3327.89] Compile of MainMenu successful! [in 312 ms]
+[2016.03.06-16.41.24:878][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2016.03.06-16.41.24:922][502]LogSavePackage: Save=30.587572ms
+[2016.03.06-16.41.24:922][502]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MainMenuDF494E3D4C2A8B887A7BF795F32E139D.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset'
+[2016.03.06-16.41.24:925][502]LogSavePackage: Total save time: 44.519991ms
+[2016.03.06-16.41.24:925][502]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset
+[2016.03.06-17.04.11:347][291]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\._backgroundMenu.jpg)
+[2016.03.06-17.04.11:364][291]Error: Texture import failed
+[2016.03.06-17.04.18:129][291]LogAssetTools:Warning: Failed to import 'F:\._backgroundMenu.jpg'. Failed to create asset '/Game/StarterContent/Materials/__backgroundMenu'
+[2016.03.06-17.04.33:663][621]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 F:\._background_Menu.jpg)
+[2016.03.06-17.04.33:663][621]Error: Texture import failed
+[2016.03.06-17.04.35:882][621]LogAssetTools:Warning: Failed to import 'F:\._background_Menu.jpg'. Failed to create asset '/Game/StarterContent/Materials/__background_Menu'
+[2016.03.06-17.05.05:268][868]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.03.06-17.13.43:366][410]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\VR\Desktop\backgroundMenu 2.jpg)
+[2016.03.06-17.13.43:371][410]LogTexture:Display: Building textures: backgroundMenu_2 (BGRA8)
+[2016.03.06-17.14.01:038][ 43]BlueprintLog: New page: Compile MainMenu
+[2016.03.06-17.14.01:229][ 43]BlueprintEditorCompileResults: Info [5284.96] Compile of MainMenu successful! [in 190 ms]
+[2016.03.06-17.14.02:151][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2016.03.06-17.14.02:190][ 96]LogSavePackage: Save=26.461845ms
+[2016.03.06-17.14.02:190][ 96]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MainMenu1C927F1E4DB8E9FBD957D4A07BAF145D.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset'
+[2016.03.06-17.14.02:192][ 96]LogSavePackage: Total save time: 39.763328ms
+[2016.03.06-17.14.02:192][ 96]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/MainMenu.uasset
+[2016.03.06-17.14.29:832][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.022
+[2016.03.06-17.14.29:836][430]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/backgroundMenu_2] ([1] browsable assets)...
+[2016.03.06-17.14.29:841][430]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/
