@@ -217,4 +217,912 @@
 [2016.03.14-12.45.27:627][952]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
 [2016.03.14-12.45.27:643][952]LogInit: FAudioDevice initialized.
 [2016.03.14-12.45.27:723][952]LogWorld: Game class is 'GamePadGameMode_C'
-[2016.03.14-12.45.27:774][952]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play
+[2016.03.14-12.45.27:774][952]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.14-13.45.27
+[2016.03.14-12.45.27:775][952]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-12.45.27:775][952]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-12.45.27:777][952]LogWorld: Bringing up level for play took: 0.052837
+[2016.03.14-12.45.27:820][952]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.687
+[2016.03.14-12.45.27:820][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-12.45.27:820][952]LogHMD:Warning: Lost Vision Tracking
+[2016.03.14-12.45.27:894][952]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.14-12.45.27:922][953]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.14-12.45.27:922][953]LogRenderer: Reallocating scene render targets to support 2388x1464 (Frame:5332).
+[2016.03.14-12.45.28:437][954]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.14-12.45.28:445][955]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 453/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-12.46.08:145][719]LogHMD:Warning: Lost Vision Tracking
+[2016.03.14-12.46.08:425][739]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.14-12.46.08:758][763]LogHMD:Warning: Lost Vision Tracking
+[2016.03.14-12.46.09:798][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-12.46.09:813][840]LogHMD: Freeing textureSet 0x000000B00108AEC0
+[2016.03.14-12.46.10:009][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-12.46.10:034][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B05C25C5E0
+[2016.03.14-13.02.40:339][214]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.40:667][249]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.40:745][257]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.40:797][262]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.40:851][268]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.41:136][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.41:819][379]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.45:981][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.02.45:981][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.14-13.02.45:982][874]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.14-13.02.45:983][874]PIE: New page: PIE session: MyFirstLevel (Mar 14, 2016, 3:02:45 PM)
+[2016.03.14-13.02.45:983][874]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.14-13.02.46:011][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028207s)
+[2016.03.14-13.02.46:012][874]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.14-13.02.46:012][874]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2016.03.14-13.02.46:012][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028988s)
+[2016.03.14-13.02.46:012][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.14-13.02.46:012][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.14-13.02.46:012][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.14-13.02.46:034][874]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.14-13.02.46:044][874]LogInit: FAudioDevice initialized.
+[2016.03.14-13.02.46:080][874]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.14-13.02.46:130][874]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.14-14.02.46
+[2016.03.14-13.02.46:130][874]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.02.46:130][874]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.02.46:132][874]LogWorld: Bringing up level for play took: 0.051004
+[2016.03.14-13.02.46:157][874]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.023
+[2016.03.14-13.02.46:157][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.02.46:170][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 427/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.02.53:031][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.02.53:084][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.02.53:106][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B046B0D760
+[2016.03.14-13.04.23:442][527]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.24:260][614]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.24:608][649]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.24:733][662]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.24:846][673]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 496/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.25:281][725]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.25:651][763]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.26:207][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.26:678][881]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.26:999][916]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.04.27:360][954]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.03:516][193]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.04:473][307]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.04:892][349]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.05:020][364]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.13:050][314]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.13:093][319]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.14:125][438]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.31:237][459]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.03.14-13.05.37:817][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.14-13.05.37:817][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.14-13.05.37:817][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.14-13.05.37:827][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B05F05E5C0
+[2016.03.14-13.05.45:069][220]LogMaterial: Missing cached shader map for material testpic_Mat, compiling. 
+[2016.03.14-13.05.45:075][220]LogMaterial:Warning: Failed to compile Material /Game/testpic_Mat.testpic_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.14-13.05.45:075][220]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.03.14-13.05.45:077][220]LogMaterial: Missing cached shader map for material testpic_Mat, compiling. 
+[2016.03.14-13.05.45:077][220]LogMaterial:Warning: Failed to compile Material /Game/testpic_Mat.testpic_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.14-13.05.45:077][220]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.03.14-13.05.45:218][221]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.46:643][388]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.46:668][391]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.46:701][394]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.46:815][407]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.46:905][417]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.05.47:122][443]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.06.12:291][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.14-13.06.12:291][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.14-13.06.12:292][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.14-13.06.12:306][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.14-13.06.12:893][559]LogSavePackage: Save=569.931824ms
+[2016.03.14-13.06.12:893][559]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel_Auto12013D5124342E68091909591BF0B3A3A.tmp' to '../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap'
+[2016.03.14-13.06.12:895][559]LogSavePackage: Total save time: 585.375547ms
+[2016.03.14-13.06.12:895][559]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap
+[2016.03.14-13.06.12:897][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.606
+[2016.03.14-13.06.12:897][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.606
+[2016.03.14-13.06.12:912][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/testpic_Mat] ([1] browsable assets)...
+[2016.03.14-13.06.12:932][559]OBJ SavePackage:     Rendered thumbnail for [Material /Game/testpic_Mat.testpic_Mat]
+[2016.03.14-13.06.12:932][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/testpic_Mat]
+[2016.03.14-13.06.12:932][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/testpic_Mat" FILE="../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/testpic_Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.03.14-13.06.12:966][559]LogSavePackage: Save=20.205507ms
+[2016.03.14-13.06.12:966][559]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/testpic_Mat_Auto1B1F0399440FC2A10DD182BA5348CCBEA.tmp' to '../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/testpic_Mat_Auto1.uasset'
+[2016.03.14-13.06.12:967][559]LogSavePackage: Total save time: 34.513950ms
+[2016.03.14-13.06.12:967][559]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/testpic_Mat_Auto1.uasset
+[2016.03.14-13.06.12:967][559]LogFileHelpers: Auto-saving content packages took 0.068
+[2016.03.14-13.08.57:208][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.14-13.08.57:208][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.14-13.08.57:208][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.14-13.08.58:913][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.00:468][530]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.00:513][535]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.00:556][540]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.00:670][553]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.00:822][571]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.01:173][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.09.15:133][284]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.12.02:035][745]LogLinker:Warning: Can't find file '/Game/Meshes/MiniGames/SM_K4U_InfoPanel'
+[2016.03.14-13.12.02:035][745]LogLinker:Warning: Can't find file for asset '/Game/Meshes/MiniGames/SM_K4U_InfoPanel' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_Signpost.uasset.
+[2016.03.14-13.12.02:035][745]LoadErrors:Error: Error /Game/Blueprints/BP_Signpost : Can't find file for asset. /Game/Meshes/MiniGames/SM_K4U_InfoPanel
+[2016.03.14-13.12.02:035][745]LogLinker:Warning: Can't find file '/Game/Meshes/MiniGames/SM_K4U_InfoPanel'
+[2016.03.14-13.12.02:036][745]LogLinker:Warning: Can't find file for asset '/Game/Meshes/MiniGames/SM_K4U_InfoPanel' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_Signpost.uasset.
+[2016.03.14-13.12.02:036][745]LogLinker:Warning: Can't find file '/Game/Meshes/MiniGames/SM_K4U_InfoPanel'
+[2016.03.14-13.12.02:036][745]LogLinker:Warning: Can't find file for asset '/Game/Meshes/MiniGames/SM_K4U_InfoPanel' while loading NULL.
+[2016.03.14-13.12.02:036][745]LogLinker:Warning: Can't find file '/Game/Meshes/MiniGames/SM_K4U_InfoPanel'
+[2016.03.14-13.12.02:036][745]LogLinker:Warning: Can't find file for asset '/Game/Meshes/MiniGames/SM_K4U_InfoPanel' while loading NULL.
+[2016.03.14-13.12.02:044][745]LogLinker:Warning: Can't find file '/Game/Meshes/MiniGames/SM_K4U_InfoPanel'
+[2016.03.14-13.12.02:044][745]LoadErrors: Info Failed to load /Game/Meshes/MiniGames/SM_K4U_InfoPanel.SM_K4U_InfoPanel Referenced by StaticMeshComponent_2067
+[2016.03.14-13.12.02:044][745]LogLinker:Warning: Can't find file for asset '/Game/Meshes/MiniGames/SM_K4U_InfoPanel' while loading NULL.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:053][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:054][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.78] Compile of BP_Signpost successful, but with 6 Warning(s) [in 4 ms]
+[2016.03.14-13.12.02:054][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.78] Compile of BP_Signpost successful, but with 7 Warning(s) [in 0 ms]
+[2016.03.14-13.12.02:054][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.78] Compile of BP_Signpost successful, but with 8 Warning(s) [in 0 ms]
+[2016.03.14-13.12.02:059][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:059][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:059][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:059][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:059][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:060][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.02:061][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.79] Compile of BP_Signpost successful, but with 6 Warning(s) [in 4 ms]
+[2016.03.14-13.12.02:061][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.79] Compile of BP_Signpost successful, but with 7 Warning(s) [in 0 ms]
+[2016.03.14-13.12.02:061][745]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2180.79] Compile of BP_Signpost successful, but with 8 Warning(s) [in 0 ms]
+[2016.03.14-13.12.02:204][745]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.14-13.12.02:864][745]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.03.14-13.12.03:461][745]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.12.03:461][745]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.12.03:461][745]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.12.03:461][745]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.12.03:461][745]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.12.10:644][331]BlueprintLog: New page: Compile BP_Signpost
+[2016.03.14-13.12.10:656][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:657][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:657][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:657][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:657][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:657][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:659][331]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.12.10:659][331]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.12.10:659][331]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.12.10:660][331]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.12.10:660][331]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.12.10:692][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.14-13.12.10:692][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.14-13.12.10:692][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.14-13.12.10:721][331]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.12.10:721][331]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.12.10:721][331]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.12.10:721][331]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.12.10:721][331]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.12.10:723][331]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2189.45] Compile of BP_Signpost successful, but with 6 Warning(s) [in 78 ms]
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.10:723][331]BlueprintEditorCompileResults:Warning: Warning [2189.45] Compile of BP_Signpost successful, but with 6 Warning(s) [in 78 ms]
+[2016.03.14-13.12.52:737][291]BlueprintLog: New page: Compile BP_Signpost
+[2016.03.14-13.12.52:751][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:751][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:751][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:751][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:751][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:754][291]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.12.52:754][291]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_5:PersistentLevel.BP_Signpost_C_0
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.12.52:812][291]LogBlueprint:Warning: [compiler BP_Signpost] Warning [2231.54] Compile of BP_Signpost successful, but with 5 Warning(s) [in 74 ms]
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2016.03.14-13.12.52:812][291]BlueprintEditorCompileResults:Warning: Warning [2231.54] Compile of BP_Signpost successful, but with 5 Warning(s) [in 74 ms]
+[2016.03.14-13.13.08:774][867]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Signpost', cached variable property's owner is '/Game/Blueprints/BP_Signpost.SKEL_BP_Signpost_C'
+[2016.03.14-13.13.10:166][999]LogEditorTransaction: Undo Move Node
+[2016.03.14-13.13.10:221][  0]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.11:287][ 92]LogEditorTransaction: Undo Move Node
+[2016.03.14-13.13.11:335][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.11:855][144]LogEditorTransaction: Undo Delete current selection
+[2016.03.14-13.13.11:907][144]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.14:880][426]LogEditorTransaction: Redo Delete current selection
+[2016.03.14-13.13.14:935][427]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.19:636][873]LogEditorTransaction: Undo Delete current selection
+[2016.03.14-13.13.19:691][874]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.21:714][ 54]LogEditorTransaction: Redo Delete current selection
+[2016.03.14-13.13.21:771][ 55]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.27:300][586]BlueprintLog: New page: Compile BP_Signpost
+[2016.03.14-13.13.27:379][586]BlueprintEditorCompileResults: Info [2266.11] Compile of BP_Signpost successful! [in 78 ms]
+[2016.03.14-13.13.28:247][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Signpost" FILE="../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_Signpost.uasset" SILENT=true
+[2016.03.14-13.13.28:326][668]LogSavePackage: Save=65.281654ms
+[2016.03.14-13.13.28:326][668]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_SignpostF8CD4985479FE0D37830FFB71C0B8B7F.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_Signpost.uasset'
+[2016.03.14-13.13.28:329][668]LogSavePackage: Total save time: 80.941487ms
+[2016.03.14-13.13.28:329][668]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/BP_Signpost.uasset
+[2016.03.14-13.13.30:312][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.13.30:312][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.14-13.13.30:314][875]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.14-13.13.30:315][875]PIE: New page: PIE session: MyFirstLevel (Mar 14, 2016, 3:13:30 PM)
+[2016.03.14-13.13.30:315][875]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.14-13.13.30:343][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028322s)
+[2016.03.14-13.13.30:344][875]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.14-13.13.30:344][875]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2016.03.14-13.13.30:344][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029100s)
+[2016.03.14-13.13.30:364][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B045EC4D60
+[2016.03.14-13.13.30:378][875]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.14-13.13.30:388][875]LogInit: FAudioDevice initialized.
+[2016.03.14-13.13.30:419][875]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.14-13.13.30:475][875]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.14-14.13.30
+[2016.03.14-13.13.30:475][875]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.13.30:475][875]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.13.30:477][875]LogWorld: Bringing up level for play took: 0.056268
+[2016.03.14-13.13.30:515][875]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.619
+[2016.03.14-13.13.30:515][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.13.30:569][877]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.36:067][535]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.14-13.13.36:393][574]LogHMD:Warning: Lost Vision Tracking
+[2016.03.14-13.13.39:502][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.13.39:560][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.13.39:604][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B06559A0C0
+[2016.03.14-13.13.40:497][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.13.40:534][ 51]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.40:978][104]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.41:299][141]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.41:488][163]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.41:932][214]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.44:961][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.45:458][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:026][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:082][408]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:201][422]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:341][438]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:458][452]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.52:998][516]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.53:040][521]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.53:128][531]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.53:287][550]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.53:478][572]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.13.54:104][647]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.01:863][549]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.14.01:863][549]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.14.01:863][549]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.14.01:863][549]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.14.01:863][549]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.14.05:160][844]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.14.05:160][844]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.14.05:160][844]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.14.05:160][844]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.14.05:160][844]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_6:PersistentLevel.BP_Signpost_C_4
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.14.20:023][456]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.20:204][476]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.20:666][527]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.21:249][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cave2)
+[2016.03.14-13.14.21:298][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.21:929][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.14.21:983][674]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:308][270]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:361][275]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:642][308]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:687][313]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:735][318]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:819][328]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.35:851][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.36:070][357]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.36:288][382]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.36:320][385]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.36:413][395]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 483/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.36:983][462]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.14.37:346][502]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.15.41:015][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.15.41:070][318]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.15.41:126][322]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.14-13.15.41:152][323]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.15.43:215][539]LogScript:Warning: Cannot access 'TextRender1'. It is pending kill. Property: 'TextRender1'
+	BP_Signpost_C /Engine/Transient.World_7:PersistentLevel.BP_Signpost_C_7
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0081
+[2016.03.14-13.15.43:215][539]LogScript:Warning: Cannot access 'TextRender2'. It is pending kill. Property: 'TextRender2'
+	BP_Signpost_C /Engine/Transient.World_7:PersistentLevel.BP_Signpost_C_7
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00AA
+[2016.03.14-13.15.43:215][539]LogScript:Warning: Cannot access 'TextRender3'. It is pending kill. Property: 'TextRender3'
+	BP_Signpost_C /Engine/Transient.World_7:PersistentLevel.BP_Signpost_C_7
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00D3
+[2016.03.14-13.15.43:215][539]LogScript:Warning: Cannot access 'TextRender4'. It is pending kill. Property: 'TextRender4'
+	BP_Signpost_C /Engine/Transient.World_7:PersistentLevel.BP_Signpost_C_7
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:00FC
+[2016.03.14-13.15.43:215][539]LogScript:Warning: Cannot access 'TextRender5'. It is pending kill. Property: 'TextRender5'
+	BP_Signpost_C /Engine/Transient.World_7:PersistentLevel.BP_Signpost_C_7
+	Function /Game/Blueprints/BP_Signpost.BP_Signpost_C:UserConstructionScript:0125
+[2016.03.14-13.16.50:758][765]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.16.51:964][885]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.16.58:026][234]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 523/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.17.14:083][157]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.17.28:427][869]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.14-13.17.28:488][870]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.17.29:989][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.17.30:068][ 51]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.30:443][747]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.14-13.18.30:515][748]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.32:183][948]Cmd: EDIT PASTE
+[2016.03.14-13.18.32:266][949]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.34:552][220]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.34:618][224]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.34:726][235]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.45:740][553]Cmd: TRANSACTION UNDO
+[2016.03.14-13.18.45:740][553]LogEditorTransaction: Undo Paste
+[2016.03.14-13.18.46:760][555]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.49:216][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.18.49:278][849]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.51:072][ 64]Cmd: TRANSACTION UNDO
+[2016.03.14-13.18.51:072][ 64]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.14-13.18.52:143][ 66]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.56:119][541]Cmd: EDIT PASTE
+[2016.03.14-13.18.56:149][542]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.58:300][798]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.58:521][824]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.58:556][828]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.58:751][851]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.58:799][856]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.18.59:837][980]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.19.00:112][ 13]Cmd: TRANSACTION UNDO
+[2016.03.14-13.19.00:112][ 13]LogEditorTransaction: Undo Paste
+[2016.03.14-13.19.01:126][ 15]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.19.33:135][499]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.14-13.19.33:187][500]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.19.34:631][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.19.34:705][673]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.19.37:128][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.20.08:962][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B05389A840
+[2016.03.14-13.20.08:972][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B07F8FA5C0
+[2016.03.14-13.20.08:972][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.14-13.20.09:643][442]LogSavePackage: Save=648.992188ms
+[2016.03.14-13.20.09:643][442]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel_Auto2A92B58E84013FE383BD38CA4C436C8E9.tmp' to '../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto2.umap'
+[2016.03.14-13.20.09:644][442]LogSavePackage: Total save time: 665.384177ms
+[2016.03.14-13.20.09:644][442]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto2.umap
+[2016.03.14-13.20.09:647][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.710
+[2016.03.14-13.20.09:647][442]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.710
+[2016.03.14-13.20.27:059][790]Cmd: EDIT PASTE
+[2016.03.14-13.20.27:100][792]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.20.31:283][291]Cmd: TRANSACTION UNDO
+[2016.03.14-13.20.31:283][291]LogEditorTransaction: Undo Paste
+[2016.03.14-13.20.31:327][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.03:315][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.05:070][866]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.05:218][882]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.13:331][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:332][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:332][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:332][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:332][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:332][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:333][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:333][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:333][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:333][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:333][851]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:333][851]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:340][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:340][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:340][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:340][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:340][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:340][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:341][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:341][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:341][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:341][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:341][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:341][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:341][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:341][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:342][852]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:342][852]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:725][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:725][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:725][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:725][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:726][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:726][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:726][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:726][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:726][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:726][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:727][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:727][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:727][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:727][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:727][898]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:727][898]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:735][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:735][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:735][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:735][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:736][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:736][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:736][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:736][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:736][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:736][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:736][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:736][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:737][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:737][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:737][899]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:737][899]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:745][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:745][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:745][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:745][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:745][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:745][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:745][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:745][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:746][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:746][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:746][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:746][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:746][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:746][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:746][900]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:746][900]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:753][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:753][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:754][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:754][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:754][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:754][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:754][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:754][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:754][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:754][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:755][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:755][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:755][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:755][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:755][901]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:755][901]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:762][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:762][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:763][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:763][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:763][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:763][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:763][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:763][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:763][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:763][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:764][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:764][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:764][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:764][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:764][902]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:764][902]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:771][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:771][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:771][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:771][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:772][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:772][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:772][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:772][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:772][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:772][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:772][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:772][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:773][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:773][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:773][903]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:773][903]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:780][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:780][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:780][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:781][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:781][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:781][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:781][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:781][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:781][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:781][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:781][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:781][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:782][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:782][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:782][904]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:782][904]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:789][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:789][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:789][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:789][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:789][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:790][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:790][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:790][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:790][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:790][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:790][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:790][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:791][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:791][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:791][905]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:791][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:798][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:798][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:799][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:799][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:799][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:799][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:799][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:799][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:799][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:800][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:800][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:800][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:800][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:800][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:800][906]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:800][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:807][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:807][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:807][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:807][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:808][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:808][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:808][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:808][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:808][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:808][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:808][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:808][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:809][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:809][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:809][907]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:809][907]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:816][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:816][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:816][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:817][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:817][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:817][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:817][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:817][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:817][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:818][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:818][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:818][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:818][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:818][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:818][908]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:818][908]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:826][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:826][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:826][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:826][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:826][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:826][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:826][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:826][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:827][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:827][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:827][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:827][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:827][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:827][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:827][909]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:828][909]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.13:835][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:835][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.13:836][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:836][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.13:836][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:836][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.13:836][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:836][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.13:837][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:837][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.13:837][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:837][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.13:837][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:837][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.13:837][910]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.13:837][910]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:295][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:295][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:295][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:295][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:296][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:296][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:296][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:296][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:296][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:296][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:296][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:296][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:297][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:297][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:297][965]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:297][965]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:304][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:305][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:305][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:305][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:305][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:305][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:306][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:306][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:306][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:306][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:306][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:306][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:307][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:307][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:307][966]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:307][966]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:314][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:314][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:314][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:314][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:315][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:315][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:315][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:315][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:315][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:315][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:315][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:315][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:316][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:316][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:316][967]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:316][967]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:323][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:323][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:323][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:323][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:323][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:323][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:324][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:324][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:324][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:324][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:324][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:324][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:324][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:324][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:325][968]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:325][968]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:333][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:333][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:333][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:333][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:333][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:333][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:333][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:333][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:334][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:334][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:334][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:334][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:334][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:334][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:334][969]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:334][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:342][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:342][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:342][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:342][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:342][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:342][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:343][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:343][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:343][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:343][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:343][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:343][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:343][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:343][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:344][970]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:344][970]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:350][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:350][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:351][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:351][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:351][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:351][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:351][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:351][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:351][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:352][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:352][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:352][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:352][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:352][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:352][971]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:352][971]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:359][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:360][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:360][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:360][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:360][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:360][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:360][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:360][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:361][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:361][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:361][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:361][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:361][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:361][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:361][972]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:362][972]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:369][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:369][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:369][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:369][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:369][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:369][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:370][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:370][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:370][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:370][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:370][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:370][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:370][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:370][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:371][973]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:371][973]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.14:378][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:378][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.StaticMeshComponent_2067'
+[2016.03.14-13.22.14:378][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:378][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_319'
+[2016.03.14-13.22.14:378][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:378][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_320'
+[2016.03.14-13.22.14:378][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:378][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_321'
+[2016.03.14-13.22.14:379][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:379][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_322'
+[2016.03.14-13.22.14:379][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:379][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_323'
+[2016.03.14-13.22.14:379][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:379][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.TextRenderComponent_1173'
+[2016.03.14-13.22.14:379][974]LogLinker:Warning: Can't find file '/Game/Blueprints/Shared/BP_Signpost'
+[2016.03.14-13.22.14:379][974]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Shared/BP_Signpost.BP_Signpost_C.BoxComponent_0'
+[2016.03.14-13.22.19:740][612]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.36:121][555]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.39:296][931]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.41:120][145]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.22.55:709][305]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.07:337][950]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.08:570][ 92]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.31:434][566]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.33:070][752]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.39:367][504]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.41:630][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.14-13.23.42:240][770]LogSavePackage: Save=572.196411ms
+[2016.03.14-13.23.42:240][770]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevelB6970E844BE25C5EA595B78BEDC103B6.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.14-13.23.42:243][770]LogSavePackage: Total save time: 586.461786ms
+[2016.03.14-13.23.42:243][770]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.14-13.23.42:308][772]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.43:345][895]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.44:746][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.44:746][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.14-13.23.44:748][ 57]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.14-13.23.44:748][ 57]PIE: New page: PIE session: MyFirstLevel (Mar 14, 2016, 3:23:44 PM)
+[2016.03.14-13.23.44:748][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.14-13.23.44:776][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028187s)
+[2016.03.14-13.23.44:777][ 57]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.14-13.23.44:777][ 57]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2016.03.14-13.23.44:777][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028988s)
+[2016.03.14-13.23.44:810][ 57]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.14-13.23.44:821][ 57]LogInit: FAudioDevice initialized.
+[2016.03.14-13.23.44:856][ 57]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.14-13.23.44:908][ 57]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.14-14.23.44
+[2016.03.14-13.23.44:908][ 57]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.23.44:908][ 57]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.23.44:910][ 57]LogWorld: Bringing up level for play took: 0.052092
+[2016.03.14-13.23.44:956][ 57]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.178
+[2016.03.14-13.23.44:956][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.44:975][ 58]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.23.49:255][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.49:319][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.49:347][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B0478BF060
+[2016.03.14-13.23.50:548][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.50:549][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.14-13.23.50:549][706]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.14-13.23.50:551][706]PIE: New page: PIE session: MyFirstLevel (Mar 14, 2016, 3:23:50 PM)
+[2016.03.14-13.23.50:551][706]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.14-13.23.50:580][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028986s)
+[2016.03.14-13.23.50:580][706]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.14-13.23.50:580][706]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2016.03.14-13.23.50:581][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029644s)
+[2016.03.14-13.23.50:612][706]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.14-13.23.50:622][706]LogInit: FAudioDevice initialized.
+[2016.03.14-13.23.50:656][706]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.14-13.23.50:707][706]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.14-14.23.50
+[2016.03.14-13.23.50:707][706]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.23.50:707][706]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.14-13.23.50:709][706]LogWorld: Bringing up level for play took: 0.051855
+[2016.03.14-13.23.50:725][706]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.409
+[2016.03.14-13.23.50:725][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.23.50:762][708]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 600/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.24.11:324][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.24.11:383][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.14-13.24.11:420][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B08CCBAFC0
+[2016.03.14-13.24.14:934][591]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.24.36:237][146]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.24.43:393][  0]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.06:253][742]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.14-13.25.06:309][743]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.13:232][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_K4U_InfoPanel)
+[2016.03.14-13.25.13:296][574]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.15:675][857]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.17:194][ 37]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.25:408][ 20]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.53:382][376]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.14-13.25.53:439][377]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.57:965][920]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.14-13.25.58:001][921]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.25.59:782][132]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.00:859][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.03:077][522]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.08:707][194]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.13:194][730]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.14:937][936]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.16:358][104]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.23:326][936]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.25:337][175]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.26:957][366]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 522/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.14-13.26.32:700][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.14-13.26.33:310][ 42]LogSavePackage: Save=572.200928ms
+[2016.03.14-13.26.33:311][ 42]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel67791AB34963628F900973983196D5DE.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstL
