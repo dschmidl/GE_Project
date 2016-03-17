@@ -1,0 +1,783 @@
+﻿[2016.03.17-09.48.03:887][  0]Log file open, 03/17/16 10:48:03
+[2016.03.17-09.48.03:887][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.17-09.48.03:887][  0]LogInit:Display: RandInit(1147210102) SRandInit(1147210102).
+[2016.03.17-09.48.03:887][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.17-09.48.03:887][  0]LogStats: Stats thread started at 0.066659
+[2016.03.17-09.48.03:887][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.17-09.48.03:887][  0]LogInit: API Version: 2672455
+[2016.03.17-09.48.03:887][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.17-09.48.03:887][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.17-09.48.03:887][  0]LogInit: Build Configuration: Development
+[2016.03.17-09.48.03:887][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.17-09.48.03:887][  0]LogInit: Command line:  
+[2016.03.17-09.48.03:887][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.17-09.48.03:887][  0]LogInit: Rocket: 1
+[2016.03.17-09.48.03:892][  0]LogInit: Using libcurl 7.41.0
+[2016.03.17-09.48.03:892][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.17-09.48.03:892][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.17-09.48.03:892][  0]LogInit:  - other features:
+[2016.03.17-09.48.03:892][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.17-09.48.03:892][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.17-09.48.03:892][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.17-09.48.03:892][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.17-09.48.03:892][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.17-09.48.03:892][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.17-09.48.03:892][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.17-09.48.03:892][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.17-09.48.03:892][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.17-09.48.03:892][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.17-09.48.03:896][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.17-09.48.03:902][  0]LogInit: Object subsystem initialized
+[2016.03.17-09.48.03:903][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.17-09.48.03:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.17-09.48.03:910][  0]LogInit: Computer: PC1021500895
+[2016.03.17-09.48.03:910][  0]LogInit: User: VR
+[2016.03.17-09.48.03:910][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.17-09.48.03:910][  0]LogInit: High frequency timer resolution =3.507497 MHz
+[2016.03.17-09.48.03:910][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.17-09.48.03:910][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.17-09.48.03:910][  0]LogMemory: Process Physical Memory: 52.70 MB used, 52.70 MB peak
+[2016.03.17-09.48.03:910][  0]LogMemory: Process Virtual Memory: 56.08 MB used, 56.08 MB peak
+[2016.03.17-09.48.03:910][  0]LogMemory: Physical Memory: 4160.38 MB used, 16261.17 MB total
+[2016.03.17-09.48.03:910][  0]LogMemory: Virtual Memory: 347.69 MB used, 134217728.00 MB total
+[2016.03.17-09.48.03:936][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.17-09.48.04:548][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.17-09.48.04:548][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.03.17-09.48.04:548][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.17-09.48.04:548][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.17-09.48.04:549][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.17-09.48.04:552][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.17-09.48.04:552][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.17-09.48.04:560][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.17-09.48.04:576][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/6248/).
+[2016.03.17-09.48.04:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/6E5A6C614310485F651B58A8C7C37D4F/'.
+[2016.03.17-09.48.04:576][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.17-09.48.05:346][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.17-09.48.05:350][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.17-09.48.05:353][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.17-09.48.05:356][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.17-09.48.05:359][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.17-09.48.05:361][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.17-09.48.05:364][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.17-09.48.05:366][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.17-09.48.05:368][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.17-09.48.05:370][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.17-09.48.05:372][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.17-09.48.05:374][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.17-09.48.05:375][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.17-09.48.05:389][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.17-09.48.05:391][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.17-09.48.05:393][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.17-09.48.05:396][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.17-09.48.05:396][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.17-09.48.05:443][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.17-09.48.05:481][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.17-09.48.05:599][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.17-09.48.05:611][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.17-09.48.05:744][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.17-09.48.05:746][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.17-09.48.05:834][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.17-09.48.05:834][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.17-09.48.06:010][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.17-09.48.06:512][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.17-09.48.06:603][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.03.17-09.48.06:724][  0]SourceControl: Info Source control is disabled
+[2016.03.17-09.48.06:730][  0]SourceControl: Info Source control is disabled
+[2016.03.17-09.48.06:735][  0]SourceControl: Info Source control is disabled
+[2016.03.17-09.48.06:740][  0]SourceControl: Info Source control is disabled
+[2016.03.17-09.48.06:819][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.17-09.48.06:865][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.03.17-09.48.06:870][  0]LogObj: 29066 objects as part of root set at end of initial load.
+[2016.03.17-09.48.06:870][  0]LogUObjectAllocator: 6193312 out of 0 bytes used by permanent object pool.
+[2016.03.17-09.48.06:916][  0]LogEngine: Initializing Engine...
+[2016.03.17-09.48.06:918][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.17-09.48.07:053][  0]LogHMD: SteamVR failed to initialize.  Err: 1000
+[2016.03.17-09.48.07:137][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.17-09.48.07:148][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-09.48.07:253][  0]LogInit: FAudioDevice initialized.
+[2016.03.17-09.48.07:271][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.17-09.48.07:275][  0]LogInit: Texture streaming: Enabled
+[2016.03.17-09.48.07:278][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.17-09.48.07:278][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.17-09.48.07:278][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.03.17-09.48.07:278][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.17-09.48.07:286][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.17-09.48.07:298][  0]LogInit: Transaction tracking system initialized
+[2016.03.17-09.48.07:312][  0]BlueprintLog: New page: Editor Load
+[2016.03.17-09.48.07:354][  0]LocalizationService: Info Localization service is disabled
+[2016.03.17-09.48.07:390][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.17-09.48.07:390][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.17-09.48.07:390][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.17-09.48.07:398][  0]LogConsoleResponse:Display: 
+[2016.03.17-09.48.07:479][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.17-09.48.07:508][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.03.17-09.48.07:508][  0]SourceControl: Info Source control is disabled
+[2016.03.17-09.48.07:508][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.17-09.48.07:508][  0]LightingResults: New page: Lighting Build
+[2016.03.17-09.48.07:510][  0]MapCheck: New page: Map Check
+[2016.03.17-09.48.07:510][  0]LightingResults: New page: Lighting Build
+[2016.03.17-09.48.07:519][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A08A71FCE0
+[2016.03.17-09.48.07:789][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.17-09.48.07:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.17-09.48.07:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.17-09.48.07:830][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.414ms to complete.
+[2016.03.17-09.48.07:830][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.323
+[2016.03.17-09.48.07:927][  0]LogCollectionManager: Loaded 0 collections in 0.000955 seconds
+[2016.03.17-09.48.07:967][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.17-09.48.07:967][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.03.17-09.48.07:967][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.03.17-09.48.07:967][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1901 classes and 339 folders.
+[2016.03.17-09.48.07:971][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.17-09.48.07:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.03.17-09.48.08:005][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.17-09.48.08:007][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.03.17-09.48.08:051][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.17-09.48.08:062][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.17-09.48.08:085][  0]LogLoad: Full Startup: 4.78 seconds (BP compile: 0.03 seconds)
+[2016.03.17-09.48.08:158][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.17-09.48.08:258][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.03.17-09.48.08:434][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.33s
+[2016.03.17-09.48.09:110][  3]LogAssetRegistry: Asset discovery search completed in 2.5177 seconds
+[2016.03.17-09.48.09:110][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.17-09.48.09:110][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.03.17-09.48.17:305][590]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.17-09.48.17:317][590]LightingResults: New page: Lighting Build
+[2016.03.17-09.48.17:330][590]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.17-09.48.17:331][590]MapCheck: New page: Map Check
+[2016.03.17-09.48.17:331][590]LightingResults: New page: Lighting Build
+[2016.03.17-09.48.17:339][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0F6AC5EE0
+[2016.03.17-09.48.17:407][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.17-09.48.17:408][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.17-09.48.17:408][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.17-09.48.17:408][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.17-09.48.17:410][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.10] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.03.17-09.48.17:410][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.10] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.17-09.48.17:410][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.10] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.17-09.48.17:460][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.17-09.48.17:460][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.17-09.48.17:461][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.17-09.48.17:461][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.17-09.48.17:463][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.16] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.03.17-09.48.17:463][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.16] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.17-09.48.17:463][590]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0014.16] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.17-09.48.17:904][590]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-09.48.18:079][590]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.17-09.48.18:128][590]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.17-09.48.18:173][590]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.859ms to complete.
+[2016.03.17-09.48.18:173][590]LogFileHelpers: Loading map 'MyFirstLevel' took 0.869
+[2016.03.17-09.48.18:186][591]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.17-09.48.25:854][484]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.03.17-09.48.25:858][484]Recompiling TheBeginning...
+[2016.03.17-09.48.25:858][484]Launching UnrealBuildTool... [D:/Programme/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 8871 Win64 Development -editorrecompile -canskiplink "D:/UnrealProjects/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.17-09.48.25:859][484]Warning: Starting HotReload took  0.0s.
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: New page: Compilation - Mar 17, 2016, 11:49:04 AM
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Creating makefile for hot reloading TheBeginning (.uproject file is newer)
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Performing 12 actions (4 in parallel)
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info PCH.TheBeginning.h.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Avatar.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info FirstPersonProjectile.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info MeleeWeapon.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Monster.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info NPC.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info MyHUD.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info TheBeginning.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info TheBeginningGameMode.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info TheBeginning.generated.cpp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info [12/12] Link UE4Editor-TheBeginning-8871.dll
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info    Creating library D:\UnrealProjects\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-8871.lib and object D:\UnrealProjects\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-8871.exp
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.17-09.49.04:424][ 91]CompilerResultsLog: Info Total build time: 38,54 seconds
+[2016.03.17-09.49.04:424][ 91]LogMainFrame: MainFrame: Module compiling took 38.570 seconds
+[2016.03.17-09.49.04:485][ 91]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0010 seconds. Added 8 classes and 2 folders.
+[2016.03.17-09.49.04:487][ 91]Warning: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2016.03.17-09.49.04:558][ 91]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1902 classes and 341 folders.
+[2016.03.17-09.49.06:940][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.49.06:940][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.17-09.49.06:940][372]PIE: New page: PIE session: MyFirstLevel (Mar 17, 2016, 11:49:06 AM)
+[2016.03.17-09.49.06:940][372]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.17-09.49.06:978][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037619s)
+[2016.03.17-09.49.06:978][372]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-09.49.06:978][372]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2016.03.17-09.49.06:979][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.038305s)
+[2016.03.17-09.49.06:999][372]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-09.49.07:004][372]LogInit: FAudioDevice initialized.
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:056][372]LoadErrors:Error: Error /Game/BP_Avatar : Can't find file for asset. /Script/Kinect4Unreal
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:056][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:057][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.17-09.49.07:058][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:058][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by CallFunc_GetCenteredBody_CenteredBody
+[2016.03.17-09.49.07:058][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:058][372]LoadErrors:Error: Error /Game/Blueprints/GamePadGameMode : Can't find file for asset. /Script/Kinect4Unreal
+[2016.03.17-09.49.07:058][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:058][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by CallFunc_GetHandStateAsExecution_HandState
+[2016.03.17-09.49.07:058][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:058][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by CentredBody
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:059][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:060][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:060][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by BP_Avatar
+[2016.03.17-09.49.07:060][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:062][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:062][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2965
+[2016.03.17-09.49.07:062][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:062][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:062][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8008
+[2016.03.17-09.49.07:062][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:062][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:063][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8009
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:063][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7561
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:063][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_4379
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:063][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8027
+[2016.03.17-09.49.07:063][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:064][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_8028
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:064][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8029
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:064][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_8030
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:064][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7486
+[2016.03.17-09.49.07:064][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:066][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2550
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:066][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8141
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:066][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_8142
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:066][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8143
+[2016.03.17-09.49.07:066][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:067][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_8144
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:067][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7519
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:067][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_4377
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:067][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:068][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8167
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:068][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8168
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:068][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7555
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:068][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_4378
+[2016.03.17-09.49.07:068][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:069][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:069][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8182
+[2016.03.17-09.49.07:069][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:070][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_8183
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:070][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_8184
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:070][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8185
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:070][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:071][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7567
+[2016.03.17-09.49.07:071][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:072][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:072][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_4457
+[2016.03.17-09.49.07:072][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:072][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:072][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8269
+[2016.03.17-09.49.07:072][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:072][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:073][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_8270
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:073][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_8271
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:073][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8272
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:073][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7678
+[2016.03.17-09.49.07:073][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:075][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:075][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_7855
+[2016.03.17-09.49.07:075][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:075][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:075][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2682
+[2016.03.17-09.49.07:075][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:076][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:076][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_8438
+[2016.03.17-09.49.07:076][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:076][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:076][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_8439
+[2016.03.17-09.49.07:076][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:076][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:077][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_8440
+[2016.03.17-09.49.07:077][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:077][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:077][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_8441
+[2016.03.17-09.49.07:077][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:077][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:078][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:078][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:078][372]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by SCS_Node_1
+[2016.03.17-09.49.07:078][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:083][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:083][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:083][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:083][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:083][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:084][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:085][372]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.17-09.49.07:091][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:091][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.49.07:092][372]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleLeft) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.17-09.49.07:093][372]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.17-09.49.07:098][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0063.79] Compile of BP_Avatar failed. 16 Fatal Issue(s) 7 Warning(s) [in 13 ms]
+[2016.03.17-09.49.07:099][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0063.79] Compile of BP_Avatar failed. 16 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2016.03.17-09.49.07:099][372]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0063.79] Compile of BP_Avatar failed. 16 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2016.03.17-09.49.07:100][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:100][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:100][372]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.17-09.49.07:100][372]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../UnrealProjects/GE_Project/Content/Blueprints/GamePadGameMode.uasset.
+[2016.03.17-09.49.07:114][372]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.17-09.49.07:162][372]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.17-10.49.07
+[2016.03.17-09.49.07:162][372]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.49.07:163][372]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.49.07:164][372]LogWorld: Bringing up level for play took: 0.049411
+[2016.03.17-09.49.07:167][372]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.953
+[2016.03.17-09.49.07:167][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.49.12:264][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.49.12:300][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.49.12:315][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A09BA4BA60
+[2016.03.17-09.49.13:663][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.49.13:663][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.17-09.49.28:615][630]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.17-09.49.29:255][630]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.03.17-09.50.23:380][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.23:380][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.17-09.50.24:981][212]PIE: New page: PIE session: MyFirstLevel (Mar 17, 2016, 11:50:24 AM)
+[2016.03.17-09.50.24:981][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.17-09.50.25:009][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027423s)
+[2016.03.17-09.50.25:009][212]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-09.50.25:009][212]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2016.03.17-09.50.25:009][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028053s)
+[2016.03.17-09.50.25:009][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.17-09.50.25:009][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.17-09.50.25:029][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0ACA08AE0
+[2016.03.17-09.50.25:043][212]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-09.50.25:048][212]LogInit: FAudioDevice initialized.
+[2016.03.17-09.50.25:078][212]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.17-09.50.25:127][212]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.17-10.50.25
+[2016.03.17-09.50.25:127][212]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.50.25:127][212]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.50.25:129][212]LogWorld: Bringing up level for play took: 0.049622
+[2016.03.17-09.50.25:131][212]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.918
+[2016.03.17-09.50.25:131][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.40:789][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.40:820][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.40:842][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0C971C9A0
+[2016.03.17-09.50.48:074][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.48:074][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.17-09.50.48:074][948]PIE: New page: PIE session: MyFirstLevel (Mar 17, 2016, 11:50:48 AM)
+[2016.03.17-09.50.48:074][948]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.17-09.50.48:101][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026559s)
+[2016.03.17-09.50.48:101][948]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-09.50.48:101][948]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2016.03.17-09.50.48:101][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.027195s)
+[2016.03.17-09.50.48:131][948]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-09.50.48:137][948]LogInit: FAudioDevice initialized.
+[2016.03.17-09.50.48:167][948]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.17-09.50.48:216][948]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.17-10.50.48
+[2016.03.17-09.50.48:216][948]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.50.48:216][948]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-09.50.48:217][948]LogWorld: Bringing up level for play took: 0.049525
+[2016.03.17-09.50.48:220][948]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.005
+[2016.03.17-09.50.48:220][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.50.58:151][139]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:251][151]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:267][153]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:276][154]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:292][156]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:301][157]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:309][158]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:317][159]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:326][160]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.50.58:334][161]LogCharacterMovement: BP_Avatar_C_3 is stuck and failed to move!
+[2016.03.17-09.51.03:027][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.51.03:058][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-09.51.03:087][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0CD7F2840
+[2016.03.17-09.51.40:830][ 56]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.17-09.51.40:849][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:849][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:849][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:849][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.51.40:849][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:850][ 56]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.51.40:923][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.17-09.51.40:923][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.17-09.51.40:950][ 56]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0217.64] Compile of BP_Avatar failed. 7 Fatal Issue(s) 7 Warning(s) [in 119 ms]
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.17-09.51.40:950][ 56]BlueprintEditorCompileResults:Warning: Warning [0217.64] Compile of BP_Avatar failed. 7 Fatal Issue(s) 7 Warning(s) [in 119 ms]
+[2016.03.17-09.52.54:612][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.17-09.52.57:370][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.17-09.52.57:502][525]LogSavePackage: Save=117.845001ms
+[2016.03.17-09.52.57:502][525]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_AvatarC5FD2EA342E2138EE3C6A98D5A84BC70.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.17-09.52.57:504][525]LogSavePackage: Total save time: 133.315295ms
+[2016.03.17-09.52.57:504][525]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.17-09.52.57:680][525]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.17-09.52.57:923][526]Cmd: QUIT_EDITOR
+[2016.03.17-09.52.58:355][526]LogExit: Preparing to exit.
+[2016.03.17-09.52.58:780][526]LogExit: Editor shut down
+[2016.03.17-09.52.58:781][526]LogExit: Transaction tracking system shut down
+[2016.03.17-09.52.58:782][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A09A563880
+[2016.03.17-09.52.58:782][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A09BA4AE80
+[2016.03.17-09.52.58:784][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A092B2F060
+[2016.03.17-09.52.58:784][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0BE121F80
+[2016.03.17-09.52.58:784][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0BE122700
+[2016.03.17-09.52.58:789][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A0BE122F20
+[2016.03.17-09.52.58:800][526]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.03.17-09.52.58:943][526]LogExit: Object subsystem successfully closed.
+[2016.03.17-09.52.58:962][526]LogD3D11RHI: Shutdown
+[2016.03.17-09.52.58:962][526]LogD3D11RHI: CleanupD3DDevice
+[2016.03.17-09.52.59:011][526]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.17-09.52.59:021][526]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.03.17-09.52.59:022][526]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.03.17-09.52.59:023][526]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.03.17-09.52.59:023][526]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.03.17-09.52.59:023][526]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.03.17-09.52.59:023][526]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.03.17-09.52.59:556][526]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.03.17-09.52.59:557][526]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.03.17-09.52.59:705][526]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.03.17-09.52.59:705][526]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.03.17-09.52.59:714][526]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.17-09.52.59:723][526]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.17-09.52.59:724][526]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.17-09.52.59:725][526]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.17-09.52.59:725][526]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.17-09.52.59:826][526]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.17-09.52.59:826][526]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.17-09.52.59:826][526]LogModuleManager: Shutting down and abandoning module TheBeginning (86)
+[2016.03.17-09.52.59:826][526]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.17-09.52.59:927][526]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.17-09.52.59:927][526]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.17-09.52.59:927][526]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.17-09.52.59:930][526]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.17-09.52.59:932][526]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.17-09.52.59:935][526]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.17-09.52.59:944][526]LogDerivedDataCache: Shutdown
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.17-09.52.59:944][526]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.17-09.53.00:946][526]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.17-09.53.00:947][526]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.17-09.53.00:948][526]LogExit: Exiting.
+[2016.03.17-09.53.00:949][526]Log file closed, 03/17/16 10:53:00

@@ -1,0 +1,418 @@
+﻿[2016.03.17-11.42.24:225][  0]Log file open, 03/17/16 12:42:24
+[2016.03.17-11.42.24:225][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.17-11.42.24:225][  0]LogInit:Display: RandInit(-1933336685) SRandInit(-1933336685).
+[2016.03.17-11.42.24:225][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.17-11.42.24:225][  0]LogStats: Stats thread started at 0.073113
+[2016.03.17-11.42.24:225][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.17-11.42.24:225][  0]LogInit: API Version: 2672455
+[2016.03.17-11.42.24:225][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.17-11.42.24:225][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.17-11.42.24:225][  0]LogInit: Build Configuration: Development
+[2016.03.17-11.42.24:225][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.17-11.42.24:225][  0]LogInit: Command line:  
+[2016.03.17-11.42.24:225][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.17-11.42.24:225][  0]LogInit: Rocket: 1
+[2016.03.17-11.42.24:232][  0]LogInit: Using libcurl 7.41.0
+[2016.03.17-11.42.24:232][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.17-11.42.24:232][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.17-11.42.24:232][  0]LogInit:  - other features:
+[2016.03.17-11.42.24:232][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.17-11.42.24:232][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.17-11.42.24:232][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.17-11.42.24:232][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.17-11.42.24:232][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.17-11.42.24:232][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.17-11.42.24:232][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.17-11.42.24:232][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.17-11.42.24:232][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.17-11.42.24:232][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.17-11.42.24:237][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.17-11.42.24:244][  0]LogInit: Object subsystem initialized
+[2016.03.17-11.42.24:246][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.17-11.42.24:246][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.17-11.42.24:253][  0]LogInit: Computer: PC1021500895
+[2016.03.17-11.42.24:253][  0]LogInit: User: VR
+[2016.03.17-11.42.24:253][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.17-11.42.24:253][  0]LogInit: High frequency timer resolution =3.507508 MHz
+[2016.03.17-11.42.24:253][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.17-11.42.24:253][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.17-11.42.24:253][  0]LogMemory: Process Physical Memory: 53.17 MB used, 53.17 MB peak
+[2016.03.17-11.42.24:253][  0]LogMemory: Process Virtual Memory: 55.14 MB used, 55.14 MB peak
+[2016.03.17-11.42.24:253][  0]LogMemory: Physical Memory: 4453.71 MB used, 16261.17 MB total
+[2016.03.17-11.42.24:253][  0]LogMemory: Virtual Memory: 346.75 MB used, 134217728.00 MB total
+[2016.03.17-11.42.24:282][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.17-11.42.25:072][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.17-11.42.25:072][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.03.17-11.42.25:073][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.17-11.42.25:073][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.17-11.42.25:074][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.17-11.42.25:077][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.17-11.42.25:077][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.17-11.42.25:087][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.17-11.42.25:103][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/5808/).
+[2016.03.17-11.42.25:103][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/3B19833B4C84FCA6776508A1496BF5F9/'.
+[2016.03.17-11.42.25:103][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.17-11.42.26:032][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.17-11.42.26:035][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.17-11.42.26:040][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.17-11.42.26:043][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.17-11.42.26:047][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.17-11.42.26:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.17-11.42.26:052][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.17-11.42.26:054][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.17-11.42.26:057][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.17-11.42.26:060][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.17-11.42.26:063][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.17-11.42.26:066][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.17-11.42.26:067][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.17-11.42.26:082][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.17-11.42.26:085][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.17-11.42.26:088][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.17-11.42.26:092][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.17-11.42.26:092][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.17-11.42.26:153][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.17-11.42.26:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.17-11.42.26:352][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.17-11.42.26:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.17-11.42.26:565][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.17-11.42.26:567][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.17-11.42.26:687][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.17-11.42.26:687][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.17-11.42.26:930][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.17-11.42.27:621][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.17-11.42.27:745][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.03.17-11.42.27:903][  0]SourceControl: Info Source control is disabled
+[2016.03.17-11.42.27:910][  0]SourceControl: Info Source control is disabled
+[2016.03.17-11.42.27:918][  0]SourceControl: Info Source control is disabled
+[2016.03.17-11.42.27:925][  0]SourceControl: Info Source control is disabled
+[2016.03.17-11.42.28:047][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.17-11.42.28:113][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.03.17-11.42.28:119][  0]LogObj: 29249 objects as part of root set at end of initial load.
+[2016.03.17-11.42.28:119][  0]LogUObjectAllocator: 6234272 out of 0 bytes used by permanent object pool.
+[2016.03.17-11.42.28:176][  0]LogEngine: Initializing Engine...
+[2016.03.17-11.42.28:178][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.17-11.42.28:207][  0]LogHMD: SteamVR failed to initialize.  Err: 301
+[2016.03.17-11.42.28:327][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.17-11.42.28:339][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-11.42.28:345][  0]LogInit: FAudioDevice initialized.
+[2016.03.17-11.42.28:366][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.17-11.42.28:371][  0]LogInit: Texture streaming: Enabled
+[2016.03.17-11.42.28:374][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.17-11.42.28:374][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.17-11.42.28:374][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.03.17-11.42.28:374][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.17-11.42.28:383][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.17-11.42.28:394][  0]LogInit: Transaction tracking system initialized
+[2016.03.17-11.42.28:411][  0]BlueprintLog: New page: Editor Load
+[2016.03.17-11.42.28:464][  0]LocalizationService: Info Localization service is disabled
+[2016.03.17-11.42.28:514][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.17-11.42.28:515][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.17-11.42.28:515][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.17-11.42.28:524][  0]LogConsoleResponse:Display: 
+[2016.03.17-11.42.28:622][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.17-11.42.28:659][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.03.17-11.42.28:659][  0]SourceControl: Info Source control is disabled
+[2016.03.17-11.42.28:659][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.17-11.42.28:660][  0]LightingResults: New page: Lighting Build
+[2016.03.17-11.42.28:662][  0]MapCheck: New page: Map Check
+[2016.03.17-11.42.28:662][  0]LightingResults: New page: Lighting Build
+[2016.03.17-11.42.28:674][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA6A84C400
+[2016.03.17-11.42.29:025][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.17-11.42.29:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.17-11.42.29:030][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.17-11.42.29:070][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.165ms to complete.
+[2016.03.17-11.42.29:070][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.410
+[2016.03.17-11.42.29:178][  0]LogCollectionManager: Loaded 0 collections in 0.001098 seconds
+[2016.03.17-11.42.29:220][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.17-11.42.29:220][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.03.17-11.42.29:220][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.03.17-11.42.29:220][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 1918 classes and 347 folders.
+[2016.03.17-11.42.29:225][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.03.17-11.42.29:230][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.17-11.42.29:266][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.03.17-11.42.29:270][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.03.17-11.42.29:329][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.17-11.42.29:333][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.17-11.42.29:356][  0]LogLoad: Full Startup: 5.92 seconds (BP compile: 0.05 seconds)
+[2016.03.17-11.42.29:412][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.17-11.42.29:531][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.03.17-11.42.29:791][  3]LogAssetRegistry: Asset discovery search completed in 2.0564 seconds
+[2016.03.17-11.42.29:791][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.17-11.42.29:791][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.03.17-11.42.34:629][560]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/GE_Project/Content/' took 5.25s
+[2016.03.17-11.42.35:188][625]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.17-11.42.35:214][625]LightingResults: New page: Lighting Build
+[2016.03.17-11.42.35:232][625]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.17-11.42.35:232][625]MapCheck: New page: Map Check
+[2016.03.17-11.42.35:232][625]LightingResults: New page: Lighting Build
+[2016.03.17-11.42.35:243][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA525DB6A0
+[2016.03.17-11.42.35:323][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.17-11.42.35:323][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.17-11.42.35:323][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.17-11.42.35:324][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.17-11.42.35:326][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.89] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.17-11.42.35:326][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.89] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:326][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.89] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:384][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.17-11.42.35:384][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.17-11.42.35:385][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.17-11.42.35:385][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.17-11.42.35:389][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.95] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 8 ms]
+[2016.03.17-11.42.35:389][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.95] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:389][625]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.95] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:511][625]LogBlueprint:Error: [compiler MyFirstLevel] Error Spawn node  Create Widget  must have a class specified.
+[2016.03.17-11.42.35:513][625]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0012.07] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2016.03.17-11.42.35:513][625]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0012.07] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:513][625]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0012.07] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.17-11.42.35:884][625]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-11.42.36:081][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.17-11.42.36:136][625]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.17-11.42.36:188][625]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.534ms to complete.
+[2016.03.17-11.42.36:188][625]LogFileHelpers: Loading map 'MyFirstLevel' took 1.001
+[2016.03.17-11.42.36:211][626]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.17-11.42.46:816][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.42.46:816][840]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.17-11.42.46:816][840]LogPlayLevel: [PlayLevel] Compiling MyFirstLevel before play...
+[2016.03.17-11.42.46:877][840]LogBlueprint:Error: [compiler MyFirstLevel] Error Spawn node  Create Widget  must have a class specified.
+[2016.03.17-11.42.46:932][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 114 ms]
+[2016.03.17-11.42.46:932][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.17-11.42.46:932][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.17-11.42.46:932][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.17-11.42.46:932][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.03.17-11.42.46:933][840]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0023.49] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.03.17-11.42.46:933][840]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2016.03.17-11.42.46:933][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.17-11.42.46:957][840]BlueprintLog: Info Blueprint MyFirstLevel failed to compile
+[2016.03.17-11.42.48:114][840]PIE: New page: PIE session: MyFirstLevel (Mar 17, 2016, 1:42:48 PM)
+[2016.03.17-11.42.48:114][840]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.17-11.42.48:143][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028574s)
+[2016.03.17-11.42.48:143][840]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-11.42.48:143][840]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2016.03.17-11.42.48:143][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029242s)
+[2016.03.17-11.42.48:167][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-11.42.48:173][840]LogInit: FAudioDevice initialized.
+[2016.03.17-11.42.48:272][840]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.17-11.42.48:331][840]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.17-12.42.48
+[2016.03.17-11.42.48:331][840]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-11.42.48:331][840]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-11.42.48:333][840]LogWorld: Bringing up level for play took: 0.059745
+[2016.03.17-11.42.48:405][840]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 2.271
+[2016.03.17-11.42.48:405][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.42.57:595][939]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.42.57:603][940]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.42.57:611][941]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.42.57:620][942]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:660][266]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:668][267]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:677][268]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:685][269]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:694][270]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:702][271]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:710][272]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:719][273]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:727][274]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:735][275]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:743][276]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:752][277]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:760][278]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:768][279]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:777][280]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:785][281]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:793][282]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:802][283]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:810][284]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:819][285]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:827][286]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:835][287]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:844][288]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:852][289]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:860][290]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:869][291]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:877][292]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:885][293]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:893][294]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:902][295]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:911][296]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:919][297]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:927][298]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:935][299]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:943][300]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:952][301]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:960][302]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:968][303]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:977][304]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:985][305]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.08:994][306]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:002][307]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:011][308]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:019][309]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:060][314]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:068][315]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:077][316]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.09:085][317]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:163][686]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:171][687]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:179][688]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:188][689]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:196][690]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:205][691]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:213][692]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:221][693]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:229][694]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:238][695]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:246][696]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:254][697]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:263][698]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:271][699]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:279][700]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:288][701]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:296][702]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:305][703]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:313][704]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:321][705]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:329][706]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:338][707]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:346][708]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:354][709]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:363][710]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:371][711]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:379][712]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:388][713]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:396][714]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:405][715]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:413][716]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:421][717]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:429][718]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:438][719]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:446][720]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:455][721]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:463][722]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:471][723]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:480][724]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:488][725]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:496][726]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:505][727]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:513][728]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:521][729]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:529][730]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:538][731]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:546][732]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:555][733]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:562][734]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:571][735]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:579][736]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:588][737]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:596][738]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:604][739]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:612][740]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:621][741]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:629][742]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:638][743]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:646][744]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:654][745]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:662][746]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:671][747]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:679][748]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:688][749]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:963][782]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:971][783]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:979][784]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.12:988][785]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:297][822]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:306][823]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:314][824]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:323][825]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:565][854]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:573][855]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:581][856]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:590][857]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:598][858]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:606][859]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:615][860]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:623][861]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:665][866]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:673][867]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:681][868]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:690][869]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:698][870]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:706][871]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:715][872]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:724][873]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:732][874]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:740][875]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:748][876]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:757][877]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:765][878]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:773][879]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:782][880]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:790][881]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:798][882]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:807][883]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:815][884]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:824][885]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:832][886]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:840][887]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:848][888]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:857][889]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:865][890]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:873][891]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:882][892]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.13:890][893]LogBlueprintUserMessages: [BP_Avatar_C_0] Hello
+[2016.03.17-11.43.40:676][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.43.40:713][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.43.40:713][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.17-11.43.40:713][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.17-11.43.40:744][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA0FD59A80
+[2016.03.17-11.43.44:537][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.43.44:537][552]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.17-11.43.44:537][552]LogPlayLevel: [PlayLevel] Compiling MyFirstLevel before play...
+[2016.03.17-11.43.44:541][552]LogBlueprint:Error: [compiler MyFirstLevel] Error Spawn node  Create Widget  must have a class specified.
+[2016.03.17-11.43.44:590][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 51 ms]
+[2016.03.17-11.43.44:591][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.17-11.43.44:591][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.17-11.43.44:591][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.17-11.43.44:591][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.03.17-11.43.44:591][552]LogBlueprint:Warning: [compiler MyFirstLevel] Warning [0081.15] Compile of MyFirstLevel failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.03.17-11.43.44:593][552]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2016.03.17-11.43.44:605][552]BlueprintLog: Info Blueprint MyFirstLevel failed to compile
+[2016.03.17-11.43.47:672][552]PIE: New page: PIE session: MyFirstLevel (Mar 17, 2016, 1:43:47 PM)
+[2016.03.17-11.43.47:672][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.17-11.43.47:702][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029505s)
+[2016.03.17-11.43.47:702][552]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.17-11.43.47:702][552]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2016.03.17-11.43.47:702][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030136s)
+[2016.03.17-11.43.47:726][552]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.17-11.43.47:732][552]LogInit: FAudioDevice initialized.
+[2016.03.17-11.43.47:763][552]LogWorld: Game class is 'GamePadGameMode_C'
+[2016.03.17-11.43.47:827][552]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.17-12.43.47
+[2016.03.17-11.43.47:827][552]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-11.43.47:827][552]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.17-11.43.47:829][552]LogWorld: Bringing up level for play took: 0.065260
+[2016.03.17-11.43.47:850][552]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=15271.460 Y=12302.722 Z=298.674] for [BP_Avatar_C]
+[2016.03.17-11.43.47:851][552]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.03.17-11.43.47:851][552]LogGameMode:Warning: Couldn't spawn Pawn of type BP_Avatar_C at PlayerStartPIE_1
+[2016.03.17-11.43.47:852][552]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 3.718
+[2016.03.17-11.43.47:852][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel' with GeneratedClass '/Game/MyFirstLevel.MyFirstLevel_C' with ClassGeneratedBy '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.MyFirstLevel'
+[2016.03.17-11.43.47:997][552]LogCrashTracker: 
+
+
+[2016.03.17-11.43.47:997][552]LogCrashTracker: 
+
+
+[2016.03.17-11.43.47:997][552]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2016.03.17-11.43.48:105][552]LogExit: Executing StaticShutdownAfterError
+[2016.03.17-11.43.48:110][552]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.17-11.43.48:111][552]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.17-11.43.48:111][552]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.17-11.43.48:111][552]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.17-11.43.48:111][552]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.17-11.43.48:111][552]Log file closed, 03/17/16 12:43:48
