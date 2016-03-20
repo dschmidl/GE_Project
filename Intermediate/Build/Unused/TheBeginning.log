@@ -1,12 +1,15 @@
-﻿Build started 17.12.2015 14:39:24.
-     1>Project "C:\Users\Martin\Documents\Unreal Projects\TheBeginning\Intermediate\ProjectFiles\TheBeginning.vcxproj" on node 2 (Build target(s)).
+﻿Build started 20.03.2016 15:04:20.
+     1>Project "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project - Kopie\Intermediate\ProjectFiles\TheBeginning.vcxproj" on node 2 (Build target(s)).
      1>Build:
-         "C:\Program Files\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TheBeginningEditor Win64 Development "C:\Users\Martin\Documents\Unreal Projects\TheBeginning\TheBeginning.uproject" -rocket -waitmutex
-         Creating makefile for hot reloading TheBeginningEditor (modules to compile have changed)
-         Compiling game modules for hot reload
-         Target is up to date.
-     1>Done Building Project "C:\Users\Martin\Documents\Unreal Projects\TheBeginning\Intermediate\ProjectFiles\TheBeginning.vcxproj" (Build target(s)).
+         "C:\Program Files (x86)\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TheBeginningEditor Win64 Development "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project - Kopie\TheBeginning.uproject" -rocket -waitmutex
+         Performing 2 actions (4 in parallel)
+         FirstPersonProjectile.cpp
+         [2/2] Link UE4Editor-TheBeginning.dll
+            Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project - Kopie\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project - Kopie\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Total build time: 3,26 seconds
+     1>Done Building Project "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project - Kopie\Intermediate\ProjectFiles\TheBeginning.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:41.17
+Time Elapsed 00:00:03.37

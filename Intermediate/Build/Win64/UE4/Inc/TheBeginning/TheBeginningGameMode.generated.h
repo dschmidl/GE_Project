@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THEBEGINNING_TheBeginningGameMode_generated_h
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS_NO_PURE_DECLS \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesATheBeginningGameMode(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode(); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ATheBeginningGameMode*>(this); }
 
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS \
 	private: \
 	static void StaticRegisterNativesATheBeginningGameMode(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode(); \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ATheBeginningGameMode*>(this); }
 
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_STANDARD_CONSTRUCTORS \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATheBeginningGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATheBeginningGameMode) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_ENHANCED_CONSTRUCTORS \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATheBeginningGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,29 +61,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATheBeginningGameMode); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATheBeginningGameMode)
 
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_11_PROLOG
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_GENERATED_BODY_LEGACY \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_11_PROLOG
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_STANDARD_CONSTRUCTORS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_GENERATED_BODY \
+#define GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS_NO_PURE_DECLS \
-	TheBeginning_Source_TheBeginning_TheBeginningGameMode_h_14_ENHANCED_CONSTRUCTORS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_INCLASS_NO_PURE_DECLS \
+	GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TheBeginning_Source_TheBeginning_TheBeginningGameMode_h
+#define CURRENT_FILE_ID GE_Project___Kopie_Source_TheBeginning_TheBeginningGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

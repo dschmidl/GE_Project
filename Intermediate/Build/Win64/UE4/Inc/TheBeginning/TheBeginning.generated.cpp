@@ -12,18 +12,107 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	void AAvatar::StaticRegisterNativesAAvatar()
 	{
 	}
-	IMPLEMENT_CLASS(AAvatar, 925411270);
+	IMPLEMENT_CLASS(AAvatar, 1321898445);
+	void AFirstPersonProjectile::StaticRegisterNativesAFirstPersonProjectile()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AFirstPersonProjectile::StaticClass(),"OnHit",(Native)&AFirstPersonProjectile::execOnHit);
+	}
+	IMPLEMENT_CLASS(AFirstPersonProjectile, 3216498624);
+	void AMeleeWeapon::Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+	{
+		MeleeWeapon_eventProx_Parms Parms;
+		Parms.OtherActor=OtherActor;
+		Parms.OtherComp=OtherComp;
+		Parms.OtherBodyIndex=OtherBodyIndex;
+		Parms.bFromSweep=bFromSweep ? true : false;
+		Parms.SweepResult=SweepResult;
+		ProcessEvent(FindFunctionChecked(THEBEGINNING_Prox),&Parms);
+	}
+	void AMeleeWeapon::StaticRegisterNativesAMeleeWeapon()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AMeleeWeapon::StaticClass(),"Prox",(Native)&AMeleeWeapon::execProx);
+	}
+	IMPLEMENT_CLASS(AMeleeWeapon, 722242293);
+	void AMonster::StaticRegisterNativesAMonster()
+	{
+	}
+	IMPLEMENT_CLASS(AMonster, 398568720);
+	void AMyHUD::StaticRegisterNativesAMyHUD()
+	{
+	}
+	IMPLEMENT_CLASS(AMyHUD, 1888229909);
+	void ANPC::Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+	{
+		NPC_eventProx_Parms Parms;
+		Parms.OtherActor=OtherActor;
+		Parms.OtherComp=OtherComp;
+		Parms.OtherBodyIndex=OtherBodyIndex;
+		Parms.bFromSweep=bFromSweep ? true : false;
+		Parms.SweepResult=SweepResult;
+		ProcessEvent(FindFunctionChecked(THEBEGINNING_Prox),&Parms);
+	}
+	void ANPC::StaticRegisterNativesANPC()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(ANPC::StaticClass(),"Prox",(Native)&ANPC::execProx);
+	}
+	IMPLEMENT_CLASS(ANPC, 127945974);
+	void APickUpItem::Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+	{
+		PickUpItem_eventProx_Parms Parms;
+		Parms.OtherActor=OtherActor;
+		Parms.OtherComp=OtherComp;
+		Parms.OtherBodyIndex=OtherBodyIndex;
+		Parms.bFromSweep=bFromSweep ? true : false;
+		Parms.SweepResult=SweepResult;
+		ProcessEvent(FindFunctionChecked(THEBEGINNING_Prox),&Parms);
+	}
+	void APickUpItem::StaticRegisterNativesAPickUpItem()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(APickUpItem::StaticClass(),"Prox",(Native)&APickUpItem::execProx);
+	}
+	IMPLEMENT_CLASS(APickUpItem, 152495496);
 	void ATheBeginningGameMode::StaticRegisterNativesATheBeginningGameMode()
 	{
 	}
 	IMPLEMENT_CLASS(ATheBeginningGameMode, 3523517141);
+FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API class UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
+	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	COREUOBJECT_API class UClass* Z_Construct_UClass_UObject_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AHUD();
+	ENGINE_API class UClass* Z_Construct_UClass_UFont_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar();
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AFirstPersonProjectile_OnHit();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile();
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AMeleeWeapon_Prox();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMeleeWeapon();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMonster_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMonster();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMyHUD_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_AMyHUD();
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_ANPC_Prox();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_ANPC_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_ANPC();
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_APickUpItem_Prox();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_APickUpItem_NoRegister();
+	THEBEGINNING_API class UClass* Z_Construct_UClass_APickUpItem();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode();
 	THEBEGINNING_API class UPackage* Z_Construct_UPackage_TheBeginning();
@@ -45,12 +134,24 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 				OuterClass->ClassFlags |= 0x20900080;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AAvatar), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
+				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AAvatar), 0x0004000000010001, Z_Construct_UClass_AFirstPersonProjectile_NoRegister());
+				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(GunOffset, AAvatar), 0x0000000000000005, Z_Construct_UScriptStruct_FVector());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+				MetaData->SetValue(OuterClass, TEXT("ToolTip"), TEXT("forward declare the APickupItem class,\nsince it will be \"mentioned\" in a member function"));
+				MetaData->SetValue(NewProp_FireSound, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_FireSound, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+				MetaData->SetValue(NewProp_GunOffset, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_GunOffset, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 #endif
 			}
 		}
@@ -59,6 +160,417 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAvatar(Z_Construct_UClass_AAvatar, TEXT("AAvatar"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAvatar);
+	UFunction* Z_Construct_UFunction_AFirstPersonProjectile_OnHit()
+	{
+		struct FirstPersonProjectile_eventOnHit_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+		UObject* Outer=Z_Construct_UClass_AFirstPersonProjectile();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnHit"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00C20401, 65535, sizeof(FirstPersonProjectile_eventOnHit_Parms));
+			UProperty* NewProp_Hit = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Hit"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(Hit, FirstPersonProjectile_eventOnHit_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			UProperty* NewProp_NormalImpulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NormalImpulse"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(NormalImpulse, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, FirstPersonProjectile_eventOnHit_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("called when projectile hits something"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AFirstPersonProjectile_NoRegister()
+	{
+		return AFirstPersonProjectile::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AFirstPersonProjectile()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = AFirstPersonProjectile::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20800080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AFirstPersonProjectile_OnHit());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ProjectileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovement"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovement, AFirstPersonProjectile), 0x00000000000a001d, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, AFirstPersonProjectile), 0x00000000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AFirstPersonProjectile_OnHit()); // 1716904778
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("AllowPrivateAccess"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("Category"), TEXT("Movement"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ToolTip"), TEXT("Projectile movement component"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("ModuleRelativePath"), TEXT("FirstPersonProjectile.h"));
+				MetaData->SetValue(NewProp_CollisionComp, TEXT("ToolTip"), TEXT("Sphere collision component"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AFirstPersonProjectile(Z_Construct_UClass_AFirstPersonProjectile, TEXT("AFirstPersonProjectile"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AFirstPersonProjectile);
+	UFunction* Z_Construct_UFunction_AMeleeWeapon_Prox()
+	{
+		UObject* Outer=Z_Construct_UClass_AMeleeWeapon();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Prox"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x08420C00, 65535, sizeof(MeleeWeapon_eventProx_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, MeleeWeapon_eventProx_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, MeleeWeapon_eventProx_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, MeleeWeapon_eventProx_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, MeleeWeapon_eventProx_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, MeleeWeapon_eventProx_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, MeleeWeapon_eventProx_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, MeleeWeapon_eventProx_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Collision"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("MeleeWeapon.h"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AMeleeWeapon_NoRegister()
+	{
+		return AMeleeWeapon::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMeleeWeapon()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = AMeleeWeapon::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AMeleeWeapon_Prox());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_Mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Mesh, AMeleeWeapon), 0x00000000000b001d, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+				UProperty* NewProp_ProxBox = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProxBox"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProxBox, AMeleeWeapon), 0x00000000000b001d, Z_Construct_UClass_UBoxComponent_NoRegister());
+				UProperty* NewProp_AttackDamage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("AttackDamage"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(AttackDamage, AMeleeWeapon), 0x0000000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AMeleeWeapon_Prox()); // 1430101950
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MeleeWeapon.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MeleeWeapon.h"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("Category"), TEXT("MeleeWeapon"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("ModuleRelativePath"), TEXT("MeleeWeapon.h"));
+				MetaData->SetValue(NewProp_ProxBox, TEXT("Category"), TEXT("MeleeWeapon"));
+				MetaData->SetValue(NewProp_ProxBox, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProxBox, TEXT("ModuleRelativePath"), TEXT("MeleeWeapon.h"));
+				MetaData->SetValue(NewProp_ProxBox, TEXT("ToolTip"), TEXT("bounding box that determines when melee weapon hit"));
+				MetaData->SetValue(NewProp_AttackDamage, TEXT("Category"), TEXT("MeleeWeapon"));
+				MetaData->SetValue(NewProp_AttackDamage, TEXT("ModuleRelativePath"), TEXT("MeleeWeapon.h"));
+				MetaData->SetValue(NewProp_AttackDamage, TEXT("ToolTip"), TEXT("The amount of damage attacks by this weapon do"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMeleeWeapon(Z_Construct_UClass_AMeleeWeapon, TEXT("AMeleeWeapon"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMeleeWeapon);
+	UClass* Z_Construct_UClass_AMonster_NoRegister()
+	{
+		return AMonster::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMonster()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = AMonster::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_AttackRangeSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("AttackRangeSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(AttackRangeSphere, AMonster), 0x00000000000b001d, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_SightSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("SightSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(SightSphere, AMonster), 0x00000000000b001d, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_TimeSinceLastStrike = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("TimeSinceLastStrike"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(TimeSinceLastStrike, AMonster), 0x0000000000020015);
+				UProperty* NewProp_AttackTimeout = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("AttackTimeout"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(AttackTimeout, AMonster), 0x0000000000000005);
+				UProperty* NewProp_BaseAttackDamage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseAttackDamage"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(BaseAttackDamage, AMonster), 0x0000000000000005);
+				UProperty* NewProp_BPLoot = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BPLoot"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(BPLoot, AMonster), 0x0000000000000005, Z_Construct_UClass_UObject_NoRegister());
+				UProperty* NewProp_Experience = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Experience"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Experience, AMonster), 0x0000000000000005);
+				UProperty* NewProp_HitPoints = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("HitPoints"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(HitPoints, AMonster), 0x0000000000000005);
+				UProperty* NewProp_Speed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Speed"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(Speed, AMonster), 0x0000000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Monster.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_AttackRangeSphere, TEXT("Category"), TEXT("Collision"));
+				MetaData->SetValue(NewProp_AttackRangeSphere, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_AttackRangeSphere, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_AttackRangeSphere, TEXT("ToolTip"), TEXT("Range for his attack. Visualizes as a sphere in editor,"));
+				MetaData->SetValue(NewProp_SightSphere, TEXT("Category"), TEXT("Collision"));
+				MetaData->SetValue(NewProp_SightSphere, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_SightSphere, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_SightSphere, TEXT("ToolTip"), TEXT("Range for his sight"));
+				MetaData->SetValue(NewProp_TimeSinceLastStrike, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_TimeSinceLastStrike, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_TimeSinceLastStrike, TEXT("ToolTip"), TEXT("Time since monster's last strike, readable in blueprints"));
+				MetaData->SetValue(NewProp_AttackTimeout, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_AttackTimeout, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_AttackTimeout, TEXT("ToolTip"), TEXT("Amount of time the monster needs to rest in seconds\nbetween attacking"));
+				MetaData->SetValue(NewProp_BaseAttackDamage, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_BaseAttackDamage, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_BaseAttackDamage, TEXT("ToolTip"), TEXT("The amount of damage attacks do"));
+				MetaData->SetValue(NewProp_BPLoot, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_BPLoot, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_BPLoot, TEXT("ToolTip"), TEXT("Blueprint of the type of item dropped by the monster"));
+				MetaData->SetValue(NewProp_Experience, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_Experience, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_Experience, TEXT("ToolTip"), TEXT("Experience gained for defeating"));
+				MetaData->SetValue(NewProp_HitPoints, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_HitPoints, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_HitPoints, TEXT("ToolTip"), TEXT("The hitpoints the monster has"));
+				MetaData->SetValue(NewProp_Speed, TEXT("Category"), TEXT("MonsterProperties"));
+				MetaData->SetValue(NewProp_Speed, TEXT("ModuleRelativePath"), TEXT("Monster.h"));
+				MetaData->SetValue(NewProp_Speed, TEXT("ToolTip"), TEXT("How fast he is"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMonster(Z_Construct_UClass_AMonster, TEXT("AMonster"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMonster);
+	UClass* Z_Construct_UClass_AMyHUD_NoRegister()
+	{
+		return AMyHUD::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMyHUD()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AHUD();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = AMyHUD::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x2090028C;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_hudFont = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("hudFont"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(hudFont, AMyHUD), 0x0000000000000005, Z_Construct_UClass_UFont_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Rendering Actor Input Replication"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MyHUD.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MyHUD.h"));
+				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_hudFont, TEXT("Category"), TEXT("HUDFont"));
+				MetaData->SetValue(NewProp_hudFont, TEXT("ModuleRelativePath"), TEXT("MyHUD.h"));
+				MetaData->SetValue(NewProp_hudFont, TEXT("ToolTip"), TEXT("The font used to render the text in the HUD.\nUPROPERTY()\nUFont* hudFont;"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyHUD(Z_Construct_UClass_AMyHUD, TEXT("AMyHUD"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyHUD);
+	UFunction* Z_Construct_UFunction_ANPC_Prox()
+	{
+		UObject* Outer=Z_Construct_UClass_ANPC();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Prox"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x08420C00, 65535, sizeof(NPC_eventProx_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, NPC_eventProx_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, NPC_eventProx_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, NPC_eventProx_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, NPC_eventProx_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, NPC_eventProx_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, NPC_eventProx_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, NPC_eventProx_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Collision"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("The corresponding body of this function is\nANPC::Prox_Implementation, __not__ ANPC::Prox()!\nThis is a bit weird and not what you'd expect,\nbut it happens because this is a BlueprintNativeEvent"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ANPC_NoRegister()
+	{
+		return ANPC::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ANPC()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = ANPC::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_ANPC_Prox());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ProxSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProxSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProxSphere, ANPC), 0x00000000000a001d, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_NpcMessage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("NpcMessage"), RF_Public|RF_Transient|RF_Native) UStrProperty(CPP_PROPERTY_BASE(NpcMessage, ANPC), 0x0000000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_ANPC_Prox()); // 3012133589
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("NPC.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("Category"), TEXT("Collision"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("ToolTip"), TEXT("Called to bind functionality to input\nvirtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;\nThe sphere that the player can collide with to get item"));
+				MetaData->SetValue(NewProp_NpcMessage, TEXT("Category"), TEXT("NPCMessage"));
+				MetaData->SetValue(NewProp_NpcMessage, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ANPC(Z_Construct_UClass_ANPC, TEXT("ANPC"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ANPC);
+	UFunction* Z_Construct_UFunction_APickUpItem_Prox()
+	{
+		UObject* Outer=Z_Construct_UClass_APickUpItem();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Prox"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x08420C00, 65535, sizeof(PickUpItem_eventProx_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, PickUpItem_eventProx_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, PickUpItem_eventProx_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, PickUpItem_eventProx_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, PickUpItem_eventProx_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, PickUpItem_eventProx_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, PickUpItem_eventProx_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, PickUpItem_eventProx_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Collision"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("When something comes inside ProxSphere, this function runs"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_APickUpItem_NoRegister()
+	{
+		return APickUpItem::StaticClass();
+	}
+	UClass* Z_Construct_UClass_APickUpItem()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_TheBeginning();
+			OuterClass = APickUpItem::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_APickUpItem_Prox());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_Icon = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Icon"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Icon, APickUpItem), 0x0000000000000005, Z_Construct_UClass_UTexture2D_NoRegister());
+				UProperty* NewProp_Mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Mesh, APickUpItem), 0x00000000000b001d, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+				UProperty* NewProp_ProxSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProxSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProxSphere, APickUpItem), 0x00000000000b001d, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_Quantity = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Quantity"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Quantity, APickUpItem), 0x0000000000000005);
+				UProperty* NewProp_Name = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Name"), RF_Public|RF_Transient|RF_Native) UStrProperty(CPP_PROPERTY_BASE(Name, APickUpItem), 0x0000000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APickUpItem_Prox()); // 2550305280
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_Icon, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_Icon, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_Icon, TEXT("ToolTip"), TEXT("The icon that represents the object in UI/canvas"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_Mesh, TEXT("ToolTip"), TEXT("The mesh of the item"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_ProxSphere, TEXT("ToolTip"), TEXT("the sphere you collide with to pick item up"));
+				MetaData->SetValue(NewProp_Quantity, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_Quantity, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_Quantity, TEXT("ToolTip"), TEXT("How much you are getting"));
+				MetaData->SetValue(NewProp_Name, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_Name, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
+				MetaData->SetValue(NewProp_Name, TEXT("ToolTip"), TEXT("Sets default values for this actor's properties"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_APickUpItem(Z_Construct_UClass_APickUpItem, TEXT("APickUpItem"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(APickUpItem);
 	UClass* Z_Construct_UClass_ATheBeginningGameMode_NoRegister()
 	{
 		return ATheBeginningGameMode::StaticClass();
@@ -101,8 +613,8 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/TheBeginning")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xC7B7F138;
-			Guid.B = 0x79CC8751;
+			Guid.A = 0x49EEC994;
+			Guid.B = 0x3D041E4B;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

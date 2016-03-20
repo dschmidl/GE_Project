@@ -8,6 +8,24 @@
 #ifndef THEBEGINNING_Avatar_generated_h
 	#include "Avatar.h"
 #endif
+#ifndef THEBEGINNING_FirstPersonProjectile_generated_h
+	#include "FirstPersonProjectile.h"
+#endif
+#ifndef THEBEGINNING_MeleeWeapon_generated_h
+	#include "MeleeWeapon.h"
+#endif
+#ifndef THEBEGINNING_Monster_generated_h
+	#include "Monster.h"
+#endif
+#ifndef THEBEGINNING_MyHUD_generated_h
+	#include "MyHUD.h"
+#endif
+#ifndef THEBEGINNING_NPC_generated_h
+	#include "NPC.h"
+#endif
+#ifndef THEBEGINNING_PickUpItem_generated_h
+	#include "PickUpItem.h"
+#endif
 #ifndef THEBEGINNING_TheBeginningGameMode_generated_h
 	#include "TheBeginningGameMode.h"
 #endif
