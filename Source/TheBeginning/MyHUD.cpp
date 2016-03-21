@@ -49,18 +49,7 @@ void AMyHUD::DrawHealthbar()
 {
 	
 	// Draw the healthbar.
-	AAvatar *avatar = Cast<AAvatar>(
-		UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-	avatar->Hp = 20;
-	avatar->MaxHp = 100;
-	float barWidth = 200, barHeight = 50, barPad = 12, barMargin = 50;
-	float percHp = avatar->Hp / avatar->MaxHp;
-	DrawRect(FLinearColor(255, 255, 255, 1), Canvas->SizeX - barWidth - barPad
-		- barMargin, Canvas->SizeY - barHeight - barPad - barMargin, barWidth +
-		2 * barPad, barHeight + 2 * barPad);
-	DrawRect(FLinearColor(0, 255, 0, 1), Canvas->SizeX -
-		barWidth - barMargin, Canvas->SizeY - barHeight - barMargin,
-		barWidth*percHp, barHeight);
+
 }
 
 void AMyHUD::DrawWidgets()

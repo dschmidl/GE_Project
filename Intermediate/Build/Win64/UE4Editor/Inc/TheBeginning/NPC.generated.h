@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define THEBEGINNING_NPC_generated_h
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS \
 	virtual void Prox_Implementation(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult); \
  \
 	DECLARE_FUNCTION(execProx) \
@@ -31,7 +31,7 @@ struct FHitResult;
 	}
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execProx) \
 	{ \
@@ -45,7 +45,7 @@ struct FHitResult;
 	}
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_EVENT_PARMS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_EVENT_PARMS \
 	struct NPC_eventProx_Parms \
 	{ \
 		AActor* OtherActor; \
@@ -57,8 +57,8 @@ struct FHitResult;
 
 
 extern THEBEGINNING_API  FName THEBEGINNING_Prox;
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_INCLASS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS
+#define GE_Project_Source_TheBeginning_NPC_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesANPC(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_ANPC(); \
@@ -69,7 +69,7 @@ extern THEBEGINNING_API  FName THEBEGINNING_Prox;
 	virtual UObject* _getUObject() const override { return const_cast<ANPC*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_INCLASS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesANPC(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_ANPC(); \
@@ -80,7 +80,7 @@ extern THEBEGINNING_API  FName THEBEGINNING_Prox;
 	virtual UObject* _getUObject() const override { return const_cast<ANPC*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_STANDARD_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANPC(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANPC) \
@@ -92,7 +92,7 @@ private: \
 public:
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_ENHANCED_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_NPC_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANPC(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -104,34 +104,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANPC); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANPC)
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_8_PROLOG \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_EVENT_PARMS
+#define GE_Project_Source_TheBeginning_NPC_h_8_PROLOG \
+	GE_Project_Source_TheBeginning_NPC_h_11_EVENT_PARMS
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_GENERATED_BODY_LEGACY \
+#define GE_Project_Source_TheBeginning_NPC_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_INCLASS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_STANDARD_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS \
+	GE_Project_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS \
+	GE_Project_Source_TheBeginning_NPC_h_11_INCLASS \
+	GE_Project_Source_TheBeginning_NPC_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GE_Project___Kopie_Source_TheBeginning_NPC_h_11_GENERATED_BODY \
+#define GE_Project_Source_TheBeginning_NPC_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_INCLASS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_NPC_h_11_ENHANCED_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_NPC_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_NPC_h_11_CALLBACK_WRAPPERS \
+	GE_Project_Source_TheBeginning_NPC_h_11_INCLASS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_NPC_h_11_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class NPC."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID GE_Project___Kopie_Source_TheBeginning_NPC_h
+#define CURRENT_FILE_ID GE_Project_Source_TheBeginning_NPC_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

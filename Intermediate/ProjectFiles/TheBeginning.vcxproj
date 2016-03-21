@@ -210,10 +210,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>"C:\Program Files (x86)\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TheBeginningEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>"C:\Program Files (x86)\Epic Games\4.9\Engine\Build\BatchFiles\Rebuild.bat" TheBeginningEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>"D:\Programme\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TheBeginningEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"D:\Programme\Epic Games\4.9\Engine\Build\BatchFiles\Rebuild.bat" TheBeginningEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.9\Engine\Build\BatchFiles\Clean.bat" TheBeginningEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
-    <NMakeOutput>C:\Program Files (x86)\Epic Games\4.9\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+    <NMakeOutput>D:\Programme\Epic Games\4.9\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />

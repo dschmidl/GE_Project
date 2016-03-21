@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THEBEGINNING_MyHUD_generated_h
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS_NO_PURE_DECLS
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_INCLASS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS_NO_PURE_DECLS
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMyHUD(); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AMyHUD*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_INCLASS \
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_INCLASS \
 	private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMyHUD(); \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AMyHUD*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_STANDARD_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_ENHANCED_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,29 +61,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD)
 
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_73_PROLOG
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_GENERATED_BODY_LEGACY \
+#define GE_Project_Source_TheBeginning_MyHUD_h_73_PROLOG
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_INCLASS \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_STANDARD_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_INCLASS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_GENERATED_BODY \
+#define GE_Project_Source_TheBeginning_MyHUD_h_78_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_INCLASS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_MyHUD_h_78_ENHANCED_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_INCLASS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_MyHUD_h_78_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID GE_Project___Kopie_Source_TheBeginning_MyHUD_h
+#define CURRENT_FILE_ID GE_Project_Source_TheBeginning_MyHUD_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

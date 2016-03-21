@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define THEBEGINNING_FirstPersonProjectile_generated_h
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -30,7 +30,7 @@ struct FHitResult;
 	}
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -43,7 +43,7 @@ struct FHitResult;
 	}
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAFirstPersonProjectile(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile(); \
@@ -56,7 +56,7 @@ struct FHitResult;
 	virtual UObject* _getUObject() const override { return const_cast<AFirstPersonProjectile*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesAFirstPersonProjectile(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AFirstPersonProjectile(); \
@@ -69,7 +69,7 @@ struct FHitResult;
 	virtual UObject* _getUObject() const override { return const_cast<AFirstPersonProjectile*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_STANDARD_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFirstPersonProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonProjectile) \
@@ -81,7 +81,7 @@ private: \
 public:
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_ENHANCED_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API AFirstPersonProjectile(const AFirstPersonProjectile& InCopy); \
@@ -91,29 +91,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFirstPersonProjectile)
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_8_PROLOG
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_GENERATED_BODY_LEGACY \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_8_PROLOG
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_STANDARD_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_GENERATED_BODY \
+#define GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h_11_ENHANCED_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_INCLASS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_FirstPersonProjectile_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID GE_Project___Kopie_Source_TheBeginning_FirstPersonProjectile_h
+#define CURRENT_FILE_ID GE_Project_Source_TheBeginning_FirstPersonProjectile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -25,8 +25,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class USoundBase* FireSound;
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	class UAnimMontage* FireAnimation;*/
+	UFUNCTION(BlueprintCallable, Category = Gameplay)
+	void OnFire();
+
+	
+	
 
 
 	// Called when the game starts or when spawned
@@ -48,7 +51,7 @@ public:
 	void MoveRight(float amount);
 	float Hp;
 	float MaxHp;
-	void OnFire();
+	//void OnFire();
 	// A map for the player's backpack
 	TMap<FString, int> Backpack;
 	// The icons for the items in the backpack, lookup by string

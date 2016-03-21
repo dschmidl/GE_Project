@@ -5,7 +5,9 @@
 #include "MyHUD.h"
 #include "PickUpItem.h"
 #include "FirstPersonProjectile.h"
-
+#include <dos.h>
+#include <stdio.h>
+#include <conio.h>
 
 
 // Sets default values
@@ -67,6 +69,7 @@ void AAvatar::OnFire()
 		{
 			// spawn the projectile at the muzzle
 			World->SpawnActor<AFirstPersonProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+			
 		}
 	}
 
@@ -75,7 +78,7 @@ void AAvatar::OnFire()
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
-
+	Sleep(200);
 	// try and play a firing animation if specified
 	/*if (FireAnimation != NULL)
 	{

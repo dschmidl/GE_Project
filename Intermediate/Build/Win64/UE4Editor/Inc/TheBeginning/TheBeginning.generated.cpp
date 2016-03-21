@@ -11,8 +11,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	void AAvatar::StaticRegisterNativesAAvatar()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(AAvatar::StaticClass(),"OnFire",(Native)&AAvatar::execOnFire);
 	}
-	IMPLEMENT_CLASS(AAvatar, 1321898445);
+	IMPLEMENT_CLASS(AAvatar, 3840705383);
 	void AFirstPersonProjectile::StaticRegisterNativesAFirstPersonProjectile()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AFirstPersonProjectile::StaticClass(),"OnHit",(Native)&AFirstPersonProjectile::execOnHit);
@@ -95,6 +96,7 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 	ENGINE_API class UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 
+	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AAvatar_OnFire();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_AAvatar();
 	THEBEGINNING_API class UFunction* Z_Construct_UFunction_AFirstPersonProjectile_OnHit();
@@ -116,6 +118,23 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 	THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode_NoRegister();
 	THEBEGINNING_API class UClass* Z_Construct_UClass_ATheBeginningGameMode();
 	THEBEGINNING_API class UPackage* Z_Construct_UPackage_TheBeginning();
+	UFunction* Z_Construct_UFunction_AAvatar_OnFire()
+	{
+		UObject* Outer=Z_Construct_UClass_AAvatar();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnFire"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Gameplay"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAvatar_NoRegister()
 	{
 		return AAvatar::StaticClass();
@@ -133,12 +152,14 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_AAvatar_OnFire());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AAvatar), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AAvatar), 0x0004000000010001, Z_Construct_UClass_AFirstPersonProjectile_NoRegister());
 				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(GunOffset, AAvatar), 0x0000000000000005, Z_Construct_UScriptStruct_FVector());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AAvatar_OnFire()); // 3370099566
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -613,8 +634,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/TheBeginning")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x49EEC994;
-			Guid.B = 0x3D041E4B;
+			Guid.A = 0x31FCD17E;
+			Guid.B = 0x2BE2AF11;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THEBEGINNING_Monster_generated_h
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS_NO_PURE_DECLS
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_INCLASS_NO_PURE_DECLS \
+#define GE_Project_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS
+#define GE_Project_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define GE_Project_Source_TheBeginning_Monster_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAMonster(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMonster(); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AMonster*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_INCLASS \
+#define GE_Project_Source_TheBeginning_Monster_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesAMonster(); \
 	friend THEBEGINNING_API class UClass* Z_Construct_UClass_AMonster(); \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AMonster*>(this); }
 
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_STANDARD_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_Monster_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMonster(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMonster) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_ENHANCED_CONSTRUCTORS \
+#define GE_Project_Source_TheBeginning_Monster_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMonster(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,29 +61,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMonster); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMonster)
 
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_8_PROLOG
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_GENERATED_BODY_LEGACY \
+#define GE_Project_Source_TheBeginning_Monster_h_8_PROLOG
+#define GE_Project_Source_TheBeginning_Monster_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_INCLASS \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_STANDARD_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS \
+	GE_Project_Source_TheBeginning_Monster_h_11_INCLASS \
+	GE_Project_Source_TheBeginning_Monster_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GE_Project___Kopie_Source_TheBeginning_Monster_h_11_GENERATED_BODY \
+#define GE_Project_Source_TheBeginning_Monster_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_INCLASS_NO_PURE_DECLS \
-	GE_Project___Kopie_Source_TheBeginning_Monster_h_11_ENHANCED_CONSTRUCTORS \
+	GE_Project_Source_TheBeginning_Monster_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_Monster_h_11_INCLASS_NO_PURE_DECLS \
+	GE_Project_Source_TheBeginning_Monster_h_11_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class Monster."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID GE_Project___Kopie_Source_TheBeginning_Monster_h
+#define CURRENT_FILE_ID GE_Project_Source_TheBeginning_Monster_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
