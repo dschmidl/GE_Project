@@ -1,0 +1,529 @@
+﻿[2016.03.23-18.18.42:489][  0]Log file open, 03/23/16 19:18:42
+[2016.03.23-18.18.42:489][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.23-18.18.42:489][  0]LogInit:Display: RandInit(1544086954) SRandInit(1544086954).
+[2016.03.23-18.18.42:489][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.23-18.18.42:489][  0]LogStats: Stats thread started at 0.076459
+[2016.03.23-18.18.42:489][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.23-18.18.42:489][  0]LogInit: API Version: 2672455
+[2016.03.23-18.18.42:489][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.23-18.18.42:489][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.23-18.18.42:489][  0]LogInit: Build Configuration: Development
+[2016.03.23-18.18.42:489][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.23-18.18.42:489][  0]LogInit: Command line:  
+[2016.03.23-18.18.42:489][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.23-18.18.42:489][  0]LogInit: Rocket: 1
+[2016.03.23-18.18.42:498][  0]LogInit: Using libcurl 7.41.0
+[2016.03.23-18.18.42:498][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.23-18.18.42:498][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.23-18.18.42:498][  0]LogInit:  - other features:
+[2016.03.23-18.18.42:498][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.23-18.18.42:498][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.23-18.18.42:498][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.23-18.18.42:498][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.23-18.18.42:498][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.23-18.18.42:498][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.23-18.18.42:498][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.23-18.18.42:498][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.23-18.18.42:498][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.23-18.18.42:498][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.23-18.18.42:505][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.23-18.18.42:510][  0]LogInit: Object subsystem initialized
+[2016.03.23-18.18.42:511][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.18.42:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.23-18.18.42:520][  0]LogInit: Computer: DESKTOP-I563IRF
+[2016.03.23-18.18.42:520][  0]LogInit: User: CaptainAmerica
+[2016.03.23-18.18.42:520][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.23-18.18.42:520][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2016.03.23-18.18.42:520][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.03.23-18.18.42:520][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.23-18.18.42:520][  0]LogMemory: Process Physical Memory: 54.80 MB used, 54.80 MB peak
+[2016.03.23-18.18.42:520][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
+[2016.03.23-18.18.42:520][  0]LogMemory: Physical Memory: 2349.99 MB used, 16205.89 MB total
+[2016.03.23-18.18.42:520][  0]LogMemory: Virtual Memory: 368.80 MB used, 134217728.00 MB total
+[2016.03.23-18.18.42:905][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.23-18.18.43:967][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M    (Feature Level 11_0)
+[2016.03.23-18.18.43:967][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 1 output[s]
+[2016.03.23-18.18.43:972][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.03.23-18.18.43:972][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.23-18.18.43:973][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.23-18.18.43:973][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.23-18.18.43:973][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.23-18.18.43:976][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.23-18.18.43:976][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.23-18.18.43:987][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.23-18.18.44:004][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/WorkingDirectory/5796/).
+[2016.03.23-18.18.44:004][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/tmp/E36B612F4832AFA60B982693C6495B3F/'.
+[2016.03.23-18.18.44:004][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.23-18.18.44:864][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.23-18.18.44:869][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.23-18.18.44:874][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.23-18.18.44:878][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.23-18.18.44:883][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.23-18.18.44:886][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.23-18.18.44:889][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.23-18.18.44:892][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.23-18.18.44:895][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.23-18.18.44:898][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.23-18.18.44:901][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.23-18.18.44:904][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.23-18.18.44:905][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.23-18.18.44:922][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.23-18.18.44:924][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.23-18.18.44:927][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.23-18.18.44:930][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.23-18.18.44:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.23-18.18.45:000][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.23-18.18.45:036][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.23-18.18.45:159][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.23-18.18.45:171][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.23-18.18.45:308][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.18.45:310][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.23-18.18.45:417][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.23-18.18.45:417][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.23-18.18.45:619][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.23-18.18.46:192][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.23-18.18.46:311][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.23-18.18.46:465][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.18.46:466][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.18.46:476][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.18.46:485][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.18.46:617][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.23-18.18.46:688][  0]LogObj: 28448 objects as part of root set at end of initial load.
+[2016.03.23-18.18.46:688][  0]LogUObjectAllocator: 6092184 out of 0 bytes used by permanent object pool.
+[2016.03.23-18.18.46:741][  0]LogEngine: Initializing Engine...
+[2016.03.23-18.18.46:744][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.23-18.18.46:744][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.23-18.18.46:862][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.23-18.18.46:867][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.23-18.18.46:888][  0]LogInit: FAudioDevice initialized.
+[2016.03.23-18.18.46:906][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.18.46:910][  0]LogInit: Texture streaming: Enabled
+[2016.03.23-18.18.46:916][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.23-18.18.46:916][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.23-18.18.46:916][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cf13bd144fda46388eb9608560661132|81f01d6b67df48cfa9231b1643757103|89657b24-a756-40fe-95bd-5a575f0e3948
+[2016.03.23-18.18.46:916][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.23-18.18.46:941][  0]LogInit: Transaction tracking system initialized
+[2016.03.23-18.18.46:972][  0]BlueprintLog: New page: Editor Load
+[2016.03.23-18.18.47:057][  0]LocalizationService: Info Localization service is disabled
+[2016.03.23-18.18.47:125][  0]LogConsoleResponse:Display: 
+[2016.03.23-18.18.47:228][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.23-18.18.47:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/' took 0.01s
+[2016.03.23-18.18.47:284][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.18.47:284][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.23-18.18.47:284][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.18.47:288][  0]MapCheck: New page: Map Check
+[2016.03.23-18.18.47:288][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.18.47:299][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FEB750E160
+[2016.03.23-18.18.47:680][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.23-18.18.47:685][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.23-18.18.47:686][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.23-18.18.47:726][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.035ms to complete.
+[2016.03.23-18.18.47:726][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.442
+[2016.03.23-18.18.47:846][  0]LogCollectionManager: Loaded 0 collections in 0.002912 seconds
+[2016.03.23-18.18.47:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.23-18.18.47:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Developers/CaptainAmerica/Collections/' took 0.01s
+[2016.03.23-18.18.47:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Collections/' took 0.01s
+[2016.03.23-18.18.47:889][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 1875 classes and 335 folders.
+[2016.03.23-18.18.47:894][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.23-18.18.47:906][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.23-18.18.47:944][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.03.23-18.18.47:949][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.03.23-18.18.47:971][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.23-18.18.47:976][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.23-18.18.47:997][  0]LogLoad: Full Startup: 6.27 seconds (BP compile: 0.04 seconds)
+[2016.03.23-18.18.48:054][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.23-18.18.48:181][  0]LogRenderer: Reallocating scene render targets to support 964x436 (Frame:2).
+[2016.03.23-18.18.50:068][206]LogAssetRegistry: Asset discovery search completed in 3.7674 seconds
+[2016.03.23-18.18.50:068][206]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.23-18.18.50:068][206]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.03.23-18.18.53:443][375]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/' took 5.43s
+[2016.03.23-18.18.58:727][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.23-18.18.58:728][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.23-18.18.58:728][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.23-18.18.58:728][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.23-18.18.58:731][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.01] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 7 ms]
+[2016.03.23-18.18.58:731][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.01] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.23-18.18.58:731][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.01] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.23-18.18.58:791][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.23-18.18.58:791][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.23-18.18.58:791][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.23-18.18.58:791][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.23-18.18.58:794][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.07] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.23-18.18.58:794][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.07] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.23-18.18.58:794][969]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.07] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.23-18.18.59:122][969]LogTexture:Display: Building textures: Texture2D_741 (BGRA8)
+[2016.03.23-18.18.59:123][969]LogTexture:Display: Building textures: Texture2D_742 (BGRA8)
+[2016.03.23-18.18.59:123][969]LogTexture:Display: Building textures: Texture2D_743 (BGRA8)
+[2016.03.23-18.18.59:125][969]LogTexture:Display: Building textures: Texture2D_752 (BGRA8)
+[2016.03.23-18.18.59:160][969]LogTexture:Display: Building textures: Texture2D_1003 (BGRA8)
+[2016.03.23-18.18.59:160][969]LogTexture:Display: Building textures: Texture2D_1004 (BGRA8)
+[2016.03.23-18.18.59:160][969]LogTexture:Display: Building textures: Texture2D_1005 (BGRA8)
+[2016.03.23-18.18.59:161][969]LogTexture:Display: Building textures: Texture2D_1009 (BGRA8)
+[2016.03.23-18.18.59:162][969]LogTexture:Display: Building textures: Texture2D_1010 (BGRA8)
+[2016.03.23-18.18.59:162][969]LogTexture:Display: Building textures: Texture2D_1011 (BGRA8)
+[2016.03.23-18.18.59:163][969]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2016.03.23-18.18.59:308][969]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.23-18.18.59:316][969]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.23-18.18.59:317][969]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2016.03.23-18.18.59:356][969]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.23-18.18.59:356][969]LightingResults: New page: Lighting Build
+[2016.03.23-18.18.59:375][969]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.23-18.18.59:376][969]MapCheck: New page: Map Check
+[2016.03.23-18.18.59:376][969]LightingResults: New page: Lighting Build
+[2016.03.23-18.18.59:386][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FEA8943380
+[2016.03.23-18.18.59:597][969]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.23-18.18.59:668][969]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.23-18.18.59:741][969]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.929ms to complete.
+[2016.03.23-18.18.59:741][969]LogFileHelpers: Loading map 'MyFirstLevel' took 0.386
+[2016.03.23-18.18.59:777][970]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.23-18.18.59:781][970]Cmd: UpdateLandscapeEditorData
+[2016.03.23-18.19.05:104][580]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.23-18.22.48:656][139]LogHotReload: New module detected: UE4Editor-TheBeginning-542.dll
+[2016.03.23-18.22.49:660][143]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.23-18.22.49:702][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.22.49:733][143]LogClass: Could not find existing class Avatar in package /Script/TheBeginning for HotReload, assuming new class
+[2016.03.23-18.22.49:733][143]LogClass: Function OnFire is new.
+[2016.03.23-18.22.49:743][143]LogHotReload: Re-instancing Avatar after hot-reload.
+[2016.03.23-18.22.49:772][143]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0017 seconds. Added 8 classes and 2 folders.
+[2016.03.23-18.22.49:774][143]Warning: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2016.03.23-18.22.49:844][143]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1876 classes and 337 folders.
+[2016.03.23-18.24.21:656][418]LogHotReload: New module detected: UE4Editor-TheBeginning-963.dll
+[2016.03.23-18.24.22:328][421]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.23-18.24.22:448][421]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0010 seconds. Added 8 classes and 2 folders.
+[2016.03.23-18.24.22:450][421]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2016.03.23-18.24.22:521][421]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 1876 classes and 337 folders.
+[2016.03.23-18.24.27:146][599]Recompiling TheBeginning...
+[2016.03.23-18.24.27:147][599]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 320 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.23-18.24.27:148][599]Warning: Starting HotReload took  0.0s.
+[2016.03.23-18.24.32:178][159]CompilerResultsLog: New page: Compilation - Mar 23, 2016, 8:24:32 PM
+[2016.03.23-18.24.32:178][159]CompilerResultsLog: Info Creating makefile for hot reloading TheBeginning (modules to compile have changed)
+[2016.03.23-18.24.32:178][159]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.23-18.24.32:178][159]CompilerResultsLog: Info Target is up to date.
+[2016.03.23-18.24.32:178][159]LogMainFrame: MainFrame: Module compiling took 5.034 seconds
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:740][312]LoadErrors:Error: Error /Game/BP_Avatar : Can't find file for asset. /Script/Kinect4Unreal
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:740][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:741][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:742][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:742][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.33:743][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:743][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by CallFunc_GetCenteredBody_CenteredBody
+[2016.03.23-18.24.33:743][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by CallFunc_GetHandStateAsExecution_HandState
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by CallFunc_GetHandStateAsExecution_HandState2
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:744][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:745][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:752][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:752][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_3068
+[2016.03.23-18.24.33:752][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:752][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:752][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26461
+[2016.03.23-18.24.33:752][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:752][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:752][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_26462
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:753][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26474
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:753][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_3502
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:753][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26482
+[2016.03.23-18.24.33:753][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:754][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_26483
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:754][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_26484
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:754][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_26485
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:754][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26501
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:754][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_3503
+[2016.03.23-18.24.33:754][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:755][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26509
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:755][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_26510
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:755][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EKinectJoints Referenced by EdGraphPin_26511
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:755][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_26512
+[2016.03.23-18.24.33:755][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:756][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:756][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26528
+[2016.03.23-18.24.33:756][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:756][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:756][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_3504
+[2016.03.23-18.24.33:756][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:756][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:757][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26540
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:757][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_26541
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:757][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_26542
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:757][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:757][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_26543
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:758][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_26564
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:758][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by K2Node_CallFunction_2753
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:758][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:759][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_27159
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:759][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHands Referenced by EdGraphPin_27160
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:759][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EBodyNumber Referenced by EdGraphPin_27161
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:759][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.EHandState Referenced by EdGraphPin_27162
+[2016.03.23-18.24.33:759][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:760][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by EdGraphPin_27163
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:760][312]LoadErrors: Info Failed to load /Script/Kinect4Unreal.KinectInterfaceComponent Referenced by SCS_Node_1
+[2016.03.23-18.24.33:760][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:766][312]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.23-18.24.33:766][312]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.23-18.24.33:767][312]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.23-18.24.33:767][312]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.23-18.24.33:767][312]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.23-18.24.33:773][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.24.33:773][312]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.23-18.24.33:773][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.24.33:773][312]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.23-18.24.33:773][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.24.33:773][312]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.23-18.24.33:774][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.24.33:774][312]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.23-18.24.33:774][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.24.33:774][312]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleLeft) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:775][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:776][312]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.24.33:776][312]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.24.33:776][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:776][312]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.24.33:781][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0352.06] Compile of BP_Avatar failed. 16 Fatal Issue(s) 5 Warning(s) [in 13 ms]
+[2016.03.23-18.24.33:781][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0352.06] Compile of BP_Avatar failed. 16 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.03.23-18.24.33:781][312]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0352.06] Compile of BP_Avatar failed. 16 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2016.03.23-18.24.33:782][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:782][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:782][312]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.33:782][312]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading NULL.
+[2016.03.23-18.24.33:870][312]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.23-18.24.34:331][312]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.03.23-18.24.47:448][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.24.47:448][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.23-18.24.47:448][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.23-18.24.50:111][437]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.23-18.24.50:154][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.23-18.24.50:186][437]BlueprintEditorCompileResults: Info [0368.46] Compile of BP_Avatar successful! [in 75 ms]
+[2016.03.23-18.24.54:179][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-18.24.54:179][860]PIE: New page: PIE session: MyFirstLevel (Mar 23, 2016, 8:24:54 PM)
+[2016.03.23-18.24.54:180][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.23-18.24.54:212][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032334s)
+[2016.03.23-18.24.54:212][860]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.23-18.24.54:213][860]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2016.03.23-18.24.54:213][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033301s)
+[2016.03.23-18.24.54:213][860]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.24.54:242][860]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.23-18.24.54:248][860]LogInit: FAudioDevice initialized.
+[2016.03.23-18.24.54:304][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:304][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:305][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file '/Script/Kinect4Unreal'
+[2016.03.23-18.24.54:306][860]LogLinker:Warning: Can't find file for asset '/Script/Kinect4Unreal' while loading ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset.
+[2016.03.23-18.24.54:314][860]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.23-18.24.54:382][860]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.23-19.24.54
+[2016.03.23-18.24.54:382][860]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.24.54:382][860]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.24.54:388][860]LogWorld: Bringing up level for play took: 0.069360
+[2016.03.23-18.24.54:393][860]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.92
+[2016.03.23-18.25.03:577][817]LogCharacterMovement: BP_Avatar_C_5 is stuck and failed to move!
+[2016.03.23-18.25.22:779][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FEC69CB4C0
+[2016.03.23-18.25.26:617][275]LogEditorTransaction: Undo Delete current selection
+[2016.03.23-18.25.27:791][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.25.27:791][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.23-18.25.27:791][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.23-18.25.28:105][290]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.23-18.25.34:171][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.23-18.25.34:244][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.23-18.25.34:340][730]LogSavePackage: Save=75.199089ms
+[2016.03.23-18.25.34:340][730]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_AvatarEB4ACF8345FEA856C256D79791F59B09.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.23-18.25.34:345][730]LogSavePackage: Total save time: 99.854063ms
+[2016.03.23-18.25.34:345][730]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_Avatar.uasset
+[2016.03.23-18.25.42:897][489]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.23-18.25.42:901][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.25.42:901][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.23-18.25.42:901][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.23-18.25.42:906][489]LogPlayLevel: [PlayLevel] Compiling BP_Avatar before play...
+[2016.03.23-18.25.42:925][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.23-18.25.42:925][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.25.42:926][489]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.23-18.25.42:926][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.23-18.25.42:926][489]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.23-18.25.42:927][489]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.25.42:927][489]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.25.42:928][489]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.25.42:928][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleLeft) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:928][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:928][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:928][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:929][489]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.25.42:929][489]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.23-18.25.42:929][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:929][489]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.23-18.25.42:930][489]LogUObjectHash:Warning: Ambiguous search, could be REINST_BP_Avatar_C_55 /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0 or REINST_BP_Avatar_C_43 /Engine/Transient.World_4:PersistentLevel.BP_Avatar_C_0
+[2016.03.23-18.25.43:008][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.28] Compile of BP_Avatar failed. 16 Fatal Issue(s) 5 Warning(s) [in 95 ms]
+[2016.03.23-18.25.43:008][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.28] Compile of BP_Avatar failed. 16 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.03.23-18.25.43:008][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.28] Compile of BP_Avatar failed. 16 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2016.03.23-18.25.43:008][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.28] Compile of BP_Avatar failed. 16 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2016.03.23-18.25.43:012][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.29] Compile of BP_Avatar failed. 16 Fatal Issue(s) 9 Warning(s) [in 3 ms]
+[2016.03.23-18.25.43:012][489]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0421.29] Compile of BP_Avatar failed. 16 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2016.03.23-18.25.43:012][489]LogPlayLevel: PlayLevel: Blueprint regeneration took 115 ms (1 blueprints)
+[2016.03.23-18.25.43:035][489]BlueprintLog: Info Blueprint BP_Avatar failed to compile
+[2016.03.23-18.25.44:416][489]PIE: New page: PIE session: MyFirstLevel (Mar 23, 2016, 8:25:44 PM)
+[2016.03.23-18.25.44:417][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.23-18.25.44:451][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034153s)
+[2016.03.23-18.25.44:451][489]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.23-18.25.44:451][489]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.03.23-18.25.44:451][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034925s)
+[2016.03.23-18.25.44:477][489]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.23-18.25.44:484][489]LogInit: FAudioDevice initialized.
+[2016.03.23-18.25.44:518][489]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.23-18.25.44:587][489]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.23-19.25.44
+[2016.03.23-18.25.44:587][489]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.25.44:587][489]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.25.44:589][489]LogWorld: Bringing up level for play took: 0.069433
+[2016.03.23-18.25.44:592][489]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.119
+[2016.03.23-18.25.50:473][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.25.50:516][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FEE704F920
+[2016.03.23-18.27.36:249][261]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.23-18.36.25:371][913]LogCrashTracker: 
+
+
+[2016.03.23-18.36.25:372][913]LogCrashTracker: 
+
+
+[2016.03.23-18.36.25:372][913]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2016.03.23-18.36.25:507][913]LogExit: Executing StaticShutdownAfterError
+[2016.03.23-18.36.25:511][913]LogOutputDevice:Warning: 
+
+Script Stack:
+PickUpItem.Prox
+
+[2016.03.23-18.36.25:516][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:516][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:516][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:517][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:517][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:517][913]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.23-18.36.25:517][913]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.23-18.36.25:517][913]Log file closed, 03/23/16 19:36:25

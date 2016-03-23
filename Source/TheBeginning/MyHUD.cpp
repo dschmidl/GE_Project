@@ -7,7 +7,7 @@
 
 void AMyHUD::DrawHUD()
 {	
-	DrawHealthbar();
+	//DrawHealthbar();
 	DrawWidgets();
 	Super::DrawHUD();
 
@@ -23,7 +23,7 @@ void AMyHUD::DrawHUD()
 		float messageH = outputHeight + 2.f*pad;
 		float x = 0.f, y = c*messageH;
 		// black backing
-		DrawRect(FLinearColor::Black, x, y, Canvas->SizeX, messageH);
+		DrawRect(FLinearColor::White, x, y, Canvas->SizeX, messageH);
 		// draw our message using the hudFont
 		DrawText(messages[c].message, messages[c].color, x + pad, y + pad,
 			hudFont);

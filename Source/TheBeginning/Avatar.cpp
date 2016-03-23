@@ -78,7 +78,7 @@ void AAvatar::OnFire()
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
-	Sleep(200);
+	
 	// try and play a firing animation if specified
 	/*if (FireAnimation != NULL)
 	{

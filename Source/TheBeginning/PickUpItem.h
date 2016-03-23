@@ -15,6 +15,8 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 		FString Name;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+	class USoundBase* CoinSound;
 	// How much you are getting
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 		int32 Quantity;

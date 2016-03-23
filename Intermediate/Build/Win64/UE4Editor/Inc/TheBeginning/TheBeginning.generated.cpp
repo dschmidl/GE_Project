@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APickUpItem::StaticClass(),"Prox",(Native)&APickUpItem::execProx);
 	}
-	IMPLEMENT_CLASS(APickUpItem, 152495496);
+	IMPLEMENT_CLASS(APickUpItem, 1911399684);
 	void ATheBeginningGameMode::StaticRegisterNativesATheBeginningGameMode()
 	{
 	}
@@ -559,6 +559,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_Mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Mesh, APickUpItem), 0x00000000000b001d, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				UProperty* NewProp_ProxSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProxSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProxSphere, APickUpItem), 0x00000000000b001d, Z_Construct_UClass_USphereComponent_NoRegister());
 				UProperty* NewProp_Quantity = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Quantity"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Quantity, APickUpItem), 0x0000000000000005);
+				UProperty* NewProp_CoinSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CoinSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CoinSound, APickUpItem), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_Name = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Name"), RF_Public|RF_Transient|RF_Native) UStrProperty(CPP_PROPERTY_BASE(Name, APickUpItem), 0x0000000000000005);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APickUpItem_Prox()); // 2550305280
@@ -581,6 +582,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_Quantity, TEXT("Category"), TEXT("Item"));
 				MetaData->SetValue(NewProp_Quantity, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
 				MetaData->SetValue(NewProp_Quantity, TEXT("ToolTip"), TEXT("How much you are getting"));
+				MetaData->SetValue(NewProp_CoinSound, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_CoinSound, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
 				MetaData->SetValue(NewProp_Name, TEXT("Category"), TEXT("Item"));
 				MetaData->SetValue(NewProp_Name, TEXT("ModuleRelativePath"), TEXT("PickUpItem.h"));
 				MetaData->SetValue(NewProp_Name, TEXT("ToolTip"), TEXT("Sets default values for this actor's properties"));
@@ -634,7 +637,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/TheBeginning")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x31FCD17E;
+			Guid.A = 0xB2960B32;
 			Guid.B = 0x2BE2AF11;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
