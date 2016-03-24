@@ -1,0 +1,457 @@
+﻿[2016.03.24-09.25.04:442][  0]Log file open, 03/24/16 10:25:04
+[2016.03.24-09.25.04:442][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.24-09.25.04:443][  0]LogInit:Display: RandInit(1284610785) SRandInit(1284610786).
+[2016.03.24-09.25.04:443][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.24-09.25.04:443][  0]LogStats: Stats thread started at 0.063889
+[2016.03.24-09.25.04:443][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.24-09.25.04:443][  0]LogInit: API Version: 2672455
+[2016.03.24-09.25.04:443][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.24-09.25.04:443][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.24-09.25.04:443][  0]LogInit: Build Configuration: Development
+[2016.03.24-09.25.04:443][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.24-09.25.04:443][  0]LogInit: Command line:  
+[2016.03.24-09.25.04:443][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.24-09.25.04:443][  0]LogInit: Rocket: 1
+[2016.03.24-09.25.04:448][  0]LogInit: Using libcurl 7.41.0
+[2016.03.24-09.25.04:448][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.24-09.25.04:448][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.24-09.25.04:448][  0]LogInit:  - other features:
+[2016.03.24-09.25.04:448][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.24-09.25.04:448][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.24-09.25.04:448][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.24-09.25.04:448][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.24-09.25.04:448][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.24-09.25.04:448][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.24-09.25.04:448][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.24-09.25.04:448][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.24-09.25.04:448][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.24-09.25.04:448][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.24-09.25.04:452][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.24-09.25.04:457][  0]LogInit: Object subsystem initialized
+[2016.03.24-09.25.04:459][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-09.25.04:459][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.24-09.25.04:465][  0]LogInit: Computer: PC1021500895
+[2016.03.24-09.25.04:465][  0]LogInit: User: VR
+[2016.03.24-09.25.04:465][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.24-09.25.04:465][  0]LogInit: High frequency timer resolution =3.507498 MHz
+[2016.03.24-09.25.04:465][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.24-09.25.04:465][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.24-09.25.04:465][  0]LogMemory: Process Physical Memory: 53.16 MB used, 53.16 MB peak
+[2016.03.24-09.25.04:465][  0]LogMemory: Process Virtual Memory: 55.23 MB used, 55.23 MB peak
+[2016.03.24-09.25.04:465][  0]LogMemory: Physical Memory: 3605.85 MB used, 16261.17 MB total
+[2016.03.24-09.25.04:465][  0]LogMemory: Virtual Memory: 346.75 MB used, 134217728.00 MB total
+[2016.03.24-09.25.04:491][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.24-09.25.05:097][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.24-09.25.05:097][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.03.24-09.25.05:098][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.24-09.25.05:098][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.24-09.25.05:098][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.24-09.25.05:101][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.24-09.25.05:101][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.24-09.25.05:109][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.24-09.25.05:124][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/3656/).
+[2016.03.24-09.25.05:124][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/F1721C8F45E75FAFE6FAE99AC09D6A1D/'.
+[2016.03.24-09.25.05:124][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.24-09.25.05:871][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.24-09.25.05:874][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.24-09.25.05:878][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.24-09.25.05:881][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.24-09.25.05:884][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.24-09.25.05:886][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.24-09.25.05:888][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.24-09.25.05:890][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.24-09.25.05:893][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.24-09.25.05:895][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.24-09.25.05:897][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.24-09.25.05:900][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.24-09.25.05:900][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.24-09.25.05:914][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.24-09.25.05:916][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.24-09.25.05:918][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.24-09.25.05:921][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.24-09.25.05:921][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.24-09.25.05:969][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.24-09.25.06:004][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.24-09.25.06:115][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.24-09.25.06:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.24-09.25.06:254][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-09.25.06:256][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.24-09.25.06:342][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.24-09.25.06:342][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.24-09.25.06:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.24-09.25.07:018][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.24-09.25.07:131][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.03.24-09.25.07:235][  0]SourceControl: Info Source control is disabled
+[2016.03.24-09.25.07:241][  0]SourceControl: Info Source control is disabled
+[2016.03.24-09.25.07:247][  0]SourceControl: Info Source control is disabled
+[2016.03.24-09.25.07:252][  0]SourceControl: Info Source control is disabled
+[2016.03.24-09.25.07:330][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.24-09.25.07:378][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.03.24-09.25.07:382][  0]LogObj: 29251 objects as part of root set at end of initial load.
+[2016.03.24-09.25.07:382][  0]LogUObjectAllocator: 6234648 out of 0 bytes used by permanent object pool.
+[2016.03.24-09.25.07:427][  0]LogEngine: Initializing Engine...
+[2016.03.24-09.25.07:429][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.24-09.25.07:817][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 207KGV03FJGR
+[2016.03.24-09.25.07:926][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.24-09.25.07:937][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-09.25.07:969][  0]LogInit: FAudioDevice initialized.
+[2016.03.24-09.25.07:990][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.24-09.25.07:994][  0]LogInit: Texture streaming: Enabled
+[2016.03.24-09.25.07:997][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.24-09.25.07:997][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.24-09.25.07:997][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.03.24-09.25.07:997][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.24-09.25.08:005][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.24-09.25.08:017][  0]LogInit: Transaction tracking system initialized
+[2016.03.24-09.25.08:032][  0]BlueprintLog: New page: Editor Load
+[2016.03.24-09.25.08:077][  0]LocalizationService: Info Localization service is disabled
+[2016.03.24-09.25.08:115][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.24-09.25.08:115][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.24-09.25.08:115][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.24-09.25.08:125][  0]LogConsoleResponse:Display: 
+[2016.03.24-09.25.08:220][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.24-09.25.08:259][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.03.24-09.25.08:259][  0]SourceControl: Info Source control is disabled
+[2016.03.24-09.25.08:259][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.24-09.25.08:260][  0]LightingResults: New page: Lighting Build
+[2016.03.24-09.25.08:261][  0]MapCheck: New page: Map Check
+[2016.03.24-09.25.08:261][  0]LightingResults: New page: Lighting Build
+[2016.03.24-09.25.08:272][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3F84E7CE0
+[2016.03.24-09.25.08:596][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.24-09.25.08:601][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.24-09.25.08:602][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-09.25.08:645][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.729ms to complete.
+[2016.03.24-09.25.08:645][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.387
+[2016.03.24-09.25.08:732][  0]LogCollectionManager: Loaded 0 collections in 0.000903 seconds
+[2016.03.24-09.25.08:776][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.24-09.25.08:776][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.03.24-09.25.08:776][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.03.24-09.25.08:776][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1918 classes and 347 folders.
+[2016.03.24-09.25.08:780][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.24-09.25.08:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.24-09.25.08:827][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.24-09.25.08:830][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.03.24-09.25.08:878][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.24-09.25.08:882][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.24-09.25.08:904][  0]LogLoad: Full Startup: 5.03 seconds (BP compile: 0.04 seconds)
+[2016.03.24-09.25.08:962][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.24-09.25.09:087][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.03.24-09.25.09:255][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.33s
+[2016.03.24-09.25.12:669][251]LogAssetRegistry: Asset discovery search completed in 5.5488 seconds
+[2016.03.24-09.25.12:669][251]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.24-09.25.12:669][251]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.03.24-09.25.17:608][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.24-09.25.17:608][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.24-09.25.17:608][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.24-09.25.17:608][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.24-09.25.17:611][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.74] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.24-09.25.17:611][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.74] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.24-09.25.17:611][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.74] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.24-09.25.17:662][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.24-09.25.17:662][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.24-09.25.17:662][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.24-09.25.17:662][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.24-09.25.17:664][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.79] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.03.24-09.25.17:664][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.79] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.24-09.25.17:665][826]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0013.80] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.24-09.25.18:117][826]LogAudioDerivedData:Display: Building compressed audio format OGG wave Super_Mario_Bros...
+[2016.03.24-09.25.18:160][826]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.24-09.25.18:170][826]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.24-09.25.18:170][826]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2016.03.24-09.25.18:208][826]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.24-09.25.18:208][826]LightingResults: New page: Lighting Build
+[2016.03.24-09.25.18:222][826]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.24-09.25.18:222][826]MapCheck: New page: Map Check
+[2016.03.24-09.25.18:223][826]LightingResults: New page: Lighting Build
+[2016.03.24-09.25.18:236][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3DF443880
+[2016.03.24-09.25.18:400][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.24-09.25.18:446][826]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-09.25.18:496][826]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.661ms to complete.
+[2016.03.24-09.25.18:496][826]LogFileHelpers: Loading map 'MyFirstLevel' took 0.290
+[2016.03.24-09.25.18:525][827]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.24-09.25.18:530][827]Cmd: UpdateLandscapeEditorData
+[2016.03.24-09.25.32:858][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-09.25.32:858][527]PIE: New page: PIE session: MyFirstLevel (Mar 24, 2016, 11:25:32 AM)
+[2016.03.24-09.25.32:858][527]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.24-09.25.32:901][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043285s)
+[2016.03.24-09.25.32:902][527]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.24-09.25.32:902][527]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2016.03.24-09.25.32:902][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.044169s)
+[2016.03.24-09.25.32:902][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.25.32:923][527]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-09.25.32:933][527]LogInit: FAudioDevice initialized.
+[2016.03.24-09.25.33:010][527]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.24-09.25.33:010][527]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.24-09.25.33:011][527]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.24-09.25.33:011][527]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.24-09.25.33:011][527]LogBlueprint:Warning: [BP_Avatar] CreatePinForVariable: 'KinectInterface' variable not found. Base class was probably changed.
+[2016.03.24-09.25.33:016][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.24-09.25.33:016][527]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning Could not find a variable named "KinectInterface" in 'BP_Avatar_C'.
+Make sure 'BP_Avatar_C' has been compiled for  Get KinectInterface 
+[2016.03.24-09.25.33:017][527]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleLeft) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:018][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:019][527]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.24-09.25.33:019][527]LogBlueprint:Error: [compiler BP_Avatar] Error The property associated with  Kinect Interface  could not be found
+[2016.03.24-09.25.33:019][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:019][527]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.25.33:023][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0029.15] Compile of BP_Avatar failed. 16 Fatal Issue(s) 5 Warning(s) [in 11 ms]
+[2016.03.24-09.25.33:024][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0029.15] Compile of BP_Avatar failed. 16 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.03.24-09.25.33:024][527]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0029.15] Compile of BP_Avatar failed. 16 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2016.03.24-09.25.33:042][527]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.24-09.25.33:100][527]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.24-10.25.33
+[2016.03.24-09.25.33:100][527]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.25.33:101][527]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.25.33:103][527]LogWorld: Bringing up level for play took: 0.059615
+[2016.03.24-09.25.33:105][527]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.029
+[2016.03.24-09.25.33:124][528]LogRenderer: Reallocating scene render targets to support 1648x780 (Frame:2612).
+[2016.03.24-09.25.34:352][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.25.34:352][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.24-09.25.34:368][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C387545A80
+[2016.03.24-09.25.36:944][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-09.25.39:785][ 46]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.24-09.25.40:195][ 46]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2016.03.24-09.26.00:546][818]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (KinectAccessLayer)
+[2016.03.24-09.26.00:546][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.26.00:546][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.24-09.26.00:546][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.24-09.26.02:481][993]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.24-09.26.02:496][993]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.26.02:496][993]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.26.02:496][993]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.26.02:496][993]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.26.02:496][993]LogBlueprint:Error: [compiler BP_Avatar] Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.24-09.26.02:497][993]LogBlueprint:Error: [compiler BP_Avatar] Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:497][993]LogBlueprint:Error: [compiler BP_Avatar] Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:497][993]LogBlueprint:Error: [compiler BP_Avatar] Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:497][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleLeft) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:497][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:498][993]LogBlueprint:Error: [compiler BP_Avatar] Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:570][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.24-09.26.02:570][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.26.02:591][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C385565580
+[2016.03.24-09.26.02:600][993]LogBlueprint:Warning: [compiler BP_Avatar] Warning [0058.73] Compile of BP_Avatar failed. 16 Fatal Issue(s) 0 Warning(s) [in 118 ms]
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetHandStateAsExecution" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Hand State as Execution 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetDistanceBetweenJoints" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Distance Between Joints 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetCenteredBody" in 'BP_Avatar'.
+Make sure 'BP_Avatar' has been compiled for  Get Centered Body 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (AnkleLeft) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (Head) of the ' Start Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (AnkleRight) of the ' End Joint ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error Failed to find class for pin  Kinect Interface 
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (Right) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Error: Error The current value (Left) of the ' Hand ' pin is invalid: Expected a valid unsigned number for a byte property
+[2016.03.24-09.26.02:600][993]BlueprintEditorCompileResults:Warning: Warning [0058.73] Compile of BP_Avatar failed. 16 Fatal Issue(s) 0 Warning(s) [in 118 ms]
+[2016.03.24-09.26.28:169][486]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.26.48:088][462]LogEditorTransaction: Undo Move Nodes
+[2016.03.24-09.26.48:113][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.26.48:113][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.26.49:016][535]LogEditorTransaction: Undo Add Node
+[2016.03.24-09.26.49:024][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.24-09.26.49:024][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_0) Not registered. Aborting.
+[2016.03.24-09.26.50:265][659]LogEditorTransaction: Undo Delete current selection
+[2016.03.24-09.26.50:271][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.24-09.26.50:272][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_1) Not registered. Aborting.
+[2016.03.24-09.27.22:011][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.24-09.27.22:011][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_2) Not registered. Aborting.
+[2016.03.24-09.27.26:784][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.24-09.27.26:784][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_3) Not registered. Aborting.
+[2016.03.24-09.27.54:154][569]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.27.58:834][ 43]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.29.40:939][626]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.29.43:487][869]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.30.06:506][ 74]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Avatar', cached variable property's owner is '/Game/BP_Avatar.SKEL_BP_Avatar_C'
+[2016.03.24-09.30.08:525][264]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.24-09.30.08:578][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.03.24-09.30.08:578][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_4) Not registered. Aborting.
+[2016.03.24-09.30.08:607][264]BlueprintEditorCompileResults: Info [0304.74] Compile of BP_Avatar successful! [in 81 ms]
+[2016.03.24-09.30.11:926][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.24-09.30.12:004][586]LogSavePackage: Save=65.204025ms
+[2016.03.24-09.30.12:004][586]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar83B23A634F44862B57768FAE1BDC9FF8.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.24-09.30.12:007][586]LogSavePackage: Total save time: 78.676596ms
+[2016.03.24-09.30.12:007][586]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.24-09.30.14:247][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-09.30.14:247][830]PIE: New page: PIE session: MyFirstLevel (Mar 24, 2016, 11:30:14 AM)
+[2016.03.24-09.30.14:247][830]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.24-09.30.14:273][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025995s)
+[2016.03.24-09.30.14:273][830]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.24-09.30.14:273][830]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2016.03.24-09.30.14:274][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.026707s)
+[2016.03.24-09.30.14:274][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.30.14:274][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.30.14:308][830]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-09.30.14:320][830]LogInit: FAudioDevice initialized.
+[2016.03.24-09.30.14:355][830]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.24-09.30.14:415][830]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.24-10.30.14
+[2016.03.24-09.30.14:415][830]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.30.14:415][830]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.30.14:417][830]LogWorld: Bringing up level for play took: 0.060466
+[2016.03.24-09.30.14:456][830]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.679
+[2016.03.24-09.30.15:778][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3EA201A80
+[2016.03.24-09.30.24:204][980]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.24-09.30.24:844][ 50]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.03.24-09.30.44:785][428]LogEditorActor: Deleted Actor: PlayerStart
+[2016.03.24-09.30.44:808][428]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.24-09.30.57:901][987]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.24-09.31.05:344][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.31.05:344][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.24-09.31.05:344][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.03.24-09.31.05:345][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.31.05:439][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.24-09.31.06:092][873]LogSavePackage: Save=614.808044ms
+[2016.03.24-09.31.06:092][873]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel61047530456F52636F64C9BDC9DEB93E.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.24-09.31.06:094][873]LogSavePackage: Total save time: 629.553035ms
+[2016.03.24-09.31.06:094][873]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.24-09.31.06:138][873]LogFileHelpers: Saving map 'MyFirstLevel' took 0.760
+[2016.03.24-09.31.10:617][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-09.31.10:617][400]PIE: New page: PIE session: MyFirstLevel (Mar 24, 2016, 11:31:10 AM)
+[2016.03.24-09.31.10:617][400]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.24-09.31.10:646][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029116s)
+[2016.03.24-09.31.10:647][400]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.24-09.31.10:647][400]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2016.03.24-09.31.10:647][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030024s)
+[2016.03.24-09.31.10:670][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3BD4058A0
+[2016.03.24-09.31.10:684][400]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-09.31.10:694][400]LogInit: FAudioDevice initialized.
+[2016.03.24-09.31.10:730][400]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.24-09.31.10:790][400]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.24-10.31.10
+[2016.03.24-09.31.10:790][400]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.31.10:790][400]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.31.10:792][400]LogWorld: Bringing up level for play took: 0.061031
+[2016.03.24-09.31.10:825][400]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.31
+[2016.03.24-09.31.30:674][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3BA3A72E0
+[2016.03.24-09.31.46:528][867]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.24-09.35.18:457][825]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.03.24-09.35.18:459][825]Recompiling Kinect4Unreal...
+[2016.03.24-09.35.18:459][825]Recompiling TheBeginning...
+[2016.03.24-09.35.18:459][825]Launching UnrealBuildTool... [D:/Programme/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix Kinect4Unreal 8125 -ModuleWithSuffix TheBeginning 628 Win64 Development -editorrecompile -canskiplink "D:/UnrealProjects/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.24-09.35.18:460][825]Warning: Starting HotReload took  0.0s.
+[2016.03.24-09.35.23:259][364]CompilerResultsLog: New page: Compilation - Mar 24, 2016, 11:35:23 AM
+[2016.03.24-09.35.23:259][364]CompilerResultsLog: Info Creating makefile for hot reloading TheBeginning (.uproject file is newer)
+[2016.03.24-09.35.23:259][364]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.24-09.35.23:259][364]CompilerResultsLog: Info ERROR: Couldn't find module rules file for module 'Kinect4Unreal'.
+[2016.03.24-09.35.23:259][364]LogMainFrame: MainFrame: Module compiling took 4.803 seconds
+[2016.03.24-09.35.23:259][364]Warning: HotReload failed, recompile failed
+[2016.03.24-09.35.34:756][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-09.35.34:756][560]PIE: New page: PIE session: MyFirstLevel (Mar 24, 2016, 11:35:34 AM)
+[2016.03.24-09.35.34:756][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.24-09.35.34:786][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029868s)
+[2016.03.24-09.35.34:786][560]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.24-09.35.34:787][560]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2016.03.24-09.35.34:787][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030720s)
+[2016.03.24-09.35.34:787][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.35.34:787][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.03.24-09.35.34:787][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.35.34:787][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.24-09.35.34:821][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3BDD13600
+[2016.03.24-09.35.34:835][560]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-09.35.34:846][560]LogInit: FAudioDevice initialized.
+[2016.03.24-09.35.34:880][560]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.24-09.35.34:942][560]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.24-10.35.34
+[2016.03.24-09.35.34:942][560]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.35.34:942][560]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-09.35.34:945][560]LogWorld: Bringing up level for play took: 0.063573
+[2016.03.24-09.35.34:957][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.178
+[2016.03.24-09.35.36:539][724]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.36:547][725]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.36:757][726]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:199][779]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:207][780]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:215][781]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:224][782]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:232][783]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:240][784]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:249][785]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:257][786]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:265][787]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:274][788]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:282][789]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:290][790]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:299][791]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:308][792]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:517][793]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:523][794]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:532][795]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:539][796]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:548][797]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:556][798]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.37:565][799]LogBlueprintUserMessages: [BP_Avatar_C_12] Hello
+[2016.03.24-09.35.42:763][318]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3D22FA480
+[2016.03.24-09.38.27:864][759]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.03.24-09.38.27:864][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-09.38.27:864][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.03.24-09.38.27:865][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.24-09.38.27:865][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.24-09.38.28:267][760]Cmd: QUIT_EDITOR
+[2016.03.24-09.38.34:057][760]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.24-09.38.34:270][760]LogExit: Preparing to exit.
+[2016.03.24-09.38.34:730][760]LogExit: Editor shut down
+[2016.03.24-09.38.34:730][760]LogExit: Transaction tracking system shut down
+[2016.03.24-09.38.34:732][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3B22818A0
+[2016.03.24-09.38.34:732][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3B2282020
+[2016.03.24-09.38.34:732][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3858740E0
+[2016.03.24-09.38.34:735][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3F3191E40
+[2016.03.24-09.38.34:739][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C3F307A340
+[2016.03.24-09.38.34:760][760]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.03.24-09.38.34:973][760]LogExit: Object subsystem successfully closed.
+[2016.03.24-09.38.34:993][760]LogD3D11RHI: Shutdown
+[2016.03.24-09.38.34:993][760]LogD3D11RHI: CleanupD3DDevice
+[2016.03.24-09.38.35:101][760]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.24-09.38.35:265][760]LogCrashTracker: 
+
+
+[2016.03.24-09.38.35:265][760]LogCrashTracker: 
+
+
+[2016.03.24-09.38.35:265][760]LogWindows: === Critical error: ===
+Fatal error!
+
+
+

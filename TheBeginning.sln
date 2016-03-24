@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{9E5F9C38-1CDA-4622-B0F8-553E0FF2CBE8}"
 EndProject
@@ -42,7 +42,7 @@ Global
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.DebugGame|x64.Build.0 = BuiltWithUnrealBuildTool|x64
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
-		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|x64
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|x64.ActiveCfg = BuiltWithUnrealBuildTool|x64
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development Editor|x64.Build.0 = BuiltWithUnrealBuildTool|x64
 		{0881A1E7-EBDE-47F5-A094-D0D43C1D3C4C}.Development|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32

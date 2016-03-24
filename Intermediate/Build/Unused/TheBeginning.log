@@ -1,16 +1,21 @@
-﻿Build started 23.03.2016 20:16:19.
-     1>Project "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate\ProjectFiles\TheBeginning.vcxproj" on node 2 (Build target(s)).
-     1>Build:
-         "C:\Program Files (x86)\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TheBeginningEditor Win64 Development "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\TheBeginning.uproject" -rocket -waitmutex
-         Compiling game modules for hot reload
-         Performing 2 actions (4 in parallel)
-         PickUpItem.cpp
-         [2/2] Link UE4Editor-TheBeginning-6755.dll
-            Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-6755.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-6755.exp
-         -------- End Detailed Actions Stats -----------------------------------------------------------
-         Total build time: 2,27 seconds
-     1>Done Building Project "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate\ProjectFiles\TheBeginning.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:02.33
+﻿  Creating makefile for hot reloading TheBeginningEditor (.uproject file is newer)
+  Compiling game modules for hot reload
+  Parsing headers for TheBeginningEditor
+    Running UnrealHeaderTool "D:\UnrealProjects\GE_Project\TheBeginning.uproject" "D:\UnrealProjects\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+  Reflection code generated for TheBeginningEditor in 7,3104406 seconds
+  Performing 12 actions (4 in parallel)
+  PCH.TheBeginning.h.cpp
+  FirstPersonProjectile.cpp
+  Avatar.cpp
+  Monster.cpp
+  MeleeWeapon.cpp
+  MyHUD.cpp
+  NPC.cpp
+  PickUpItem.cpp
+  TheBeginning.cpp
+  TheBeginningGameMode.cpp
+  TheBeginning.generated.cpp
+  [12/12] Link UE4Editor-TheBeginning-4937.dll
+     Creating library D:\UnrealProjects\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-4937.lib and object D:\UnrealProjects\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-4937.exp
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 60,81 seconds
