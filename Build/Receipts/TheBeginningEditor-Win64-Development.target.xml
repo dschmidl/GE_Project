@@ -7,9 +7,15 @@
     <Property Name="Precompile" Value="False" />
   </Properties>
   <BuildProducts>
+<<<<<<< HEAD
     <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TheBeginning-5701.dll" Type="DynamicLibrary" />
     <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TheBeginning-5701.pdb" Type="SymbolFile" />
     <BuildProduct Path="$(ProjectDir)\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TheBeginning-5701.lib" Type="ImportLibrary" />
+=======
+    <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TheBeginning-4937.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TheBeginning-4937.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TheBeginning-4937.lib" Type="ImportLibrary" />
+>>>>>>> b5eca8d6f48b2ee6fa1a7d133b217d276e657f0a
   </BuildProducts>
   <RuntimeDependencies />
   <bRequireDependenciesToExist>true</bRequireDependenciesToExist>
