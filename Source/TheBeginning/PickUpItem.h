@@ -17,6 +17,7 @@ public:
 		FString Name;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 	class USoundBase* CoinSound;
+
 	// How much you are getting
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 		int32 Quantity;
@@ -33,6 +34,7 @@ public:
 	UFUNCTION(BlueprintNativeEvent, Category = Collision)
 		void Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32
 		OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+	int itemCounter;
 	
 	
 };

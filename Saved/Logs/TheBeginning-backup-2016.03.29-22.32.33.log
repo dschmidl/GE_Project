@@ -1,0 +1,1539 @@
+﻿[2016.03.29-19.32.19:331][  0]Log file open, 03/29/16 21:32:19
+[2016.03.29-19.32.19:331][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.29-19.32.19:331][  0]LogInit:Display: RandInit(-12039476) SRandInit(-12039475).
+[2016.03.29-19.32.19:331][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.29-19.32.19:331][  0]LogStats: Stats thread started at 0.080242
+[2016.03.29-19.32.19:331][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.29-19.32.19:331][  0]LogInit: API Version: 2672455
+[2016.03.29-19.32.19:331][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.29-19.32.19:331][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.29-19.32.19:331][  0]LogInit: Build Configuration: Development
+[2016.03.29-19.32.19:331][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.29-19.32.19:331][  0]LogInit: Command line:  
+[2016.03.29-19.32.19:331][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.29-19.32.19:331][  0]LogInit: Rocket: 1
+[2016.03.29-19.32.19:339][  0]LogInit: Using libcurl 7.41.0
+[2016.03.29-19.32.19:339][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.29-19.32.19:339][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.29-19.32.19:339][  0]LogInit:  - other features:
+[2016.03.29-19.32.19:339][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.29-19.32.19:339][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.29-19.32.19:339][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.29-19.32.19:339][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.29-19.32.19:339][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.29-19.32.19:339][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.29-19.32.19:339][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.29-19.32.19:339][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.29-19.32.19:339][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.29-19.32.19:339][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.29-19.32.19:346][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.29-19.32.19:351][  0]LogInit: Object subsystem initialized
+[2016.03.29-19.32.19:353][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.29-19.32.19:353][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.29-19.32.19:361][  0]LogInit: Computer: DESKTOP-I563IRF
+[2016.03.29-19.32.19:361][  0]LogInit: User: CaptainAmerica
+[2016.03.29-19.32.19:361][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.29-19.32.19:361][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2016.03.29-19.32.19:361][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.03.29-19.32.19:361][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.29-19.32.19:361][  0]LogMemory: Process Physical Memory: 54.82 MB used, 54.82 MB peak
+[2016.03.29-19.32.19:361][  0]LogMemory: Process Virtual Memory: 55.40 MB used, 55.40 MB peak
+[2016.03.29-19.32.19:361][  0]LogMemory: Physical Memory: 3579.53 MB used, 16205.89 MB total
+[2016.03.29-19.32.19:361][  0]LogMemory: Virtual Memory: 368.80 MB used, 134217728.00 MB total
+[2016.03.29-19.32.19:396][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.29-19.32.20:146][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M    (Feature Level 11_0)
+[2016.03.29-19.32.20:146][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 1 output[s]
+[2016.03.29-19.32.20:152][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.03.29-19.32.20:152][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.29-19.32.20:153][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.29-19.32.20:153][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8102MB of shared system memory, 0 output[s]
+[2016.03.29-19.32.20:153][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.29-19.32.20:157][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.29-19.32.20:157][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.29-19.32.20:170][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.29-19.32.20:187][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/WorkingDirectory/5592/).
+[2016.03.29-19.32.20:187][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Intermediate/Shaders/tmp/9B5F3F5F478A15353CF7A2B6C809EA24/'.
+[2016.03.29-19.32.20:187][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.29-19.32.21:118][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.29-19.32.21:123][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.29-19.32.21:128][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.29-19.32.21:133][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.29-19.32.21:138][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.29-19.32.21:141][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.29-19.32.21:144][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.29-19.32.21:147][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.29-19.32.21:150][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.29-19.32.21:153][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.29-19.32.21:156][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.29-19.32.21:159][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.29-19.32.21:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.29-19.32.21:176][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.29-19.32.21:179][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.29-19.32.21:181][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.29-19.32.21:185][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.29-19.32.21:185][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.29-19.32.21:263][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.29-19.32.21:298][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.29-19.32.21:298][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.29-19.32.21:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.29-19.32.21:299][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.29-19.32.21:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.29-19.32.21:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.29-19.32.21:426][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.29-19.32.21:439][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.29-19.32.21:592][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.29-19.32.21:594][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.29-19.32.21:710][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.29-19.32.21:710][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.29-19.32.21:919][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.29-19.32.22:549][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.29-19.32.22:655][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.03.29-19.32.22:802][  0]SourceControl: Info Source control is disabled
+[2016.03.29-19.32.22:803][  0]SourceControl: Info Source control is disabled
+[2016.03.29-19.32.22:816][  0]SourceControl: Info Source control is disabled
+[2016.03.29-19.32.22:827][  0]SourceControl: Info Source control is disabled
+[2016.03.29-19.32.22:957][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.29-19.32.23:026][  0]LogObj: 28450 objects as part of root set at end of initial load.
+[2016.03.29-19.32.23:026][  0]LogUObjectAllocator: 6092552 out of 0 bytes used by permanent object pool.
+[2016.03.29-19.32.23:079][  0]LogEngine: Initializing Engine...
+[2016.03.29-19.32.23:082][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.03.29-19.32.23:082][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.29-19.32.23:195][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.29-19.32.23:199][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.32.23:221][  0]LogInit: FAudioDevice initialized.
+[2016.03.29-19.32.23:237][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/CaptainAmerica/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.29-19.32.23:241][  0]LogInit: Texture streaming: Enabled
+[2016.03.29-19.32.23:246][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.29-19.32.23:246][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.29-19.32.23:246][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cf13bd144fda46388eb9608560661132|81f01d6b67df48cfa9231b1643757103|89657b24-a756-40fe-95bd-5a575f0e3948
+[2016.03.29-19.32.23:246][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.29-19.32.23:270][  0]LogInit: Transaction tracking system initialized
+[2016.03.29-19.32.23:298][  0]BlueprintLog: New page: Editor Load
+[2016.03.29-19.32.23:373][  0]LocalizationService: Info Localization service is disabled
+[2016.03.29-19.32.23:438][  0]LogConsoleResponse:Display: 
+[2016.03.29-19.32.23:537][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.29-19.32.23:594][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/' took 0.02s
+[2016.03.29-19.32.23:594][  0]SourceControl: Info Source control is disabled
+[2016.03.29-19.32.23:594][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.29-19.32.23:595][  0]LightingResults: New page: Lighting Build
+[2016.03.29-19.32.23:598][  0]MapCheck: New page: Map Check
+[2016.03.29-19.32.23:598][  0]LightingResults: New page: Lighting Build
+[2016.03.29-19.32.23:609][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210A21E6160
+[2016.03.29-19.32.23:976][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.29-19.32.23:981][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.29-19.32.23:982][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.29-19.32.24:024][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.875ms to complete.
+[2016.03.29-19.32.24:024][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.430
+[2016.03.29-19.32.24:133][  0]LogCollectionManager: Loaded 0 collections in 0.002076 seconds
+[2016.03.29-19.32.24:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.29-19.32.24:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Developers/CaptainAmerica/Collections/' took 0.01s
+[2016.03.29-19.32.24:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/Collections/' took 0.01s
+[2016.03.29-19.32.24:173][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1875 classes and 335 folders.
+[2016.03.29-19.32.24:178][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.03.29-19.32.24:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.29-19.32.24:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.29-19.32.24:235][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.03.29-19.32.24:258][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.29-19.32.24:262][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.29-19.32.24:284][  0]LogLoad: Full Startup: 5.79 seconds (BP compile: 0.05 seconds)
+[2016.03.29-19.32.24:350][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.29-19.32.24:484][  0]LogRenderer: Reallocating scene render targets to support 964x436 (Frame:2).
+[2016.03.29-19.32.24:649][  3]LogAssetRegistry: Asset discovery search completed in 2.0052 seconds
+[2016.03.29-19.32.24:649][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.29-19.32.24:649][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.03.29-19.32.29:541][283]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/' took 5.23s
+[2016.03.29-19.32.40:315][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.29-19.32.40:315][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.29-19.32.40:315][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.29-19.32.40:315][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.29-19.32.40:318][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.83] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.29-19.32.40:318][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.83] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.29-19.32.40:318][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.83] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.29-19.32.40:380][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.29-19.32.40:380][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.29-19.32.40:380][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.29-19.32.40:380][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.29-19.32.40:383][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.89] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 7 ms]
+[2016.03.29-19.32.40:383][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.89] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.29-19.32.40:384][680]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0021.89] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.29-19.32.40:907][680]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.32.40:915][680]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.29-19.32.40:916][680]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2016.03.29-19.32.40:956][680]Cmd: MAP LOAD FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.29-19.32.40:957][680]LightingResults: New page: Lighting Build
+[2016.03.29-19.32.40:975][680]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.29-19.32.40:975][680]MapCheck: New page: Map Check
+[2016.03.29-19.32.40:975][680]LightingResults: New page: Lighting Build
+[2016.03.29-19.32.40:985][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021095877240
+[2016.03.29-19.32.41:114][680]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.29-19.32.41:175][680]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.29-19.32.41:235][680]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.591ms to complete.
+[2016.03.29-19.32.41:235][680]LogFileHelpers: Loading map 'MyFirstLevel' took 0.279
+[2016.03.29-19.32.41:265][681]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.29-19.32.41:272][681]Cmd: UpdateLandscapeEditorData
+[2016.03.29-19.37.53:771][700]LogHotReload: New module detected: UE4Editor-TheBeginning-5701.dll
+[2016.03.29-19.37.54:444][703]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.29-19.37.54:482][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.37.54:521][703]LogClass: Could not find existing class NPC in package /Script/TheBeginning for HotReload, assuming new class
+[2016.03.29-19.37.54:521][703]LogClass: Function Prox is new.
+[2016.03.29-19.37.54:527][703]LogHotReload: Re-instancing NPC after hot-reload.
+[2016.03.29-19.37.54:595][703]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-19.37.54:596][703]Warning: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2016.03.29-19.37.54:663][703]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-19.37.59:954][852]Recompiling TheBeginning...
+[2016.03.29-19.37.59:954][852]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 1016 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-19.37.59:955][852]Warning: Starting HotReload took  0.0s.
+[2016.03.29-19.38.05:124][152]CompilerResultsLog: New page: Compilation - Mar 29, 2016, 11:38:05 PM
+[2016.03.29-19.38.05:124][152]CompilerResultsLog: Info Creating makefile for hot reloading TheBeginning (modules to compile have changed)
+[2016.03.29-19.38.05:124][152]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-19.38.05:124][152]CompilerResultsLog: Info Target is up to date.
+[2016.03.29-19.38.05:124][152]LogMainFrame: MainFrame: Module compiling took 5.173 seconds
+[2016.03.29-19.38.15:179][755]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen2)
+[2016.03.29-19.38.17:135][856]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.29-19.38.17:607][856]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2016.03.29-19.38.32:869][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.38.35:019][758]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.38.35:312][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.29-19.38.35:333][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210A2AA1300
+[2016.03.29-19.38.35:342][758]BlueprintEditorCompileResults: Info [0376.85] Compile of BP_NPC_Owen successful! [in 323 ms]
+[2016.03.29-19.38.37:668][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.38.37:669][884]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:38:37 PM)
+[2016.03.29-19.38.37:669][884]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.38.37:711][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042087s)
+[2016.03.29-19.38.37:711][884]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.38.37:711][884]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.03.29-19.38.37:711][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.042864s)
+[2016.03.29-19.38.37:711][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.38.37:737][884]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.38.37:744][884]LogInit: FAudioDevice initialized.
+[2016.03.29-19.38.37:828][884]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.38.37:903][884]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.38.37
+[2016.03.29-19.38.37:903][884]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.38.37:903][884]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.38.37:905][884]LogWorld: Bringing up level for play took: 0.075308
+[2016.03.29-19.38.37:908][884]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.001
+[2016.03.29-19.38.45:431][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.38.45:432][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.38.45:459][323]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210CAAE6C00
+[2016.03.29-19.38.46:860][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.38.46:861][403]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:38:46 PM)
+[2016.03.29-19.38.46:861][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.38.46:893][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032885s)
+[2016.03.29-19.38.46:894][403]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.38.46:894][403]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2016.03.29-19.38.46:894][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033796s)
+[2016.03.29-19.38.46:925][403]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.38.46:930][403]LogInit: FAudioDevice initialized.
+[2016.03.29-19.38.46:966][403]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.38.47:041][403]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.38.47
+[2016.03.29-19.38.47:041][403]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.38.47:041][403]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.38.47:043][403]LogWorld: Bringing up level for play took: 0.074907
+[2016.03.29-19.38.47:045][403]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.138
+[2016.03.29-19.38.50:430][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210DC004360
+[2016.03.29-19.42.52:472][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.42.52:472][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.29-19.42.52:473][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.42.53:243][797]LogSavePackage: Save=715.448181ms
+[2016.03.29-19.42.53:244][797]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel_Auto1516619F4438A949FF8B4C1A49F25EF49.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap'
+[2016.03.29-19.42.53:247][797]LogSavePackage: Total save time: 740.857769ms
+[2016.03.29-19.42.53:247][797]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto1.umap
+[2016.03.29-19.42.53:253][797]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.781
+[2016.03.29-19.42.53:253][797]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.781
+[2016.03.29-19.42.53:288][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_NPC_Owen] ([1] browsable assets)...
+[2016.03.29-19.42.53:323][797]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_NPC_Owen.BP_NPC_Owen]
+[2016.03.29-19.42.53:323][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_NPC_Owen]
+[2016.03.29-19.42.53:323][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.03.29-19.42.53:377][797]LogSavePackage: Save=28.592232ms
+[2016.03.29-19.42.53:377][797]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen_Auto1CAB7152B478F686B22D18EB1D07A1B7F.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset'
+[2016.03.29-19.42.53:379][797]LogSavePackage: Total save time: 54.085199ms
+[2016.03.29-19.42.53:379][797]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto1.uasset
+[2016.03.29-19.42.53:379][797]LogFileHelpers: Auto-saving content packages took 0.094
+[2016.03.29-19.45.48:102][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.45.48:102][322]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:45:48 PM)
+[2016.03.29-19.45.48:102][322]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.45.48:135][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032898s)
+[2016.03.29-19.45.48:136][322]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.45.48:136][322]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2016.03.29-19.45.48:136][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033962s)
+[2016.03.29-19.45.48:136][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.45.48:136][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.29-19.45.48:136][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.45.48:164][322]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.45.48:171][322]LogInit: FAudioDevice initialized.
+[2016.03.29-19.45.48:205][322]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.45.48:276][322]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.45.48
+[2016.03.29-19.45.48:276][322]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.45.48:276][322]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.45.48:278][322]LogWorld: Bringing up level for play took: 0.071298
+[2016.03.29-19.45.48:281][322]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.374
+[2016.03.29-19.46.01:582][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210A2AA36A0
+[2016.03.29-19.46.07:241][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.46.07:241][439]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:46:07 PM)
+[2016.03.29-19.46.07:241][439]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.46.07:277][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034882s)
+[2016.03.29-19.46.07:277][439]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.46.07:277][439]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2016.03.29-19.46.07:277][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.035603s)
+[2016.03.29-19.46.07:305][439]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.46.07:312][439]LogInit: FAudioDevice initialized.
+[2016.03.29-19.46.07:348][439]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.46.07:418][439]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.46.07
+[2016.03.29-19.46.07:418][439]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.07:418][439]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.07:420][439]LogWorld: Bringing up level for play took: 0.070739
+[2016.03.29-19.46.07:422][439]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.484
+[2016.03.29-19.46.14:133][828]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E7834A40
+[2016.03.29-19.46.17:036][998]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.29-19.46.17:675][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2016.03.29-19.46.20:752][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.46.20:752][215]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:46:20 PM)
+[2016.03.29-19.46.20:752][215]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.46.20:784][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032118s)
+[2016.03.29-19.46.20:785][215]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.46.20:785][215]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2016.03.29-19.46.20:785][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032893s)
+[2016.03.29-19.46.20:809][215]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.46.20:815][215]LogInit: FAudioDevice initialized.
+[2016.03.29-19.46.20:848][215]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.46.20:921][215]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.46.20
+[2016.03.29-19.46.20:921][215]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.20:921][215]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.20:923][215]LogWorld: Bringing up level for play took: 0.072940
+[2016.03.29-19.46.20:925][215]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.019
+[2016.03.29-19.46.28:889][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210EF6EF920
+[2016.03.29-19.46.33:624][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.46.33:624][962]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:46:33 PM)
+[2016.03.29-19.46.33:624][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.46.33:654][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030504s)
+[2016.03.29-19.46.33:655][962]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.46.33:655][962]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2016.03.29-19.46.33:655][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031283s)
+[2016.03.29-19.46.33:679][962]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.46.33:685][962]LogInit: FAudioDevice initialized.
+[2016.03.29-19.46.33:719][962]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.46.33:790][962]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 60) at 2016.03.29-21.46.33
+[2016.03.29-19.46.33:790][962]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.33:790][962]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.46.33:792][962]LogWorld: Bringing up level for play took: 0.071328
+[2016.03.29-19.46.33:794][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.113
+[2016.03.29-19.46.38:659][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E9D06E80
+[2016.03.29-19.46.54:654][196]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.29-19.47.22:596][871]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.29-19.47.25:371][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.29-19.48.39:596][ 33]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2016.03.29-19.48.40:965][112]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.29-19.49.29:035][397]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.29:959][495]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.31:103][589]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.33:720][878]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.40:977][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2016.03.29-19.49.43:264][989]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.29-19.49.50:225][765]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.52:068][970]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.54:869][256]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.49.57:458][541]LogActorFactory: Actor Factory created SM_Rock
+[2016.03.29-19.50.06:775][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock5)
+[2016.03.29-19.50.10:544][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2016.03.29-19.50.18:092][926]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.29-19.50.32:626][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.50.32:627][604]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:50:32 PM)
+[2016.03.29-19.50.32:627][604]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.50.32:664][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036712s)
+[2016.03.29-19.50.32:664][604]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.50.32:664][604]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2016.03.29-19.50.32:665][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.037620s)
+[2016.03.29-19.50.32:665][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.50.32:665][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.29-19.50.32:665][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.50.32:692][604]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.50.32:700][604]LogInit: FAudioDevice initialized.
+[2016.03.29-19.50.32:732][604]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.50.32:805][604]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.50.32
+[2016.03.29-19.50.32:805][604]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.50.32:805][604]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.50.32:807][604]LogWorld: Bringing up level for play took: 0.072064
+[2016.03.29-19.50.32:809][604]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.902
+[2016.03.29-19.50.39:981][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210EF6ED080
+[2016.03.29-19.50.41:060][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2016.03.29-19.50.44:380][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.50.44:380][911]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:50:44 PM)
+[2016.03.29-19.50.44:381][911]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.50.44:411][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030802s)
+[2016.03.29-19.50.44:411][911]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.50.44:411][911]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2016.03.29-19.50.44:412][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031465s)
+[2016.03.29-19.50.44:437][911]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.50.44:443][911]LogInit: FAudioDevice initialized.
+[2016.03.29-19.50.44:478][911]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.50.44:551][911]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.50.44
+[2016.03.29-19.50.44:551][911]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.50.44:552][911]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.50.44:553][911]LogWorld: Bringing up level for play took: 0.073601
+[2016.03.29-19.50.44:555][911]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.648
+[2016.03.29-19.51.04:337][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E98D1300
+[2016.03.29-19.51.06:068][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush35)
+[2016.03.29-19.51.08:196][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock17)
+[2016.03.29-19.51.09:150][793]Cmd: DELETE
+[2016.03.29-19.51.09:150][793]Cmd: ACTOR DELETE
+[2016.03.29-19.51.09:151][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.29-19.51.09:173][793]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.03.29-19.51.10:793][986]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen2)
+[2016.03.29-19.51.17:725][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.51.17:725][746]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:51:17 PM)
+[2016.03.29-19.51.17:725][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.51.17:755][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029929s)
+[2016.03.29-19.51.17:756][746]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.51.17:756][746]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2016.03.29-19.51.17:756][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030714s)
+[2016.03.29-19.51.17:780][746]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.51.17:786][746]LogInit: FAudioDevice initialized.
+[2016.03.29-19.51.17:817][746]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.51.17:889][746]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.51.17
+[2016.03.29-19.51.17:889][746]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.51.17:889][746]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.51.17:890][746]LogWorld: Bringing up level for play took: 0.072041
+[2016.03.29-19.51.17:893][746]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.014
+[2016.03.29-19.51.25:539][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210EF6ECD60
+[2016.03.29-19.51.41:041][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2016.03.29-19.51.46:370][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.51.46:370][993]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:51:46 PM)
+[2016.03.29-19.51.46:370][993]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.51.46:402][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032234s)
+[2016.03.29-19.51.46:403][993]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.51.46:403][993]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2016.03.29-19.51.46:403][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032891s)
+[2016.03.29-19.51.46:431][993]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.51.46:437][993]LogInit: FAudioDevice initialized.
+[2016.03.29-19.51.46:470][993]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.51.46:543][993]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.51.46
+[2016.03.29-19.51.46:543][993]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.51.46:544][993]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.51.46:545][993]LogWorld: Bringing up level for play took: 0.074304
+[2016.03.29-19.51.46:548][993]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.641
+[2016.03.29-19.51.59:325][514]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.29-19.52.14:174][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F6540F40
+[2016.03.29-19.52.38:712][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.52.38:712][146]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:52:38 PM)
+[2016.03.29-19.52.38:712][146]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.52.38:745][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032034s)
+[2016.03.29-19.52.38:745][146]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.52.38:745][146]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2016.03.29-19.52.38:745][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032848s)
+[2016.03.29-19.52.38:770][146]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.52.38:776][146]LogInit: FAudioDevice initialized.
+[2016.03.29-19.52.38:808][146]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.52.38:882][146]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.52.38
+[2016.03.29-19.52.38:882][146]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.52.38:882][146]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.52.38:884][146]LogWorld: Bringing up level for play took: 0.074764
+[2016.03.29-19.52.38:887][146]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.98
+[2016.03.29-19.52.45:236][890]LogCharacterMovement: BP_Avatar_C_10 is stuck and failed to move!
+[2016.03.29-19.52.45:244][891]LogCharacterMovement: BP_Avatar_C_10 is stuck and failed to move!
+[2016.03.29-19.52.45:253][892]LogCharacterMovement: BP_Avatar_C_10 is stuck and failed to move!
+[2016.03.29-19.52.45:269][894]LogCharacterMovement: BP_Avatar_C_10 is stuck and failed to move!
+[2016.03.29-19.52.45:277][895]LogCharacterMovement: BP_Avatar_C_10 is stuck and failed to move!
+[2016.03.29-19.52.55:709][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210B172BEC0
+[2016.03.29-19.52.56:394][192]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen2)
+[2016.03.29-19.52.59:237][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.52.59:237][490]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:52:59 PM)
+[2016.03.29-19.52.59:237][490]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.52.59:271][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033676s)
+[2016.03.29-19.52.59:271][490]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.52.59:271][490]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2016.03.29-19.52.59:272][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034436s)
+[2016.03.29-19.52.59:298][490]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.52.59:304][490]LogInit: FAudioDevice initialized.
+[2016.03.29-19.52.59:338][490]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.52.59:409][490]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.52.59
+[2016.03.29-19.52.59:409][490]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.52.59:409][490]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.52.59:411][490]LogWorld: Bringing up level for play took: 0.071909
+[2016.03.29-19.52.59:413][490]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.493
+[2016.03.29-19.53.02:645][859]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:654][860]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:661][861]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:670][862]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:679][863]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:687][864]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:695][865]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:704][866]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:712][867]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.02:721][868]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:007][380]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:015][381]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:024][382]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:032][383]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:040][384]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:049][385]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:057][386]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:066][387]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:074][388]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:082][389]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:090][390]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:099][391]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:107][392]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:115][393]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:124][394]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:132][395]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:141][396]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:149][397]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:157][398]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:166][399]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:174][400]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:183][401]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:191][402]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:199][403]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:207][404]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:217][405]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:224][406]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:233][407]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:242][408]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:250][409]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:259][410]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:268][411]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:276][412]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:284][413]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:292][414]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:301][415]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:309][416]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:318][417]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:325][418]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:334][419]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:342][420]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:351][421]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:359][422]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:367][423]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:375][424]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:384][425]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:392][426]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:401][427]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:408][428]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:417][429]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:425][430]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:434][431]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:442][432]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:450][433]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:459][434]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:467][435]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:475][436]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:484][437]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:492][438]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:501][439]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:509][440]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:518][441]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:526][442]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:535][443]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:543][444]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:552][445]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:560][446]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:568][447]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:577][448]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:585][449]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:593][450]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:603][451]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:611][452]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:620][453]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:628][454]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:636][455]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:644][456]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:653][457]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:661][458]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:670][459]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:678][460]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:686][461]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:694][462]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:703][463]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:711][464]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:720][465]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:728][466]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:736][467]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:745][468]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:753][469]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:761][470]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:769][471]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:778][472]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:786][473]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:794][474]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:802][475]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:811][476]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.07:820][477]LogCharacterMovement: BP_Avatar_C_11 is stuck and failed to move!
+[2016.03.29-19.53.14:462][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E70E79C0
+[2016.03.29-19.53.37:719][495]LogRenderer: Reallocating scene render targets to support 964x540 (Frame:51870).
+[2016.03.29-19.54.02:989][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.54.02:989][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.54.02:989][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.29-19.54.03:012][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210DDAE9B20
+[2016.03.29-19.54.03:127][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-19.54.03:871][649]LogSavePackage: Save=697.494934ms
+[2016.03.29-19.54.03:871][649]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel2D5140A040C95AECBF3CB9BB1B01ED94.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-19.54.03:877][649]LogSavePackage: Total save time: 725.700416ms
+[2016.03.29-19.54.03:877][649]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-19.54.03:937][649]LogFileHelpers: Saving map 'MyFirstLevel' took 0.879
+[2016.03.29-19.54.03:992][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-19.54.04:042][649]LogSavePackage: Save=30.181961ms
+[2016.03.29-19.54.04:042][649]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen0886A08B4E5E93CBE09B02838CF89C5A.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-19.54.04:046][649]LogSavePackage: Total save time: 53.115714ms
+[2016.03.29-19.54.04:046][649]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-19.54.04:934][714]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.54.05:230][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.54.05:257][714]BlueprintEditorCompileResults: Info [1306.77] Compile of BP_NPC_Owen successful! [in 322 ms]
+[2016.03.29-19.54.07:478][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.54.07:478][937]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:54:07 PM)
+[2016.03.29-19.54.07:479][937]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.54.07:509][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030207s)
+[2016.03.29-19.54.07:509][937]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.54.07:509][937]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2016.03.29-19.54.07:509][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030895s)
+[2016.03.29-19.54.07:509][937]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.54.07:535][937]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.54.07:543][937]LogInit: FAudioDevice initialized.
+[2016.03.29-19.54.07:578][937]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.54.07:651][937]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.54.07
+[2016.03.29-19.54.07:651][937]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.54.07:651][937]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.54.07:653][937]LogWorld: Bringing up level for play took: 0.074074
+[2016.03.29-19.54.07:655][937]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.251
+[2016.03.29-19.54.17:552][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E8F06F20
+[2016.03.29-19.54.44:449][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.54.44:449][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.54.44:449][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.29-19.54.46:628][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.03.29-19.54.49:155][913]LogEditorTransaction: Undo Set actor scale
+[2016.03.29-19.54.49:159][913]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.Proximity Sphere) Component already registered.
+[2016.03.29-19.54.49:160][913]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.Arrow) Component already registered.
+[2016.03.29-19.54.49:160][913]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.CharMoveComp) Component already registered.
+[2016.03.29-19.54.49:160][913]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.CharacterMesh0) Component already registered.
+[2016.03.29-19.54.49:164][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.03.29-19.54.51:075][ 76]Cmd: TRANSACTION UNDO
+[2016.03.29-19.54.51:075][ 76]LogEditorTransaction: Undo Set actor scale
+[2016.03.29-19.54.51:080][ 76]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.Arrow) Component already registered.
+[2016.03.29-19.54.51:080][ 76]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.CharMoveComp) Component already registered.
+[2016.03.29-19.54.51:080][ 76]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.CharacterMesh0) Component already registered.
+[2016.03.29-19.54.51:080][ 76]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BP_NPC_Owen_C_4.Proximity Sphere) Component already registered.
+[2016.03.29-19.54.51:084][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.03.29-19.55.02:094][ 35]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.55.02:399][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.03.29-19.55.02:425][ 35]BlueprintEditorCompileResults: Info [1363.93] Compile of BP_NPC_Owen successful! [in 330 ms]
+[2016.03.29-19.55.34:865][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.55.35:866][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.03.29-19.55.44:285][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.03.29-19.55.46:355][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.03.29-19.55.47:207][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.03.29-19.55.53:785][328]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.55.54:085][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.03.29-19.55.54:112][328]BlueprintEditorCompileResults: Info [1415.62] Compile of BP_NPC_Owen successful! [in 326 ms]
+[2016.03.29-19.56.11:456][803]LogEditorTransaction: Undo Modify Component(s)
+[2016.03.29-19.56.11:463][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.56.11:895][823]LogEditorTransaction: Undo Modify Component(s)
+[2016.03.29-19.56.11:902][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.03.29-19.56.12:386][863]LogEditorTransaction: Undo Modify Component(s)
+[2016.03.29-19.56.12:394][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.03.29-19.56.12:914][915]LogEditorTransaction: Undo Modify Component(s)
+[2016.03.29-19.56.12:921][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.03.29-19.56.55:477][523]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.56.55:769][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.03.29-19.56.55:796][523]BlueprintEditorCompileResults: Info [1477.31] Compile of BP_NPC_Owen successful! [in 318 ms]
+[2016.03.29-19.57.07:079][817]PIE:Warning: Warning Scale ''X=0.000 Y=0.000 Z=0.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_3.Proximity Sphere'.
+[2016.03.29-19.57.07:079][817]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_3.CharacterMesh0 SK_Mannequin Bone: foot_l'.
+[2016.03.29-19.57.07:079][817]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_3.CharacterMesh0 SK_Mannequin Bone: foot_r'.
+[2016.03.29-19.57.07:079][817]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_3.CharacterMesh0 SK_Mannequin Bone: hand_r'.
+[2016.03.29-19.57.07:079][817]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_3.CharacterMesh0 SK_Mannequin Bone: hand_l'.
+[2016.03.29-19.57.36:337][892]Cmd: DELETE
+[2016.03.29-19.57.36:337][892]Cmd: ACTOR DELETE
+[2016.03.29-19.57.36:338][892]LogEditorActor: Deleted Actor: BP_NPC_Owen_C
+[2016.03.29-19.57.36:338][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.57.36:338][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.57.36:338][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.03.29-19.57.36:361][892]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.29-19.57.44:731][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.57.44:731][818]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:57:44 PM)
+[2016.03.29-19.57.44:731][818]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.57.44:767][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036164s)
+[2016.03.29-19.57.44:768][818]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.57.44:768][818]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2016.03.29-19.57.44:768][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.037043s)
+[2016.03.29-19.57.44:768][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.57.44:768][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.57.44:768][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.03.29-19.57.44:797][818]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.57.44:804][818]LogInit: FAudioDevice initialized.
+[2016.03.29-19.57.44:841][818]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.57.44:912][818]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.57.44
+[2016.03.29-19.57.44:912][818]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.57.44:912][818]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.57.44:914][818]LogWorld: Bringing up level for play took: 0.071918
+[2016.03.29-19.57.44:916][818]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.009
+[2016.03.29-19.57.50:750][506]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.50:758][507]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.50:809][513]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.50:818][514]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.50:985][534]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.50:993][535]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:001][536]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:010][537]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:018][538]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:026][539]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:035][540]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:043][541]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:060][543]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:068][544]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:076][545]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:084][546]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:093][547]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:101][548]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:109][549]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:118][550]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.51:135][552]LogCharacterMovement: BP_Avatar_C_14 is stuck and failed to move!
+[2016.03.29-19.57.54:286][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E8BDDE40
+[2016.03.29-19.58.06:622][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.06:622][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.58.06:622][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.03.29-19.58.07:974][ 39]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.58.08:279][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.03.29-19.58.08:305][ 39]BlueprintEditorCompileResults: Info [1549.81] Compile of BP_NPC_Owen successful! [in 330 ms]
+[2016.03.29-19.58.10:719][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.58.10:719][271]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:58:10 PM)
+[2016.03.29-19.58.10:719][271]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.58.10:753][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033181s)
+[2016.03.29-19.58.10:753][271]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.58.10:753][271]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2016.03.29-19.58.10:753][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033885s)
+[2016.03.29-19.58.10:753][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.10:778][271]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.58.10:784][271]LogInit: FAudioDevice initialized.
+[2016.03.29-19.58.10:816][271]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.58.10:889][271]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.58.10
+[2016.03.29-19.58.10:890][271]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.10:890][271]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.10:891][271]LogWorld: Bringing up level for play took: 0.073816
+[2016.03.29-19.58.10:894][271]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.987
+[2016.03.29-19.58.15:105][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210EF4DBF60
+[2016.03.29-19.58.25:467][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.25:467][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.58.25:467][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.03.29-19.58.27:569][715]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.58.27:874][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.03.29-19.58.27:900][715]BlueprintEditorCompileResults: Info [1569.41] Compile of BP_NPC_Owen successful! [in 331 ms]
+[2016.03.29-19.58.29:957][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.58.29:957][912]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:58:29 PM)
+[2016.03.29-19.58.29:957][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.58.29:991][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034456s)
+[2016.03.29-19.58.29:992][912]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.58.29:992][912]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2016.03.29-19.58.29:992][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.035244s)
+[2016.03.29-19.58.29:992][912]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.30:018][912]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.58.30:025][912]LogInit: FAudioDevice initialized.
+[2016.03.29-19.58.30:057][912]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.58.30:129][912]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.58.30
+[2016.03.29-19.58.30:129][912]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.30:129][912]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.30:131][912]LogWorld: Bringing up level for play took: 0.072343
+[2016.03.29-19.58.30:134][912]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.227
+[2016.03.29-19.58.31:863][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E74194E0
+[2016.03.29-19.58.44:836][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.58.44:836][548]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:58:44 PM)
+[2016.03.29-19.58.44:836][548]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.58.44:870][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033790s)
+[2016.03.29-19.58.44:871][548]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.58.44:871][548]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2016.03.29-19.58.44:871][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034484s)
+[2016.03.29-19.58.44:871][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.44:871][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.58.44:871][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.03.29-19.58.44:896][548]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.58.44:902][548]LogInit: FAudioDevice initialized.
+[2016.03.29-19.58.44:935][548]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.58.45:008][548]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.58.45
+[2016.03.29-19.58.45:008][548]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.45:008][548]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.58.45:010][548]LogWorld: Bringing up level for play took: 0.073342
+[2016.03.29-19.58.45:013][548]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.106
+[2016.03.29-19.58.46:896][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021105EE7EC0
+[2016.03.29-19.58.57:434][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.58.57:434][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.58.57:434][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.03.29-19.58.59:226][722]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.58.59:534][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.03.29-19.58.59:563][722]BlueprintEditorCompileResults: Info [1601.07] Compile of BP_NPC_Owen successful! [in 336 ms]
+[2016.03.29-19.59.13:007][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.59.13:007][709]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:59:13 PM)
+[2016.03.29-19.59.13:007][709]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.59.13:040][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032331s)
+[2016.03.29-19.59.13:040][709]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.59.13:040][709]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2016.03.29-19.59.13:040][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033072s)
+[2016.03.29-19.59.13:040][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.59.13:067][709]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.59.13:073][709]LogInit: FAudioDevice initialized.
+[2016.03.29-19.59.13:105][709]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.59.13:174][709]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.59.13
+[2016.03.29-19.59.13:174][709]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.13:174][709]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.13:176][709]LogWorld: Bringing up level for play took: 0.070241
+[2016.03.29-19.59.13:178][709]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.728
+[2016.03.29-19.59.20:125][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F33FE5C0
+[2016.03.29-19.59.42:777][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.59.42:777][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-19.59.42:777][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.03.29-19.59.46:989][484]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-19.59.47:306][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2016.03.29-19.59.47:334][484]BlueprintEditorCompileResults: Info [1648.84] Compile of BP_NPC_Owen successful! [in 344 ms]
+[2016.03.29-19.59.49:698][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.59.49:698][700]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:59:49 PM)
+[2016.03.29-19.59.49:698][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.59.49:729][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031552s)
+[2016.03.29-19.59.49:730][700]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.59.49:730][700]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2016.03.29-19.59.49:730][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032261s)
+[2016.03.29-19.59.49:730][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-19.59.49:757][700]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.59.49:763][700]LogInit: FAudioDevice initialized.
+[2016.03.29-19.59.49:797][700]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.59.49:864][700]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.59.49
+[2016.03.29-19.59.49:864][700]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.49:864][700]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.49:866][700]LogWorld: Bringing up level for play took: 0.067294
+[2016.03.29-19.59.49:868][700]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.039
+[2016.03.29-19.59.56:208][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F58CAB60
+[2016.03.29-19.59.57:435][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-19.59.57:435][547]PIE: New page: PIE session: MyFirstLevel (Mar 29, 2016, 11:59:57 PM)
+[2016.03.29-19.59.57:435][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-19.59.57:470][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034713s)
+[2016.03.29-19.59.57:470][547]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-19.59.57:471][547]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2016.03.29-19.59.57:471][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.035556s)
+[2016.03.29-19.59.57:498][547]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-19.59.57:504][547]LogInit: FAudioDevice initialized.
+[2016.03.29-19.59.57:535][547]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-19.59.57:608][547]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-21.59.57
+[2016.03.29-19.59.57:608][547]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.57:609][547]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-19.59.57:610][547]LogWorld: Bringing up level for play took: 0.074267
+[2016.03.29-19.59.57:613][547]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.294
+[2016.03.29-20.00.02:826][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E79759E0
+[2016.03.29-20.00.24:916][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.00.24:916][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.00.24:916][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2016.03.29-20.00.37:294][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2016.03.29-20.00.56:550][287]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-20.00.56:865][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2016.03.29-20.00.56:894][287]BlueprintEditorCompileResults: Info [1718.40] Compile of BP_NPC_Owen successful! [in 343 ms]
+[2016.03.29-20.00.59:996][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.29-20.01.01:642][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.01.01:642][705]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:01:01 AM)
+[2016.03.29-20.01.01:642][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.01.01:674][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031674s)
+[2016.03.29-20.01.01:674][705]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.01.01:674][705]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2016.03.29-20.01.01:674][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032439s)
+[2016.03.29-20.01.01:674][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.01.01:674][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.01.01:674][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2016.03.29-20.01.01:701][705]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.01.01:707][705]LogInit: FAudioDevice initialized.
+[2016.03.29-20.01.01:740][705]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.01.01:805][705]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.01.01
+[2016.03.29-20.01.01:805][705]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.01.01:806][705]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.01.01:806][705]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_8.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.01.01:807][705]LogWorld: Bringing up level for play took: 0.066161
+[2016.03.29-20.01.01:810][705]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.097
+[2016.03.29-20.01.01:810][705]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_8 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.01.09:850][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E5555B20
+[2016.03.29-20.01.29:692][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.01.29:692][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.01.29:692][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2016.03.29-20.01.33:933][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2016.03.29-20.01.43:246][ 39]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-20.01.43:555][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2016.03.29-20.01.43:582][ 39]BlueprintEditorCompileResults: Info [1765.09] Compile of BP_NPC_Owen successful! [in 335 ms]
+[2016.03.29-20.01.45:533][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.01.45:533][214]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:01:45 AM)
+[2016.03.29-20.01.45:533][214]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.01.45:567][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034181s)
+[2016.03.29-20.01.45:567][214]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.01.45:568][214]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2016.03.29-20.01.45:568][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034923s)
+[2016.03.29-20.01.45:568][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.01.45:594][214]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.01.45:600][214]LogInit: FAudioDevice initialized.
+[2016.03.29-20.01.45:636][214]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.01.45:706][214]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.01.45
+[2016.03.29-20.01.45:706][214]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.01.45:706][214]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.01.45:707][214]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_6.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.01.45:708][214]LogWorld: Bringing up level for play took: 0.069876
+[2016.03.29-20.01.45:710][214]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.197
+[2016.03.29-20.01.45:710][214]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_6 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.01.47:949][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E61153A0
+[2016.03.29-20.02.51:534][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.02.51:534][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.02.51:535][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2016.03.29-20.02.53:962][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2016.03.29-20.03.00:053][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2016.03.29-20.03.03:107][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2016.03.29-20.03.03:241][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-20.03.03:999][732]LogSavePackage: Save=709.969421ms
+[2016.03.29-20.03.03:999][732]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel0308D63F4FB76BEB41B0D1993F359064.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-20.03.04:003][732]LogSavePackage: Total save time: 733.638007ms
+[2016.03.29-20.03.04:003][732]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-20.03.04:066][732]LogFileHelpers: Saving map 'MyFirstLevel' took 0.899
+[2016.03.29-20.03.04:133][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-20.03.04:181][732]LogSavePackage: Save=28.184526ms
+[2016.03.29-20.03.04:181][732]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_OwenF9645F8A46841A08B9BB6C8BCD4DDFAD.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-20.03.04:184][732]LogSavePackage: Total save time: 49.626529ms
+[2016.03.29-20.03.04:184][732]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-20.03.32:031][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.03.32:031][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.03.32:031][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2016.03.29-20.03.34:243][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2016.03.29-20.03.36:099][780]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2016.03.29-20.03.36:121][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C95A2700
+[2016.03.29-20.03.36:244][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-20.03.36:941][780]LogSavePackage: Save=655.280579ms
+[2016.03.29-20.03.36:941][780]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel2A76B15B4DA3E71C6826FEBFDCDC021B.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-20.03.36:944][780]LogSavePackage: Total save time: 674.429640ms
+[2016.03.29-20.03.36:944][780]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-20.03.37:011][780]LogFileHelpers: Saving map 'MyFirstLevel' took 0.848
+[2016.03.29-20.03.37:082][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-20.03.37:129][780]LogSavePackage: Save=30.461666ms
+[2016.03.29-20.03.37:129][780]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen6AB774E441F589A6FFA6A39DBB285A51.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-20.03.37:132][780]LogSavePackage: Total save time: 49.572010ms
+[2016.03.29-20.03.37:132][780]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-20.03.50:985][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.04.08:616][733]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-20.04.08:920][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2016.03.29-20.04.08:951][733]BlueprintEditorCompileResults: Info [1910.46] Compile of BP_NPC_Owen successful! [in 335 ms]
+[2016.03.29-20.04.10:919][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.04.10:919][899]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:04:10 AM)
+[2016.03.29-20.04.10:919][899]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.04.10:952][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032438s)
+[2016.03.29-20.04.10:952][899]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.04.10:953][899]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2016.03.29-20.04.10:953][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033229s)
+[2016.03.29-20.04.10:953][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.04.10:978][899]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.04.10:985][899]LogInit: FAudioDevice initialized.
+[2016.03.29-20.04.11:019][899]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.04.11:086][899]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.04.11
+[2016.03.29-20.04.11:086][899]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.04.11:086][899]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.04.11:087][899]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_0.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.04.11:088][899]LogWorld: Bringing up level for play took: 0.067605
+[2016.03.29-20.04.11:090][899]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.817
+[2016.03.29-20.04.11:091][899]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.04.20:411][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C7DB4C20
+[2016.03.29-20.04.24:536][193]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.29-20.04.27:508][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.04.27:508][451]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:04:27 AM)
+[2016.03.29-20.04.27:509][451]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.04.27:542][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033960s)
+[2016.03.29-20.04.27:543][451]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.04.27:543][451]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2016.03.29-20.04.27:543][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034718s)
+[2016.03.29-20.04.27:543][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.04.27:543][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.04.27:543][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2016.03.29-20.04.27:577][451]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.04.27:583][451]LogInit: FAudioDevice initialized.
+[2016.03.29-20.04.27:616][451]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.04.27:686][451]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.04.27
+[2016.03.29-20.04.27:686][451]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.04.27:687][451]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.04.27:687][451]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_0.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.04.27:688][451]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen2_4.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.04.27:689][451]LogWorld: Bringing up level for play took: 0.071462
+[2016.03.29-20.04.27:691][451]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.216
+[2016.03.29-20.04.27:691][451]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.04.27:691][451]PIE:Warning: Warning Mobility of BP_NPC_Owen2_4 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.04.34:905][258]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C7DB4400
+[2016.03.29-20.05.22:479][455]Recompiling TheBeginning...
+[2016.03.29-20.05.22:479][455]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 6546 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.05.22:481][455]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.05.23:339][512]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:05:23 AM
+[2016.03.29-20.05.23:339][512]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.05.23:339][512]CompilerResultsLog: Info Target is up to date.
+[2016.03.29-20.05.23:339][512]LogMainFrame: MainFrame: Module compiling took 0.863 seconds
+[2016.03.29-20.05.24:538][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.05.24:538][629]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:05:24 AM)
+[2016.03.29-20.05.24:538][629]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.05.24:572][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033001s)
+[2016.03.29-20.05.24:572][629]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.05.24:572][629]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2016.03.29-20.05.24:572][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033764s)
+[2016.03.29-20.05.24:572][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.05.24:572][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.05.24:572][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2016.03.29-20.05.24:608][629]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.05.24:615][629]LogInit: FAudioDevice initialized.
+[2016.03.29-20.05.24:649][629]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.05.24:720][629]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.05.24
+[2016.03.29-20.05.24:720][629]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.05.24:720][629]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.05.24:721][629]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_0.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.05.24:721][629]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen2_4.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.05.24:723][629]LogWorld: Bringing up level for play took: 0.072811
+[2016.03.29-20.05.24:725][629]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.818
+[2016.03.29-20.05.24:725][629]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.05.24:725][629]PIE:Warning: Warning Mobility of BP_NPC_Owen2_4 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.05.27:217][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E54ED940
+[2016.03.29-20.05.29:730][104]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen2)
+[2016.03.29-20.05.30:532][185]Cmd: DELETE
+[2016.03.29-20.05.30:532][185]Cmd: ACTOR DELETE
+[2016.03.29-20.05.30:533][185]LogEditorActor: Deleted Actor: BP_NPC_Owen_C
+[2016.03.29-20.05.30:559][185]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.03.29-20.05.33:032][466]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Owen_C (BP_NPC_Owen)
+[2016.03.29-20.07.19:041][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.07.19:041][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.07.19:041][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2016.03.29-20.07.19:170][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-20.07.19:939][456]LogSavePackage: Save=721.052917ms
+[2016.03.29-20.07.19:939][456]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel24235A20406E9D7302EC25AC9D3CC6D4.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-20.07.19:943][456]LogSavePackage: Total save time: 740.976680ms
+[2016.03.29-20.07.19:943][456]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-20.07.20:010][456]LogFileHelpers: Saving map 'MyFirstLevel' took 0.912
+[2016.03.29-20.07.20:066][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-20.07.20:113][456]LogSavePackage: Save=29.746998ms
+[2016.03.29-20.07.20:113][456]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_OwenCB1FDCF54A37DCC833E7DE9ECCA8A69E.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-20.07.20:116][456]LogSavePackage: Total save time: 48.822183ms
+[2016.03.29-20.07.20:116][456]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-20.07.22:570][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.07.22:571][662]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:07:22 AM)
+[2016.03.29-20.07.22:571][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.07.22:603][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032418s)
+[2016.03.29-20.07.22:604][662]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.07.22:604][662]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2016.03.29-20.07.22:604][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033206s)
+[2016.03.29-20.07.22:604][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.07.22:629][662]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.07.22:636][662]LogInit: FAudioDevice initialized.
+[2016.03.29-20.07.22:667][662]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.07.22:741][662]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.07.22
+[2016.03.29-20.07.22:741][662]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.07.22:741][662]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.07.22:742][662]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.BP_NPC_Owen_C_0.CollisionCylinder' with a non-Movable Mobility.
+[2016.03.29-20.07.22:743][662]LogWorld: Bringing up level for play took: 0.073426
+[2016.03.29-20.07.22:745][662]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.838
+[2016.03.29-20.07.22:745][662]PIE:Warning: Warning Mobility of BP_NPC_Owen_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2016.03.29-20.07.31:700][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E5DBA7A0
+[2016.03.29-20.07.41:453][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.07.41:453][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.07.41:453][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2016.03.29-20.07.42:931][437]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-20.07.43:232][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2016.03.29-20.07.43:260][437]BlueprintEditorCompileResults: Info [2124.77] Compile of BP_NPC_Owen successful! [in 328 ms]
+[2016.03.29-20.07.44:626][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.07.44:750][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-20.07.45:489][549]LogSavePackage: Save=696.442505ms
+[2016.03.29-20.07.45:489][549]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel365307704CD3577432D3A39C7C747223.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-20.07.45:492][549]LogSavePackage: Total save time: 717.508800ms
+[2016.03.29-20.07.45:492][549]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-20.07.45:557][549]LogFileHelpers: Saving map 'MyFirstLevel' took 0.879
+[2016.03.29-20.07.45:612][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-20.07.45:659][549]LogSavePackage: Save=29.338108ms
+[2016.03.29-20.07.45:659][549]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_OwenF72674784C9C218CC2BA4CA964A6A73C.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-20.07.45:663][549]LogSavePackage: Total save time: 49.750183ms
+[2016.03.29-20.07.45:663][549]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-20.07.47:362][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.07.47:362][700]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:07:47 AM)
+[2016.03.29-20.07.47:362][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.07.47:393][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030823s)
+[2016.03.29-20.07.47:393][700]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.07.47:394][700]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.03.29-20.07.47:394][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031539s)
+[2016.03.29-20.07.47:394][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.07.47:419][700]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.07.47:425][700]LogInit: FAudioDevice initialized.
+[2016.03.29-20.07.47:455][700]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.07.47:532][700]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.07.47
+[2016.03.29-20.07.47:532][700]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.07.47:532][700]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.07.47:534][700]LogWorld: Bringing up level for play took: 0.077205
+[2016.03.29-20.07.47:537][700]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.37
+[2016.03.29-20.07.50:765][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E607AE80
+[2016.03.29-20.09.01:195][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.09.01:195][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.09.01:195][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2016.03.29-20.09.02:475][864]BlueprintLog: New page: Compile BP_NPC_Owen
+[2016.03.29-20.09.02:768][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2016.03.29-20.09.02:795][864]BlueprintEditorCompileResults: Info [2204.30] Compile of BP_NPC_Owen successful! [in 320 ms]
+[2016.03.29-20.09.04:646][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.09.04:646][ 23]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:09:04 AM)
+[2016.03.29-20.09.04:646][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.09.04:679][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032779s)
+[2016.03.29-20.09.04:679][ 23]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.09.04:679][ 23]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2016.03.29-20.09.04:679][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033648s)
+[2016.03.29-20.09.04:679][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.09.04:707][ 23]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.09.04:714][ 23]LogInit: FAudioDevice initialized.
+[2016.03.29-20.09.04:746][ 23]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.09.04:822][ 23]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.09.04
+[2016.03.29-20.09.04:822][ 23]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.04:823][ 23]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.04:824][ 23]LogWorld: Bringing up level for play took: 0.076803
+[2016.03.29-20.09.04:827][ 23]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.92
+[2016.03.29-20.09.10:146][620]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E5F9A2A0
+[2016.03.29-20.09.11:379][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.09.11:379][738]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:09:11 AM)
+[2016.03.29-20.09.11:379][738]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.09.11:410][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031027s)
+[2016.03.29-20.09.11:411][738]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.09.11:411][738]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2016.03.29-20.09.11:411][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032005s)
+[2016.03.29-20.09.11:436][738]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.09.11:442][738]LogInit: FAudioDevice initialized.
+[2016.03.29-20.09.11:476][738]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.09.11:549][738]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.09.11
+[2016.03.29-20.09.11:549][738]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.11:549][738]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.11:551][738]LogWorld: Bringing up level for play took: 0.074349
+[2016.03.29-20.09.11:554][738]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.353
+[2016.03.29-20.09.13:757][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E8D6FBA0
+[2016.03.29-20.09.14:481][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.09.14:481][ 14]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:09:14 AM)
+[2016.03.29-20.09.14:481][ 14]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.09.14:512][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031424s)
+[2016.03.29-20.09.14:513][ 14]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.09.14:513][ 14]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2016.03.29-20.09.14:513][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032113s)
+[2016.03.29-20.09.14:538][ 14]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.09.14:544][ 14]LogInit: FAudioDevice initialized.
+[2016.03.29-20.09.14:577][ 14]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.09.14:652][ 14]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.09.14
+[2016.03.29-20.09.14:652][ 14]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.14:652][ 14]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.09.14:654][ 14]LogWorld: Bringing up level for play took: 0.074372
+[2016.03.29-20.09.14:656][ 14]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.749
+[2016.03.29-20.09.20:319][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E5E5F100
+[2016.03.29-20.11.12:024][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.11.12:024][249]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:11:12 AM)
+[2016.03.29-20.11.12:024][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.11.12:057][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033173s)
+[2016.03.29-20.11.12:058][249]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.11.12:058][249]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2016.03.29-20.11.12:058][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033991s)
+[2016.03.29-20.11.12:058][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.11.12:058][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.11.12:058][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2016.03.29-20.11.12:084][249]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.11.12:091][249]LogInit: FAudioDevice initialized.
+[2016.03.29-20.11.12:121][249]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.11.12:194][249]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.11.12
+[2016.03.29-20.11.12:194][249]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.11.12:194][249]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.11.12:196][249]LogWorld: Bringing up level for play took: 0.073354
+[2016.03.29-20.11.12:198][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.291
+[2016.03.29-20.11.30:556][388]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021105F3D4E0
+[2016.03.29-20.11.57:086][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.11.57:086][299]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:11:57 AM)
+[2016.03.29-20.11.57:086][299]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.11.57:120][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033810s)
+[2016.03.29-20.11.57:120][299]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.11.57:121][299]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2016.03.29-20.11.57:121][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034585s)
+[2016.03.29-20.11.57:121][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.11.57:121][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.11.57:121][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2016.03.29-20.11.57:148][299]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.11.57:155][299]LogInit: FAudioDevice initialized.
+[2016.03.29-20.11.57:185][299]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.11.57:256][299]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.11.57
+[2016.03.29-20.11.57:256][299]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.11.57:257][299]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.11.57:258][299]LogWorld: Bringing up level for play took: 0.071089
+[2016.03.29-20.11.57:260][299]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.647
+[2016.03.29-20.12.15:798][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E5E9C680
+[2016.03.29-20.16.17:726][579]Recompiling TheBeginning...
+[2016.03.29-20.16.17:727][579]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 3236 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.16.17:728][579]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:16:30 AM
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info Parsing headers for TheBeginningEditor
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info Reflection code generated for TheBeginningEditor in 9,5198923 seconds
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info Avatar.cpp
+[2016.03.29-20.16.30:331][867]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.16.30:332][867]CompilerResultsLog: Info TheBeginning.generated.cpp
+[2016.03.29-20.16.30:332][867]CompilerResultsLog: Info [4/4] Link UE4Editor-TheBeginning-3236.dll
+[2016.03.29-20.16.30:332][867]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-3236.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-3236.exp
+[2016.03.29-20.16.30:332][867]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.16.30:332][867]CompilerResultsLog: Info Total build time: 12,56 seconds
+[2016.03.29-20.16.30:332][867]LogMainFrame: MainFrame: Module compiling took 12.609 seconds
+[2016.03.29-20.16.30:332][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.16.30:332][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.16.30:332][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2016.03.29-20.16.30:397][867]LogClass: Could not find existing class PickUpItem in package /Script/TheBeginning for HotReload, assuming new class
+[2016.03.29-20.16.30:397][867]LogClass: Function Prox is new.
+[2016.03.29-20.16.30:404][867]LogHotReload: Re-instancing PickUpItem after hot-reload.
+[2016.03.29-20.16.30:520][867]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.16.30:522][867]Warning: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.16.30:977][867]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.16.34:463][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.16.34:463][189]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:16:34 AM)
+[2016.03.29-20.16.34:463][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.16.34:494][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030683s)
+[2016.03.29-20.16.34:494][189]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.16.34:495][189]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2016.03.29-20.16.34:495][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031652s)
+[2016.03.29-20.16.34:539][189]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.16.34:546][189]LogInit: FAudioDevice initialized.
+[2016.03.29-20.16.34:579][189]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.16.34:649][189]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.16.34
+[2016.03.29-20.16.34:649][189]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.16.34:649][189]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.16.34:650][189]LogWorld: Bringing up level for play took: 0.069945
+[2016.03.29-20.16.34:653][189]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.746
+[2016.03.29-20.16.48:427][759]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F6D174C0
+[2016.03.29-20.18.52:662][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.18.52:662][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.18.52:662][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2016.03.29-20.18.53:435][269]LogSavePackage: Save=711.388916ms
+[2016.03.29-20.18.53:435][269]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel_Auto2F9F35A484E7F828082D3BC98A74FF505.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto2.umap'
+[2016.03.29-20.18.53:437][269]LogSavePackage: Total save time: 735.079192ms
+[2016.03.29-20.18.53:437][269]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/MyFirstLevel_Auto2.umap
+[2016.03.29-20.18.53:439][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyFirstLevel' took 0.777
+[2016.03.29-20.18.53:439][269]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.777
+[2016.03.29-20.18.53:446][269]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_NPC_Owen] ([1] browsable assets)...
+[2016.03.29-20.18.53:476][269]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_NPC_Owen.BP_NPC_Owen]
+[2016.03.29-20.18.53:476][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_NPC_Owen]
+[2016.03.29-20.18.53:476][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.29-20.18.53:526][269]LogSavePackage: Save=29.677073ms
+[2016.03.29-20.18.53:526][269]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_Owen_Auto207F2AB5D43B221EBE76C9891450E1078.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset'
+[2016.03.29-20.18.53:528][269]LogSavePackage: Total save time: 50.646186ms
+[2016.03.29-20.18.53:528][269]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/Autosaves/Game/BP_NPC_Owen_Auto2.uasset
+[2016.03.29-20.18.53:528][269]LogFileHelpers: Auto-saving content packages took 0.087
+[2016.03.29-20.19.43:878][508]Recompiling TheBeginning...
+[2016.03.29-20.19.43:878][508]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 187 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.19.43:880][508]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:19:45 AM
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.19.45:473][649]CompilerResultsLog:Error: Error C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Source\TheBeginning\PickUpItem.cpp(59)  : error C2039: 'SetPause' : is not a member of 'AAvatar'
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info          c:\users\captainamerica\desktop\uni\ge_project\source\thebeginning\Avatar.h(12)  : see declaration of 'AAvatar'
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.19.45:473][649]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Binaries\Win64\UE4Editor-TheBeginning-187.dll
+[2016.03.29-20.19.45:474][649]CompilerResultsLog: Info Total build time: 1,55 seconds
+[2016.03.29-20.19.45:474][649]LogMainFrame: MainFrame: Module compiling took 1.599 seconds
+[2016.03.29-20.19.45:474][649]Warning: HotReload failed, recompile failed
+[2016.03.29-20.25.05:003][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.25.05:003][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.25.05:003][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2016.03.29-20.25.05:147][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-20.25.05:946][117]LogSavePackage: Save=745.788940ms
+[2016.03.29-20.25.05:946][117]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/MyFirstLevel207BC89844E0898F801D44BE5FB0CFC8.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-20.25.05:952][117]LogSavePackage: Total save time: 771.565557ms
+[2016.03.29-20.25.05:952][117]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-20.25.06:025][117]LogFileHelpers: Saving map 'MyFirstLevel' took 0.956
+[2016.03.29-20.25.06:056][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_NPC_Owen" FILE="../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset" SILENT=true
+[2016.03.29-20.25.06:098][117]LogSavePackage: Save=20.055332ms
+[2016.03.29-20.25.06:098][117]LogSavePackage: Moving '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Saved/BP_NPC_OwenF6B231FF42C8FC43FA3E02829048D81C.tmp' to '../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset'
+[2016.03.29-20.25.06:101][117]LogSavePackage: Total save time: 44.482425ms
+[2016.03.29-20.25.06:101][117]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/CaptainAmerica/Desktop/Uni/GE_Project/Content/BP_NPC_Owen.uasset
+[2016.03.29-20.25.08:424][337]Recompiling TheBeginning...
+[2016.03.29-20.25.08:424][337]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 3842 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.25.08:425][337]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:25:09 AM
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.25.09:937][467]CompilerResultsLog:Error: Error C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Source\TheBeginning\PickUpItem.cpp(59)  : error C2660: 'UGameplayStatics::SetGamePaused' : function does not take 1 arguments
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Binaries\Win64\UE4Editor-TheBeginning-3842.dll
+[2016.03.29-20.25.09:937][467]CompilerResultsLog: Info Total build time: 1,46 seconds
+[2016.03.29-20.25.09:937][467]LogMainFrame: MainFrame: Module compiling took 1.516 seconds
+[2016.03.29-20.25.09:937][467]Warning: HotReload failed, recompile failed
+[2016.03.29-20.26.42:672][925]Recompiling TheBeginning...
+[2016.03.29-20.26.42:672][925]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 2612 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.26.42:673][925]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.26.44:174][ 59]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:26:44 AM
+[2016.03.29-20.26.44:174][ 59]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.26.44:174][ 59]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.26.44:174][ 59]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog:Error: Error C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Source\TheBeginning\PickUpItem.cpp(59)  : error C2144: syntax error : 'bool' should be preceded by ')'
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog:Error: Error C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Source\TheBeginning\PickUpItem.cpp(59)  : error C2660: 'UGameplayStatics::SetGamePaused' : function does not take 0 arguments
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog:Error: Error C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Source\TheBeginning\PickUpItem.cpp(59)  : error C2059: syntax error : ')'
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Binaries\Win64\UE4Editor-TheBeginning-2612.dll
+[2016.03.29-20.26.44:175][ 59]CompilerResultsLog: Info Total build time: 1,46 seconds
+[2016.03.29-20.26.44:175][ 59]LogMainFrame: MainFrame: Module compiling took 1.507 seconds
+[2016.03.29-20.26.44:175][ 59]Warning: HotReload failed, recompile failed
+[2016.03.29-20.28.28:688][815]Recompiling TheBeginning...
+[2016.03.29-20.28.28:688][815]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 6299 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.28.28:689][815]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:28:31 AM
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-6299.dll
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-6299.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-6299.exp
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.28.31:124][ 51]CompilerResultsLog: Info Total build time: 2,39 seconds
+[2016.03.29-20.28.31:124][ 51]LogMainFrame: MainFrame: Module compiling took 2.440 seconds
+[2016.03.29-20.28.31:124][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.28.31:124][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.28.31:124][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2016.03.29-20.28.31:208][ 51]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0012 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.28.31:211][ 51]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.28.31:700][ 51]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.28.37:212][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.28.37:212][554]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:28:37 AM)
+[2016.03.29-20.28.37:213][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.28.37:247][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034699s)
+[2016.03.29-20.28.37:248][554]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.28.37:248][554]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2016.03.29-20.28.37:248][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.035556s)
+[2016.03.29-20.28.37:248][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.28.37:248][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.28.37:248][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2016.03.29-20.28.37:316][554]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.28.37:323][554]LogInit: FAudioDevice initialized.
+[2016.03.29-20.28.37:354][554]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.28.37:427][554]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.28.37
+[2016.03.29-20.28.37:427][554]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.28.37:427][554]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.28.37:429][554]LogWorld: Bringing up level for play took: 0.073632
+[2016.03.29-20.28.37:431][554]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.475
+[2016.03.29-20.28.49:082][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002110B54A160
+[2016.03.29-20.29.47:840][451]Recompiling TheBeginning...
+[2016.03.29-20.29.47:840][451]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 1117 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.29.47:841][451]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:30:00 AM
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Parsing headers for TheBeginningEditor
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" "C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate\Build\Win64\TheBeginningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Reflection code generated for TheBeginningEditor in 9,142973 seconds
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info TheBeginning.generated.cpp
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Avatar.cpp
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info [4/4] Link UE4Editor-TheBeginning-1117.dll
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-1117.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-1117.exp
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.30.00:119][763]CompilerResultsLog: Info Total build time: 12,23 seconds
+[2016.03.29-20.30.00:119][763]LogMainFrame: MainFrame: Module compiling took 12.283 seconds
+[2016.03.29-20.30.00:119][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.30.00:119][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.30.00:119][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2016.03.29-20.30.00:191][763]LogClass: Could not find existing class PickUpItem in package /Script/TheBeginning for HotReload, assuming new class
+[2016.03.29-20.30.00:191][763]LogClass: Function Prox is new.
+[2016.03.29-20.30.00:200][763]LogHotReload: Re-instancing PickUpItem after hot-reload.
+[2016.03.29-20.30.00:333][763]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.30.00:337][763]Warning: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.30.00:826][763]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.30.11:874][835]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem3)
+[2016.03.29-20.30.22:954][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.30.22:955][ 33]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:30:22 AM)
+[2016.03.29-20.30.22:955][ 33]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.30.22:988][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033899s)
+[2016.03.29-20.30.22:989][ 33]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.30.22:989][ 33]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2016.03.29-20.30.22:989][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.034662s)
+[2016.03.29-20.30.22:989][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.30.22:989][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2016.03.29-20.30.22:989][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.30.23:055][ 33]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.30.23:062][ 33]LogInit: FAudioDevice initialized.
+[2016.03.29-20.30.23:095][ 33]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.30.23:169][ 33]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.30.23
+[2016.03.29-20.30.23:169][ 33]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.23:169][ 33]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.23:171][ 33]LogWorld: Bringing up level for play took: 0.074455
+[2016.03.29-20.30.23:173][ 33]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.734
+[2016.03.29-20.30.24:823][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002110574C180
+[2016.03.29-20.30.28:278][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.30.28:278][573]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:30:28 AM)
+[2016.03.29-20.30.28:278][573]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.30.28:310][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031828s)
+[2016.03.29-20.30.28:311][573]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.30.28:311][573]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.03.29-20.30.28:311][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032820s)
+[2016.03.29-20.30.28:343][573]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.30.28:350][573]LogInit: FAudioDevice initialized.
+[2016.03.29-20.30.28:382][573]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.30.28:452][573]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.30.28
+[2016.03.29-20.30.28:452][573]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.28:452][573]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.28:454][573]LogWorld: Bringing up level for play took: 0.070336
+[2016.03.29-20.30.28:456][573]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.549
+[2016.03.29-20.30.33:418][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210E63637E0
+[2016.03.29-20.30.41:887][464]Recompiling TheBeginning...
+[2016.03.29-20.30.41:887][464]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 2323 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.30.41:889][464]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.30.42:747][525]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:30:42 AM
+[2016.03.29-20.30.42:747][525]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.30.42:747][525]CompilerResultsLog: Info Target is up to date.
+[2016.03.29-20.30.42:747][525]LogMainFrame: MainFrame: Module compiling took 0.862 seconds
+[2016.03.29-20.30.44:732][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.30.44:732][742]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:30:44 AM)
+[2016.03.29-20.30.44:732][742]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.30.44:764][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031903s)
+[2016.03.29-20.30.44:765][742]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.30.44:765][742]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2016.03.29-20.30.44:765][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.032650s)
+[2016.03.29-20.30.44:765][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.30.44:765][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.30.44:765][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2016.03.29-20.30.44:797][742]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.30.44:803][742]LogInit: FAudioDevice initialized.
+[2016.03.29-20.30.44:836][742]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.30.44:906][742]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.30.44
+[2016.03.29-20.30.44:906][742]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.44:906][742]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.44:908][742]LogWorld: Bringing up level for play took: 0.069853
+[2016.03.29-20.30.44:910][742]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.003
+[2016.03.29-20.30.46:860][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000211055987C0
+[2016.03.29-20.30.54:780][169]Recompiling TheBeginning...
+[2016.03.29-20.30.54:780][169]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 3676 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.30.54:782][169]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.30.57:202][396]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:30:57 AM
+[2016.03.29-20.30.57:202][396]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.30.57:202][396]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.30.57:202][396]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.30.57:202][396]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-3676.dll
+[2016.03.29-20.30.57:203][396]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-3676.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-3676.exp
+[2016.03.29-20.30.57:203][396]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.30.57:203][396]CompilerResultsLog: Info Total build time: 2,38 seconds
+[2016.03.29-20.30.57:203][396]LogMainFrame: MainFrame: Module compiling took 2.426 seconds
+[2016.03.29-20.30.57:203][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.30.57:203][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.30.57:203][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2016.03.29-20.30.57:289][396]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.30.57:294][396]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.30.57:773][396]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.30.59:458][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.30.59:458][555]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:30:59 AM)
+[2016.03.29-20.30.59:458][555]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.30.59:489][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031206s)
+[2016.03.29-20.30.59:490][555]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.30.59:490][555]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2016.03.29-20.30.59:490][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031998s)
+[2016.03.29-20.30.59:548][555]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.30.59:555][555]LogInit: FAudioDevice initialized.
+[2016.03.29-20.30.59:590][555]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.30.59:662][555]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.30.59
+[2016.03.29-20.30.59:662][555]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.59:662][555]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.30.59:664][555]LogWorld: Bringing up level for play took: 0.072643
+[2016.03.29-20.30.59:666][555]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.241
+[2016.03.29-20.31.04:471][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F33FED40
+[2016.03.29-20.31.17:625][434]Recompiling TheBeginning...
+[2016.03.29-20.31.17:625][434]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 1075 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.31.17:627][434]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.31.20:051][658]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:31:20 AM
+[2016.03.29-20.31.20:051][658]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.31.20:051][658]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.31.20:051][658]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.31.20:052][658]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-1075.dll
+[2016.03.29-20.31.20:052][658]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-1075.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-1075.exp
+[2016.03.29-20.31.20:052][658]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.31.20:052][658]CompilerResultsLog: Info Total build time: 2,39 seconds
+[2016.03.29-20.31.20:052][658]LogMainFrame: MainFrame: Module compiling took 2.429 seconds
+[2016.03.29-20.31.20:052][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.31.20:052][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.31.20:052][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2016.03.29-20.31.20:135][658]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.31.20:139][658]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.31.20:616][658]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.31.36:936][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.31.36:936][179]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:31:36 AM)
+[2016.03.29-20.31.36:936][179]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.31.36:969][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033070s)
+[2016.03.29-20.31.36:969][179]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.31.36:969][179]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2016.03.29-20.31.36:970][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033900s)
+[2016.03.29-20.31.36:970][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.31.36:970][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.31.36:970][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2016.03.29-20.31.37:031][179]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.31.37:037][179]LogInit: FAudioDevice initialized.
+[2016.03.29-20.31.37:073][179]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.31.37:144][179]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.31.37
+[2016.03.29-20.31.37:144][179]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.31.37:144][179]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.31.37:146][179]LogWorld: Bringing up level for play took: 0.072077
+[2016.03.29-20.31.37:148][179]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.759
+[2016.03.29-20.31.38:248][293]LogAudio:Warning: Detected orphaned looping sound 'Fire01'.
+[2016.03.29-20.31.42:228][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F1022700
+[2016.03.29-20.31.55:921][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.31.55:921][455]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:31:55 AM)
+[2016.03.29-20.31.55:921][455]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.31.55:952][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030931s)
+[2016.03.29-20.31.55:952][455]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.31.55:953][455]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2016.03.29-20.31.55:953][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.031827s)
+[2016.03.29-20.31.55:953][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.31.55:953][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.31.55:953][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2016.03.29-20.31.55:993][455]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.31.56:001][455]LogInit: FAudioDevice initialized.
+[2016.03.29-20.31.56:036][455]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.31.56:109][455]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.31.56
+[2016.03.29-20.31.56:109][455]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.31.56:109][455]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.31.56:111][455]LogWorld: Bringing up level for play took: 0.073917
+[2016.03.29-20.31.56:113][455]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.206
+[2016.03.29-20.31.57:136][566]LogAudio:Warning: Detected orphaned looping sound 'Fire01'.
+[2016.03.29-20.31.58:055][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210DD78BD80
+[2016.03.29-20.32.19:510][895]Recompiling TheBeginning...
+[2016.03.29-20.32.19:510][895]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix TheBeginning 702 Win64 Development -editorrecompile -canskiplink "C:/Users/CaptainAmerica/Desktop/Uni/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.29-20.32.19:512][895]Warning: Starting HotReload took  0.0s.
+[2016.03.29-20.32.22:044][137]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 12:32:22 AM
+[2016.03.29-20.32.22:044][137]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info PickUpItem.cpp
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info [2/2] Link UE4Editor-TheBeginning-702.dll
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info    Creating library C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-702.lib and object C:\Users\CaptainAmerica\Desktop\Uni\GE_Project\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TheBeginning-702.exp
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.29-20.32.22:045][137]CompilerResultsLog: Info Total build time: 2,49 seconds
+[2016.03.29-20.32.22:045][137]LogMainFrame: MainFrame: Module compiling took 2.538 seconds
+[2016.03.29-20.32.22:045][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-20.32.22:045][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-20.32.22:045][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2016.03.29-20.32.22:127][137]LogContentBrowser: Native class hierarchy updated for 'TheBeginning' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2016.03.29-20.32.22:131][137]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2016.03.29-20.32.22:614][137]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1876 classes and 337 folders.
+[2016.03.29-20.32.24:100][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.29-20.32.24:100][275]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 12:32:24 AM)
+[2016.03.29-20.32.24:100][275]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.29-20.32.24:133][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033029s)
+[2016.03.29-20.32.24:133][275]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.29-20.32.24:134][275]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.03.29-20.32.24:134][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.033717s)
+[2016.03.29-20.32.24:191][275]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-20.32.24:197][275]LogInit: FAudioDevice initialized.
+[2016.03.29-20.32.24:229][275]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.29-20.32.24:300][275]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.29-22.32.24
+[2016.03.29-20.32.24:300][275]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.32.24:300][275]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.29-20.32.24:302][275]LogWorld: Bringing up level for play took: 0.071909
+[2016.03.29-20.32.24:488][275]LogCrashTracker: 
+
+
+[2016.03.29-20.32.24:488][275]LogCrashTracker: 
+
+
+[2016.03.29-20.32.24:488][275]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2016.03.29-20.32.24:615][275]LogExit: Executing StaticShutdownAfterError
+[2016.03.29-20.32.24:618][275]LogOutputDevice:Warning: 
+
+Script Stack:
+PickUpItem.Prox
+GameMode.SpawnDefaultPawnFor
+
+[2016.03.29-20.32.24:622][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.29-20.32.24:623][275]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.29-20.32.24:623][275]Log file closed, 03/29/16 22:32:24

@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AAvatar::StaticClass(),"OnFire",(Native)&AAvatar::execOnFire);
 	}
-	IMPLEMENT_CLASS(AAvatar, 3840705383);
+	IMPLEMENT_CLASS(AAvatar, 1957936214);
 	void AFirstPersonProjectile::StaticRegisterNativesAFirstPersonProjectile()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AFirstPersonProjectile::StaticClass(),"OnHit",(Native)&AFirstPersonProjectile::execOnHit);
@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeTheBeginning() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ANPC::StaticClass(),"Prox",(Native)&ANPC::execProx);
 	}
-	IMPLEMENT_CLASS(ANPC, 127945974);
+	IMPLEMENT_CLASS(ANPC, 3993448263);
 	void APickUpItem::Prox(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 	{
 		PickUpItem_eventProx_Parms Parms;
@@ -155,6 +155,7 @@ FName THEBEGINNING_Prox = FName(TEXT("Prox"));
 				OuterClass->LinkChild(Z_Construct_UFunction_AAvatar_OnFire());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_FinishGameSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FinishGameSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(FinishGameSound, AAvatar), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AAvatar), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AAvatar), 0x0004000000010001, Z_Construct_UClass_AFirstPersonProjectile_NoRegister());
 				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(GunOffset, AAvatar), 0x0000000000000005, Z_Construct_UScriptStruct_FVector());
@@ -167,6 +168,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ToolTip"), TEXT("forward declare the APickupItem class,\nsince it will be \"mentioned\" in a member function"));
+				MetaData->SetValue(NewProp_FinishGameSound, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_FinishGameSound, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(NewProp_FireSound, TEXT("Category"), TEXT("Gameplay"));
 				MetaData->SetValue(NewProp_FireSound, TEXT("ModuleRelativePath"), TEXT("Avatar.h"));
 				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
@@ -487,6 +490,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_ProxSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProxSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ProxSphere, ANPC), 0x00000000000a001d, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_ScoreSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ScoreSound"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(ScoreSound, ANPC), 0x0000000000000005, Z_Construct_UClass_USoundBase_NoRegister());
 				UProperty* NewProp_NpcMessage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("NpcMessage"), RF_Public|RF_Transient|RF_Native) UStrProperty(CPP_PROPERTY_BASE(NpcMessage, ANPC), 0x0000000000000005);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_ANPC_Prox()); // 3012133589
@@ -500,6 +504,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_ProxSphere, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_ProxSphere, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
 				MetaData->SetValue(NewProp_ProxSphere, TEXT("ToolTip"), TEXT("Called to bind functionality to input\nvirtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;\nThe sphere that the player can collide with to get item"));
+				MetaData->SetValue(NewProp_ScoreSound, TEXT("Category"), TEXT("Item"));
+				MetaData->SetValue(NewProp_ScoreSound, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
 				MetaData->SetValue(NewProp_NpcMessage, TEXT("Category"), TEXT("NPCMessage"));
 				MetaData->SetValue(NewProp_NpcMessage, TEXT("ModuleRelativePath"), TEXT("NPC.h"));
 #endif
@@ -637,7 +643,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/TheBeginning")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xB2960B32;
+			Guid.A = 0xAF7F2495;
 			Guid.B = 0x2BE2AF11;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

@@ -42,6 +42,7 @@ void APickUpItem::Prox_Implementation(AActor* OtherActor, UPrimitiveComponent* O
 	// Notice use of keyword this!
 	// That is how _this_ Pickup can refer to itself.
 	avatar->Pickup(this);
+	
 	if (CoinSound != NULL)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, CoinSound, GetActorLocation());
@@ -50,7 +51,9 @@ void APickUpItem::Prox_Implementation(AActor* OtherActor, UPrimitiveComponent* O
 	APlayerController* PController = GetWorld() ->GetFirstPlayerController();
 	// Get a reference to the HUD from the controller
 	AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
-	hud->addMessage(Message(Icon, FString("Picked up ") + FString::FromInt(Quantity) + FString(" ") + Name, 2.0f, FColor::Black,FColor::Black));
+	hud->addMessage(Message(Icon, FString("Picked up ") + FString(" ") + Name + FString(" ")+FString::FromInt(Quantity), 2.0f, FColor::Black, FColor::Black));
 	Destroy();
+
+	
 }
 

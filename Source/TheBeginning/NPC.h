@@ -23,6 +23,8 @@ class THEBEGINNING_API ANPC : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
 	FString NpcMessage;
 	int hitCounter;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+	class USoundBase* ScoreSound;
 	// Sets default values for this character's properties
 	//ANPC();
 	

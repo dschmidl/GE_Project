@@ -24,11 +24,14 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class USoundBase* FireSound;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class USoundBase* FinishGameSound;
 
 	UFUNCTION(BlueprintCallable, Category = Gameplay)
 	void OnFire();
 
-	
+	int itemCounter = 0;
 	
 
 

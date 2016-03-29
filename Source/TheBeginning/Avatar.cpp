@@ -198,6 +198,15 @@ void AAvatar::Pickup(APickUpItem *item)
 		// record ref to the tex the first time it is picked up
 		Icons.Add(item->Name, item->Icon);
 	}
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+	itemCounter++;
+	if (itemCounter >= 1){
+		hud->addMessage(Message(item->Icon, FString("Great JOB! You've finished OUR GAME! THX"), 10.0f, FColor::Black, FColor::Black));
+		UGameplayStatics::PlaySoundAtLocation(this, FinishGameSound, GetActorLocation());
+		//UGameplayStatics::SetGamePaused(this, true);
+
+	}
 }
 void AAvatar::MouseClicked()
 {

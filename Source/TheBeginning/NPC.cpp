@@ -37,8 +37,12 @@ APlayerController* PController = GetWorld()->GetFirstPlayerController();
 if( PController )
 {
 AMyHUD * hud = Cast<AMyHUD>( PController->GetHUD() );
-hud->addMessage( Message( NpcMessage, 5.f, FColor::White ) );
+//hud->addMessage( Message( NpcMessage, 5.f, FColor::White ) );
 hitCounter++;
+if (ScoreSound != NULL)
+{
+	UGameplayStatics::PlaySoundAtLocation(this, ScoreSound, GetActorLocation());
+}
 if (hitCounter >= 10){
 	Destroy();
 }
