@@ -539,4 +539,33 @@
 [2016.03.29-13.17.45:407][505]Cmd: EDIT COPY
 [2016.03.29-13.17.45:691][535]Cmd: EDIT PASTE
 [2016.03.29-13.17.57:089][751]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
-[2016.03.29-13.17
+[2016.03.29-13.17.58:006][851]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.00:758][153]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.07:775][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.10:800][236]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.23:955][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.26:944][997]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.27:792][ 85]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.29:472][270]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.31:032][437]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.31:948][536]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.33:658][723]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.29-13.18.36:685][ 59]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-13.18.42:657][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-13.18.43:330][720]LogSavePackage: Save=624.262268ms
+[2016.03.29-13.18.43:330][720]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel864F0F5845A291D6AE1AF7B4700F3783.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-13.18.43:333][720]LogSavePackage: Total save time: 644.208349ms
+[2016.03.29-13.18.43:333][720]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-13.18.43:393][720]LogFileHelpers: Saving map 'MyFirstLevel' took 0.796
+[2016.03.29-13.19.02:101][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock16)
+[2016.03.29-13.19.31:545][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.29-13.19.32:215][ 54]LogSavePackage: Save=631.680908ms
+[2016.03.29-13.19.32:215][ 54]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevelC19B041A4794F8B58933718393200477.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.29-13.19.32:217][ 54]LogSavePackage: Total save time: 645.546336ms
+[2016.03.29-13.19.32:217][ 54]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.29-13.19.32:273][ 54]LogFileHelpers: Saving map 'MyFirstLevel' took 0.794
+[2016.03.29-13.19.37:196][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.29-13.19.37:196][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.03.29-13.19.37:196][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.29-13.19.37:196][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.29-13.27.21:355][109]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 576/400 MB (ok in
