@@ -201,7 +201,7 @@ void AAvatar::Pickup(APickUpItem *item)
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 	AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
 	itemCounter++;
-	if (itemCounter >= 1){
+	if (itemCounter >= 8){
 		hud->addMessage(Message(item->Icon, FString("Great JOB! You've finished OUR GAME! THX"), 10.0f, FColor::Black, FColor::Black));
 		UGameplayStatics::PlaySoundAtLocation(this, FinishGameSound, GetActorLocation());
 		//UGameplayStatics::SetGamePaused(this, true);

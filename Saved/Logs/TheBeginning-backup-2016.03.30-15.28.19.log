@@ -1,0 +1,960 @@
+﻿[2016.03.30-12.46.43:789][  0]Log file open, 03/30/16 13:46:43
+[2016.03.30-12.46.43:789][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.30-12.46.43:789][  0]LogInit:Display: RandInit(-35724294) SRandInit(-35724293).
+[2016.03.30-12.46.43:789][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.30-12.46.43:789][  0]LogStats: Stats thread started at 1.741828
+[2016.03.30-12.46.43:789][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-12.46.43:789][  0]LogInit: API Version: 2672455
+[2016.03.30-12.46.43:789][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.30-12.46.43:789][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.30-12.46.43:789][  0]LogInit: Build Configuration: Development
+[2016.03.30-12.46.43:789][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.30-12.46.43:789][  0]LogInit: Command line:  
+[2016.03.30-12.46.43:789][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.30-12.46.43:789][  0]LogInit: Rocket: 1
+[2016.03.30-12.46.43:860][  0]LogInit: Using libcurl 7.41.0
+[2016.03.30-12.46.43:860][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.30-12.46.43:860][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.30-12.46.43:860][  0]LogInit:  - other features:
+[2016.03.30-12.46.43:860][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.30-12.46.43:860][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.30-12.46.43:861][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.30-12.46.43:861][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.30-12.46.43:861][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.30-12.46.43:861][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.30-12.46.43:861][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.30-12.46.43:861][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.30-12.46.43:861][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.30-12.46.43:861][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.30-12.46.43:953][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.30-12.46.44:087][  0]LogInit: Object subsystem initialized
+[2016.03.30-12.46.44:222][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-12.46.44:222][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.30-12.46.44:270][  0]LogInit: Computer: PC1021500895
+[2016.03.30-12.46.44:270][  0]LogInit: User: VR
+[2016.03.30-12.46.44:270][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.30-12.46.44:274][  0]LogInit: High frequency timer resolution =3.507501 MHz
+[2016.03.30-12.46.44:275][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.30-12.46.44:275][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-12.46.44:275][  0]LogMemory: Process Physical Memory: 53.16 MB used, 53.16 MB peak
+[2016.03.30-12.46.44:275][  0]LogMemory: Process Virtual Memory: 55.14 MB used, 55.14 MB peak
+[2016.03.30-12.46.44:275][  0]LogMemory: Physical Memory: 3664.42 MB used, 16261.17 MB total
+[2016.03.30-12.46.44:275][  0]LogMemory: Virtual Memory: 346.75 MB used, 134217728.00 MB total
+[2016.03.30-12.46.45:012][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.30-12.46.46:093][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.30-12.46.46:093][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.03.30-12.46.46:094][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.30-12.46.46:094][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.30-12.46.46:094][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.30-12.46.46:097][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.30-12.46.46:097][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.30-12.46.46:106][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.30-12.46.46:323][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/8020/).
+[2016.03.30-12.46.46:323][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/A9F6C95F4C80704C5F5617A42305808E/'.
+[2016.03.30-12.46.46:323][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.30-12.46.48:568][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.30-12.46.48:571][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.30-12.46.48:575][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.30-12.46.48:578][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.30-12.46.48:581][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.30-12.46.48:596][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.30-12.46.48:598][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.30-12.46.48:601][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.30-12.46.48:604][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.30-12.46.48:606][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.30-12.46.48:609][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.30-12.46.48:611][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.30-12.46.48:612][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.30-12.46.48:698][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.30-12.46.48:700][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.30-12.46.48:703][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.30-12.46.48:709][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.30-12.46.48:709][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.30-12.46.49:201][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache: Loaded boot cache 0.21s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.30-12.46.49:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.30-12.46.49:581][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.30-12.46.49:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.30-12.46.55:069][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-12.46.55:109][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.30-12.46.55:866][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.30-12.46.55:866][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.30-12.46.57:716][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.30-12.47.06:210][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.30-12.47.06:532][  0]LogAssetRegistry: FAssetRegistry took 0.0138 seconds to start up
+[2016.03.30-12.47.08:075][  0]SourceControl: Info Source control is disabled
+[2016.03.30-12.47.08:119][  0]SourceControl: Info Source control is disabled
+[2016.03.30-12.47.08:156][  0]SourceControl: Info Source control is disabled
+[2016.03.30-12.47.08:176][  0]SourceControl: Info Source control is disabled
+[2016.03.30-12.47.08:771][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.30-12.47.09:072][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.03.30-12.47.09:076][  0]LogObj: 29251 objects as part of root set at end of initial load.
+[2016.03.30-12.47.09:076][  0]LogUObjectAllocator: 6234640 out of 0 bytes used by permanent object pool.
+[2016.03.30-12.47.09:585][  0]LogEngine: Initializing Engine...
+[2016.03.30-12.47.09:647][  0]OCULUS: Info: 03/30/16 12:47:09: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
+
+[2016.03.30-12.47.09:653][  0]LogHMD: Oculus plugin initialized. Version: 4.9.2-2707645+++depot+UE4-Releases+4.9, LibOVR: 0.7.0.0, built Sep 28 2015, 10:27:52
+[2016.03.30-12.47.10:247][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.30-12.47.10:390][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.47.10:408][  0]LogInit: FAudioDevice initialized.
+[2016.03.30-12.47.10:430][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-12.47.10:434][  0]LogInit: Texture streaming: Enabled
+[2016.03.30-12.47.10:450][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.30-12.47.10:458][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-12.47.10:458][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.03.30-12.47.10:458][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.30-12.47.10:779][  0]LogInit: Transaction tracking system initialized
+[2016.03.30-12.47.11:235][  0]BlueprintLog: New page: Editor Load
+[2016.03.30-12.47.12:953][  0]LocalizationService: Info Localization service is disabled
+[2016.03.30-12.47.13:596][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.30-12.47.13:596][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.30-12.47.13:611][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.30-12.47.14:087][  0]LogConsoleResponse:Display: 
+[2016.03.30-12.47.15:187][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.03.30-12.47.15:187][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.30-12.47.16:148][  0]SourceControl: Info Source control is disabled
+[2016.03.30-12.47.16:262][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-12.47.16:263][  0]LightingResults: New page: Lighting Build
+[2016.03.30-12.47.16:458][  0]MapCheck: New page: Map Check
+[2016.03.30-12.47.16:458][  0]LightingResults: New page: Lighting Build
+[2016.03.30-12.47.16:844][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043878D7CE0
+[2016.03.30-12.47.19:308][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.30-12.47.20:035][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-12.47.20:189][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-12.47.20:245][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.813ms to complete.
+[2016.03.30-12.47.20:258][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.067
+[2016.03.30-12.47.22:035][  0]LogCollectionManager: Loaded 0 collections in 0.000932 seconds
+[2016.03.30-12.47.22:168][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.30-12.47.22:168][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.03.30-12.47.22:168][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.03.30-12.47.22:168][  0]LogContentBrowser: Native class hierarchy populated in 0.0696 seconds. Added 1918 classes and 347 folders.
+[2016.03.30-12.47.22:376][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.30-12.47.22:547][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.03.30-12.47.25:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.03.30-12.47.25:090][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.03.30-12.47.26:173][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.30-12.47.26:295][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.30-12.47.26:354][  0]LogLoad: Full Startup: 46.97 seconds (BP compile: 0.48 seconds)
+[2016.03.30-12.47.26:879][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.30-12.47.27:457][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.03.30-12.47.27:878][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/GE_Project/Content/' took 1.45s
+[2016.03.30-12.47.28:146][  5]LogAssetRegistry: Asset discovery search completed in 21.6257 seconds
+[2016.03.30-12.47.28:146][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.30-12.47.28:174][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2016.03.30-12.47.54:320][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.30-12.47.54:320][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.30-12.47.54:320][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.30-12.47.54:320][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.30-12.47.54:322][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0074.94] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.30-12.47.54:323][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0074.94] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.30-12.47.54:323][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0074.94] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.30-12.47.54:412][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.30-12.47.54:412][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.30-12.47.54:412][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.30-12.47.54:412][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.30-12.47.54:414][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0075.03] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.03.30-12.47.54:414][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0075.03] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.30-12.47.54:415][425]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0075.03] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.30-12.47.55:770][425]LogAudioDerivedData:Display: Building compressed audio format OGG wave wind...
+[2016.03.30-12.47.57:220][425]LogAudioDerivedData:Display: Building compressed audio format OGG wave WinGame...
+[2016.03.30-12.47.57:503][425]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.47.57:532][425]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.30-12.47.57:540][425]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2016.03.30-12.47.57:644][425]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-12.47.57:644][425]LightingResults: New page: Lighting Build
+[2016.03.30-12.47.57:659][425]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.30-12.47.57:672][425]MapCheck: New page: Map Check
+[2016.03.30-12.47.57:672][425]LightingResults: New page: Lighting Build
+[2016.03.30-12.47.57:687][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043F13E5C60
+[2016.03.30-12.47.58:967][425]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-12.47.59:019][425]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-12.47.59:065][425]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.221ms to complete.
+[2016.03.30-12.47.59:065][425]LogFileHelpers: Loading map 'MyFirstLevel' took 1.422
+[2016.03.30-12.47.59:146][426]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.30-12.47.59:196][426]Cmd: UpdateLandscapeEditorData
+[2016.03.30-12.49.12:861][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-12.49.12:861][ 12]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-12.49.12:873][ 12]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 2:49:12 PM)
+[2016.03.30-12.49.12:874][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-12.49.12:931][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057753s)
+[2016.03.30-12.49.12:932][ 12]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.49.12:932][ 12]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2016.03.30-12.49.12:932][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.058542s)
+[2016.03.30-12.49.12:932][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-12.49.12:955][ 12]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.49.12:965][ 12]LogInit: FAudioDevice initialized.
+[2016.03.30-12.49.13:158][ 12]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-12.49.13:238][ 12]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-13.49.13
+[2016.03.30-12.49.13:238][ 12]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.49.13:239][ 12]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.49.13:302][ 12]LogWorld: Bringing up level for play took: 0.126518
+[2016.03.30-12.49.13:381][ 12]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.167
+[2016.03.30-12.49.13:463][ 12]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-12.49.13:503][ 13]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-12.49.13:503][ 13]LogRenderer: Reallocating scene render targets to support 2388x1464 (Frame:2986).
+[2016.03.30-12.49.13:570][ 14]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 405/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.49.21:757][480]LogHMD: Freeing textureSet 0x000000438D0FA950
+[2016.03.30-12.49.21:964][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-12.49.21:964][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-12.49.21:977][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D3F6CA0
+[2016.03.30-12.49.35:046][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-12.49.35:047][ 37]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-12.49.35:047][ 37]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 2:49:35 PM)
+[2016.03.30-12.49.35:047][ 37]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-12.49.35:074][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026292s)
+[2016.03.30-12.49.35:074][ 37]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.49.35:074][ 37]LogPlayLevel: PIE: World Init took: (0.000439s)
+[2016.03.30-12.49.35:074][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.026933s)
+[2016.03.30-12.49.35:074][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-12.49.35:074][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.30-12.49.35:075][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-12.49.35:094][ 37]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.49.35:104][ 37]LogInit: FAudioDevice initialized.
+[2016.03.30-12.49.35:219][ 37]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-12.49.35:246][ 37]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-12.49.35:301][ 37]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-13.49.35
+[2016.03.30-12.49.35:301][ 37]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.49.35:302][ 37]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.49.35:303][ 37]LogWorld: Bringing up level for play took: 0.056684
+[2016.03.30-12.49.35:318][ 37]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.105
+[2016.03.30-12.49.35:324][ 39]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-12.49.35:334][ 39]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 461/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.49.35:831][ 39]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079798 > MaxSimulationTimeStep (0.050) for 'BP_Avatar_C_1'
+[2016.03.30-12.49.46:633][823]LogHMD: Freeing textureSet 0x00000043BC7C2E30
+[2016.03.30-12.49.46:834][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004398BE32E0
+[2016.03.30-12.52.30:623][461]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.52.31:129][496]LogMaterial: 0.003834 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.30-12.52.31:159][496]LogMaterial: 0.003860 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.03.30-12.52.31:160][496]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.03.30-12.52.31:357][498]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.52.33:585][764]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.52.35:595][  3]LogEditorViewport: Clicking on Actor (double click): Emitter (Snow)
+[2016.03.30-12.52.35:886][ 38]LogEditorViewport: Clicking on Actor (double click): Emitter (Snow)
+[2016.03.30-12.52.42:236][800]Cmd: TRANSACTION UNDO
+[2016.03.30-12.52.42:236][800]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2016.03.30-12.52.42:240][800]LogTexture:Display: Building textures: Texture2D_1005 (BGRA8)
+[2016.03.30-12.52.42:241][800]LogTexture:Display: Building textures: Texture2D_999 (BGRA8)
+[2016.03.30-12.52.42:242][800]LogTexture:Display: Building textures: Texture2D_998 (BGRA8)
+[2016.03.30-12.52.42:242][800]LogTexture:Display: Building textures: Texture2D_1004 (BGRA8)
+[2016.03.30-12.52.42:243][800]LogTexture:Display: Building textures: Texture2D_1011 (BGRA8)
+[2016.03.30-12.52.42:244][800]LogTexture:Display: Building textures: Texture2D_1010 (BGRA8)
+[2016.03.30-12.53.04:527][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.05:497][506]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.07:640][761]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.09:888][997]LogTexture:Display: Building textures: Texture2D_1004 (BGRA8)
+[2016.03.30-12.53.09:889][997]LogTexture:Display: Building textures: Texture2D_1005 (BGRA8)
+[2016.03.30-12.53.09:890][997]LogTexture:Display: Building textures: Texture2D_1010 (BGRA8)
+[2016.03.30-12.53.09:891][997]LogTexture:Display: Building textures: Texture2D_1011 (BGRA8)
+[2016.03.30-12.53.09:918][997]LogTexture:Display: Building textures: Texture2D_998 (BGRA8)
+[2016.03.30-12.53.09:918][997]LogTexture:Display: Building textures: Texture2D_999 (BGRA8)
+[2016.03.30-12.53.09:919][997]LogActorFactory: Actor Factory created SM_WindowFrame
+[2016.03.30-12.53.09:927][998]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.10:361][ 47]LogActorFactory: Actor Factory created SM_WindowFrame
+[2016.03.30-12.53.17:673][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.19:088][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2016.03.30-12.53.20:632][236]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.38:430][347]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.53.46:080][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-12.53.46:081][255]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-12.53.46:081][255]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 2:53:46 PM)
+[2016.03.30-12.53.46:081][255]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-12.53.46:108][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027297s)
+[2016.03.30-12.53.46:109][255]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.53.46:109][255]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2016.03.30-12.53.46:109][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028015s)
+[2016.03.30-12.53.46:109][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-12.53.46:109][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.30-12.53.46:109][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-12.53.46:131][255]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.53.46:142][255]LogInit: FAudioDevice initialized.
+[2016.03.30-12.53.46:263][255]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-12.53.46:290][255]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-12.53.46:347][255]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-13.53.46
+[2016.03.30-12.53.46:347][255]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.53.46:347][255]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.53.46:349][255]LogWorld: Bringing up level for play took: 0.058072
+[2016.03.30-12.53.46:364][255]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.151
+[2016.03.30-12.53.46:371][257]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-12.53.46:375][257]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.54.06:201][705]LogHMD: Freeing textureSet 0x00000043ABF49290
+[2016.03.30-12.54.06:421][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004398BE1440
+[2016.03.30-12.54.12:147][377]Cmd: EDIT COPY
+[2016.03.30-12.54.12:560][426]Cmd: EDIT PASTE
+[2016.03.30-12.54.14:681][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.54.24:804][883]Cmd: EDIT COPY
+[2016.03.30-12.54.26:522][933]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.54.27:464][ 46]Cmd: EDIT PASTE
+[2016.03.30-12.54.30:679][427]Cmd: EDIT PASTE
+[2016.03.30-12.54.33:111][714]Cmd: EDIT PASTE
+[2016.03.30-12.54.59:873][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-12.54.59:874][908]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-12.54.59:875][908]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 2:54:59 PM)
+[2016.03.30-12.54.59:875][908]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-12.54.59:901][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026782s)
+[2016.03.30-12.54.59:902][908]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.54.59:902][908]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2016.03.30-12.54.59:902][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.027751s)
+[2016.03.30-12.54.59:922][908]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.54.59:932][908]LogInit: FAudioDevice initialized.
+[2016.03.30-12.55.00:035][908]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-12.55.00:062][908]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-12.55.00:116][908]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-13.55.00
+[2016.03.30-12.55.00:116][908]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.55.00:117][908]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.55.00:118][908]LogWorld: Bringing up level for play took: 0.055545
+[2016.03.30-12.55.00:138][908]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.076
+[2016.03.30-12.55.00:145][910]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-12.55.00:151][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.55.08:986][530]LogHMD: Freeing textureSet 0x000000438CD518C0
+[2016.03.30-12.55.09:210][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043F7EF3A60
+[2016.03.30-12.55.18:703][656]Cmd: EDIT COPY
+[2016.03.30-12.55.19:262][723]Cmd: EDIT PASTE
+[2016.03.30-12.55.24:924][397]Cmd: EDIT PASTE
+[2016.03.30-12.55.29:525][944]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.30-12.55.30:572][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame19)
+[2016.03.30-12.55.37:530][892]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.55.39:290][101]PIE:Warning: Warning Scale ''X=0.000 Y=2.250 Z=2.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.SM_WindowFrame19.StaticMeshComponent0 SM_WindowFrame'.
+[2016.03.30-12.55.39:290][101]PIE:Warning: Warning Scale ''X=0.000 Y=2.250 Z=2.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.SM_WindowFrame19.StaticMeshComponent0 SM_WindowFrame'.
+[2016.03.30-12.55.39:290][101]PIE:Warning: Warning Scale ''X=0.000 Y=2.250 Z=2.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.SM_WindowFrame19.StaticMeshComponent0 SM_WindowFrame'.
+[2016.03.30-12.55.39:290][101]PIE:Warning: Warning Scale ''X=0.000 Y=2.250 Z=2.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.SM_WindowFrame19.StaticMeshComponent0 SM_WindowFrame'.
+[2016.03.30-12.55.39:290][101]PIE:Warning: Warning Scale ''X=0.000 Y=2.250 Z=2.000'' is not valid on object '/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.SM_WindowFrame19.StaticMeshComponent0 SM_WindowFrame'.
+[2016.03.30-12.55.41:617][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame19)
+[2016.03.30-12.55.42:816][520]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.55.44:144][678]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.56.26:750][748]Cmd: EDIT COPY
+[2016.03.30-12.56.27:116][791]Cmd: EDIT PASTE
+[2016.03.30-12.56.42:490][616]Cmd: EDIT COPY
+[2016.03.30-12.56.42:942][670]Cmd: EDIT COPY
+[2016.03.30-12.56.43:285][711]Cmd: EDIT PASTE
+[2016.03.30-12.57.04:343][213]Cmd: EDIT PASTE
+[2016.03.30-12.57.12:483][182]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.57.21:049][203]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.57.41:924][693]Cmd: EDIT COPY
+[2016.03.30-12.57.42:331][741]Cmd: EDIT PASTE
+[2016.03.30-12.58.02:331][112]Cmd: EDIT PASTE
+[2016.03.30-12.58.20:705][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-12.58.20:706][289]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-12.58.20:706][289]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 2:58:20 PM)
+[2016.03.30-12.58.20:706][289]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-12.58.20:733][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027007s)
+[2016.03.30-12.58.20:734][289]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-12.58.20:734][289]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2016.03.30-12.58.20:734][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.027734s)
+[2016.03.30-12.58.20:754][289]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-12.58.20:764][289]LogInit: FAudioDevice initialized.
+[2016.03.30-12.58.20:861][289]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-12.58.20:888][289]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-12.58.20:946][289]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-13.58.20
+[2016.03.30-12.58.20:946][289]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.58.20:946][289]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-12.58.20:948][289]LogWorld: Bringing up level for play took: 0.059502
+[2016.03.30-12.58.20:964][289]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.75
+[2016.03.30-12.58.20:970][291]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-12.58.20:976][291]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 461/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.58.47:046][203]LogHMD: Freeing textureSet 0x00000043ABF48930
+[2016.03.30-12.58.47:260][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D236C00
+[2016.03.30-12.58.48:991][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-12.58.49:037][394]LogTexture:Display: Building textures: Texture2D_898 (BGRA8)
+[2016.03.30-12.58.49:037][394]LogTexture:Display: Building textures: Texture2D_899 (BGRA8)
+[2016.03.30-12.58.49:038][394]LogTexture:Display: Building textures: Texture2D_903 (BGRA8)
+[2016.03.30-12.58.49:038][394]LogTexture:Display: Building textures: Texture2D_904 (BGRA8)
+[2016.03.30-12.58.49:579][394]LogSavePackage: Save=561.045288ms
+[2016.03.30-12.58.49:579][394]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel949C7E034552D9B23A32D599394589E6.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-12.58.49:581][394]LogSavePackage: Total save time: 577.181302ms
+[2016.03.30-12.58.49:581][394]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-12.58.49:631][394]LogFileHelpers: Saving map 'MyFirstLevel' took 0.705
+[2016.03.30-12.59.05:373][269]Cmd: EDIT COPY
+[2016.03.30-12.59.06:945][457]Cmd: EDIT PASTE
+[2016.03.30-12.59.25:403][654]Cmd: EDIT COPY
+[2016.03.30-12.59.26:038][730]Cmd: EDIT PASTE
+[2016.03.30-12.59.34:981][790]Cmd: EDIT COPY
+[2016.03.30-12.59.35:480][849]Cmd: EDIT PASTE
+[2016.03.30-12.59.42:889][729]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-12.59.48:634][409]Cmd: EDIT COPY
+[2016.03.30-12.59.49:014][454]Cmd: EDIT PASTE
+[2016.03.30-12.59.52:538][869]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.00.10:113][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.00.13:702][388]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.00.45:237][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.00.50:583][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.01.02:208][135]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.01.06:391][631]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.01.12:963][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame27)
+[2016.03.30-13.01.28:003][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-13.01.28:004][177]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-13.01.28:004][177]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 3:01:28 PM)
+[2016.03.30-13.01.28:004][177]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-13.01.28:032][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027544s)
+[2016.03.30-13.01.28:032][177]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-13.01.28:033][177]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2016.03.30-13.01.28:033][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028285s)
+[2016.03.30-13.01.28:053][177]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-13.01.28:063][177]LogInit: FAudioDevice initialized.
+[2016.03.30-13.01.28:184][177]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-13.01.28:211][177]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-13.01.28:274][177]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-14.01.28
+[2016.03.30-13.01.28:274][177]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.01.28:274][177]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.01.28:276][177]LogWorld: Bringing up level for play took: 0.063506
+[2016.03.30-13.01.28:295][177]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.081
+[2016.03.30-13.01.28:301][179]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-13.01.28:307][179]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.01.49:565][727]LogHMD: Freeing textureSet 0x00000043ABF48FC0
+[2016.03.30-13.01.49:777][727]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C5ED6F20
+[2016.03.30-13.02.05:412][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.02.10:793][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.02.16:310][861]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.02.17:263][965]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.02.17:300][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame26)
+[2016.03.30-13.02.18:063][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.02.18:628][ 45]LogSavePackage: Save=542.067993ms
+[2016.03.30-13.02.18:628][ 45]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel5C9B7A8E43EE3A1877FD5085AF8D8EFC.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.02.18:631][ 45]LogSavePackage: Total save time: 554.621939ms
+[2016.03.30-13.02.18:631][ 45]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.02.18:681][ 45]LogFileHelpers: Saving map 'MyFirstLevel' took 0.669
+[2016.03.30-13.02.19:902][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.02.21:418][364]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.02.29:929][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.02.30:489][369]LogSavePackage: Save=539.416809ms
+[2016.03.30-13.02.30:489][369]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevelEA4A79C24D8F8C4EB2034BA4A272CB65.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.02.30:490][369]LogSavePackage: Total save time: 550.761923ms
+[2016.03.30-13.02.30:490][369]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.02.30:540][369]LogFileHelpers: Saving map 'MyFirstLevel' took 0.662
+[2016.03.30-13.02.38:231][282]Cmd: EDIT COPY
+[2016.03.30-13.02.38:609][327]Cmd: EDIT PASTE
+[2016.03.30-13.02.54:390][205]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.04:156][368]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2016.03.30-13.03.04:496][402]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.04:532][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.04:892][449]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.04:936][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.05:214][486]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.17:861][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame61)
+[2016.03.30-13.03.21:979][469]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 546/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.27:842][168]Cmd: TRANSACTION UNDO
+[2016.03.30-13.03.27:842][168]LogEditorTransaction: Undo Rotate Actors
+[2016.03.30-13.03.36:799][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.03.37:361][196]LogSavePackage: Save=539.755493ms
+[2016.03.30-13.03.37:361][196]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel3CDCF63E4240945FF8DDE18206132DF6.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.03.37:365][196]LogSavePackage: Total save time: 552.577749ms
+[2016.03.30-13.03.37:365][196]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.03.37:414][196]LogFileHelpers: Saving map 'MyFirstLevel' took 0.668
+[2016.03.30-13.03.37:885][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.03.40:722][586]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.04.02:478][156]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.04.06:357][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-13.04.06:357][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-13.04.06:357][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.30-13.04.06:432][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.04.06:475][611]LogTexture:Display: Building textures: Texture2D_903 (BGRA8)
+[2016.03.30-13.04.06:475][611]LogTexture:Display: Building textures: Texture2D_904 (BGRA8)
+[2016.03.30-13.04.06:476][611]LogTexture:Display: Building textures: Texture2D_907 (BGRA8)
+[2016.03.30-13.04.06:477][611]LogTexture:Display: Building textures: Texture2D_908 (BGRA8)
+[2016.03.30-13.04.06:477][611]LogTexture:Display: Building textures: Texture2D_909 (BGRA8)
+[2016.03.30-13.04.06:478][611]LogTexture:Display: Building textures: Texture2D_912 (BGRA8)
+[2016.03.30-13.04.06:479][611]LogTexture:Display: Building textures: Texture2D_913 (BGRA8)
+[2016.03.30-13.04.06:480][611]LogTexture:Display: Building textures: Texture2D_914 (BGRA8)
+[2016.03.30-13.04.07:015][611]LogSavePackage: Save=558.473083ms
+[2016.03.30-13.04.07:015][611]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevelC5637D3D42EBB2560A7F0BB27EE0D541.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.04.07:018][611]LogSavePackage: Total save time: 574.418940ms
+[2016.03.30-13.04.07:018][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.04.07:067][611]LogFileHelpers: Saving map 'MyFirstLevel' took 0.686
+[2016.03.30-13.04.35:847][ 36]Cmd: EDIT COPY
+[2016.03.30-13.04.36:997][173]Cmd: EDIT PASTE
+[2016.03.30-13.05.11:433][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-13.05.11:434][254]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-13.05.11:434][254]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 3:05:11 PM)
+[2016.03.30-13.05.11:434][254]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-13.05.11:461][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026916s)
+[2016.03.30-13.05.11:461][254]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-13.05.11:462][254]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.03.30-13.05.11:462][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.027625s)
+[2016.03.30-13.05.11:482][254]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-13.05.11:492][254]LogInit: FAudioDevice initialized.
+[2016.03.30-13.05.11:610][254]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-13.05.11:637][254]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-13.05.11:693][254]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-14.05.11
+[2016.03.30-13.05.11:693][254]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.05.11:693][254]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.05.11:695][254]LogWorld: Bringing up level for play took: 0.056778
+[2016.03.30-13.05.11:710][254]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.503
+[2016.03.30-13.05.11:717][256]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-13.05.11:723][256]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.02:944][975]LogHMD: Freeing textureSet 0x00000043ABF49B00
+[2016.03.30-13.06.03:187][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043AF4E02C0
+[2016.03.30-13.06.07:200][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2016.03.30-13.06.11:077][887]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.16:147][491]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.17:350][632]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.18:010][708]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.18:795][799]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.20:756][ 31]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.21:276][ 90]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.21:719][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.22:832][270]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.23:371][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.24:417][453]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.25:087][530]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.25:658][595]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.27:377][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame20)
+[2016.03.30-13.06.35:268][732]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame21)
+[2016.03.30-13.06.44:084][766]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.06.46:657][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame60)
+[2016.03.30-13.06.52:811][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame19)
+[2016.03.30-13.06.53:751][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame20)
+[2016.03.30-13.06.56:428][199]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.07.00:993][733]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.07.09:514][717]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.07.11:755][985]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.07.20:447][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame22)
+[2016.03.30-13.07.21:274][118]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame23)
+[2016.03.30-13.07.21:792][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame24)
+[2016.03.30-13.07.22:386][243]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame25)
+[2016.03.30-13.07.22:880][298]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame26)
+[2016.03.30-13.07.23:619][382]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame27)
+[2016.03.30-13.07.24:047][429]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.07.24:729][506]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame61)
+[2016.03.30-13.07.25:169][554]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame64)
+[2016.03.30-13.07.32:214][379]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.07.41:726][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2016.03.30-13.07.42:372][583]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2016.03.30-13.07.42:933][646]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Snow)
+[2016.03.30-13.07.44:260][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame3)
+[2016.03.30-13.07.45:241][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame2)
+[2016.03.30-13.07.53:554][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.00:996][756]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.03:244][ 24]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.03:355][ 33]LogMaterial: Missing cached shader map for material dynamicSnow, compiling. 
+[2016.03.30-13.08.03:553][ 33]LogMaterial: Missing cached shader map for material dynamicSnow, compiling. 
+[2016.03.30-13.08.03:558][ 33]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-13.08.03:582][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_1, compiling. 
+[2016.03.30-13.08.03:585][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.30-13.08.03:588][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.30-13.08.03:591][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2016.03.30-13.08.03:593][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2016.03.30-13.08.03:595][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2016.03.30-13.08.03:598][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.30-13.08.03:601][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2016.03.30-13.08.05:309][136]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2016.03.30-13.08.05:309][136]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.03.30-13.08.05:309][136]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2016.03.30-13.08.05:309][136]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.30-13.08.06:540][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.07:698][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.11:351][746]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.12:523][880]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.13:210][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.13:439][975]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.13:537][986]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.14:060][ 47]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.14:136][ 55]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.14:437][ 90]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.15:348][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Materials/dynamicSnow_Inst2" FILE="../../../../../../UnrealProjects/GE_Project/Content/Landscape/Materials/dynamicSnow_Inst2.uasset" SILENT=true
+[2016.03.30-13.08.15:372][190]LogSavePackage: Save=11.859156ms
+[2016.03.30-13.08.15:372][190]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/dynamicSnow_Inst2ACC2D9E041349E9BEC3D8FA724DA092C.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/Landscape/Materials/dynamicSnow_Inst2.uasset'
+[2016.03.30-13.08.15:374][190]LogSavePackage: Total save time: 25.540408ms
+[2016.03.30-13.08.15:374][190]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/Landscape/Materials/dynamicSnow_Inst2.uasset
+[2016.03.30-13.08.15:386][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.16:445][313]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.20:711][812]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.24:817][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame19)
+[2016.03.30-13.08.26:530][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame20)
+[2016.03.30-13.08.29:350][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.29:386][831]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.29:411][834]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.29:726][871]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.36:154][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame31)
+[2016.03.30-13.08.38:750][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame19)
+[2016.03.30-13.08.43:644][495]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.08.47:039][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame23)
+[2016.03.30-13.08.52:566][536]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.01:076][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D463420
+[2016.03.30-13.09.01:155][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.09.01:716][542]LogSavePackage: Save=538.336243ms
+[2016.03.30-13.09.01:716][542]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel5501DD194B21CA0EF0B4F883376A3C1F.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.09.01:718][542]LogSavePackage: Total save time: 549.847882ms
+[2016.03.30-13.09.01:718][542]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.09.01:768][542]LogFileHelpers: Saving map 'MyFirstLevel' took 0.666
+[2016.03.30-13.09.06:867][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.07:857][269]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.12:138][780]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.13:830][983]Cmd: EDIT COPY
+[2016.03.30-13.09.14:280][ 36]Cmd: EDIT PASTE
+[2016.03.30-13.09.29:256][815]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 547/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.31:885][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 547/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.50:540][343]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.09.54:771][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.09.55:334][840]LogSavePackage: Save=538.951233ms
+[2016.03.30-13.09.55:334][840]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel26C671C34ED983358E152AA796729589.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.09.55:337][840]LogSavePackage: Total save time: 555.754367ms
+[2016.03.30-13.09.55:337][840]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.09.55:385][840]LogFileHelpers: Saving map 'MyFirstLevel' took 0.666
+[2016.03.30-13.10.05:981][107]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.10:733][669]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_WindowFrame21)
+[2016.03.30-13.10.11:244][724]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.11:504][754]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.14:931][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-13.10.14:932][155]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-13.10.14:932][155]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 3:10:14 PM)
+[2016.03.30-13.10.14:932][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-13.10.14:961][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028392s)
+[2016.03.30-13.10.14:961][155]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-13.10.14:961][155]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.03.30-13.10.14:962][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029133s)
+[2016.03.30-13.10.14:982][155]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-13.10.14:992][155]LogInit: FAudioDevice initialized.
+[2016.03.30-13.10.15:105][155]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-13.10.15:133][155]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-13.10.15:191][155]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-14.10.15
+[2016.03.30-13.10.15:191][155]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.10.15:191][155]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.10.15:193][155]LogWorld: Bringing up level for play took: 0.059488
+[2016.03.30-13.10.15:216][155]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.003
+[2016.03.30-13.10.15:224][157]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-13.10.15:228][157]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.19:234][389]LogHMD: Freeing textureSet 0x00000043F1DCFD60
+[2016.03.30-13.10.19:484][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C44CA980
+[2016.03.30-13.10.27:497][327]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.31:107][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-13.10.31:108][752]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-13.10.31:109][752]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 3:10:31 PM)
+[2016.03.30-13.10.31:109][752]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-13.10.31:136][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027482s)
+[2016.03.30-13.10.31:137][752]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-13.10.31:137][752]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2016.03.30-13.10.31:137][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.028190s)
+[2016.03.30-13.10.31:157][752]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-13.10.31:167][752]LogInit: FAudioDevice initialized.
+[2016.03.30-13.10.31:284][752]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-13.10.31:312][752]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-13.10.31:367][752]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-14.10.31
+[2016.03.30-13.10.31:367][752]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.10.31:367][752]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.10.31:369][752]LogWorld: Bringing up level for play took: 0.057069
+[2016.03.30-13.10.31:389][752]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 1.176
+[2016.03.30-13.10.31:396][754]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-13.10.31:401][754]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.10.47:204][667]LogHMD: Freeing textureSet 0x00000043C703C2D0
+[2016.03.30-13.10.47:440][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004385998C20
+[2016.03.30-13.11.02:475][442]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.08:377][145]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpItem_C (BP_PickUpItem6)
+[2016.03.30-13.11.24:465][ 65]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.26:814][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-13.11.26:815][335]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-13.11.26:816][335]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 3:11:26 PM)
+[2016.03.30-13.11.26:816][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-13.11.26:844][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028303s)
+[2016.03.30-13.11.26:845][335]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-13.11.26:845][335]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.03.30-13.11.26:845][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.029075s)
+[2016.03.30-13.11.26:865][335]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-13.11.26:876][335]LogInit: FAudioDevice initialized.
+[2016.03.30-13.11.26:976][335]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-13.11.27:004][335]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-13.11.27:068][335]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-14.11.27
+[2016.03.30-13.11.27:068][335]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.11.27:068][335]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-13.11.27:070][335]LogWorld: Bringing up level for play took: 0.065186
+[2016.03.30-13.11.27:086][335]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.873
+[2016.03.30-13.11.27:093][337]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-13.11.27:097][337]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.28:461][404]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:474][405]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:487][406]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:501][407]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:514][408]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:527][409]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:541][410]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:554][411]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:567][412]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:581][413]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:594][414]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:607][415]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:621][416]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.28:634][417]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:395][474]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:408][475]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:421][476]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:434][477]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:448][478]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:461][479]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:474][480]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:488][481]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:501][482]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:514][483]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:528][484]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:541][485]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:554][486]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:568][487]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:581][488]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:594][489]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:608][490]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:621][491]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:634][492]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:648][493]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.29:661][494]LogCharacterMovement: BP_Avatar_C_9 is stuck and failed to move!
+[2016.03.30-13.11.37:262][ 63]LogHMD: Freeing textureSet 0x00000043C6FC69E0
+[2016.03.30-13.11.37:477][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043A5D9C720
+[2016.03.30-13.11.41:262][511]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.43:888][822]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.47:311][230]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.48:246][341]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.48:714][396]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.49:204][455]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.55:092][143]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.11.59:647][659]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.03.30-13.11.59:663][659]Recompiling Kinect4Unreal...
+[2016.03.30-13.11.59:663][659]Recompiling TheBeginning...
+[2016.03.30-13.11.59:663][659]Launching UnrealBuildTool... [D:/Programme/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TheBeginning -ModuleWithSuffix Kinect4Unreal 6944 -ModuleWithSuffix TheBeginning 2062 Win64 Development -editorrecompile -canskiplink "D:/UnrealProjects/GE_Project/TheBeginning.uproject" -rocket  -rocket]
+[2016.03.30-13.11.59:664][659]Warning: Starting HotReload took  0.0s.
+[2016.03.30-13.11.59:676][660]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.03:793][117]CompilerResultsLog: New page: Compilation - Mar 30, 2016, 3:12:03 PM
+[2016.03.30-13.12.03:793][117]CompilerResultsLog: Info Creating makefile for hot reloading TheBeginning (.uproject file is newer)
+[2016.03.30-13.12.03:793][117]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.30-13.12.03:793][117]CompilerResultsLog: Info ERROR: Couldn't find module rules file for module 'Kinect4Unreal'.
+[2016.03.30-13.12.03:793][117]LogMainFrame: MainFrame: Module compiling took 4.146 seconds
+[2016.03.30-13.12.03:793][117]Warning: HotReload failed, recompile failed
+[2016.03.30-13.12.06:074][383]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.07:968][597]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.11:115][938]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.11:172][944]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2016.03.30-13.12.11:895][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-13.12.11:974][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyFirstLevel" FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-13.12.12:542][ 24]LogSavePackage: Save=544.936707ms
+[2016.03.30-13.12.12:542][ 24]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/MyFirstLevel5B3B0D6349A60BD998400BBD91DFBCF7.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap'
+[2016.03.30-13.12.12:545][ 24]LogSavePackage: Total save time: 557.308178ms
+[2016.03.30-13.12.12:545][ 24]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap
+[2016.03.30-13.12.12:595][ 24]LogFileHelpers: Saving map 'MyFirstLevel' took 0.673
+[2016.03.30-13.12.19:486][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.20:684][883]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.21:521][972]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.22:189][ 43]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.22:981][127]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.26:327][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-13.12.26:327][485]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.03.30-13.12.26:785][486]Cmd: QUIT_EDITOR
+[2016.03.30-13.12.27:869][486]LogHMD: Oculus shutdown.
+[2016.03.30-13.12.27:870][486]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-13.12.27:975][486]LogExit: Preparing to exit.
+[2016.03.30-13.12.28:375][486]LogExit: Editor shut down
+[2016.03.30-13.12.28:375][486]LogExit: Transaction tracking system shut down
+[2016.03.30-13.12.28:376][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D463C40
+[2016.03.30-13.12.28:376][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D5277E0
+[2016.03.30-13.12.28:376][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004398A4DBC0
+[2016.03.30-13.12.28:405][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004385999580
+[2016.03.30-13.12.28:405][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C5F45BC0
+[2016.03.30-13.12.28:405][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000438D234180
+[2016.03.30-13.12.28:406][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C6047880
+[2016.03.30-13.12.28:407][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043F13E7C40
+[2016.03.30-13.12.28:581][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004395DC1260
+[2016.03.30-13.12.28:581][486]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.03.30-13.12.28:705][486]LogExit: Object subsystem successfully closed.
+[2016.03.30-13.12.28:748][486]LogD3D11RHI: Shutdown
+[2016.03.30-13.12.28:748][486]LogD3D11RHI: CleanupD3DDevice
+[2016.03.30-13.12.28:891][486]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.30-13.12.29:032][486]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.30-13.12.29:039][486]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.30-13.12.29:045][486]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.30-13.12.29:045][486]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.30-13.12.29:045][486]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.30-13.12.29:045][486]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.30-13.12.29:045][486]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.30-13.12.29:357][486]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.30-13.12.29:357][486]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.30-13.12.29:357][486]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.30-13.12.29:357][486]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.30-13.12.29:374][486]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.30-13.12.29:374][486]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.30-13.12.29:374][486]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.30-13.12.29:374][486]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.30-13.12.29:374][486]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.30-13.12.29:382][486]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.30-13.12.29:390][486]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.30-13.12.29:390][486]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.30-13.12.29:390][486]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.30-13.12.29:390][486]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.30-13.12.29:390][486]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.30-13.12.29:394][486]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.30-13.12.29:394][486]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.30-13.12.29:394][486]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.30-13.12.29:394][486]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.30-13.12.29:402][486]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.30-13.12.29:406][486]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.30-13.12.29:406][486]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.30-13.12.29:406][486]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.30-13.12.29:406][486]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.30-13.12.29:411][486]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.30-13.12.29:412][486]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.30-13.12.29:412][486]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.30-13.12.29:412][486]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.30-13.12.29:412][486]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.30-13.12.29:421][486]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.30-13.12.29:421][486]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.30-13.12.29:421][486]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.30-13.12.29:425][486]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.30-13.12.29:503][486]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.30-13.12.29:503][486]LogModuleManager: Shutting down and abandoning module LeapMotion (123)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module OculusRift (118)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.30-13.12.29:511][486]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.30-13.12.29:534][486]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.30-13.12.29:539][486]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.30-13.12.29:539][486]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.30-13.12.29:540][486]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.30-13.12.29:546][486]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.30-13.12.29:547][486]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.30-13.12.29:552][486]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.30-13.12.29:552][486]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.30-13.12.29:552][486]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.30-13.12.29:557][486]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.03.30-13.12.29:557][486]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.03.30-13.12.29:697][486]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.03.30-13.12.29:698][486]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.03.30-13.12.29:708][486]LogModuleManager: Shutting down and abandoning module TheBeginning (87)
+[2016.03.30-13.12.29:709][486]LogModuleManager: Shutting down and abandoning module Kinect4Unreal (86)
+[2016.03.30-13.12.29:709][486]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.30-13.12.29:809][486]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.30-13.12.29:809][486]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.30-13.12.29:809][486]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.30-13.12.29:812][486]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.30-13.12.29:813][486]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.30-13.12.29:813][486]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.30-13.12.29:813][486]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.30-13.12.29:813][486]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.30-13.12.29:813][486]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.30-13.12.29:814][486]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.30-13.12.29:814][486]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.30-13.12.29:814][486]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.30-13.12.29:814][486]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.30-13.12.29:814][486]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.30-13.12.29:819][486]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.30-13.12.29:823][486]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.30-13.12.29:823][486]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.30-13.12.29:823][486]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.30-13.12.29:823][486]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.30-13.12.29:824][486]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.30-13.12.29:831][486]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.30-13.12.29:843][486]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.30-13.12.29:890][486]LogDerivedDataCache: Shutdown
+[2016.03.30-13.12.29:890][486]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.30-13.12.29:900][486]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.30-13.12.29:900][486]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.30-13.12.29:912][486]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.30-13.12.32:417][486]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.30-13.12.32:433][486]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.30-13.12.32:433][486]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.30-13.12.32:433][486]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.30-13.12.32:433][486]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.30-13.12.32:433][486]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.30-13.12.32:434][486]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.30-13.12.32:438][486]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.30-13.12.32:450][486]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.30-13.12.32:450][486]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.30-13.12.32:450][486]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.30-13.12.32:450][486]LogExit: Exiting.
+[2016.03.30-13.12.32:486][486]Log file closed, 03/30/16 14:12:32

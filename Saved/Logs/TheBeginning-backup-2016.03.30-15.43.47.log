@@ -1,0 +1,775 @@
+﻿[2016.03.30-14.29.20:031][  0]Log file open, 03/30/16 15:29:20
+[2016.03.30-14.29.20:031][  0]LogInit:Display: Running engine for game: TheBeginning
+[2016.03.30-14.29.20:031][  0]LogInit:Display: RandInit(90034704) SRandInit(90034704).
+[2016.03.30-14.29.20:031][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.30-14.29.20:031][  0]LogStats: Stats thread started at 0.066328
+[2016.03.30-14.29.20:031][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-14.29.20:031][  0]LogInit: API Version: 2672455
+[2016.03.30-14.29.20:031][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.03.30-14.29.20:031][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.30-14.29.20:031][  0]LogInit: Build Configuration: Development
+[2016.03.30-14.29.20:031][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.03.30-14.29.20:031][  0]LogInit: Command line:  
+[2016.03.30-14.29.20:031][  0]LogInit: Base directory: D:/Programme/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.03.30-14.29.20:031][  0]LogInit: Rocket: 1
+[2016.03.30-14.29.20:036][  0]LogInit: Using libcurl 7.41.0
+[2016.03.30-14.29.20:036][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.30-14.29.20:036][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.30-14.29.20:036][  0]LogInit:  - other features:
+[2016.03.30-14.29.20:036][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.30-14.29.20:036][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.30-14.29.20:036][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.30-14.29.20:036][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.30-14.29.20:036][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.30-14.29.20:036][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.30-14.29.20:036][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.30-14.29.20:036][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.30-14.29.20:036][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.30-14.29.20:036][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.30-14.29.20:041][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.30-14.29.20:046][  0]LogInit: Object subsystem initialized
+[2016.03.30-14.29.20:047][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-14.29.20:047][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.30-14.29.20:054][  0]LogInit: Computer: PC1021500895
+[2016.03.30-14.29.20:054][  0]LogInit: User: VR
+[2016.03.30-14.29.20:054][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.30-14.29.20:054][  0]LogInit: High frequency timer resolution =3.507501 MHz
+[2016.03.30-14.29.20:054][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.30-14.29.20:054][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-14.29.20:054][  0]LogMemory: Process Physical Memory: 53.18 MB used, 53.18 MB peak
+[2016.03.30-14.29.20:054][  0]LogMemory: Process Virtual Memory: 55.15 MB used, 55.15 MB peak
+[2016.03.30-14.29.20:054][  0]LogMemory: Physical Memory: 4425.27 MB used, 16261.17 MB total
+[2016.03.30-14.29.20:054][  0]LogMemory: Virtual Memory: 346.75 MB used, 134217728.00 MB total
+[2016.03.30-14.29.20:081][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.30-14.29.20:761][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.30-14.29.20:761][  0]LogD3D11RHI: Adapter has 3976MB of dedicated video memory, 0MB of dedicated system memory, and 8130MB of shared system memory, 1 output[s]
+[2016.03.30-14.29.20:762][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.30-14.29.20:762][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.30-14.29.20:762][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.30-14.29.20:766][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.30-14.29.20:766][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.30-14.29.20:777][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.30-14.29.20:793][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/WorkingDirectory/8620/).
+[2016.03.30-14.29.20:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../UnrealProjects/GE_Project/Intermediate/Shaders/tmp/F26EAE3B45A73C65B30184BD9BA22432/'.
+[2016.03.30-14.29.20:793][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.30-14.29.21:586][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.30-14.29.21:590][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.30-14.29.21:593][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.30-14.29.21:597][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.30-14.29.21:600][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.30-14.29.21:603][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.30-14.29.21:605][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.30-14.29.21:607][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.30-14.29.21:609][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.30-14.29.21:612][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.30-14.29.21:614][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.30-14.29.21:617][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.30-14.29.21:617][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.30-14.29.21:632][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.30-14.29.21:634][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.30-14.29.21:637][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.30-14.29.21:639][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.30-14.29.21:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.30-14.29.21:691][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.30-14.29.21:726][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-14.29.21:726][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.03.30-14.29.21:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.30-14.29.21:727][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.30-14.29.21:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/GE_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.30-14.29.21:727][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.30-14.29.21:840][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.30-14.29.21:852][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.30-14.29.21:982][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-14.29.21:984][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.30-14.29.22:076][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.30-14.29.22:076][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.30-14.29.22:254][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.30-14.29.22:769][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.30-14.29.22:886][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.03.30-14.29.23:002][  0]SourceControl: Info Source control is disabled
+[2016.03.30-14.29.23:008][  0]SourceControl: Info Source control is disabled
+[2016.03.30-14.29.23:013][  0]SourceControl: Info Source control is disabled
+[2016.03.30-14.29.23:019][  0]SourceControl: Info Source control is disabled
+[2016.03.30-14.29.23:119][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.30-14.29.23:170][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2016.03.30-14.29.23:175][  0]LogObj: 29253 objects as part of root set at end of initial load.
+[2016.03.30-14.29.23:175][  0]LogUObjectAllocator: 6234968 out of 0 bytes used by permanent object pool.
+[2016.03.30-14.29.23:224][  0]LogEngine: Initializing Engine...
+[2016.03.30-14.29.23:225][  0]OCULUS: Info: 03/30/16 14:29:23: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
+
+[2016.03.30-14.29.23:226][  0]LogHMD: Oculus plugin initialized. Version: 4.9.2-2707645+++depot+UE4-Releases+4.9, LibOVR: 0.7.0.0, built Sep 28 2015, 10:27:52
+[2016.03.30-14.29.23:322][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.30-14.29.23:332][  0]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-14.29.23:343][  0]LogInit: FAudioDevice initialized.
+[2016.03.30-14.29.23:362][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/VR/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.03.30-14.29.23:366][  0]LogInit: Texture streaming: Enabled
+[2016.03.30-14.29.23:369][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.30-14.29.23:369][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.03.30-14.29.23:369][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8c1436b7469470d4e6ebefb46ce7086e|0318ce7eb266467aa7a1e63543527494|c39e7128-8a93-45bc-b94e-b28d0faf1958
+[2016.03.30-14.29.23:369][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.30-14.29.23:378][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-14.29.23:387][  0]LogInit: Transaction tracking system initialized
+[2016.03.30-14.29.23:406][  0]BlueprintLog: New page: Editor Load
+[2016.03.30-14.29.23:450][  0]LocalizationService: Info Localization service is disabled
+[2016.03.30-14.29.23:494][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.30-14.29.23:494][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.03.30-14.29.23:494][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.30-14.29.23:502][  0]LogConsoleResponse:Display: 
+[2016.03.30-14.29.23:589][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.30-14.29.23:623][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.01s
+[2016.03.30-14.29.23:624][  0]SourceControl: Info Source control is disabled
+[2016.03.30-14.29.23:624][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-14.29.23:624][  0]LightingResults: New page: Lighting Build
+[2016.03.30-14.29.23:627][  0]MapCheck: New page: Map Check
+[2016.03.30-14.29.23:627][  0]LightingResults: New page: Lighting Build
+[2016.03.30-14.29.23:637][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B01A3076A0
+[2016.03.30-14.29.23:935][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.30-14.29.23:942][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-14.29.23:942][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-14.29.23:985][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.51ms to complete.
+[2016.03.30-14.29.23:985][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.361
+[2016.03.30-14.29.24:086][  0]LogCollectionManager: Loaded 0 collections in 0.000994 seconds
+[2016.03.30-14.29.24:127][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Saved/Collections/' took 0.01s
+[2016.03.30-14.29.24:127][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Developers/VR/Collections/' took 0.01s
+[2016.03.30-14.29.24:127][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/GE_Project/Content/Collections/' took 0.01s
+[2016.03.30-14.29.24:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1918 classes and 347 folders.
+[2016.03.30-14.29.24:132][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.30-14.29.24:142][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.30-14.29.24:172][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.03.30-14.29.24:175][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.03.30-14.29.24:219][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.30-14.29.24:222][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.30-14.29.24:245][  0]LogLoad: Full Startup: 4.82 seconds (BP compile: 0.03 seconds)
+[2016.03.30-14.29.24:318][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.30-14.29.24:446][  0]LogRenderer: Reallocating scene render targets to support 1216x576 (Frame:2).
+[2016.03.30-14.29.24:592][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/GE_Project/Content/' took 0.33s
+[2016.03.30-14.29.25:267][  3]LogAssetRegistry: Asset discovery search completed in 2.3927 seconds
+[2016.03.30-14.29.25:267][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.30-14.29.25:267][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.03.30-14.29.36:860][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.30-14.29.36:860][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.30-14.29.36:860][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.30-14.29.36:861][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.30-14.29.36:863][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.44] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 6 ms]
+[2016.03.30-14.29.36:863][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.44] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.30-14.29.36:863][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.44] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.30-14.29.36:916][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.03.30-14.29.36:916][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.03.30-14.29.36:917][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.03.30-14.29.36:917][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.03.30-14.29.36:919][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.49] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 5 ms]
+[2016.03.30-14.29.36:919][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.49] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms]
+[2016.03.30-14.29.36:919][913]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0017.49] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms]
+[2016.03.30-14.29.37:372][913]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-14.29.37:379][913]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Snow.Snow Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.Snow_2.ParticleSystemComponent0
+[2016.03.30-14.29.37:379][913]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/MyFirstLevel.MyFirstLevel:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2016.03.30-14.29.37:419][913]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/GE_Project/Content/MyFirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-14.29.37:419][913]LightingResults: New page: Lighting Build
+[2016.03.30-14.29.37:434][913]LoadErrors: New page: Loading map: MyFirstLevel.umap
+[2016.03.30-14.29.37:434][913]MapCheck: New page: Map Check
+[2016.03.30-14.29.37:434][913]LightingResults: New page: Lighting Build
+[2016.03.30-14.29.37:444][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B000E64A40
+[2016.03.30-14.29.37:611][913]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-14.29.37:666][913]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-14.29.37:713][913]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.061ms to complete.
+[2016.03.30-14.29.37:713][913]LogFileHelpers: Loading map 'MyFirstLevel' took 0.295
+[2016.03.30-14.29.37:769][914]Cmd: UpdateLandscapeEditorData -warnings
+[2016.03.30-14.29.37:774][914]Cmd: UpdateLandscapeEditorData
+[2016.03.30-14.29.40:240][181]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.30-14.29.40:656][181]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2016.03.30-14.29.43:596][346]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.30-14.29.43:717][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.29.43:717][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-14.29.43:717][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.30-14.29.43:717][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.29.43:746][346]BlueprintEditorCompileResults: Info [0024.32] Compile of BP_Avatar successful! [in 149 ms]
+[2016.03.30-14.29.44:624][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.30-14.29.44:700][388]LogSavePackage: Save=61.279240ms
+[2016.03.30-14.29.44:700][388]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_AvatarDC954E52442A436F65127EB04E93BF47.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.30-14.29.44:701][388]LogSavePackage: Total save time: 74.998695ms
+[2016.03.30-14.29.44:701][388]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.30-14.30.47:320][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-14.30.47:320][307]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-14.30.47:321][307]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 4:30:47 PM)
+[2016.03.30-14.30.47:321][307]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-14.30.47:365][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044172s)
+[2016.03.30-14.30.47:366][307]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-14.30.47:366][307]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2016.03.30-14.30.47:366][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.045345s)
+[2016.03.30-14.30.47:366][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.30.47:366][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.30.47:392][307]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B04276D1C0
+[2016.03.30-14.30.47:408][307]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-14.30.47:419][307]LogInit: FAudioDevice initialized.
+[2016.03.30-14.30.47:530][307]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-14.30.47:602][307]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-15.30.47
+[2016.03.30-14.30.47:602][307]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-14.30.47:603][307]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-14.30.47:605][307]LogWorld: Bringing up level for play took: 0.073515
+[2016.03.30-14.30.47:650][307]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel -0.563
+[2016.03.30-14.30.47:716][307]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-14.30.47:746][308]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-14.30.47:746][308]LogRenderer: Reallocating scene render targets to support 2388x1464 (Frame:3240).
+[2016.03.30-14.30.47:766][309]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.30.51:884][578]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.30.55:844][870]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.30.56:298][904]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.30.59:644][154]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.30.59:670][156]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.31.24:486][591]LogHMD: Freeing textureSet 0x000000B01EE86FC0
+[2016.03.30-14.31.24:719][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B067706980
+[2016.03.30-14.31.27:137][844]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.30:530][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.31:012][ 82]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.31:710][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.34:837][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.35:758][394]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.39:222][633]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.46:059][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.31.46:059][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-14.31.46:059][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.30-14.31.46:060][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.31.46:125][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.30-14.31.46:199][236]LogSavePackage: Save=61.683517ms
+[2016.03.30-14.31.46:199][236]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_AvatarF8DF9AAA4CFE59AC13BA268905597646.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.30-14.31.46:202][236]LogSavePackage: Total save time: 76.323856ms
+[2016.03.30-14.31.46:202][236]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.30-14.31.46:874][296]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.30-14.31.46:936][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.31.46:936][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.31.46:968][296]BlueprintEditorCompileResults: Info [0147.54] Compile of BP_Avatar successful! [in 93 ms]
+[2016.03.30-14.31.47:003][297]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.49:161][481]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.50:376][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-14.31.50:377][615]LogHMD:Warning: HMD Oculus Rift DK2, res = 1920 x 1080
+[2016.03.30-14.31.50:378][615]PIE: New page: PIE session: MyFirstLevel (Mar 30, 2016, 4:31:50 PM)
+[2016.03.30-14.31.50:378][615]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyFirstLevel
+[2016.03.30-14.31.50:408][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029747s)
+[2016.03.30-14.31.50:408][615]LogAIModule: Creating AISystem for world MyFirstLevel
+[2016.03.30-14.31.50:409][615]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2016.03.30-14.31.50:409][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyFirstLevel.MyFirstLevel to /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel (0.030515s)
+[2016.03.30-14.31.50:409][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.31.50:409][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.31.50:451][615]LogInit: XAudio2 using 'HP E221c-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-14.31.50:463][615]LogInit: FAudioDevice initialized.
+[2016.03.30-14.31.50:592][615]LogHMD: Allocated a new swap texture set (size 2388 x 1464)
+[2016.03.30-14.31.50:622][615]LogWorld: Game class is 'BP_TheBeginningGameMode_C'
+[2016.03.30-14.31.50:694][615]LogWorld: Bringing World /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel up for play (max tick rate 0) at 2016.03.30-15.31.50
+[2016.03.30-14.31.50:694][615]LogActor:Warning: GameSession /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-14.31.50:695][615]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MyFirstLevel.MyFirstLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-14.31.50:697][615]LogWorld: Bringing up level for play took: 0.074269
+[2016.03.30-14.31.50:757][615]PIE: Info Play in editor start time for /Game/UEDPIE_0_MyFirstLevel 0.544
+[2016.03.30-14.31.50:758][615]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.31.50:768][617]LogHMD: Allocated a new mirror texture (size 0 x 0)
+[2016.03.30-14.31.50:779][617]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 461/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.31.51:311][619]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.31.58:031][959]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.31.58:204][968]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.31.58:832][999]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.32.02:484][195]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.32.12:404][691]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.32.12:524][697]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.32.12:819][712]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.32.13:151][729]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.32.57:739][279]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.33.03:459][703]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.33.52:620][424]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.33.54:340][511]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.35.01:168][414]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.35.03:315][556]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.35.36:543][457]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.35.37:622][511]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.35.57:997][649]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:011][650]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:024][651]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:037][652]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:450][680]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:463][681]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:477][682]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:490][683]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:503][684]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:517][685]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:530][686]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:557][687]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.35.58:557][687]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:571][688]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:824][706]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:837][707]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:850][708]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:863][709]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:877][710]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:891][711]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:904][712]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:917][713]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:930][714]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:944][715]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:958][716]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:971][717]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:984][718]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.58:997][719]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.59:011][720]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.59:024][721]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.59:038][722]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.35.59:677][768]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.36.08:571][285]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:584][286]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:610][287]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:623][288]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:650][289]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:663][290]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:690][291]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:704][292]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:731][293]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:744][294]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:771][295]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:784][296]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:811][297]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:824][298]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:851][299]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:864][300]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:891][301]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:904][302]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:931][303]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:944][304]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:971][305]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.08:984][306]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:011][307]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:024][308]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:051][309]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:064][310]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:091][311]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:104][312]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:131][313]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:144][314]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:171][315]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:184][316]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:211][317]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:224][318]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:464][330]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.09:504][332]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:224][606]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:237][607]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:250][608]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:264][609]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:277][610]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:290][611]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:303][612]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:318][613]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:331][614]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:344][615]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:358][616]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:371][617]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:384][618]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:398][619]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:411][620]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:424][621]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:438][622]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:451][623]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:464][624]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:478][625]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:491][626]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:504][627]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:519][628]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:531][629]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:558][630]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:571][631]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:585][632]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:598][633]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:611][634]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:624][635]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:638][636]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:651][637]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:665][638]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:678][639]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:691][640]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:704][641]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:718][642]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:731][643]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:744][644]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:758][645]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:771][646]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:785][647]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:798][648]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:811][649]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:824][650]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:838][651]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:852][652]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:864][653]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:891][654]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:904][655]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:917][656]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:931][657]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:944][658]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:957][659]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:971][660]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:984][661]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.14:997][662]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:011][663]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:024][664]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:038][665]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:051][666]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:064][667]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:077][668]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:091][669]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:104][670]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:117][671]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:130][672]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:144][673]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:157][674]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:171][675]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:184][676]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:197][677]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:318][686]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:331][687]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:344][688]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:357][689]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:371][690]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:384][691]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:397][692]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:410][693]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:424][694]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:437][695]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:451][696]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:463][697]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:477][698]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:490][699]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:504][700]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:517][701]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:530][702]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:544][703]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:557][704]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:570][705]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:585][706]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:597][707]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:623][708]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:637][709]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:650][710]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:663][711]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:677][712]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:690][713]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:703][714]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:717][715]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:731][716]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:744][717]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:758][718]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:772][719]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:785][720]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:798][721]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:811][722]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:824][723]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:838][724]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.15:851][725]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:650][784]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:677][785]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:704][787]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:717][788]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:730][789]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:757][791]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:904][802]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:918][803]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:944][805]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:957][806]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.16:984][808]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.17:211][825]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.17:252][828]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.36.17:318][833]LogCharacterMovement: BP_Avatar_C_12 is stuck and failed to move!
+[2016.03.30-14.37.18:105][569]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.37.18:492][589]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.37.18:625][596]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.37.18:732][601]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.37.20:185][677]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.37.21:959][784]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.37.30:706][294]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.37.32:758][437]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.37.43:119][142]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.38.04:626][580]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.38.26:654][177]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.38.35:241][661]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.39.05:988][496]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.39.06:894][541]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.39.15:348][ 50]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.39.15:549][ 60]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.39.23:282][553]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.39.23:936][587]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.39.29:481][880]LogHMD:Warning: Lost Vision Tracking
+[2016.03.30-14.39.29:869][899]LogHMD:Warning: Vision Tracking Acquired
+[2016.03.30-14.40.00:243][870]LogHMD: Freeing textureSet 0x000000B04AE88A50
+[2016.03.30-14.40.00:490][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B03A6765C0
+[2016.03.30-14.40.31:272][417]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2016.03.30-14.40.34:076][714]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.40.41:029][382]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.40.46:128][750]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.40.53:111][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.40.53:111][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-14.40.53:111][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.30-14.40.53:111][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.40.53:133][282]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.40.54:242][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.30-14.40.54:242][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_0) Not registered. Aborting.
+[2016.03.30-14.40.54:300][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.30-14.40.54:380][361]LogSavePackage: Save=62.207253ms
+[2016.03.30-14.40.54:380][361]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar623DD28546FD806D68B342945D7784EC.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.30-14.40.54:384][361]LogSavePackage: Total save time: 81.309456ms
+[2016.03.30-14.40.54:384][361]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.30-14.40.55:557][443]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.30-14.40.55:698][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.40.55:698][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.40.55:733][443]BlueprintEditorCompileResults: Info [0696.31] Compile of BP_Avatar successful! [in 176 ms]
+[2016.03.30-14.40.55:820][444]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.03:294][993]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.04:772][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.06:037][173]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.06:618][206]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.07:537][263]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.08:159][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.10:300][435]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.12:440][582]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.22:861][240]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.24:506][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.41.24:506][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.41.26:319][463]BlueprintLog: New page: Compile BP_Avatar
+[2016.03.30-14.41.26:362][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.30-14.41.26:362][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterfaceComponent_1) Not registered. Aborting.
+[2016.03.30-14.41.26:393][463]BlueprintEditorCompileResults: Info [0726.97] Compile of BP_Avatar successful! [in 73 ms]
+[2016.03.30-14.41.26:413][464]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.28:090][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.41.28:091][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.41.28:166][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset" SILENT=true
+[2016.03.30-14.41.28:204][610]LogSavePackage: Save=26.243755ms
+[2016.03.30-14.41.28:204][610]LogSavePackage: Moving '../../../../../../UnrealProjects/GE_Project/Saved/BP_Avatar5E120E214030B71127B180ABB7B0DB18.tmp' to '../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset'
+[2016.03.30-14.41.28:206][610]LogSavePackage: Total save time: 37.929285ms
+[2016.03.30-14.41.28:206][610]LogSavePackage:Warning: Finished SavePackage ../../../../../../UnrealProjects/GE_Project/Content/BP_Avatar.uasset
+[2016.03.30-14.41.32:230][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.39:745][639]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.40:891][749]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.41:754][833]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.42:353][891]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.43:171][969]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.43:572][  8]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.44:469][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.45:679][211]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.03.30-14.41.45:680][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-14.41.45:680][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.KinectInterface_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-14.41.45:680][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.30-14.41.45:680][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.30-14.41.45:704][211]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 573/400 MB (ok in editor, bad on fixed memory platform)
+[2016.03.30-14.41.45:919][211]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-14.41.46:168][212]Cmd: QUIT_EDITOR
+[2016.03.30-14.41.46:792][212]LogHMD: Oculus shutdown.
+[2016.03.30-14.41.46:912][212]LogExit: Preparing to exit.
+[2016.03.30-14.41.47:521][212]LogExit: Editor shut down
+[2016.03.30-14.41.47:521][212]LogExit: Transaction tracking system shut down
+[2016.03.30-14.41.47:522][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B0427B2480
+[2016.03.30-14.41.47:523][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B0427B2660
+[2016.03.30-14.41.47:523][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B02829F880
+[2016.03.30-14.41.47:525][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B0143F9940
+[2016.03.30-14.41.47:529][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B0283F6660
+[2016.03.30-14.41.47:533][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B06ABF7920
+[2016.03.30-14.41.47:535][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B066E1AE80
+[2016.03.30-14.41.47:551][212]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.03.30-14.41.47:746][212]LogExit: Object subsystem successfully closed.
+[2016.03.30-14.41.47:755][212]LogD3D11RHI: Shutdown
+[2016.03.30-14.41.47:755][212]LogD3D11RHI: CleanupD3DDevice
+[2016.03.30-14.41.47:856][212]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.30-14.41.47:869][212]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.03.30-14.41.47:869][212]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.30-14.41.47:869][212]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.30-14.41.47:869][212]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.30-14.41.47:869][212]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.30-14.41.47:870][212]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.30-14.41.47:872][212]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.30-14.41.48:001][212]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.30-14.41.48:002][212]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.30-14.41.48:220][212]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.30-14.41.48:220][212]LogModuleManager: Shutting down and abandoning module LeapMotion (123)
+[2016.03.30-14.41.48:231][212]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.30-14.41.48:231][212]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.30-14.41.48:231][212]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.30-14.41.48:231][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.30-14.41.48:231][212]LogModuleManager: Shutting down and abandoning module OculusRift (118)
+[2016.03.30-14.41.48:232][212]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.30-14.41.48:232][212]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.30-14.41.48:246][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.30-14.41.48:247][212]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.30-14.41.48:248][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.03.30-14.41.48:251][212]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.03.30-14.41.48:394][212]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.03.30-14.41.48:394][212]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.03.30-14.41.48:395][212]LogModuleManager: Shutting down and abandoning module TheBeginning (87)
+[2016.03.30-14.41.48:395][212]LogModuleManager: Shutting down and abandoning module Kinect4Unreal (86)
+[2016.03.30-14.41.48:395][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.03.30-14.41.48:496][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.03.30-14.41.48:496][212]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.03.30-14.41.48:496][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.03.30-14.41.48:500][212]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.03.30-14.41.48:500][212]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.03.30-14.41.48:501][212]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.03.30-14.41.48:503][212]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.03.30-14.41.48:508][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.03.30-14.41.48:517][212]LogDerivedDataCache: Shutdown
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.03.30-14.41.48:517][212]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.30-14.41.49:519][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.30-14.41.49:525][212]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.30-14.41.49:525][212]LogExit: Exiting.
+[2016.03.30-14.41.49:527][212]Log file closed, 03/30/16 15:41:49
